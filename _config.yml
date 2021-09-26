@@ -30,6 +30,10 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  organizations:
+    output: true
+
 # Build settings
 # theme: minima
 # plugins:

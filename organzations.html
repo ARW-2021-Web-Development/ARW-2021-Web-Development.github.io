@@ -5,17 +5,13 @@ permalink: "/organizations"
 <html lang="en">
 {% include head.html title="Organizations" %}
 <body>
-  {% include header.html %}
+    {% include header.html %}
 
-  <section class="hero is-link is-fullheight-with-navbar">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title">
-         Organizations
-        </p>
-      </div>
-    </div>
-  </section>
+    {% for org in site.organizations %}
+        <p>{{ org.complete_name }}</p>
+    {% else %}
+        <p>The list is empty!</p>
+    {% endfor %}
 
 </body>
 
