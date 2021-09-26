@@ -1,0 +1,39 @@
+---
+---
+@import "global"
+
+.navbar-item
+    .logos 
+        max-height: 4.5rem
+    
+    .buttons
+        $border-radius: 0.85rem
+
+        font-weight: $fw-semi-bold
+        font-size: $fs-regular
+
+        .gradient-wrapper   
+            position: relative  
+
+            .button
+                color: $clr-nav-text
+                background-color: inherit
+
+                //gradient border size
+                margin: 1.5px 1.5px
+                padding: 1.25rem .75rem
+
+                border: none
+                border-radius: $border-radius
+                
+                &:hover
+                    background: linear-gradient(to bottom, #fff, #ebebeb 30%, #dee1e3 75%, #b3c4de 100%);
+
+        .gradient-wrapper:hover::before
+            content: ''
+            position: absolute
+            inset: 0
+
+            background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc);
+            border-radius: $border-radius
+        

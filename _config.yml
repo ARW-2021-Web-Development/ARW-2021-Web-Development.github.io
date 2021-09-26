@@ -22,7 +22,7 @@ title: DLSU ARW 2021
 email: jared_sy@dlsu.edu.ph
 description: >- # this means to ignore newlines until "baseurl:"
   The official DLSU Annual Recruitment Week 2021 website. In here you will see
-  the numerous orgs for the lasallian community.
+  the numerous orgs for the Lasallian community.
 baseurl: "/arw-2021" # for dev purposes. Replace with empty string on deployment
 url: "https://dlsuarw2021.live" # the base hostname & protocol for your site, e.g. http://example.com
 
