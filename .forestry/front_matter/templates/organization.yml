@@ -1,4 +1,108 @@
 ---
 label: Organization
 hide_body: true
-fields: []
+fields:
+- name: complete_name
+  type: text
+  config:
+    required: true
+  label: Complete Name
+  description: The organization's full, unabbreviated name
+- name: abbr
+  type: text
+  config:
+    required: false
+  label: Abbreviated Name
+  description: The organization's abbreviated name.
+- name: cluster
+  type: select
+  default: ASO
+  config:
+    required: true
+    options:
+    - ASO
+    - ASPIRE
+    - CAP12
+    - ENGAGE
+    - PROBE
+    - CSO
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Cluster
+- name: about_us
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: About Us
+- name: tagline
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Tagline
+- name: vision
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: VIsion
+- name: mission
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Mission
+- name: fb_link
+  type: text
+  config:
+    required: true
+  label: Facebook Link
+  default: https://facebook.com/
+- name: reg_link
+  type: text
+  config:
+    required: true
+  label: Registration Link
+- name: membership_banner
+  type: file
+  config:
+    maxSize: 10
+  label: Membership Banner
+  default: "/uploads/500x500.png"
+- name: vid_link
+  type: text
+  config:
+    required: true
+  label: Video Link
+- name: events
+  type: image_gallery
+  config: {}
+  label: Flagship Events
+- name: hero_bg
+  type: file
+  config:
+    maxSize: 10
+  label: Hero Background
+  default: "/uploads/3594040.jpg"
+- name: main_pub
+  type: file
+  config:
+    maxSize: 10
+  label: Main Pub
+  default: "/uploads/hohuqy7mss901.png"
