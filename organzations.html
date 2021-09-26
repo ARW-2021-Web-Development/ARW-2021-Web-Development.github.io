@@ -1,5 +1,5 @@
 ---
-permalink: "/organizations"
+permalink: "/organizations/"
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,9 +8,7 @@ permalink: "/organizations"
     {% include header.html %}
 
     {% for org in site.organizations %}
-        <p>{{ org.complete_name }}</p>
-    {% else %}
-        <p>The list is empty!</p>
+        <a href="./{{org.cluster}}/{{org.abbr | downcase}}">{{ org.complete_name }}</a>
     {% endfor %}
 
 </body>

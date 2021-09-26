@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html title=page.complete_name %}
+
 <body>
     {% include header.html %}
+    <section class="section is-small is-flex is-flex-direction-column is-align-items-center">
+        <figure class="image is-500x500">
+            <img class="is-rounded" src="{{ site.baseurl }}/{{ page.logo }}" alt="{{ page.complete_name }} logo">
+        </figure>
+        <p>{{ page.complete_name }}</p>
+        <div class="buttons are-medium">
+            <a class="button" href="{{ page.fb_link }}">Facebook Page</a>
+            <button class="button">Add to Favorites</button>
+            <a class="button" href="{{ page.reg_link }}">Registration Form</a>
+        </div>
+    </section>
 </body>
+
 </html>
