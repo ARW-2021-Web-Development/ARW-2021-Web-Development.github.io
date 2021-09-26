@@ -1,20 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html title=page.complete_name %}
-
 <body>
     {% include header.html %}
-    <section class="section is-small is-flex is-flex-direction-column is-align-items-center">
-        <figure class="image is-500x500">
-            <img class="is-rounded" src="{{ site.baseurl }}/{{ page.logo }}" alt="{{ page.complete_name }} logo">
-        </figure>
-        <p>{{ page.complete_name }}</p>
-        <div class="buttons are-medium">
-            <a class="button" href="{{ page.fb_link }}">Facebook Page</a>
-            <button class="button">Add to Favorites</button>
-            <a class="button" href="{{ page.reg_link }}">Registration Form</a>
-        </div>
-    </section>
+    <main class="container is-max-widescreen">
+        <section class="section is-small is-flex is-flex-direction-column is-align-items-center">
+            <figure class="image is-256x256">
+                <img class="is-rounded" src="{{ site.baseurl }}/{{ page.logo }}" alt="{{ page.complete_name }} logo">
+            </figure>
+            <p class="title is-1">{{ page.complete_name }}</p>
+            <div class="buttons are-medium">
+                <a class="button" href="{{ page.fb_link }}">Facebook Page</a>
+                <button class="button">Add to Favorites</button>
+                <a class="button" href="{{ page.reg_link }}">Registration Form</a>
+            </div>
+            <div class="columns is-desktop">
+                <div class="column">
+                    <figure class="image is-16by9">
+                        <iframe src="{{ page.vid_link }}" frameborder="0" class="has-ratio"></iframe>
+                    </figure>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <p>{{ page.about_us }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-small">
+            <div class="columns">
+                <div class="column">
+                    <figure class="image">
+                        <img src="{{ site.baseurl }}/{{ page.main_pub }}" alt="Main Publication">
+                    </figure>
+                </div>
+                <div class="column">
+                    <div class="is-flex is-flex-direction-column is-justify-content-space-around is-full-height">
+                        <div class="block">
+                            <p class="title is-3">Vision</p>
+                            <div class="content">{{ page.vision }}</div>
+                        </div>
+                        <div class="block">
+                            <p class="title is-3">Mission</p>
+                            <div class="content">{{ page.mission }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-small">
+            <p class="title is-2">Flagship Events</p>
+            <figure class="image is-16by9">
+                <img src="{{ site.baseurl }}/{{ page.events[0] }}" alt="Flagship event poster">
+            </figure>
+        </section>
+        <section class="section is-small">
+            <div class="columns is-desktop">
+                <div class="column">
+                    <div class="is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-full-height">
+                        <a href="{{ page.reg_link }}" class="button is-large block">Register Here</a>
+                        <div class="content">{{ page.tagline }}</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <figure class="image is-500x500">
+                        <img src="{{ site.baseurl }}/{{ page.membership_banner }}" alt="Membership Banner">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% include footer.html %}
 </body>
 
 </html>
