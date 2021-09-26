@@ -13,11 +13,13 @@
         font-size: $fs-regular
 
         .gradient-wrapper   
-            position: relative  
+            position: relative
+            pointer-events: none
 
             .button
                 color: $clr-nav-text
                 background-color: inherit
+                pointer-events: auto
 
                 //gradient border size
                 margin: 1.5px 1.5px
@@ -29,6 +31,7 @@
                 &:hover
                     background: linear-gradient(to bottom, #fff, #ebebeb 30%, #dee1e3 75%, #b3c4de 100%);
 
+      
         .gradient-wrapper:hover::before
             content: ''
             position: absolute
@@ -36,4 +39,6 @@
 
             background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc);
             border-radius: $border-radius
+
+        
         
