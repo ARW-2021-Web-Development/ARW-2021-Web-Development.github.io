@@ -120,3 +120,5 @@ fields:
     maxSize: 10
   label: Main Pub
   default: "/uploads/hohuqy7mss901.png"
+pages:
+- organizations/ASPIRE/englicom.md
