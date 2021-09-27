@@ -5,11 +5,11 @@
     {% include header.html %}
     <main class="container is-max-widescreen">
         <section class="section is-small is-flex is-flex-direction-column is-align-items-center">
-            <figure class="image is-256x256">
-                <img class="is-rounded" src="{{ site.baseurl }}/{{ page.logo }}" alt="{{ page.complete_name }} logo">
+            <figure class="image is-256x256 block">
+                <img class="is-rounded" src="{{ site.baseurl }}{{ page.logo }}" alt="{{ page.complete_name }} logo">
             </figure>
-            <p class="title is-1">{{ page.complete_name }}</p>
-            <div class="buttons are-medium">
+            <p class="title is-1 has-text-centered">{{ page.complete_name }}</p>
+            <div class="buttons are-medium is-justify-content-center">
                 <a class="button" href="{{ page.fb_link }}">Facebook Page</a>
                 <button class="button">Add to Favorites</button>
                 <a class="button" href="{{ page.reg_link }}">Registration Form</a>
@@ -31,7 +31,7 @@
             <div class="columns">
                 <div class="column">
                     <figure class="image">
-                        <img src="{{ site.baseurl }}/{{ page.main_pub }}" alt="Main Publication">
+                        <img src="{{ site.baseurl }}{{ page.main_pub }}" alt="Main Publication">
                     </figure>
                 </div>
                 <div class="column">
@@ -51,7 +51,7 @@
         <section class="section is-small">
             <p class="title is-2">Flagship Events</p>
             <figure class="image is-16by9">
-                <img src="{{ site.baseurl }}/{{ page.events[0] }}" alt="Flagship event poster">
+                <img src="{{ site.baseurl }}{{ page.events[0] }}" alt="Flagship event poster">
             </figure>
         </section>
         <section class="section is-small">
@@ -63,8 +63,8 @@
                     </div>
                 </div>
                 <div class="column">
-                    <figure class="image is-500x500">
-                        <img src="{{ site.baseurl }}/{{ page.membership_banner }}" alt="Membership Banner">
+                    <figure class="image is-square">
+                        <img src="{{ site.baseurl }}{{ page.membership_banner }}" alt="Membership Banner">
                     </figure>
                 </div>
             </div>

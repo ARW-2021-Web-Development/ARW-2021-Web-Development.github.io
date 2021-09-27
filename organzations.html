@@ -6,11 +6,12 @@ permalink: "/organizations/"
 {% include head.html title="Organizations" %}
 <body>
     {% include header.html %}
-
-    {% for org in site.organizations %}
+    <main class="container is-max-widescreen">
+        {% for org in site.organizations %}
         <a href="./{{org.cluster}}/{{org.abbr | downcase}}">{{ org.complete_name }}</a>
-    {% endfor %}
-
+        {% endfor %}
+    </main>
+    {% include footer.html %}
 </body>
 
 </html>
