@@ -44,6 +44,11 @@
                 
 
 @media (max-width: 1023px)
+    .navbar-end
+        display: flex
+        flex-direction: column
+        align-items: center
+    
     .navbar-menu
         display: block
         position: absolute
@@ -61,10 +66,9 @@
     .navbar-menu.is-closing
         top: 100%
         transform: translateY(-400px)
-         
-    .navbar-end
-        display: flex
-        flex-direction: column
-        align-items: center
+    
+    .navbar-item:not(:first-child)
+        margin-top: 0.5rem
+    
 
   
