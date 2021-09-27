@@ -2,7 +2,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ site.baseurl }}">
-                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" alt="ARW 2021 Logo">
+                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" alt="ARW 2021 Logo" />
                 <p class="has-text-weight-black">ARW 2021</p>
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
@@ -11,29 +11,38 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navMenu" class="navbar-menu">
+        <div id="nav-menu" class="navbar-menu">
             <div class="navbar-end is-align-items-center">
                 <a href="{{site.baseurl}}/organizations/" class="button btn-gradient navbar-item">Organizations</a>
-                <a href="#" class="button btn-gradient navbar-item">Favorites</a>
-                <a href="#" class="button btn-gradient navbar-item">FAQs</a>
-                <a href="#" class="button btn-gradient navbar-item">Mr. & Ms. ARW</a>
-                <a href="#" class="button btn-gradient navbar-item">Museum Day</a>
-                <a href="#" class="button btn-gradient navbar-item">Question & Feedback</a>
-                <a href="#" class="button btn-gradient navbar-item">Behind ARW</a>
+                <a href="#" class="button btn-gradient navbar-item mr-1">Favorites</a>
+                <a href="#" class="button btn-gradient navbar-item mr-1">FAQs</a>
+                <a href="#" class="button btn-gradient navbar-item mr-1">Mr. & Ms. ARW</a>
+                <a href="#" class="button btn-gradient navbar-item mr-1">Museum Day</a>
+                <a href="#" class="button btn-gradient navbar-item mr-1">Question & Feedback</a>
+                <a href="#" class="button btn-gradient navbar-item mr-3">Behind ARW</a>
             </div>
         </div>
     </nav>
 
     <script>
-        const burgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
-        for (let i = 0; i < burgers.length; i++) {
-            burgers[i].addEventListener('click', function() {
-                const target = this.dataset.target
-                const $target = document.getElementById(target)
+        const burgerMenu = document.querySelector('.navbar-burger');
+        const navMenu = document.querySelector('#nav-menu');
 
-                this.classList.toggle('is-active')
-                $target.classList.toggle('is-active')
-            })
-        }
+        burgerMenu.addEventListener('click', function toggleBurgerMenu() {
+            burgerMenu.classList.toggle('is-active');
+            const isActive = navMenu.classList.toggle('is-active');
+
+            if (isActive) {
+                navMenu.classList.remove('is-closing');
+            } else {
+                navMenu.classList.add('is-closing');
+            }
+
+            //remove closing transition class so that it does not persist between
+            //switching from desktop to mobile and vice versa
+            navMenu.addEventListener('transitionend', () => {
+                navMenu.classList.remove('is-closing');
+            });
+        });
     </script>
 </header>
