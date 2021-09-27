@@ -14,9 +14,11 @@
     border-radius: $button-radius
 
     border: none
-    //removes bulma's button styling when focused
-    box-shadow: none
     z-index: 0
+
+    //removes bulma's button styling when focused
+    &:focus:not(:active)
+        box-shadow: none
 
     &:hover::after,
     &:focus::after
