@@ -57,12 +57,12 @@
             <section class="section is-small">
                 <p class="title is-2">Flagship Events</p>
                 <div class="carousel-container">
-                    {% for event in page.events %}
+                    {% for event in page.events reversed %}
                     <figure class="image is-16by9 carousel-item">
                         <img src="{{ site.baseurl }}{{ event }}" alt="Flagship event poster" />
                     </figure>
                     {% endfor %}
-                    <div class="carousel-navigations">
+                    <div class="carousel-navigations"></div>
                         <button class="button btn-prev"><</button>
                         <button class="button btn-next">></button>
                     </div>

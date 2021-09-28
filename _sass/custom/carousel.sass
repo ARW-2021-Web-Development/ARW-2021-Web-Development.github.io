@@ -1,9 +1,10 @@
 .carousel-container
     position: relative
-    display: flex
-    align-items: center
+    display: grid
     width: 100%
+    overflow: hidden
     aspect-ratio: 16 / 9
+    grid-template-areas: "gallery"
 
 .carousel-navigations
     display: flex
@@ -11,6 +12,27 @@
     justify-content: space-between
 
 .carousel-item
-    // position: absolute
-    // inset: 0
-    visibility: hidden
+    grid-area: gallery
+    min-width: 100%
+    transition: transform 450ms linear
+
+.btn-prev
+    position: absolute
+    top: 50%
+    left: 0
+    transform: translateY(-50%)
+
+.btn-next
+    position: absolute
+    top: 50%
+    right: 0
+    transform: translateY(-50%)
+
+.from-right
+    transform: translateX(100%)
+
+.from-left
+    transform: translateX(-100%)
+
+.notransition
+  transition: none !important;
