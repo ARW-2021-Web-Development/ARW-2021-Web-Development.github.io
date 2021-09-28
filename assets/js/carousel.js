@@ -14,11 +14,11 @@ function showCurrentImage() {
 }
 
 prevBtn.addEventListener('click', () => {
-    currIndex = Math.max(0, currIndex - 1);
+    currIndex = currIndex - 1 < 0 ? carouselItems.length - 1 : currIndex - 1;
     showCurrentImage();
 });
 
 nextBtn.addEventListener('click', () => {
-    currIndex = Math.min(carouselItems.length - 1, currIndex + 1);
+    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
     showCurrentImage();
 });
