@@ -1,3 +1,6 @@
+<script src="{{site.baseurl}}/assets/js/navigation.js" defer></script>
+<script src="{{site.baseurl}}/assets/js/burger.js" defer></script>
+
 <header>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -5,44 +8,29 @@
                 <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" alt="ARW 2021 Logo" />
                 <p class="has-text-weight-black">ARW 2021</p>
             </a>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <a
+                role="button"
+                id="navbar-burger"
+                class="navbar-burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+            >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="nav-menu" class="navbar-menu">
+        <div id="navbar-menu" class="navbar-menu">
             <div class="navbar-end is-align-items-center">
                 <a href="{{site.baseurl}}/organizations/" class="button btn-gradient navbar-item">Organizations</a>
-                <a href="#" class="button btn-gradient navbar-item mr-1">Favorites</a>
-                <a href="#" class="button btn-gradient navbar-item mr-1">FAQs</a>
-                <a href="#" class="button btn-gradient navbar-item mr-1">Mr. & Ms. ARW</a>
-                <a href="#" class="button btn-gradient navbar-item mr-1">Museum Day</a>
-                <a href="#" class="button btn-gradient navbar-item mr-1">Question & Feedback</a>
-                <a href="#" class="button btn-gradient navbar-item mr-3">Behind ARW</a>
+                <a href="{{site.baseurl}}/index" class="button btn-gradient navbar-item">Favorites</a>
+                <a href="{{site.baseurl}}/index" class="button btn-gradient navbar-item">FAQs</a>
+                <a href="{{site.baseurl}}/index" class="button btn-gradient navbar-item">Mr. & Ms. ARW</a>
+                <a href="{{site.baseurl}}/index" class="button btn-gradient navbar-item">Museum Day</a>
+                <a href="{{site.baseurl}}/index" class="button btn-gradient navbar-item">Question & Feedback</a>
+                <a href="{{site.baseurl}}/index" class="button btn-gradient navbar-item mr-1">Behind ARW</a>
             </div>
         </div>
     </nav>
-
-    <script>
-        const burgerMenu = document.querySelector('.navbar-burger');
-        const navMenu = document.querySelector('#nav-menu');
-
-        burgerMenu.addEventListener('click', function toggleBurgerMenu() {
-            burgerMenu.classList.toggle('is-active');
-            const isActive = navMenu.classList.toggle('is-active');
-
-            if (isActive) {
-                navMenu.classList.remove('is-closing');
-            } else {
-                navMenu.classList.add('is-closing');
-            }
-
-            //remove closing transition class so that it does not persist between
-            //switching from desktop to mobile and vice versa
-            navMenu.addEventListener('transitionend', () => {
-                navMenu.classList.remove('is-closing');
-            });
-        });
-    </script>
 </header>

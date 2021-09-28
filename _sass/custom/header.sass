@@ -1,3 +1,5 @@
+$button-radius: 0.85rem
+
 .navbar-item
     .logos 
         max-height: 3.25rem
@@ -7,11 +9,10 @@
         font-size: $size-6
 
 .btn-gradient
-    $button-radius: 0.85rem
-
     color: $clr-nav-text
     background-color: transparent 
     border-radius: $button-radius
+    
 
     border: none
     z-index: 0
@@ -41,8 +42,32 @@
         box-shadow: 0 2px 10px 0 #999
         background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
         z-index: -2
-                
 
+.active
+    //removes bulma's button styling when focused
+    &:focus:not(:active)
+        box-shadow: none
+
+    &::after
+        content: ''
+        position: absolute
+        //gradient border size
+        inset: 1px
+
+        border-radius: $button-radius
+        background: linear-gradient(to bottom, #fff, #ebebeb 30%, #dee1e3 75%, #b3c4de 100%)
+        z-index: -1
+    
+    &::before
+        content: ''
+        position: absolute
+        inset: 0
+
+        border-radius: $button-radius
+        box-shadow: 0 2px 10px 0 #999
+        background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
+        z-index: -2
+                
 @media (max-width: 1023px)
     .navbar-end
         display: flex
@@ -57,7 +82,7 @@
         width: 100%
         z-index: -1
         transform: translateY(-400px)
-        transition: transform 500ms ease-out
+        transition: transform 450ms ease-out
 
     .navbar-menu.is-active
         top: 100%
