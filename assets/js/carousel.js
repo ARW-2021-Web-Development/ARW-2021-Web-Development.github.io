@@ -10,6 +10,11 @@ let isAnimating = false;
 
 carouselItems.forEach((item) => (item.ontransitionend = () => (isAnimating = false)));
 
+document.addEventListener('mouseup', () => {
+    prevBtn.classList.remove('pressed');
+    nextBtn.classList.remove('pressed');
+});
+
 nextBtn.addEventListener('mousedown', () => {
     nextBtn.classList.add('pressed');
 });
@@ -19,11 +24,11 @@ nextBtn.addEventListener('mouseup', () => {
 });
 
 prevBtn.addEventListener('mousedown', () => {
-    nextBtn.classList.add('pressed');
+    prevBtn.classList.add('pressed');
 });
 
 prevBtn.addEventListener('mouseup', () => {
-    nextBtn.classList.remove('pressed');
+    prevBtn.classList.remove('pressed');
 });
 
 nextBtn.addEventListener('click', () => {
