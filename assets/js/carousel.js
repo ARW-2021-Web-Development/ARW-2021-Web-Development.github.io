@@ -2,7 +2,7 @@ const carouselItems = document.querySelectorAll('.carousel-item');
 const prevBtn = document.querySelector('.btn-prev');
 const nextBtn = document.querySelector('.btn-next');
 
-//images are in reversed order so the first image is the last in the NodeList
+//images are in reversed order so the first image is the last in the
 let currIndex = carouselItems.length - 1;
 let prevIndex = 0;
 
@@ -16,7 +16,7 @@ prevBtn.addEventListener('click', () => {
     if (isAnimating) return;
 
     prevIndex = currIndex;
-    currIndex = currIndex - 1 < 0 ? carouselItems.length - 1 : currIndex - 1;
+    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
     isAnimating = true;
 
     showPrevImage();
@@ -28,7 +28,7 @@ nextBtn.addEventListener('click', () => {
     if (isAnimating) return;
 
     prevIndex = currIndex;
-    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
+    currIndex = currIndex - 1 < 0 ? carouselItems.length - 1 : currIndex - 1;
     isAnimating = true;
 
     showNextImage();
