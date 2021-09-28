@@ -15,20 +15,24 @@ document.addEventListener('mouseup', () => {
     nextBtn.classList.remove('pressed');
 });
 
-nextBtn.addEventListener('mousedown', () => {
-    nextBtn.classList.add('pressed');
+'mousedown touchstart'.split(' ').forEach((event) => {
+    nextBtn.addEventListener(event, () => {
+        nextBtn.classList.add('pressed');
+    });
+
+    prevBtn.addEventListener(event, () => {
+        prevBtn.classList.add('pressed');
+    });
 });
 
-nextBtn.addEventListener('mouseup', () => {
-    nextBtn.classList.remove('pressed');
-});
+'mouseup touchend'.split(' ').forEach((event) => {
+    nextBtn.addEventListener(event, () => {
+        nextBtn.classList.remove('pressed');
+    });
 
-prevBtn.addEventListener('mousedown', () => {
-    prevBtn.classList.add('pressed');
-});
-
-prevBtn.addEventListener('mouseup', () => {
-    prevBtn.classList.remove('pressed');
+    prevBtn.addEventListener(event, () => {
+        prevBtn.classList.remove('pressed');
+    });
 });
 
 nextBtn.addEventListener('click', () => {
