@@ -26,6 +26,7 @@ mission: "<p>To continually work in awakening the Tsinoy consciousness, instilli
 reg_link: https://google.com/
 vid_link: https://drive.google.com/file/d/16e-ZYRJVqy7NNlGsjV8LFWKy0Yp-gDnP/preview
 events:
+- "/uploads/3594040.jpg"
 - "/uploads/2918041.jpg"
 - "/uploads/1078199.jpg"
 
