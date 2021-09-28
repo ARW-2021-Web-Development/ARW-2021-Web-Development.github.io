@@ -10,18 +10,6 @@ let isAnimating = false;
 
 carouselItems.forEach((item) => (item.ontransitionend = () => (isAnimating = false)));
 
-prevBtn.addEventListener('click', () => {
-    //don't animate if an image is already being animated
-    //to prevent multiple animation renders
-    if (isAnimating) return;
-
-    prevIndex = currIndex;
-    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
-    isAnimating = true;
-
-    showPrevImage();
-});
-
 nextBtn.addEventListener('click', () => {
     //don't animate if an image is already being animated
     //to prevent multiple animation renders
@@ -29,6 +17,18 @@ nextBtn.addEventListener('click', () => {
 
     prevIndex = currIndex;
     currIndex = currIndex - 1 < 0 ? carouselItems.length - 1 : currIndex - 1;
+    isAnimating = true;
+
+    showPrevImage();
+});
+
+prevBtn.addEventListener('click', () => {
+    //don't animate if an image is already being animated
+    //to prevent multiple animation renders
+    if (isAnimating) return;
+
+    prevIndex = currIndex;
+    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
     isAnimating = true;
 
     showNextImage();
