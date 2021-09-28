@@ -2,7 +2,7 @@
     display: grid
     grid-template-areas: "gallery"
 
-    position: relative
+    // position: relative
     width: 100%
     overflow: hidden
     
@@ -10,16 +10,26 @@
     grid-area: gallery
     transition: transform 500ms linear
 
+.npsm
+    border: none
+    border-radius: 25px
+    box-shadow:  12px 12px 16px 0 rgba(0, 0, 0, 0.25), 
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3) !important //ayoko na makipagtalo kay bulma:((
+
+.npsm.pressed
+    box-shadow:  inset 8px 8px 12px 0 rgba(0, 0, 0, 0.25),
+    inset -8px -8px 12px 0 rgba(255, 255, 255, 0.3) !important //ayoko na makipagtalo kay bulma:((
+
 .btn-prev
     position: absolute
     top: 50%
-    left: 0
+    right: 101%
     transform: translateY(-50%)
 
 .btn-next
     position: absolute
     top: 50%
-    right: 0
+    left: 101%
     transform: translateY(-50%)
 
 .from-right

@@ -56,14 +56,17 @@
             </section>
             <section class="section is-small">
                 <p class="title is-2">Flagship Events</p>
-                <div class="carousel-container">
-                    {% for event in page.events reversed %}
-                    <figure class="image is-16by9 carousel-item">
-                        <img src="{{ site.baseurl }}{{ event }}" alt="Flagship event poster" />
-                    </figure>
-                    {% endfor %}
-                    <button class="button btn-prev"><</button>
-                    <button class="button btn-next">></button>
+                <div class="carousel-button-wrapper" style="position: relative">
+                    <div class="carousel-container">
+                        {% for event in page.events reversed %}
+                        <figure class="image is-16by9 carousel-item">
+                            <img src="{{ site.baseurl }}{{ event }}" alt="Flagship event poster" />
+                        </figure>
+                        {% endfor %}
+
+                        <button class="button btn-prev npsm"><</button>
+                        <button class="button btn-next npsm">></button>
+                    </div>
                 </div>
             </section>
             <section class="section is-small">

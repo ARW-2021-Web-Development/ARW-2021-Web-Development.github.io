@@ -10,6 +10,22 @@ let isAnimating = false;
 
 carouselItems.forEach((item) => (item.ontransitionend = () => (isAnimating = false)));
 
+nextBtn.addEventListener('mousedown', () => {
+    nextBtn.classList.add('pressed');
+});
+
+nextBtn.addEventListener('mouseup', () => {
+    nextBtn.classList.remove('pressed');
+});
+
+prevBtn.addEventListener('mousedown', () => {
+    nextBtn.classList.add('pressed');
+});
+
+prevBtn.addEventListener('mouseup', () => {
+    nextBtn.classList.remove('pressed');
+});
+
 nextBtn.addEventListener('click', () => {
     //don't animate if an image is already being animated
     //to prevent multiple animation renders
