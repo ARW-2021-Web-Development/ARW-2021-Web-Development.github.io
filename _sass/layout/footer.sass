@@ -4,11 +4,37 @@
 $footer-background-color: $background
 $footer-color: false !default
 // $footer-padding: 3rem 1.5rem 6rem !default
-$footer-padding: 2rem 1.5rem 0 !default
+$footer-padding: 2rem 1.5rem 2rem !default
 
 .footer
+  display: flex
+  justify-content: space-between
+  align-items: center
+
   background-color: $footer-background-color
   padding: $footer-padding
   height: 3.25rem
   @if $footer-color
     color: $footer-color
+
+  .slogan
+    font-size: $size-3
+    font-weight: $weight-bold
+    color: transparent;
+
+    //repeat gradient colors for smoother transition animation
+    background: linear-gradient(45deg, 
+    #B097E4, #B088CA, #B589CD, #C07EBC, #CB7CB7, #df82b2, #DB6C9D,
+    #DB6C9D, #df82b2, #CB7CB7, #C07EBC, #B589CD, #B088CA, #B097E4,
+    #B097E4, #B088CA, #B589CD, #C07EBC, #CB7CB7, #df82b2, #DB6C9D,
+    #DB6C9D, #df82b2, #CB7CB7, #C07EBC, #B589CD, #B088CA, #B097E4,)
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradienting 7500ms linear infinite;
+
+//aaaa hindi ko alam kung ano itatawag dito 
+@keyframes gradienting 
+  to 
+    background-position: -200% center;
+  
