@@ -15,7 +15,7 @@ document.addEventListener('mouseup', () => {
     nextBtn.classList.remove('pressed');
 });
 
-'mousedown touchstart'.split(' ').forEach((event) => {
+'mousedown pointerdown'.split(' ').forEach((event) => {
     nextBtn.addEventListener(event, () => {
         nextBtn.classList.add('pressed');
     });
@@ -25,7 +25,7 @@ document.addEventListener('mouseup', () => {
     });
 });
 
-'mouseup touchend'.split(' ').forEach((event) => {
+'mouseup pointerup'.split(' ').forEach((event) => {
     nextBtn.addEventListener(event, () => {
         nextBtn.classList.remove('pressed');
     });
