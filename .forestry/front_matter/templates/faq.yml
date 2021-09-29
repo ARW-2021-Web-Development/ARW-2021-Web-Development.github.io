@@ -24,3 +24,5 @@ fields:
   label: Permalink
   hidden: true
   default: "/faq/"
+pages:
+- FAQ.md
