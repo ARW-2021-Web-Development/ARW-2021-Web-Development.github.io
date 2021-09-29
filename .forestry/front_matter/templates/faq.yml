@@ -1,4 +1,18 @@
 ---
 label: FAQ
 hide_body: true
-fields: []
+fields:
+- name: question
+  type: text
+  config:
+    required: true
+  label: Question
+- name: answer
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Answer
