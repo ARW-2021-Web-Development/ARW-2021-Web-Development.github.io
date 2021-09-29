@@ -5,7 +5,8 @@ fields:
 - name: faq
   type: blocks
   label: FAQ
-  template_types: []
+  template_types:
+  - qna
   config:
     min: 
     max: 
