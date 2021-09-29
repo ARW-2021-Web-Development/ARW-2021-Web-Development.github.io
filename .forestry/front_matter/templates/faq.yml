@@ -10,5 +10,19 @@ fields:
   config:
     min: 
     max: 
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: faq
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  hidden: true
+  default: "/faq/"
 pages:
 - FAQ.md
