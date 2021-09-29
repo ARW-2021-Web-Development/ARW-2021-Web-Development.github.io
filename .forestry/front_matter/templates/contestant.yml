@@ -1,4 +1,34 @@
 ---
 label: Contestant
 hide_body: true
-fields: []
+fields:
+- name: org_name
+  type: text
+  config:
+    required: false
+  label: Organization Name
+- name: mr_name
+  type: text
+  config:
+    required: true
+  label: Mr. ARW Name
+- name: mr_pic
+  type: file
+  config:
+    maxSize: 10
+  label: Mr. ARW Picture
+- name: ms_name
+  type: text
+  config:
+    required: false
+  label: Ms. ARW Name
+- name: ms_pic
+  type: file
+  config:
+    maxSize: 10
+  label: Ms. ARW Picture
+- name: vid_link
+  type: text
+  config:
+    required: true
+  label: Video Link
