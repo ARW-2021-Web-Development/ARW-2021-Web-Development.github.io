@@ -16,3 +16,11 @@ fields:
     schema:
       format: markdown
   label: Answer
+- name: test
+  type: blocks
+  label: Test
+  template_types:
+  - faq
+  config:
+    min: 
+    max: 
