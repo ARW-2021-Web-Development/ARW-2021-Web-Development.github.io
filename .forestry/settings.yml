@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: FAQs
+  create: documents
+  match: "**/*"
+  templates:
+  - faq
 - type: directory
   path: _organizations
   label: Organizations
