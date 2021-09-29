@@ -2,25 +2,10 @@
 label: FAQ
 hide_body: true
 fields:
-- name: question
-  type: text
-  config:
-    required: true
-  label: Question
-- name: answer
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Answer
-- name: test
+- name: faq
   type: blocks
-  label: Test
-  template_types:
-  - faq
+  label: FAQ
+  template_types: []
   config:
     min: 
     max: 
