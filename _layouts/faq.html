@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html title="Frequently Asked Questions" %}
+    <body>
+        {% include header.html %}
+        <main class="container is-max-widescreen">
+            <header class="has-text-centered is-size-3 mt-4">
+                <p>Frequently Asked Questions</p>
+                <p class="is-size-4">(FAQs)</p>
+            </header>
+
+            {% for qna in page.faq %}
+            <div class="accordion npsm mt-5">
+                <div class="accordion-header">Q: {{qna.question}}</div>
+                <div class="accordion-content closed">A: {{qna.answer}}</div>
+            </div>
+            {% endfor %}
+        </main>
+        {% include footer.html %}
+    </body>
+    <script src="{{site.baseurl}}/assets/js/accordion.js" defer></script>
+</html>
