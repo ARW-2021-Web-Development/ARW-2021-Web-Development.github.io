@@ -1,44 +1,45 @@
 .carousel-container
-    display: grid
-    grid-template-areas: "gallery"
+  display: grid
+  grid-template-areas: "gallery"
 
     // position: relative
-    width: 100%
-    overflow: hidden
-    
+  width: 100%
+  overflow: hidden
+
 .carousel-item
-    grid-area: gallery
-    transition: transform 500ms linear
+  grid-area: gallery
+  transition: transform 500ms linear
 
 .btn-prev
-    position: absolute
-    top: 50%
-    right: 101%
-    
-    border-radius: 25px
-    transform: translateY(-50%)
+  position: absolute
+  top: 50%
+  right: 101%
+
+  border-radius: 25px
+  transform: translateY(-50%)
 
 .btn-next
-    position: absolute
-    top: 50%
-    left: 101%
+  position: absolute
+  top: 50%
+  left: 101%
 
-    border-radius: 25px
-    transform: translateY(-50%)
+  border-radius: 25px
+  transform: translateY(-50%)
 
 .from-right
-    transform: translateX(100%)
+  transform: translateX(100%)
 
 .from-left
-    transform: translateX(-100%)
+  transform: translateX(-100%)
 
 .notransition
-    transition: none !important
+  transition: none !important
 
 @media (max-width: 1023px)
-    .btn-prev
-        top: 100%
-        right: 52%
-    .btn-next
-        top: 100%
-        left: 52%
+  .btn-prev
+    top: 100%
+    right: 52%
+    
+  .btn-next
+    top: 100%
+    left: 52%

@@ -1,0 +1,37 @@
+#construction
+  $border-radius: 20px
+
+  p
+    background-color: unset
+
+  .slogan
+    font-size: 3.5em
+
+  .info
+    font-size: 2em
+    font-weight: bold
+
+  .credits
+    font-size: 1.75em
+
+  .container
+    position: relative
+    padding: 20px
+    z-index: 0
+    border-radius: $border-radius
+    background: linear-gradient(#ff74d149, #ff74d149)
+
+    &:before
+      content: ""
+      position: absolute
+      z-index: -1
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      padding: 2px
+      border-radius: $border-radius
+      background: linear-gradient(#ffffff00, #ffffff50,#9cdeeb)
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)
+      -webkit-mask-composite: destination-out
+      mask-composite: exclude

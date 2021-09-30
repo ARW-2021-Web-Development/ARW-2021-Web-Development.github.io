@@ -5,29 +5,29 @@ $clr-nav-text: #58487D
 *,
 *::before,
 *::after
-    box-sizing: border-box
-    background-color:  $background
-
-html 
-    height: 100%
-
-body
-    display: flex
-    flex-direction: column
-
-    height: 100%
-    max-width: $max-width
-    margin: 0 auto
+  box-sizing: border-box
+  background-color: $background
 
 html
-    @extend .has-navbar-fixed-top
+  height: 100%
+
+body
+  display: flex
+  flex-direction: column
+
+  height: 100%
+  max-width: $max-width
+  margin: 0 auto
+
+html
+  @extend .has-navbar-fixed-top
 
 .navbar
-    @extend .is-fixed-top
+  @extend .is-fixed-top
 
 @media (min-width: $desktop)
   .is-full-height
-      height: 100% !important
+    height: 100% !important
 
 #arw-footer-logo
-    height: 3.25rem
+  height: 3.25rem
