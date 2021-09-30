@@ -24,7 +24,7 @@ permalink: "/questions_and_feedback/"
   <section class="section is-medium" id="question-section">
     <h1 class="title">Got a question?</h1>
     <p class="subtitle">Connect with us. The ARW Team is here to help you boost your ARW experience.</p>
-    <form action="" method="POST" class="form container is-max-desktop">
+    <form class="form container is-max-desktop" id="question-form">
       <div class="field">
         <label for="name" class="label">Name</label>
         <div class="control has-icons-left">
@@ -50,14 +50,14 @@ permalink: "/questions_and_feedback/"
         </div>
       </div>
       <div class="control">
-        <button class="button is-link">Submit</button>
+        <button type="submit" class="button is-link">Submit</button>
       </div>
     </form>
   </section>
   <section class="section is-medium" id="feedback-section">
     <h1 class="title">Have an opinion?</h1>
     <p class="subtitle">We appreciate the time you have taken to help us improve our site and service. Kindly use the form below to send us a feedback.</p>
-    <form action="" method="POST" class="form container is-max-desktop">
+    <form class="form container is-max-desktop" id="feedback-form">
       <div class="field">
         <label for="bug" class="label">Bugs</label>
         <div class="control">
@@ -77,10 +77,11 @@ permalink: "/questions_and_feedback/"
         </div>
       </div>
       <div class="control">
-        <button class="button is-link">Submit</button>
+        <button type="submit" class="button is-link">Submit</button>
       </div>
     </form>
   </section>
+  <script src="{{ site.baseurl }}/assets/js/form-validation.js"></script>
   {% include footer.html %}
 </body>
 </html>

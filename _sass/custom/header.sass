@@ -12,11 +12,10 @@ $button-radius: 0.85rem
   color: $clr-nav-text
   background-color: transparent
   border-radius: $button-radius
-
   border: none
   z-index: 0
 
-    //removes bulma's button styling when focused
+  // removes bulma's button styling when focused
   &:focus:not(:active)
     box-shadow: none
 
@@ -24,7 +23,7 @@ $button-radius: 0.85rem
   &:focus::after
     content: ''
     position: absolute
-      //gradient border size
+    //gradient border size
     inset: 1px
 
     border-radius: $button-radius
@@ -43,7 +42,7 @@ $button-radius: 0.85rem
     z-index: -2
 
 .active
-    //removes bulma's button styling when focused
+  //removes bulma's button styling when focused
   &:focus:not(:active)
     box-shadow: none
 
