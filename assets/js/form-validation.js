@@ -9,14 +9,20 @@ questionForm.onsubmit = e => {
     const button = e.target.children[3].children[0]
     button.classList.add('is-loading')
 
-    const xhr = new XMLHttpRequest()
-    xhr.open('POST', 'https://arw2021submissions.herokuapp.com/post/questions', true)
-    xhr.setRequestHeader('') // TODO: discuss
-
-    xhr.onload = () => {
+    fetch('https://arw2021submissions.herokuapp.com/post/questions', {
+      method: "POST",
+      mode: 'cors',
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, email, question }),
+    }).then(res => {
+      console.log(res)
+      return res.json()
+    }).then(data => {
       button.classList.remove('is-loading')
-      alert('Question was submitted!')
-    }
+      alert(data.message)
+    });
   }
 }
 
@@ -30,7 +36,7 @@ feedbackForm.onsubmit = e => {
 
     const xhr = new XMLHttpRequest()
     xhr.open('POST', 'https://arw2021submissions.herokuapp.com/post/feedbacks', true)
-    xhr.setRequestHeader('') // TODO: discuss
+    xhr.setRequestHeader('')
 
     xhr.onload = () => {
       button.classList.remove('is-loading')
