@@ -21,3 +21,16 @@
 
   .selected
     color: $color
+
+.notification
+  position: fixed
+  bottom: 0
+  right: 1%
+  left: 50%
+
+  transform: scaleX(0)
+  // transform-origin: right
+  transition: transform 450ms linear
+
+.notification.is-active
+  transform: scaleX(1)

@@ -6,10 +6,12 @@ $clr-nav-text: #58487D
 *::before,
 *::after
   box-sizing: border-box
-  background-color: $background
+
 
 html
   height: 100%
+  scroll-behavior: smooth;
+
 
 body
   display: flex
@@ -18,6 +20,8 @@ body
   height: 100%
   max-width: $max-width
   margin: 0 auto
+
+  background-color: $background
 
 html
   @extend .has-navbar-fixed-top

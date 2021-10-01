@@ -1,98 +1,113 @@
 ---
-permalink: "/questions_and_feedback/"
+permalink: '/questions_and_feedback/'
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+    {% include head.html %}
 
-<body>
-  {% include header.html %}
-  <section class="hero is-link is-fullheight-with-navbar">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <div class="block mb-6">
-          <p class="title">Got a question?</p>
-          <a type="button" href="#question-section" class="button">Ask a question</a>
+    <body>
+        {% include header.html %}
+        <section class="hero is-link is-fullheight-with-navbar">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="block mb-6">
+                        <p class="title">Got a question?</p>
+                        <a type="button" href="#question-section" class="button">Ask a question</a>
+                    </div>
+                    <div class="block">
+                        <p class="title">Have an opinion?</p>
+                        <a type="button" href="#feedback-section" class="button">Send your feedback</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-medium" id="question-section">
+            <h1 class="title">Got a question?</h1>
+            <p class="subtitle">Connect with us. The ARW Team is here to help you boost your ARW experience.</p>
+            <form class="form container is-max-desktop" id="question-form">
+                <div class="field">
+                    <label for="name" class="label">Name</label>
+                    <div class="control has-icons-left">
+                        <input id="name" name="name" type="text" class="input" placeholder="Your Name" />
+                        <span class="icon is-small is-left">
+                            <i class="far fa-user"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="email" class="label">Email Address</label>
+                    <div class="control has-icons-left">
+                        <input id="email" name="email" type="email" class="input" placeholder="Your Email" />
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-at"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="question" class="label">Question</label>
+                    <div class="control">
+                        <textarea name="question" id="question" class="textarea" placeholder="Your Question"></textarea>
+                    </div>
+                </div>
+                <div class="control">
+                    <button type="submit" class="button is-link">Submit</button>
+                </div>
+            </form>
+        </section>
+        <section class="section is-medium" id="feedback-section">
+            <h1 class="title">Have an opinion?</h1>
+            <p class="subtitle">
+                We appreciate the time you have taken to help us improve our site and service. Kindly use the form below
+                to send us a feedback.
+            </p>
+            <div id="rating-stars" class="has-text-centered">
+                <a type="button" title="Give 5 stars" onclick="setActive(5)">★</a>
+                <a type="button" title="Give 4 stars" onclick="setActive(4)">★</a>
+                <a type="button" title="Give 3 stars" onclick="setActive(3)">★</a>
+                <a type="button" title="Give 2 stars" onclick="setActive(2)">★</a>
+                <a type="button" title="Give 1 star" onclick="setActive(1)">★</a>
+            </div>
+            <form class="form container is-max-desktop" id="feedback-form">
+                <input type="hidden" id="rating" name="rating" value="0" />
+                <div class="field">
+                    <label for="bug" class="label">Bugs</label>
+                    <div class="control">
+                        <textarea name="bug" id="bug" class="textarea" placeholder="Report bugs"></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="suggestion" class="label">Suggestions</label>
+                    <div class="control">
+                        <textarea
+                            name="suggestion"
+                            id="suggestion"
+                            class="textarea"
+                            placeholder="Give us suggestions"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="compliment" class="label">Compliments</label>
+                    <div class="control">
+                        <textarea
+                            name="compliment"
+                            id="compliment"
+                            class="textarea"
+                            placeholder="Make a compliment"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="control">
+                    <button type="submit" class="button is-link">Submit</button>
+                </div>
+            </form>
+        </section>
+        <div class="notification is-danger is-light">
+            <button class="delete"></button>
+            <p class="notification-message"></p>
         </div>
-        <div class="block">
-          <p class="title">Have an opinion?</p>
-          <a type="button" href="#feedback-section" class="button">Send your feedback</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section is-medium" id="question-section">
-    <h1 class="title">Got a question?</h1>
-    <p class="subtitle">Connect with us. The ARW Team is here to help you boost your ARW experience.</p>
-    <form class="form container is-max-desktop" id="question-form">
-      <div class="field">
-        <label for="name" class="label">Name</label>
-        <div class="control has-icons-left">
-          <input id="name" name="name" type="text" class="input" placeholder="Your Name">
-          <span class="icon is-small is-left">
-            <i class="far fa-user"></i>
-          </span>
-        </div>
-      </div>
-      <div class="field">
-        <label for="email" class="label">Email Address</label>
-        <div class="control has-icons-left">
-          <input id="email" name="email" type="email" class="input" placeholder="Your Email">
-          <span class="icon is-small is-left">
-            <i class="fas fa-at"></i>
-          </span>
-        </div>
-      </div>
-      <div class="field">
-        <label for="question" class="label">Question</label>
-        <div class="control">
-          <textarea name="question" id="question" class="textarea" placeholder="Your Question"></textarea>
-        </div>
-      </div>
-      <div class="control">
-        <button type="submit" class="button is-link">Submit</button>
-      </div>
-    </form>
-  </section>
-  <section class="section is-medium" id="feedback-section">
-    <h1 class="title">Have an opinion?</h1>
-    <p class="subtitle">We appreciate the time you have taken to help us improve our site and service. Kindly use the
-      form below to send us a feedback.</p>
-    <div id="rating-stars" class="has-text-centered">
-      <a type="button" title="Give 5 stars" onclick="setActive(5)">★</a>
-      <a type="button" title="Give 4 stars" onclick="setActive(4)">★</a>
-      <a type="button" title="Give 3 stars" onclick="setActive(3)">★</a>
-      <a type="button" title="Give 2 stars" onclick="setActive(2)">★</a>
-      <a type="button" title="Give 1 star" onclick="setActive(1)">★</a>
-    </div>
-    <form class="form container is-max-desktop" id="feedback-form">
-      <input type="hidden" id="rating" name="rating" value="0">
-      <div class="field">
-        <label for="bug" class="label">Bugs</label>
-        <div class="control">
-          <textarea name="bug" id="bug" class="textarea" placeholder="Report bugs"></textarea>
-        </div>
-      </div>
-      <div class="field">
-        <label for="suggestion" class="label">Suggestions</label>
-        <div class="control">
-          <textarea name="suggestion" id="suggestion" class="textarea" placeholder="Give us suggestions"></textarea>
-        </div>
-      </div>
-      <div class="field">
-        <label for="compliment" class="label">Compliments</label>
-        <div class="control">
-          <textarea name="compliment" id="compliment" class="textarea" placeholder="Make a compliment"></textarea>
-        </div>
-      </div>
-      <div class="control">
-        <button type="submit" class="button is-link">Submit</button>
-      </div>
-    </form>
-  </section>
-  <script src="{{ site.baseurl }}/assets/js/form-validation.js"></script>
-  {% include footer.html %}
-</body>
-
+        <script src="{{ site.baseurl }}/assets/js/form-validation.js"></script>
+        {% include footer.html %}
+    </body>
 </html>
