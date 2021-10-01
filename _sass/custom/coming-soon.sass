@@ -1,37 +1,78 @@
-#construction
-  $border-radius: 20px
 
-  p
-    background-color: unset
+@mixin construction($font-size: 3.5em, $flex-box-width: 800px)
+  #construction
+    $border-radius: 20px
 
-  .slogan
-    font-size: 3.5em
+    figure
+      width: clamp(90px, 50%, 275px)
 
-  .info
-    font-size: 2em
-    font-weight: bold
+    .slogan
+      font-size: $font-size
 
-  .credits
-    font-size: 1.75em
+    .info
+      font-size: $font-size * 0.7
+      font-weight: bold
 
-  .container
-    position: relative
-    padding: 20px
-    z-index: 0
-    border-radius: $border-radius
-    background: linear-gradient(#ff74d149, #ff74d149)
+    .credits
+      font-size: $font-size / 2
 
-    &:before
-      content: ""
-      position: absolute
-      z-index: -1
-      top: 0
-      left: 0
-      right: 0
-      bottom: 0
-      padding: 2px
+    .container
+      position: relative
+      padding: 20px
+      z-index: 0
       border-radius: $border-radius
-      background: linear-gradient(#ffffff00, #ffffff50,#9cdeeb)
-      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)
-      -webkit-mask-composite: destination-out
-      mask-composite: exclude
+      background: linear-gradient(#ff74d149, #ff74d149)
+
+    .has-glass-border
+      &:before
+        content: ""
+        position: absolute
+        z-index: -1
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        padding: 2px
+        border-radius: $border-radius
+        background: linear-gradient(#ffffff00, #ffffff50,#9cdeeb)
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)
+        -webkit-mask-composite: destination-out
+        mask-composite: exclude
+
+    .buttons
+      max-width: $flex-box-width
+      width: 100%
+
+    .button
+      border-radius: 0
+      font-weight: bold
+      font-size: $font-size * 0.6
+      height: $font-size * 0.6
+      margin: 0
+
+      &:focus
+        border: 1px solid transparent
+        box-shadow: none
+
+      &:hover
+        border: 1px solid #b5b5b5
+
+    .gradient-text
+      background-color: #ada0d9
+      background-image: linear-gradient(#ba7297, #aa9bd1)
+      background-size: 100%
+      -webkit-background-clip: text
+      -moz-background-clip: text
+      -webkit-text-fill-color: transparent
+      -moz-text-fill-color: transparent
+  
+@media (max-width: 767px)
+  @include construction($font-size: 1.5em, $flex-box-width: 400px)
+
+@media (min-width: 768px)
+  @include construction
+
+@media (max-width: 330px)
+  #construction .button
+    margin-bottom: 1.5em
+  

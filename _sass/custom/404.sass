@@ -1,21 +1,24 @@
 .bg-img
-    background-image: url('../../assets/img/coming-soon.png')
-    background-size: 100% 100%
-    background-repeat: no-repeat
-    background-position: center
-    min-width: 100vw
-    margin: 0
+  background: url('../../assets/img/coming-soon.png') center no-repeat
+  min-width: 100vw
+  background-size: 100% 100%
+  margin: 0
+
+@media (max-width: 1024px)
+  .bg-img
+    background-size: cover
 
 .transparent
-   background-color: transparent !important
+  background-color: transparent !important
 
-.container
-    opacity: 90%
-    backdrop-filter: blur(5px);
+.glass-container
+  @extend .container
+  opacity: 90%
+  backdrop-filter: blur(5px)
 
 .slogan.info
-    font-size: 2.75rem !important
+  font-size: 2.75rem !important
 
 .text-inner-shadow
-    color: transparent
-    text-shadow: 0px 2px 3px lightgrey;
+  color: transparent
+  text-shadow: 0px 2px 3px lightgrey

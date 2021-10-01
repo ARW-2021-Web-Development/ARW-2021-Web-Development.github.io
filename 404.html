@@ -3,16 +3,30 @@
 
 <!DOCTYPE html>
 <html lang="en" style="padding-top: 0">
-    {% include head.html %}
-    <body class="bg-img">
-        <section class="hero is-fullheight transparent" id="construction">
-            <div class="hero-body transparent">
-                <div class="container has-text-centered">
-                    <p class="slogan text-inner-shadow">MAKING HISTORY SOON...</p>
-                    <p class="slogan info">THIS SITE IS UNDER CONSTRUCTION</p>
-                    <p class="credits">(C) 2021 BY ARW2021 CENTRAL COMMITTEE</p>
-                </div>
-            </div>
-        </section>
-    </body>
+{% include head.html %}
+<body class="bg-img">
+  <section class="hero is-fullheight transparent" id="construction">
+    <div class="hero-body transparent is-flex-direction-column is-justify-content-center">
+      <figure class="image">
+        <img src="{{ site.baseurl }}/assets/img/logos/4-logos.png" alt="ARW Logos">
+      </figure>
+      <div class="glass-container has-glass-border has-text-centered is-flex-grow-0 mt-6 mb-6">
+        <p class="slogan gradient-text">MAKING HISTORY SOON...</p>
+        <p class="info gradient-text">THIS SITE IS UNDER CONSTRUCTION</p>
+        <p class="credits gradient-text">(C) 2021 BY ARW2021 CENTRAL COMMITTEE</p>
+      </div>
+      <div class="buttons is-justify-content-space-around">
+        <a href="https://www.facebook.com/DLSUFWARW" target="_blank" class="button is-large glass-container is-flex-grow-0">
+          <span class="icon gradient-text pl-1"><i class="fab fa-facebook fa-lg"></i></span>
+          <span class="gradient-text">FACEBOOK</span>
+        </a>
+        <a href="https://www.instagram.com/dlsu_arw/" target="_blank" class="button is-large glass-container is-flex-grow-0">
+          <span class="icon gradient-text pl-1"><i class="fab fa-instagram fa-lg"></i></span>
+          <span class="gradient-text">INSTAGRAM</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
