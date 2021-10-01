@@ -5,6 +5,7 @@ permalink: "/questions_and_feedback/"
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
+
 <body>
   {% include header.html %}
   <section class="hero is-link is-fullheight-with-navbar">
@@ -56,8 +57,17 @@ permalink: "/questions_and_feedback/"
   </section>
   <section class="section is-medium" id="feedback-section">
     <h1 class="title">Have an opinion?</h1>
-    <p class="subtitle">We appreciate the time you have taken to help us improve our site and service. Kindly use the form below to send us a feedback.</p>
+    <p class="subtitle">We appreciate the time you have taken to help us improve our site and service. Kindly use the
+      form below to send us a feedback.</p>
+    <div id="rating-stars" class="has-text-centered">
+      <a type="button" title="Give 5 stars" onclick="setActive(5)">★</a>
+      <a type="button" title="Give 4 stars" onclick="setActive(4)">★</a>
+      <a type="button" title="Give 3 stars" onclick="setActive(3)">★</a>
+      <a type="button" title="Give 2 stars" onclick="setActive(2)">★</a>
+      <a type="button" title="Give 1 star" onclick="setActive(1)">★</a>
+    </div>
     <form class="form container is-max-desktop" id="feedback-form">
+      <input type="hidden" id="rating" name="rating" value="0">
       <div class="field">
         <label for="bug" class="label">Bugs</label>
         <div class="control">
@@ -84,4 +94,5 @@ permalink: "/questions_and_feedback/"
   <script src="{{ site.baseurl }}/assets/js/form-validation.js"></script>
   {% include footer.html %}
 </body>
+
 </html>
