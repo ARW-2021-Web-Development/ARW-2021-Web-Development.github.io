@@ -26,6 +26,10 @@ questionForm.onsubmit = (e) => {
     const message = document.querySelector('.notification-message');
     let delay = 0;
 
+    notification.addEventListener('animationend', () => {
+        notification.classList.remove('is-closed');
+    });
+
     if (!name) {
         errors.push('Name should not be empty');
     }
@@ -40,10 +44,13 @@ questionForm.onsubmit = (e) => {
         errors.push('Question should not be empty');
     }
 
-    // console.log(message.innerText === errors.join('\n'));
+    //don't exit current notification if it has the same error message
     if (message.innerText !== errors.join('\n')) {
-        notification.classList.remove('is-active');
-        delay = 550;
+        if (notification.classList.contains('is-active')) {
+            notification.classList.remove('is-active');
+            notification.classList.add('is-closed');
+            delay = 550;
+        }
     }
 
     if (errors.length === 0) {
@@ -73,6 +80,7 @@ questionForm.onsubmit = (e) => {
             const deleteBtn = document.querySelector('.delete');
             deleteBtn.addEventListener('click', () => {
                 notification.classList.remove('is-active');
+                notification.classList.add('is-closed');
             });
         }, delay);
     }

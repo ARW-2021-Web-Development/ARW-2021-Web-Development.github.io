@@ -28,9 +28,27 @@
   right: 1%
   left: 50%
 
-  transform: scaleX(0)
-  // transform-origin: right
-  transition: transform 450ms linear
-
+  transform: scale(0)
+  transform-origin: bottom right
+  
 .notification.is-active
-  transform: scaleX(1)
+  animation: grow 400ms linear 1 forwards
+
+.notification.is-closed
+  animation: shrink 400ms linear 1 forwards
+
+@keyframes grow 
+  from 
+    transform: scale(0) 
+  to 
+    transform: scale(1)
+
+@keyframes shrink
+  from 
+    transform: scale(1)
+  to 
+    transform: scale(0)
+  
+
+  
+ 
