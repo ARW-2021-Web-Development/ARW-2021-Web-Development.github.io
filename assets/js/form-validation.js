@@ -11,18 +11,18 @@ questionForm.onsubmit = e => {
 
     fetch('https://arw2021submissions.herokuapp.com/post/questions', {
       method: "POST",
-      mode: 'cors',
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json", },
       body: JSON.stringify({ name, email, question }),
-    }).then(res => {
-      console.log(res)
-      return res.json()
-    }).then(data => {
-      button.classList.remove('is-loading')
-      alert(data.message)
-    });
+    })
+      .then(res => res.json())
+      .then(data => {
+        button.classList.remove('is-loading')
+        alert(data.msg)
+      })
+      .catch(err => {
+        button.classList.remove('is-loading')
+        alert(err)
+      });
   }
 }
 
@@ -34,13 +34,19 @@ feedbackForm.onsubmit = e => {
     const button = e.target.children[3].children[0]
     button.classList.add('is-loading')
 
-    const xhr = new XMLHttpRequest()
-    xhr.open('POST', 'https://arw2021submissions.herokuapp.com/post/feedbacks', true)
-    xhr.setRequestHeader('')
-
-    xhr.onload = () => {
-      button.classList.remove('is-loading')
-      alert('Feedback was submitted!')
-    }
+    fetch('https://arw2021submissions.herokuapp.com/post/feedbacks', {
+      method: "POST",
+      headers: { "Content-Type": "application/json", },
+      body: JSON.stringify({ bug, suggestion, compliment }),
+    })
+      .then(res => res.json())
+      .then(data => {
+        button.classList.remove('is-loading')
+        alert(data.msg)
+      })
+      .catch(err => {
+        button.classList.remove('is-loading')
+        alert(err)
+      });
   }
 }
