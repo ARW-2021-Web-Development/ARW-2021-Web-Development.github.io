@@ -1,0 +1,23 @@
+#rating-stars
+  font-size: 45px
+  overflow: hidden
+  direction: rtl
+  $color: orange
+
+  a
+    color: #aaa
+    text-decoration: none
+    -webkit-transition: color .4s
+    -moz-transition: color .4s
+    -o-transition: color .4s
+    transition: color .4s
+
+    &:hover,
+    &:hover ~ a,
+    &:focus,
+    &:focus ~ a
+      color: $color
+      cursor: pointer
+
+  .selected
+    color: $color
