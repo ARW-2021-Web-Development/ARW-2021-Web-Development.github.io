@@ -5,11 +5,19 @@ const ratingValue = document.getElementById('rating');
 const emailPatt =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
+const notification = document.querySelector('.notification');
+const message = document.querySelector('.notification-message');
+const deleteBtn = document.querySelector('.delete');
+let delay = 0;
+
+notification.addEventListener('animationend', () => {
+    notification.classList.remove('is-closed');
+});
+
 function setActive(n) {
-    let i;
     ratingValue.value = n;
     n = 5 - n;
-    for (i = 4; i >= n; i--) {
+    for (var i = 4; i >= n; i--) {
         rating.children[i].classList.add('selected');
     }
     for (; i >= 0; i--) {
@@ -17,18 +25,8 @@ function setActive(n) {
     }
 }
 
-questionForm.onsubmit = (e) => {
-    e.preventDefault();
-    const { name, email, question } = Object.fromEntries(new FormData(e.target));
+function getErrors(name, email, question) {
     const errors = [];
-
-    const notification = document.querySelector('.notification');
-    const message = document.querySelector('.notification-message');
-    let delay = 0;
-
-    notification.addEventListener('animationend', () => {
-        notification.classList.remove('is-closed');
-    });
 
     if (!name) {
         errors.push('Name should not be empty');
@@ -44,6 +42,26 @@ questionForm.onsubmit = (e) => {
         errors.push('Question should not be empty');
     }
 
+    return errors;
+}
+
+function showNotification(errors) {
+    setTimeout(() => {
+        notification.classList.add('is-active');
+        message.innerText = errors.join('\n');
+
+        deleteBtn.addEventListener('click', () => {
+            notification.classList.remove('is-active');
+            notification.classList.add('is-closed');
+        });
+    }, delay);
+}
+
+questionForm.onsubmit = async (e) => {
+    e.preventDefault();
+    const { name, email, question } = Object.fromEntries(new FormData(questionForm));
+    const errors = getErrors(name, email, question);
+
     //don't exit current notification if it has the same error message
     if (message.innerText !== errors.join('\n')) {
         if (notification.classList.contains('is-active')) {
@@ -57,36 +75,20 @@ questionForm.onsubmit = (e) => {
         const button = e.target.children[3].children[0];
         button.classList.add('is-loading');
 
-        fetch('https://arw2021submissions.herokuapp.com/post/questions', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, email, question }),
-        })
-            .then((res) => res.json())
-            .then((data) => {
-                button.classList.remove('is-loading');
-                alert(data.msg);
-            })
-            .catch((err) => {
-                button.classList.remove('is-loading');
-                alert(err);
-            });
-    } else {
-        //show notification
-        setTimeout(() => {
-            notification.classList.add('is-active');
-            message.innerText = errors.join('\n');
+        const data = await sendDataToServer('questions', {
+            name: name || 'No name provided',
+            email: email || 'No email provided',
+            question: question || 'No question provided',
+        });
 
-            const deleteBtn = document.querySelector('.delete');
-            deleteBtn.addEventListener('click', () => {
-                notification.classList.remove('is-active');
-                notification.classList.add('is-closed');
-            });
-        }, delay);
+        button.classList.remove('is-loading');
+        alert(data.msg);
+    } else {
+        showNotification(errors);
     }
 };
 
-feedbackForm.onsubmit = (e) => {
+feedbackForm.onsubmit = async (e) => {
     e.preventDefault();
     const { bug, suggestion, compliment, rating } = Object.fromEntries(new FormData(e.target));
 
@@ -94,19 +96,31 @@ feedbackForm.onsubmit = (e) => {
         const button = e.target.children[4].children[0];
         button.classList.add('is-loading');
 
-        fetch('https://arw2021submissions.herokuapp.com/post/feedbacks', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ rating: parseInt(rating), bug, suggestion, compliment }),
-        })
-            .then((res) => res.json())
-            .then((data) => {
-                button.classList.remove('is-loading');
-                alert(data.msg);
-            })
-            .catch((err) => {
-                button.classList.remove('is-loading');
-                alert(err);
-            });
+        const data = await sendDataToServer('feedbacks', {
+            rating: parseInt(rating),
+            bug: bug || 'No bugs reported',
+            suggestion: suggestion || 'No suggestions made',
+            compliment: compliment || 'Aww, no compliments received',
+        });
+
+        button.classList.remove('is-loading');
+        alert(data.msg);
+    } else {
+        alert('Please rate first before submitting');
     }
 };
+
+async function sendDataToServer(endpoint, data) {
+    const header = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+    };
+
+    try {
+        const result = await fetch(`https://arw2021submissions.herokuapp.com/post/${endpoint}`, header);
+        return result.json();
+    } catch (err) {
+        alert(err);
+    }
+}
