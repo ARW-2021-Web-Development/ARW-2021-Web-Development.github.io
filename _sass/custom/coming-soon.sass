@@ -18,7 +18,7 @@
 
     .container
       position: relative
-      padding: 20px
+      padding: 20px 40px
       z-index: 0
       border-radius: $border-radius
       background: linear-gradient(#ff74d149, #ff74d149)
@@ -51,10 +51,9 @@
       margin: 0
 
       &:focus
-        border: 1px solid transparent
-        box-shadow: none
-
-      &:hover
+        box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.5)
+        
+      &:hover:not(:focus)
         border: 1px solid #b5b5b5
 
     .gradient-text
