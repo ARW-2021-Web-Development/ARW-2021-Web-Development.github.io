@@ -3,6 +3,10 @@
   #construction
     $border-radius: 20px
 
+    .hero-body
+      padding-top: 0
+      padding-bottom: 0
+
     figure
       width: clamp(80px, 50%, 250px)
 
@@ -49,6 +53,8 @@
       font-size: $font-size * 0.6
       height: $font-size * 0.6
       margin: 0
+      padding-left: 30px
+      padding-right: 30px
 
       &:focus
         box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.5)
@@ -71,7 +77,7 @@
 @media (min-width: 768px)
   @include construction
 
-@media (max-width: 330px)
+@media (max-width: 413px)
   #construction .button
     margin-bottom: 1.5em
   
