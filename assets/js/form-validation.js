@@ -9,6 +9,9 @@ const notification = document.querySelector('.notification');
 const message = document.querySelector('.notification-message');
 const deleteBtn = document.querySelector('.delete');
 
+const questionSubmitBtn = document.querySelector('#question-submit');
+const feedbackSubmitBtn = document.querySelector('#feedback-submit');
+
 notification.addEventListener('animationend', () => {
     notification.classList.remove('is-closed');
 });
@@ -44,7 +47,7 @@ function getErrors(name, email, question) {
     return errors;
 }
 
-function showNotification(msg) {
+function showNotificationPopUp(msg) {
     setTimeout(() => {
         notification.classList.add('is-active');
         message.innerText = msg;
@@ -56,20 +59,20 @@ function showNotification(msg) {
     }, 10);
 }
 
+function resetNotificationPopUp() {
+    if (notification.classList.contains('is-active')) {
+        notification.classList.remove('is-active');
+        notification.classList.add('is-closed');
+    }
+}
+
 questionForm.onsubmit = async (e) => {
     e.preventDefault();
     const { name, email, question } = Object.fromEntries(new FormData(questionForm));
     const errors = getErrors(name, email, question);
 
-    //don't exit current notification if it has the same error message
-    if (notification.classList.contains('is-active')) {
-        notification.classList.remove('is-active');
-        notification.classList.add('is-closed');
-    }
-
     if (errors.length === 0) {
-        const button = e.target.children[3].children[0];
-        button.classList.add('is-loading');
+        questionSubmitBtn.classList.add('is-loading');
 
         const data = await sendDataToServer('questions', {
             name: name || 'No name provided',
@@ -77,10 +80,11 @@ questionForm.onsubmit = async (e) => {
             question: question || 'No question provided',
         });
 
-        button.classList.remove('is-loading');
+        questionSubmitBtn.classList.remove('is-loading');
         alert(data.msg);
     } else {
-        showNotification(errors.join('\n'));
+        resetNotificationPopUp();
+        showNotificationPopUp(errors.join('\n'));
     }
 };
 
@@ -88,14 +92,8 @@ feedbackForm.onsubmit = async (e) => {
     e.preventDefault();
     const { bug, suggestion, compliment, rating } = Object.fromEntries(new FormData(e.target));
 
-    if (notification.classList.contains('is-active')) {
-        notification.classList.remove('is-active');
-        notification.classList.add('is-closed');
-    }
-
     if (rating !== '0') {
-        const button = e.target.children[4].children[0];
-        button.classList.add('is-loading');
+        feedbackSubmitBtn.classList.add('is-loading');
 
         const data = await sendDataToServer('feedbacks', {
             rating: parseInt(rating),
@@ -104,10 +102,11 @@ feedbackForm.onsubmit = async (e) => {
             compliment: compliment || 'Aww, no compliments received',
         });
 
-        button.classList.remove('is-loading');
+        feedbackSubmitBtn.classList.remove('is-loading');
         alert(data.msg);
     } else {
-        showNotification('Please rate first before submitting');
+        resetNotificationPopUp();
+        showNotificationPopUp('Please rate first before submitting');
     }
 };
 
