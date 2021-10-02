@@ -31,10 +31,12 @@
   transform-origin: bottom right
   
 .notification.is-active
-  animation: grow 300ms linear 1 forwards
+  animation-delay: 300ms
+  animation: grow 300ms linear forwards
 
 .notification.is-closed
-  animation: shrink 300ms linear 1 forwards
+  animation-delay: 300ms
+  animation: shrink 300ms linear forwards
 
 @keyframes grow 
   from 

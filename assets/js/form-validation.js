@@ -8,7 +8,6 @@ const emailPatt =
 const notification = document.querySelector('.notification');
 const message = document.querySelector('.notification-message');
 const deleteBtn = document.querySelector('.delete');
-let delay = 0;
 
 notification.addEventListener('animationend', () => {
     notification.classList.remove('is-closed');
@@ -45,16 +44,16 @@ function getErrors(name, email, question) {
     return errors;
 }
 
-function showNotification(errors) {
+function showNotification(msg) {
     setTimeout(() => {
         notification.classList.add('is-active');
-        message.innerText = errors.join('\n');
+        message.innerText = msg;
 
         deleteBtn.addEventListener('click', () => {
             notification.classList.remove('is-active');
             notification.classList.add('is-closed');
         });
-    }, delay);
+    }, 10);
 }
 
 questionForm.onsubmit = async (e) => {
@@ -63,12 +62,9 @@ questionForm.onsubmit = async (e) => {
     const errors = getErrors(name, email, question);
 
     //don't exit current notification if it has the same error message
-    if (message.innerText !== errors.join('\n')) {
-        if (notification.classList.contains('is-active')) {
-            notification.classList.remove('is-active');
-            notification.classList.add('is-closed');
-            delay = 550;
-        }
+    if (notification.classList.contains('is-active')) {
+        notification.classList.remove('is-active');
+        notification.classList.add('is-closed');
     }
 
     if (errors.length === 0) {
@@ -84,13 +80,18 @@ questionForm.onsubmit = async (e) => {
         button.classList.remove('is-loading');
         alert(data.msg);
     } else {
-        showNotification(errors);
+        showNotification(errors.join('\n'));
     }
 };
 
 feedbackForm.onsubmit = async (e) => {
     e.preventDefault();
     const { bug, suggestion, compliment, rating } = Object.fromEntries(new FormData(e.target));
+
+    if (notification.classList.contains('is-active')) {
+        notification.classList.remove('is-active');
+        notification.classList.add('is-closed');
+    }
 
     if (rating !== '0') {
         const button = e.target.children[4].children[0];
@@ -106,7 +107,7 @@ feedbackForm.onsubmit = async (e) => {
         button.classList.remove('is-loading');
         alert(data.msg);
     } else {
-        alert('Please rate first before submitting');
+        showNotification('Please rate first before submitting');
     }
 };
 
