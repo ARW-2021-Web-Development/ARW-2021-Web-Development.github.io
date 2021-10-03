@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /*.html$
+Disallow: /assets/
+Disallow: /uploads/
