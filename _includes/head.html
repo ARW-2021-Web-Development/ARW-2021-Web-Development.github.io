@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- start meta tags for social media-->
-    <meta property="og:image" content="https://dlsuarw2021.live/assets/img/logos/ARW.png" />
     <meta property="og:title" content="ARW 2021" />
     <meta
         property="og:description"
@@ -12,15 +11,17 @@
         the numerous orgs for the Lasallian community."
     />
     <meta property="og:url" content="https://dlsuarw2021.live/" />
+    <meta property="og:image" content="https://dlsuarw2021.live/assets/img/logos/ARW.png" />
+ 
     <meta name="twitter:card" content="summary"></meta>
     <!-- end meta tags for social media-->
-    
-    <title>{% if include.title %}{{ include.title }}{% else %}ARW 2021{% endif %}</title>
     <meta
-        name="description"
-        content="The official DLSU Annual Recruitment Week 2021 website. In here you will see
+    name="description"
+    content="The official DLSU Annual Recruitment Week 2021 website. In here you will see
     the numerous orgs for the Lasallian community."
     />
+
+    <title>{% if include.title %}{{ include.title }}{% else %}ARW 2021{% endif %}</title>
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
