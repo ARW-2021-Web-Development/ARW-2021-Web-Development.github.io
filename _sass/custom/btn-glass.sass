@@ -5,13 +5,16 @@
   box-shadow: $shadow
   border: none
   font-weight: 700
+  z-index: 0
 
   &::after
     content: ''
     position: absolute
     //gradient border size
-    inset: 1px
-    background: linear-gradient(to bottom, #fff, #ebebeb 30%, #dee1e3 75%, #b3c4de 100%)
+    inset: 1.5px
+
+    //bg color
+    background: linear-gradient(to bottom, #fff, #DECDF4 30%, #DECDF4 75%, #C3CEED 100%)
     z-index: -1
 
   &::before
