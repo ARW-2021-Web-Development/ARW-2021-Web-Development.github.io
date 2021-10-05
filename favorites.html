@@ -1,0 +1,30 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+  <div id="app">
+    <div v-for="org in orgs">
+      {% raw %}
+      {{ org.name }}
+      {% endraw %}
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue@next"></script>
+  <script>
+    Vue.createApp({
+      data: () => {
+        return {
+          orgs: [{name: 'sample'}]
+        }
+      }
+    }).mount('#app')
+  </script>
+  
+  {% include footer.html %}
+</body>
+</html>
