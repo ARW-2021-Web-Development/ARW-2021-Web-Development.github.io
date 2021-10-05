@@ -2,40 +2,33 @@
 <script src="{{site.baseurl}}/assets/js/burger.js" defer></script>
 
 <header class="nav-container">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item home" href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" class="logos" alt="ARW 2021 Logo" />
-            </a>
-            <form class="navbar-item form">
-                <input type="text" name="search" id="search" class="search-bar" />
-                <img src="{{site.baseurl}}//assets/img/search.png" class="search-icon" alt="" />
-            </form>
-            <a
-                role="button"
-                id="navbar-burger"
-                class="navbar-burger"
-                aria-label="menu"
-                aria-expanded="false"
-                data-target="navMenu"
-            >
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div id="navbar-menu" class="navbar-menu">
-            <div class="navbar-end is-align-items-center">
-                <a href="{{site.baseurl}}/organizations/" class="button btn-gradient navbar-item">Organizations</a>
-                <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">Favorites</a>
-                <a href="{{site.baseurl}}/faq/" class="button btn-gradient navbar-item">FAQs</a>
-                <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">The ARW Elite</a>
-                <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">Museum Day</a>
-                <a href="{{site.baseurl}}/questions_and_feedback/" class="button btn-gradient navbar-item"
-                    >Question & Feedback</a
-                >
-                <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item mr-1">Behind ARW</a>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item home" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" class="logos" alt="ARW 2021 Logo" />
+      </a>
+      <form class="navbar-item form">
+        <input type="text" name="search" id="search" class="search-bar" />
+        <img src="{{site.baseurl}}//assets/img/search.png" class="search-icon" alt="" />
+      </form>
+      <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
+        data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbar-menu" class="navbar-menu">
+      <div class="navbar-end is-align-items-center">
+        <a href="{{site.baseurl}}/organizations/" class="button btn-gradient navbar-item">Organizations</a>
+        <a href="{{site.baseurl}}/favorites/" class="button btn-gradient navbar-item">Favorites</a>
+        <a href="{{site.baseurl}}/faq/" class="button btn-gradient navbar-item">FAQs</a>
+        <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">The ARW Elite</a>
+        <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">Museum Day</a>
+        <a href="{{site.baseurl}}/questions_and_feedback/" class="button btn-gradient navbar-item">Question &
+          Feedback</a>
+        <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item mr-1">Behind ARW</a>
+      </div>
+    </div>
+  </nav>
 </header>
