@@ -39,10 +39,12 @@ $button-radius: 0rem
 
   border: none
   background-color: #B9C2E4
-  min-width: 200%
+  min-width: 150%
   padding: 0.35rem 1rem
 
   box-shadow: inset 0px 3px 4px #7e8394
+
+  font-size: 1rem
 
   &:focus
     outline: 3px solid $clr-main-lavender
@@ -113,7 +115,7 @@ $button-radius: 0rem
     inset: 1px
 
     border-radius: $button-radius
-    background: linear-gradient(to bottom, #fff, #ebebeb 30%, #dee1e3 75%, #b3c4de 100%)
+    background: linear-gradient(to bottom, #fff, #DECDF4 30%, #DECDF4 75%, #C3CEED 100%)
     z-index: -1
 
   &::before
@@ -163,3 +165,6 @@ $button-radius: 0rem
 
   .navbar-item:not(:first-child)
     margin-top: 0.5rem
+  
+  .navbar-item.form
+    margin: 0
