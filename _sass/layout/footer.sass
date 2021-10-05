@@ -5,34 +5,33 @@ $footer-background-color: $background
 $footer-color: false !default
 // $footer-padding: 3rem 1.5rem 6rem !default
 $footer-padding: 3rem 1.5rem 2rem !default
+$clr-footer: linear-gradient(45deg, #D1E0FE, #D1E0FE 40%, #DECDF4 60%, #DECDF4)
+
+.footer-container
+  background: $clr-footer
 
 .footer
   display: flex
   justify-content: space-between
   align-items: center
 
-  margin-top: auto
-  background-color: $footer-background-color
+  max-width: $max-width
+  margin: auto
   padding: $footer-padding
   height: 3.25rem
   @if $footer-color
     color: $footer-color
-
+  
 .slogan
   font-size: $size-3
-  font-weight: $weight-bold
+  font-weight: $weight-black
+  text-transform: uppercase
   color: transparent
 
-  //repeat gradient colors for smoother transition animation
-  background: linear-gradient(45deg, #B097E4, #B088CA, #B589CD, #C07EBC, #CB7CB7, #df82b2, #DB6C9D,#DB6C9D, #df82b2, #CB7CB7, #C07EBC, #B589CD, #B088CA, #B097E4, #B097E4, #B088CA, #B589CD, #C07EBC, #CB7CB7, #df82b2, #DB6C9D,#DB6C9D, #df82b2, #CB7CB7, #C07EBC, #B589CD, #B088CA, #B097E4)
-  background: linear-gradient(#000, #000)
-  background-clip: text
+  background: linear-gradient(to bottom, #EA77AF 40%, #CA87CF 60%, #BE8DDC 80%, #B493E6)
+  -webkit-text-stroke: 1px #B2B2D5
   -webkit-background-clip: text
-  // animation: alex 11s linear infinite
-
-@keyframes alex
-  to
-    background-position: -200% -200%
+  background-clip: text
 
 @media (max-width: 1023px)
   .footer

@@ -1,13 +1,16 @@
 <script src="{{site.baseurl}}/assets/js/navigation.js" defer></script>
 <script src="{{site.baseurl}}/assets/js/burger.js" defer></script>
 
-<header>
+<header class="nav-container">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" alt="ARW 2021 Logo" />
-                <p class="has-text-weight-black">ARW 2021</p>
+            <a class="navbar-item home" href="{{ site.baseurl }}/">
+                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" class="logos" alt="ARW 2021 Logo" />
             </a>
+            <form class="navbar-item">
+                <input type="text" name="search" id="search" class="search-bar" />
+                <img src="{{site.baseurl}}//assets/img/search.png" class="search-icon" alt="" />
+            </form>
             <a
                 role="button"
                 id="navbar-burger"
@@ -26,9 +29,11 @@
                 <a href="{{site.baseurl}}/organizations/" class="button btn-gradient navbar-item">Organizations</a>
                 <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">Favorites</a>
                 <a href="{{site.baseurl}}/faq/" class="button btn-gradient navbar-item">FAQs</a>
-                <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">Mr. & Ms. ARW</a>
+                <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">The ARW Elite</a>
                 <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item">Museum Day</a>
-                <a href="{{site.baseurl}}/questions_and_feedback/" class="button btn-gradient navbar-item">Question & Feedback</a>
+                <a href="{{site.baseurl}}/questions_and_feedback/" class="button btn-gradient navbar-item"
+                    >Question & Feedback</a
+                >
                 <a href="{{site.baseurl}}/" class="button btn-gradient navbar-item mr-1">Behind ARW</a>
             </div>
         </div>

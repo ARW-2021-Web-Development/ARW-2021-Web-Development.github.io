@@ -1,5 +1,57 @@
 $button-radius: 0.85rem
 
+.nav-container
+  position: fixed; 
+  top: 0
+  left: 0;
+  right: 0;
+  
+  background: $clr-header
+  box-shadow: 0px 5px 10px #cccaca
+  z-index: 30;
+
+.nav-container::before
+  content: ''
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 1px
+
+  height: 1px
+  background: linear-gradient(45deg, #CAD2FB, #CAD2FB 40%, #D4BBF1 60%, #D4BBF1)
+
+.nav-container::after
+  content: ''
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+
+  height: 1px
+  background: linear-gradient(45deg, #C2C5F9, #C2C5F9 40%, #cfb4f3 60%, #CFB4EF)
+
+.navbar
+  position: static
+  background: transparent
+
+.search-bar
+  position: relative
+
+  border: none
+  background-color: #B9C2E4
+  min-width: 200%
+  padding: 0.35rem 1rem
+
+  box-shadow: inset 0px 3px 4px #7e8394
+
+  &:focus
+    outline: 3px solid $clr-main-lavender
+
+.search-icon
+  cursor: pointer
+  margin: -28px
+  z-index: 1
+
 .navbar-item
   .logos
     max-height: 3.25rem
@@ -7,9 +59,17 @@ $button-radius: 0.85rem
   .button
     font-weight: $weight-semibold
     font-size: $size-6
+  
+.navbar-item.home
+  margin: 0.5rem
+  padding: 0
+
+.navbar-item.home:focus-visible
+  outline: 3px solid $clr-main-lavender
 
 .btn-gradient
   color: $clr-sub-grape
+  background-color: transparent
   border-radius: $button-radius
   border: none
   z-index: 0
@@ -65,17 +125,28 @@ $button-radius: 0.85rem
     background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
     z-index: -2
 
+@media (max-width: 1350px)
+  .search-bar
+    display: none
+
 @media (max-width: 1023px)
+  .search-bar
+    display: block
+
   .navbar-end
     display: flex
     flex-direction: column
     align-items: center
+  
+  .navbar-burger
+    height: auto
 
   .navbar-menu
     display: block
     position: absolute
     top: -500px
 
+    background: linear-gradient(45deg, #D1E0FE, #D1E0FE 65%, #DECDF4 75%, #DECDF4)
     width: 100%
     z-index: -1
     transform: translateY(-400px)
