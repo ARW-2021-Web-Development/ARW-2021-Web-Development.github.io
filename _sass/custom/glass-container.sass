@@ -1,0 +1,32 @@
+.glass-container
+    width: 60% 
+    flex-grow: 0
+    border-radius: 30px
+    padding: 3.5rem 2.5rem
+    box-shadow: -1px 4px 7px 0 #0000003b
+
+    .title
+        font-size: 3.75rem
+        font-weight: $weight-black
+    .block
+        font-size: 1.25rem
+        font-weight: $weight-bold
+
+$bg-opacity: 0.5
+.glass-container.light-pink
+    background-color: hsla(316deg, 100%, 94%, $bg-opacity)
+
+@media (max-width: 1023px)
+    .glass-container
+        padding: 2.5rem 1.5rem
+        width: 100%
+        .title
+            font-size: 3rem
+        .block
+            font-size: 1rem
+
+@media (max-width: 600px)
+    .glass-container
+        padding: 1.5rem 1.5rem
+        .title
+            font-size: 2rem
