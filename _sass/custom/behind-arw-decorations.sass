@@ -41,7 +41,6 @@
     right: -20%
     transform: translateY(-50%)
     
-
 .decorative.triangle-pink-outline
     position: absolute
     width: Max(15%, 120px)
@@ -58,8 +57,12 @@
 
 .decorative.circle-solid-big
     position: absolute
-    width: Max(15%, 200px)
+    width: Max(15%, 150px)
     bottom: 0
     right: 0
-    transform: translateY(50%)
+    transform: translate(-100%, 50%);
     z-index: -1
+
+@media (max-width: 1023px)
+  .decorative.circle-solid-big
+    transform: translate(50%, 50%);
