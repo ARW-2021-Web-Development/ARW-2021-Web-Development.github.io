@@ -17,11 +17,18 @@
             "
         >
             <figure class="image banner">
-                <img
-                    class="banner-img"
-                    src="{{site.baseurl}}/assets/img/behind-arw-banner.png"
-                    alt="ARW 2021 Central Committee Banner"
-                />
+                <picture>
+                    <source
+                        srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png"
+                        media="(max-width: 800px)"
+                    />
+                    <img
+                        class="banner-img"
+                        src="{{site.baseurl}}/assets/img/behind-arw-banner.png"
+                        alt="ARW 2021 Central Committee Banner"
+                    />
+                </picture>
+
                 <img
                     src="{{site.baseurl}}/assets/img/decorations/circle-solid.png"
                     alt=""
