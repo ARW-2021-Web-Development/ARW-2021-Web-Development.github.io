@@ -22,7 +22,7 @@ html
   background-color: $background
   scroll-behavior: smooth
   padding-top: 4.25rem
-
+ 
 body
   display: flex
   flex-direction: column
@@ -59,3 +59,9 @@ $bg-opacity: 0.5
 
 .columns.is-centered .column
   margin: auto
+
+@media (max-width: 1023px)
+  body
+    height: fit-content
+    overflow: hidden
+  

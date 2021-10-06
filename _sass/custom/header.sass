@@ -39,11 +39,10 @@ $button-radius: 0rem
 
   border: none
   background-color: #B9C2E4
-  min-width: 150%
   padding: 0.35rem 1rem
+  padding-right: 1.75rem
 
   box-shadow: inset 0px 3px 4px #7e8394
-
   font-size: 1rem
 
   &:focus
@@ -128,11 +127,10 @@ $button-radius: 0rem
     background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
     z-index: -2
 
-@media (max-width: 1350px)
-  .search-bar
-    display: none
-
 @media (max-width: 1023px)
+  .search-bar
+    display: block
+
   .navbar-end
     display: flex
     flex-direction: column

@@ -1,5 +1,5 @@
-.decoration-container
-    position: relative
+@import "behind-arw-decorations"
+
 
 .full-height
     display: flex
@@ -8,49 +8,16 @@
 
     min-height: calc(100vh - 4.25rem)
 
-.buffer.quarter-height
-    min-height: 200px
-    max-height: 200px
-
 .banner 
     position: relative
     z-index: 0
 
+.buffer
+    min-height: 200px
+
 .image.banner
     width: 75%
     margin: auto
-
-.decorative.circle-solid
-    position: absolute
-    width: 16%
-    top: -30%
-    right: 0
-
-    z-index: -1
-
-.decorative.circle-outline
-    position: absolute
-    width: 10%
-    top: -5%
-    right: -3%
-
-    z-index: -2
-
-.decorative.triangle-solid
-    position: absolute
-    width: 17%
-    top: 80%
-    left: -3%
-
-    z-index: -2
-
-.decorative.triangle-outline
-    position: absolute
-    width: 12%
-    bottom: -10%
-    left: -5%
-
-    z-index: -1
 
 .glass-container.gradient
     width: 75% 
@@ -67,8 +34,4 @@
         font-size: 1.25rem
         font-weight: $weight-bold
 
-.decorative.cloth
-    position: absolute
-    top: 0
-    right: -20%
-    transform: translateY(-50%)
+@import "behind-arw-mobile"
