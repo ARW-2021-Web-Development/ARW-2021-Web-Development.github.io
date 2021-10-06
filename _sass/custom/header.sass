@@ -127,10 +127,11 @@ $button-radius: 0rem
     background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
     z-index: -2
 
-@media (max-width: 1023px)
+@media (max-width: $max-width)
   .search-bar
     display: none
 
+@media (max-width: 1023px)
   .navbar-end
     display: flex
     flex-direction: column
