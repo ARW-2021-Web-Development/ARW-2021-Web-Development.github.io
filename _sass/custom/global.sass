@@ -28,7 +28,6 @@ body
   flex-direction: column
 
   min-height: 100%
-  max-width: $max-width
   margin: 0 auto
 
   background-color: $background
@@ -39,22 +38,18 @@ html
 .navbar
   @extend .is-fixed-top
 
-@media (min-width: $desktop)
-  .is-full-height
-    height: 100% !important
+.has-letter-spacing
+  letter-spacing: 5px
+
+.columns.is-centered .column
+  margin: auto
 
 #arw-footer-logo
   height: 3.25rem
 
-
-
-.has-letter-spacing
-  letter-spacing: 5px
-
-
-
-.columns.is-centered .column
-  margin: auto
+@media (min-width: $desktop)
+  .is-full-height
+    height: 100% !important
 
 @media (max-width: $max-width)
   body
