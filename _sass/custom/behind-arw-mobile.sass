@@ -8,12 +8,35 @@
     .buffer 
         min-height: 100px
     
-    .glass-container.gradient
-        width: 100%
+@media (max-width: 950px)
+    .pheads-grid,
+    .execom-grid
+        grid-template-columns: repeat(2, 1fr)
 
+    .execom-img:nth-last-child(2)
+        grid-column: auto
+
+    .exec-grid
+        grid-template-columns: repeat(2, 1fr)
+    
+    .exec-card.span-2
+        grid-column: span 1
+
+        .content
+            columns: 1
+    
 @media (max-width: 600px)
     .image.banner
         width: 100%
+
+    .pheads-grid,
+    .execom-grid,
+    .exec-grid
+        grid-template-columns: 1fr
+
+    
+    
+
     
         
 

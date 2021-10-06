@@ -7,7 +7,15 @@
 
     <body>
         {% include header.html %}
-        <div class="section has-text-centered full-height decoration-container">
+        <div
+            class="
+                section
+                has-text-centered
+                full-height
+                decoration-container
+                is-flex is-flex-direction-column is-justify-content-center
+            "
+        >
             <figure class="image banner">
                 <img
                     class="banner-img"
@@ -39,7 +47,15 @@
         <div class="buffer quarter-height decoration-container">
             <img src="{{site.baseurl}}/assets/img/decorations/cloth.png" alt="" class="decorative cloth" />
         </div>
-        <div class="section is-small full-height decoration-container">
+        <div
+            class="
+                section
+                is-small
+                full-height
+                decoration-container
+                is-flex is-flex-direction-column is-justify-content-center
+            "
+        >
             <div class="decoration-wrapper">
                 <div class="container has-text-centered glass-container gradient decoration-container">
                     <h1 class="title inner-text-shadow blue">WHO WE ARE</h1>
@@ -66,6 +82,69 @@
                     alt=""
                     class="decorative circle-solid-big"
                 />
+            </div>
+        </div>
+        <div class="section is-small full-height">
+            <div class="container">
+                <h1 class="title inner-text-shadow blue">PROJECT HEADS</h1>
+                <p class="block has-text-weight-bold" style="color: #553c78">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <div class="pheads-grid">
+                    <img class="phead-img" src="{{site.baseurl}}/assets/img/project heads/jason.png" alt="" />
+                    <img class="phead-img" src="{{site.baseurl}}/assets/img/project heads/miss-boss.png" alt="" />
+                    <img class="phead-img" src="{{site.baseurl}}/assets/img/project heads/sophia.png" alt="" />
+                    <img class="phead-img" src="{{site.baseurl}}/assets/img/project heads/faith.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="section is-small full-height">
+            <div class="container">
+                <h1 class="title inner-text-shadow blue">EXECUTIVE COMMITTEE</h1>
+                <p class="block has-text-weight-bold" style="color: #553c78">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <div class="execom-grid">
+                    <img class="execom-img" src="{{site.baseurl}}/assets/img/execom/ryan.png" alt="" />
+                    <img class="execom-img" src="{{site.baseurl}}/assets/img/execom/ryan.png" alt="" />
+                    <img class="execom-img" src="{{site.baseurl}}/assets/img/execom/ryan.png" alt="" />
+                    <img class="execom-img" src="{{site.baseurl}}/assets/img/execom/ryan.png" alt="" />
+                    <img class="execom-img" src="{{site.baseurl}}/assets/img/execom/ryan.png" alt="" />
+                    <img class="execom-img" src="{{site.baseurl}}/assets/img/execom/ryan.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="section is-small full-height">
+            <div class="container">
+                <h1 class="title inner-text-shadow blue">EXECUTIVES</h1>
+                <p class="block has-text-weight-bold" style="color: #553c78">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum
+                </p>
+
+                <div class="exec-grid">
+                    {% for committee in site.data.committees %}
+                    <div class="exec-card gradient {% if committee.span %} span-2 {% endif %}">
+                        <p class="title">{{committee.title}}</p>
+                        <div class="content">
+                            {% for member in committee.members %}
+                            <p class="name">{{member}}</p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
         {% include footer.html %}
