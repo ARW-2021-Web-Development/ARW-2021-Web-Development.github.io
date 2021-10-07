@@ -1,11 +1,18 @@
+// @extend .inner-text-shadow, .blue
+// display: flex
+// width: 100%
+
+$button-radius: 30px
+
 .btn-glass
-  @extend .inner-text-shadow, .blue
-  display: flex
-  width: 100%
   box-shadow: $shadow
   border: none
   font-weight: 700
   z-index: 0
+  outline: none
+
+  &:focus:not(:active)
+      box-shadow: none
 
   &::after
     content: ''
@@ -23,3 +30,4 @@
     inset: 0
     background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
     z-index: -2
+

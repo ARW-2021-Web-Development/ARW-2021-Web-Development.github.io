@@ -34,6 +34,8 @@ $button-radius: 0rem
   position: static
   background: transparent
 
+  margin-right: 1rem
+
 .search-bar
   position: relative
 
@@ -69,69 +71,11 @@ $button-radius: 0rem
 .navbar-item.home:focus-visible
   outline: 3px solid $clr-main-lavender
 
-.btn-gradient
-  color: $clr-sub-grape
-  background-color: transparent
-  border-radius: $button-radius
-  border: none
-  z-index: 0
-
-  // removes bulma's button styling when focused
-  &:focus:not(:active)
-    box-shadow: none
-
-  &:hover::after,
-  &:focus::after
-    content: ''
-    position: absolute
-    //gradient border size
-    inset: 1.5px
-
-    border-radius: $button-radius
-    background: linear-gradient(to bottom, #fff, #DECDF4 30%, #DECDF4 75%, #C3CEED 100%)
-    z-index: -1
-
-  &:hover::before,
-  &:focus::before
-    content: ''
-    position: absolute
-    inset: 0
-
-    border-radius: $button-radius
-    box-shadow: $shadow
-    background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
-    z-index: -2
-
-.active
-  //removes bulma's button styling when focused
-  &:focus:not(:active)
-    box-shadow: none
-
-  &::after
-    content: ''
-    position: absolute
-    //gradient border size
-    inset: 1px
-
-    border-radius: $button-radius
-    background: linear-gradient(to bottom, #fff, #DECDF4 30%, #DECDF4 75%, #C3CEED 100%)
-    z-index: -1
-
-  &::before
-    content: ''
-    position: absolute
-    inset: 0
-
-    border-radius: $button-radius
-    box-shadow: 0 2px 10px 0 #999
-    background: linear-gradient(to bottom, #9acee4 , #ba9dd2, #cebcdc)
-    z-index: -2
-
 @media (max-width: $max-width)
   .search-bar
     display: none
 
-@media (max-width: 1023px)
+@media (max-width: $desktop)
   .navbar-end
     display: flex
     flex-direction: column
