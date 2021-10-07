@@ -1,39 +1,61 @@
 ---
 layout: behind-arw
 permalink: "/behind-arw/"
-who_we_are: Pinoy kami
-project_heads: Hello friends, hello teachers. Welcome to our Alma Mater.
+who_we_are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum
+project_heads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum
 project_heads_images:
-- "/uploads/hohuqy7mss901.png"
-- "/uploads/1078199.jpg"
-- "/uploads/2918041.jpg"
-- "/uploads/3594040.jpg"
-executive_committee: whoooo execute the executives
+- "/uploads/sophia.png"
+- "/uploads/faith.png"
+- "/uploads/miss-boss.png"
+- "/uploads/jason.png"
+executive_committee: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+  do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+  sunt in culpa qui officia deserunt mollit anim id est laborum
 executive_committee_images:
-- "/uploads/500x500.png"
-- "/uploads/3594040.jpg"
-- "/uploads/hohuqy7mss901.png"
-- "/uploads/1078199.jpg"
-- "/uploads/2918041.jpg"
-executives: ni hao maaaaa
+- "/uploads/ryan.png"
+executives: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum
 committees:
 - template: executive-committee-list
-  title: Com de Com
-  members:
-  - name: Santol ng Tyan
-  - name: Si bukaka
+  title: CORPORATE RELATIONS
+  members: []
 - template: executive-committee-list
-  title: Pinya
-  members:
-  - name: Apple
+  title: DOCUMENTATIONS & FINANCE
+  members: []
 - template: executive-committee-list
-  title: Chupei
-  members:
-  - name: Kimi
+  title: ''
+  members: []
 - template: executive-committee-list
-  title: Span2
-  members:
-  - name: second
-  - name: first
+  title: ''
+  members: []
+- template: executive-committee-list
+  title: ''
+  members: []
+- template: executive-committee-list
+  title: ''
+  members: []
+- template: executive-committee-list
+  title: ''
+  members: []
+- template: executive-committee-list
+  title: ''
+  members: []
 
 ---
