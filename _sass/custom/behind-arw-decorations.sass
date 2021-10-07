@@ -49,22 +49,32 @@
     top: 0
     right: -20%
     transform: translateY(-50%)
+
+    @media (max-width: 800px)
+        min-width: 170%
+        transform: translateY(-60%)
     
 .decorative.triangle-pink-outline
     position: absolute
-    width: Max(15%, 120px)
+    width: Max(15%, 100px)
     top: 0
     left: 0
     transform: translate(-50%, -50%)
     z-index: -2
 
+    @media (max-width: 800px)
+        transform: translate(-10%, -60%)
+
 .decorative.triangle-blue-outline
     position: absolute
-    width: Max(15%, 120px)
+    width: Max(15%, 100px)
     top: 0
     left: 0
     transform: translate(30%, -30%)
     z-index: -1
+
+    @media (max-width: 800px)
+        transform: translate(50%, -60%)
 
 .decorative.circle-solid-big
     position: absolute
