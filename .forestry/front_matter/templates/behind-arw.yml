@@ -9,6 +9,13 @@ fields:
   label: layout
   hidden: true
   default: behind-arw
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  hidden: true
+  default: "/behind-arw/"
 - name: who_we_are
   type: textarea
   default: ''
@@ -67,12 +74,5 @@ fields:
   config:
     min: 
     max: 
-- name: permalink
-  type: text
-  config:
-    required: false
-  label: permalink
-  hidden: true
-  default: "/behind-arw/"
 pages:
 - behind-arw.md
