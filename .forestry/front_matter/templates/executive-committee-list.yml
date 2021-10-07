@@ -9,7 +9,7 @@ fields:
   label: Title
   description: Name of committee
   hidden: false
-- name: name_list
+- name: members
   type: field_group_list
   fields:
   - name: name
@@ -22,5 +22,5 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Name List
-  description: List of names
+  label: Members
+  description: List of members
