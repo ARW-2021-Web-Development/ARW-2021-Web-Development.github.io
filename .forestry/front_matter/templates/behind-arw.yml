@@ -52,18 +52,24 @@ fields:
       format: markdown
   label: Executives
   description: Description
-- name: executives_list
+- name: committees
   type: field_group_list
   fields:
-  - name: name
-    type: text
+  - name: committee
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
     config:
-      required: false
-    label: Name
-    description: Name
+      min: 
+      max: 
+      labelField: 
+    label: Committee
   config:
     min: 
     max: 
     labelField: 
-  label: Executives List
-  description: List of names
+  label: Committees
