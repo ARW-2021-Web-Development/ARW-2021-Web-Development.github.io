@@ -10,6 +10,7 @@ project_heads_images:
 - "/uploads/3594040.jpg"
 executive_committee: whoooo execute the executives
 executive_committee_images:
+- "/uploads/500x500.png"
 - "/uploads/3594040.jpg"
 - "/uploads/hohuqy7mss901.png"
 - "/uploads/1078199.jpg"
@@ -25,5 +26,14 @@ committees:
   title: Pinya
   members:
   - name: Apple
+- template: executive-committee-list
+  title: Chupei
+  members:
+  - name: Kimi
+- template: executive-committee-list
+  title: Span2
+  members:
+  - name: second
+  - name: first
 
 ---
