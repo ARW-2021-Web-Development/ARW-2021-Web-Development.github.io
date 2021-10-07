@@ -14,10 +14,10 @@ project_heads: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
   officia deserunt mollit anim id est laborum
 project_heads_images:
+- "/uploads/jason.png"
+- "/uploads/miss-boss.png"
 - "/uploads/sophia.png"
 - "/uploads/faith.png"
-- "/uploads/miss-boss.png"
-- "/uploads/jason.png"
 executive_committee: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
   do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
   veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
