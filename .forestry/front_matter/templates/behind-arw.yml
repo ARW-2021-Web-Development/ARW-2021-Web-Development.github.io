@@ -1,4 +1,62 @@
 ---
 label: Behind ARW
 hide_body: false
-fields: []
+fields:
+- name: who_we_are
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Who We Are
+  description: Description
+- name: project_heads
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Project Heads
+  description: Description
+- name: project_heads_images
+  type: image_gallery
+  config: {}
+  label: Project Heads Images
+  description: Images of the Project Heads
+- name: executive_committee
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Executive Committee
+  description: Description
+- name: executive_committee_images
+  type: image_gallery
+  config: {}
+  label: Executive Committee Images
+  description: Images for executive committee
+- name: executives
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Executives
+  description: Description
+- name: executives_list
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Executives List
+  description: List of names
