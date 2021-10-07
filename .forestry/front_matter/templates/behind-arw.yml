@@ -52,3 +52,11 @@ fields:
       format: markdown
   label: Executives
   description: Description
+- name: committees
+  type: blocks
+  label: Committees
+  template_types:
+  - executive-committee-list
+  config:
+    min: 
+    max: 
