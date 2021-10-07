@@ -1,4 +1,26 @@
 ---
 label: Executive Committee List
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Name of committee
+  hidden: false
+- name: name_list
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: Name
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Name List
+  description: List of names
