@@ -64,7 +64,7 @@
             "
         >
             <div class="decoration-wrapper">
-                <div class="container has-text-centered glass-container gradient decoration-container">
+                <div class="container has-text-centered glass-container gradient glass decoration-container">
                     <h1 class="title inner-text-shadow blue">WHO WE ARE</h1>
                     <p class="block has-text-weight-bold" style="color: #553c78">{{page.who_we_are}}</p>
                     <img
@@ -87,7 +87,7 @@
         </div>
         <div class="section is-small full-height">
             <div class="container">
-                <h1 class="title inner-text-shadow blue">PROJECT HEADS</h1>
+                <h1 class="title inner-text-shadow blue is-uppercase">PROJECT HEADS</h1>
                 <p class="block has-text-weight-bold" style="color: #553c78">{{page.project_heads}}</p>
                 <div class="pheads-grid">
                     {% for img in page.project_heads_images%}
@@ -98,7 +98,7 @@
         </div>
         <div class="section is-small full-height">
             <div class="container">
-                <h1 class="title inner-text-shadow blue">EXECUTIVE COMMITTEE</h1>
+                <h1 class="title inner-text-shadow blue is-uppercase">EXECUTIVE COMMITTEE</h1>
                 <p class="block has-text-weight-bold" style="color: #553c78">{{page.executive_committee}}</p>
                 <div class="execom-grid">
                     {% for img in page.executive_committee_images%}
@@ -109,12 +109,12 @@
         </div>
         <div class="section is-small full-height">
             <div class="container">
-                <h1 class="title inner-text-shadow blue">EXECUTIVES</h1>
+                <h1 class="title inner-text-shadow blue is-uppercase">EXECUTIVES</h1>
                 <p class="block has-text-weight-bold" style="color: #553c78">{{page.executives}}</p>
                 <div class="exec-grid">
                     {% for committee in page.committees %}
-                    <div class="exec-card gradient {% if forloop.index == 4 %} span-2 {% endif %}">
-                        <p class="title">{{committee.title}}</p>
+                    <div class="exec-card gradient glass {% if forloop.index == 4 %} span-2 {% endif %}">
+                        <p class="title is-uppercase">{{committee.title}}</p>
                         <div class="content">
                             {% for member in committee.members %}
                             <p class="name">{{member.name}}</p>
