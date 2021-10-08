@@ -1,130 +1,80 @@
----
----
-
 <!DOCTYPE html>
 <html lang="en">
-    {% include head.html %}
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <div
+    class="section has-text-centered full-height decoration-container is-flex is-flex-direction-column is-justify-content-center">
+    <figure class="image banner">
+      <picture>
+        <source srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png" media="(max-width: 800px)">
+        <img class="banner-img" src="{{site.baseurl}}/assets/img/behind-arw-banner.png"
+          alt="ARW 2021 Central Committee Banner" />
+      </picture>
 
-    <body>
-        {% include header.html %}
-        <div
-            class="
-                section
-                has-text-centered
-                full-height
-                decoration-container
-                is-flex is-flex-direction-column is-justify-content-center
-            "
-        >
-            <figure class="image banner">
-                <picture>
-                    <source
-                        srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png"
-                        media="(max-width: 800px)"
-                    />
-                    <img
-                        class="banner-img"
-                        src="{{site.baseurl}}/assets/img/behind-arw-banner.png"
-                        alt="ARW 2021 Central Committee Banner"
-                    />
-                </picture>
-
-                <img
-                    src="{{site.baseurl}}/assets/img/decorations/circle-solid.png"
-                    alt=""
-                    class="decorative circle-solid"
-                />
-                <img
-                    src="{{site.baseurl}}/assets/img/decorations/circle-outline.png"
-                    alt=""
-                    class="decorative circle-outline"
-                />
-                <img
-                    src="{{site.baseurl}}/assets/img/decorations/triangle-solid.png"
-                    alt=""
-                    class="decorative triangle-solid"
-                />
-                <img
-                    src="{{site.baseurl}}/assets/img/decorations/triangle-outline.png"
-                    alt=""
-                    class="decorative triangle-outline"
-                />
-            </figure>
+      <img src="{{site.baseurl}}/assets/img/decorations/circle-solid.png" alt="" class="decorative circle-solid">
+      <img src="{{site.baseurl}}/assets/img/decorations/circle-outline.png" alt="" class="decorative circle-outline">
+      <img src="{{site.baseurl}}/assets/img/decorations/triangle-solid.png" alt="" class="decorative triangle-solid">
+      <img src="{{site.baseurl}}/assets/img/decorations/triangle-outline.png" alt="" class="decorative triangle-outline" />
+    </figure>
+  </div>
+  <div class="buffer quarter-height decoration-container">
+    <img src="{{site.baseurl}}/assets/img/decorations/cloth.png" alt="" class="decorative cloth" />
+  </div>
+  <div class="section is-small mt-6 decoration-container is-flex is-flex-direction-column is-justify-content-center">
+    <div class="decoration-wrapper">
+      <div class="container has-text-centered glass-container gradient decoration-container">
+        <h1 class="title inner-text-shadow blue">WHO WE ARE</h1>
+        <p class="block has-text-weight-bold" style="color: #553c78">{{page.who_we_are}}</p>
+        <img src="{{site.baseurl}}/assets/img/decorations/triangle-blue-outline.png" alt=""
+          class="decorative triangle-blue-outline" />
+        <img src="{{site.baseurl}}/assets/img/decorations/triangle-pink-outline.png" alt=""
+          class="decorative triangle-pink-outline" />
+      </div>
+      <img src="{{site.baseurl}}/assets/img/decorations/circle-solid-big.png" alt=""
+        class="decorative circle-solid-big" />
+    </div>
+  </div>
+  <div class="section is-small full-height">
+    <div class="container">
+      <h1 class="title inner-text-shadow blue">PROJECT HEADS</h1>
+      <p class="block has-text-weight-bold" style="color: #553c78">{{page.project_heads}}</p>
+      <div class="pheads-grid">
+        {% for img in page.project_heads_images%}
+        <img class="phead-img" src="{{site.baseurl}}{{img}}" alt="Project Head of ARW" />
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="section is-small full-height">
+    <div class="container">
+      <h1 class="title inner-text-shadow blue">EXECUTIVE COMMITTEE</h1>
+      <p class="block has-text-weight-bold" style="color: #553c78">{{page.executive_committee}}</p>
+      <div class="execom-grid">
+        {% for img in page.executive_committee_images%}
+        <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="section is-small full-height">
+    <div class="container">
+      <h1 class="title inner-text-shadow blue">EXECUTIVES</h1>
+      <p class="block has-text-weight-bold" style="color: #553c78">{{page.executives}}</p>
+      <div class="exec-grid">
+        {% for committee in site.data.committees %}
+        <div class="exec-card gradient {% if forloop.index == 4 %} span-2 {% endif %}">
+          <p class="title">{{ committee.title }}</p>
+          <div class="content">
+            {% for member in committee.members %}
+            <p class="name">{{ member }}</p>
+            {% endfor %}
+          </div>
         </div>
-        <div class="buffer quarter-height decoration-container">
-            <img src="{{site.baseurl}}/assets/img/decorations/cloth.png" alt="" class="decorative cloth" />
-        </div>
-        <div
-            class="
-                section
-                is-small
-                mt-6
-                decoration-container
-                is-flex is-flex-direction-column is-justify-content-center
-            "
-        >
-            <div class="decoration-wrapper">
-                <div class="container has-text-centered glass-container gradient decoration-container">
-                    <h1 class="title inner-text-shadow blue">WHO WE ARE</h1>
-                    <p class="block has-text-weight-bold" style="color: #553c78">{{page.who_we_are}}</p>
-                    <img
-                        src="{{site.baseurl}}/assets/img/decorations/triangle-blue-outline.png"
-                        alt=""
-                        class="decorative triangle-blue-outline"
-                    />
-                    <img
-                        src="{{site.baseurl}}/assets/img/decorations/triangle-pink-outline.png"
-                        alt=""
-                        class="decorative triangle-pink-outline"
-                    />
-                </div>
-                <img
-                    src="{{site.baseurl}}/assets/img/decorations/circle-solid-big.png"
-                    alt=""
-                    class="decorative circle-solid-big"
-                />
-            </div>
-        </div>
-        <div class="section is-small full-height">
-            <div class="container">
-                <h1 class="title inner-text-shadow blue">PROJECT HEADS</h1>
-                <p class="block has-text-weight-bold" style="color: #553c78">{{page.project_heads}}</p>
-                <div class="pheads-grid">
-                    {% for img in page.project_heads_images%}
-                    <img class="phead-img" src="{{site.baseurl}}{{img}}" alt="Project Head of ARW" />
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-        <div class="section is-small full-height">
-            <div class="container">
-                <h1 class="title inner-text-shadow blue">EXECUTIVE COMMITTEE</h1>
-                <p class="block has-text-weight-bold" style="color: #553c78">{{page.executive_committee}}</p>
-                <div class="execom-grid">
-                    {% for img in page.executive_committee_images%}
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-        <div class="section is-small full-height">
-            <div class="container">
-                <h1 class="title inner-text-shadow blue">EXECUTIVES</h1>
-                <p class="block has-text-weight-bold" style="color: #553c78">{{page.executives}}</p>
-                <div class="exec-grid">
-                    {% for committee in page.committees %}
-                    <div class="exec-card gradient {% if forloop.index == 4 %} span-2 {% endif %}">
-                        <p class="title">{{committee.title}}</p>
-                        <div class="content">
-                            {% for member in committee.members %}
-                            <p class="name">{{member.name}}</p>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-        {% include footer.html %}
-    </body>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
 </html>
