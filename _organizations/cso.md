@@ -8,12 +8,12 @@ hero_bg: "/uploads/3594040.jpg"
 main_pub: "/uploads/hohuqy7mss901.png"
 complete_name: Council of Student Organizations
 abbr: CSO
-about_us: "<h1><strong>48 Organizations. <br>9 Executive Teams. <em>1 CSO.</em></strong></h1>"
-tagline: "<p>The Council of Student Organizations is the union of accredited professional,
+about_us: "<p>The Council of Student Organizations is the union of accredited professional,
   special interest, and socio-civic organizations of De La Salle University.</p><p>Since
   its founding in <strong>1974</strong>, the Council has continuously delivered quality
   student services and has produced outstanding student leaders dedicated to serving
   and contributing to the Lasallian Community.</p>"
+tagline: "<h1><strong>49 Organizations.<br>9 Executive Teams. <em>1 CSO.</em></strong></h1>"
 vision: "<p>The Council of Student Organizations is committed to delivering <strong>quality
   services and activities</strong> as well as developing <strong>proactive and dynamic
   student leaders</strong> befitting the standards of a world-class research University.
