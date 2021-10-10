@@ -49,13 +49,13 @@
                 <div class="columns is-desktop">
                     <div class="column">
                         <figure class="image is-16by9">
-                            <iframe src="{{ page.vid_link }}" frameborder="0" class="has-ratio"></iframe>
+                            <iframe src="{{ page.vid_link }}" frameborder="0" title="Video Player" class="has-ratio" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </figure>
                     </div>
                     <div class="column">
                         <div class="container">
                             <p class="title is-5 has-text-weight-bold">{{ page.abbr }}</p>
-                            <p>{{ page.about_us }}</p>
+                            <div class="content has-text-justified">{{ page.about_us }}</div>
                         </div>
                     </div>
                 </div>
@@ -66,11 +66,11 @@
                         <div class="is-flex is-flex-direction-column is-justify-content-space-around is-full-height">
                             <div class="block">
                                 <h1 class="title inner-text-shadow light-pink has-letter-spacing">MISSION</h1>
-                                <div class="content">{{ page.mission }}</div>
+                                <div class="content has-text-justified">{{ page.mission }}</div>
                             </div>
                             <div class="block">
                                 <h1 class="title inner-text-shadow light-pink has-letter-spacing">VISION</h1>
-                                <div class="content">{{ page.vision }}</div>
+                                <div class="content has-text-justified">{{ page.vision }}</div>
                             </div>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ mission: "<p>The Council of Student Organizations provides relevant and quality 
   We are pioneers of nation-building and Lasallian-formation by maintaining a sense
   of social awareness and spiritual growth in our activities.</p>"
 reg_link: https://google.com
-vid_link: https://www.youtube.com/watch?v=iNXtXLXj_a4
+vid_link: https://www.youtube.com/embed/iNXtXLXj_a4
 events:
 - "/uploads/3594040.jpg"
 - "/uploads/hohuqy7mss901.png"
