@@ -36,6 +36,7 @@
   position: relative
 
   border: none
+  border-radius: 50px
   background-color: #B9C2E4
   padding: 0.35rem 1rem
   padding-right: 1.75rem
@@ -63,12 +64,11 @@
   margin: 0.5rem
   padding: 0
 
-.navbar-item.home:focus-visible,
-.navbar-item.home:hover
+.navbar-item.home:focus-visible
   outline: 3px solid $clr-main-lavender
 
-@media (max-width: $max-width)
-  .search-bar
+@media (max-width: 1300px)
+  .navbar-item.form
     display: none
 
 @media (max-width: $desktop)
