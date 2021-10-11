@@ -4,17 +4,28 @@ permalink: '/favorites/'
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
+
 <body>
   {% include header.html %}
 
-  <div id="app" class="columns container is-multiline">
-    <div v-for="[key, value] in favs" class="column is-4" :key="key">
-      {% raw %}
-      <figure class="image is-square">
-        <img :src="baseurl + value" alt="">
-      </figure>
-      <a :href="baseurl + '/' + key" class="button">{{ key }}</a>
-      {% endraw %}
+  <h1 class="title has-text-centered">MY FAVORITE ORGANIZATIONS</h1>
+  <div id="app" class="container">
+    <div class="columns is-multiline">
+      <div v-for="[key, value] in favs" class="column is-4" :key="key">
+          {% raw %}
+          <figure class="image is-square is-fullwidth">
+            <img class="is-rounded" :src="baseurl + value" :alt="key + 'Logo'">
+          </figure>
+          <a :href="baseurl + '/' + key" class="button">{{ key }}</a>
+          {% endraw %}
+      </div>
+
+      <div v-if="!favs.size" class="column is-full">
+				<div class="is-flex is-flex-direction-column">
+					<p class="subtitle is-3 grape" style="font-weight: 600">Seems link you don't have any favorite organizations yet!</p>
+					<a href="{{ site.baseurl }}/organizations/" class="button">VIEW ORGANIZATIONS</a>
+				</div>
+      </div>
     </div>
   </div>
 
@@ -31,7 +42,8 @@ permalink: '/favorites/'
 
     window.onbeforeunload = () => setFavorites(favs)
   </script>
-  
+
   {% include footer.html %}
 </body>
+
 </html>

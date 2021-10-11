@@ -1,5 +1,6 @@
 function getFavorites() {
-  return new Map(Object.entries(JSON.parse(localStorage.getItem('favorites'))))
+  const data = JSON.parse(localStorage.getItem('favorites'))
+  return new Map(data ? Object.entries(data) : data)
 }
 
 function setFavorites(favs) {
