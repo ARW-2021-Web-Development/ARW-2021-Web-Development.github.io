@@ -18,17 +18,17 @@ permalink: '/organizations/'
     </div>
   </div>
   <main class="container is-max-widescreen">
-    <section class="section">
+    <section class="section mb-6">
       {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
       <h1 class="title is-1 inner-text-shadow purple has-text-centered">{{ cso.complete_name }}</h1>
-      <p class="subtitle has-text-centered">Description for CSO</p>
+      <p class="subtitle has-text-centered purple has-text-weight-bold">Description for CSO</p>
       <div class="columns is-centered">
         <div class="column is-one-third">
           <div class="container">
             <figure class="image is-square">
               <img class="is-rounded" src="{{ site.baseurl }}/{{ cso.logo }}" alt="CSO Logo"></img>
             </figure>
-            <a href="{{ site.baseurl }}/{{ cso.abbr }}" class="button is-fullwidth">{{ cso.abbr }}</a>
+            <a href="{{ site.baseurl }}/{{ cso.abbr | downcase  }}" class="button is-fullwidth btn-glass">{{ cso.abbr }}</a>
           </div>
         </div>
       </div>
@@ -37,15 +37,15 @@ permalink: '/organizations/'
     {% for cluster in site.data.clusters %}
     <section class="section">
       <h1 class="title inner-text-shadow {{ cluster.color }}">{{ cluster.abbr }}</h1>
-      <p class="subtitle">{{ cluster.description }}</p>
+      <p class="subtitle {{ cluster.color }} has-text-weight-bold">{{ cluster.description }}</p>
       <div class="columns is-multiline">
         {% for org in site.organizations %}
         {% if org.cluster == cluster.abbr %}
         <div class="column is-one-quarter">
-          <figure class="image is-square">
+          <figure class="image is-square mb-3">
             <img src="{{ site.baseurl }}/{{ org.logo }}" alt="{{ org.complete_name }} Logo" class="is-rounded">
           </figure>
-          <a href="{{ site.baseurl }}/{{ org.abbr }}" class="button is-fullwidth">{{ org.abbr }}</a>
+          <a href="{{ site.baseurl }}/{{ org.abbr | downcase }}" class="button is-fullwidth btn-glass">{{ org.abbr }}</a>
         </div>
         {% endif %}
         {% endfor %}
