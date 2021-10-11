@@ -7,23 +7,29 @@ permalink: '/favorites/'
 <body>
   {% include header.html %}
 
-  <div id="app">
-    <div v-for="org in orgs">
+  <div id="app" class="columns container is-multiline">
+    <div v-for="[key, value] in favs" class="column is-4" :key="key">
       {% raw %}
-      {{ org.name }}
+      <figure class="image is-square">
+        <img :src="baseurl + value" alt="">
+      </figure>
+      <a :href="'/' + key" class="button">{{ key }}</a>
       {% endraw %}
     </div>
   </div>
 
   <script src="https://unpkg.com/vue@next"></script>
+  <script src="{{ site.baseurl }}/assets/js/favorites.js"></script>
   <script>
+    const favs = getFavorites()
     Vue.createApp({
-      data: () => {
-        return {
-          orgs: [{name: 'sample'}]
-        }
+      data: () => { return { favs, baseurl: '{{ site.baseurl }}' } },
+      method: {
+
       }
     }).mount('#app')
+
+    window.onbeforeunload = () => setFavorites(favs)
   </script>
   
   {% include footer.html %}
