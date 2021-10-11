@@ -1,23 +1,23 @@
-CSO:
+- abbr: CSO
   name: Council of Student Organizations
   description: This is the description for CSO
 
-ASO:
+- abbr: ASO
   name: Alliance of Science Organizations
   description: This is the description for ASO
 
-ASPIRE:
+- abbr: ASPIRE
   name: College of Education and Special Interest and Socio-Civic Organizations
   description: This is the description for ASPIRE
 
-CAP12:
+- abbr: CAP12
   name: College of Liberal Arts Organizations
   description: This is the description for CAP12
 
-PROBE:
+- abbr: PROBE
   name: Professional Organizations of Business and Economics
   description: This is the description for PROBE
 
-ENGAGE:
+- abbr: ENGAGE
   name: Engineering Alliance Geared Towards Excellence
   description: This is the description for ENGAGE

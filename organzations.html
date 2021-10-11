@@ -4,14 +4,14 @@ permalink: '/organizations/'
 
 <!DOCTYPE html>
 <html lang="en">
-    {% include head.html title="Organizations" %}
-    <body>
-        {% include header.html %}
-        <main class="container is-max-widescreen">
-            {% for org in site.organizations %}
-            <a href="../{{org.abbr | downcase}}/">{{ org.complete_name }}</a>
-            {% endfor %}
-        </main>
-        {% include footer.html %}
-    </body>
+{% include head.html title="Organizations" %}
+<body>
+	{% include header.html %}
+	<main class="container is-max-widescreen">
+		{% for org in site.organizations %}
+		<a href="../{{org.abbr | downcase}}/">{{ org.complete_name }}</a>
+		{% endfor %}
+	</main>
+	{% include footer.html %}
+</body>
 </html>
