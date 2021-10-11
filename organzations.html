@@ -5,13 +5,54 @@ permalink: '/organizations/'
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html title="Organizations" %}
+
 <body>
-	{% include header.html %}
-	<main class="container is-max-widescreen">
-		{% for org in site.organizations %}
-		<a href="../{{org.abbr | downcase}}/">{{ org.complete_name }}</a>
-		{% endfor %}
-	</main>
-	{% include footer.html %}
+  {% include header.html %}
+  <div class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <figure class="image">
+          <img src="{{ site.baseurl }}/assets/img/organizations-banner.png" alt="Organizations Banner">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <main class="container is-max-widescreen">
+    <section class="section">
+      {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
+      <h1 class="title is-1 inner-text-shadow purple has-text-centered">{{ cso.complete_name }}</h1>
+      <p class="subtitle has-text-centered">Description for CSO</p>
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="container">
+            <figure class="image is-square">
+              <img class="is-rounded" src="{{ site.baseurl }}/{{ cso.logo }}" alt="CSO Logo"></img>
+            </figure>
+            <a href="{{ site.baseurl }}/{{ cso.abbr }}" class="button is-fullwidth">{{ cso.abbr }}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% for cluster in site.data.clusters %}
+    <section class="section">
+      <h1 class="title inner-text-shadow {{ cluster.color }}">{{ cluster.abbr }}</h1>
+      <p class="subtitle">{{ cluster.description }}</p>
+      <div class="columns is-multiline">
+        {% for org in site.organizations %}
+        {% if org.cluster == cluster.abbr %}
+        <div class="column is-one-quarter">
+          <figure class="image is-square">
+            <img src="{{ site.baseurl }}/{{ org.logo }}" alt="{{ org.complete_name }} Logo" class="is-rounded">
+          </figure>
+          <a href="{{ site.baseurl }}/{{ org.abbr }}" class="button is-fullwidth">{{ org.abbr }}</a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </section>
+    {% endfor %}
+  </main>
+  {% include footer.html %}
 </body>
+
 </html>
