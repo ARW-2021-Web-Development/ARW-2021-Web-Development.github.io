@@ -13,7 +13,7 @@ permalink: '/favorites/'
       <figure class="image is-square">
         <img :src="baseurl + value" alt="">
       </figure>
-      <a :href="'/' + key" class="button">{{ key }}</a>
+      <a :href="baseurl + '/' + key" class="button">{{ key }}</a>
       {% endraw %}
     </div>
   </div>

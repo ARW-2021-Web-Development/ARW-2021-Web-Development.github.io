@@ -35,6 +35,7 @@ sass:
 collections:
     organizations:
         output: true
+        permalink: /:name
 # Build settings
 # theme: minima
 # plugins:
