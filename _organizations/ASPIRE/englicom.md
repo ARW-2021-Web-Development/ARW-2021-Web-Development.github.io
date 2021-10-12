@@ -31,6 +31,6 @@ events:
 - "/uploads/1078199.jpg"
 title_color: rgb(243, 101, 88)
 button_color: rgb(255, 213, 175)
-description_color: rgb(74, 74, 74)
+description_color: rgb(0, 0, 0)
 
 ---
