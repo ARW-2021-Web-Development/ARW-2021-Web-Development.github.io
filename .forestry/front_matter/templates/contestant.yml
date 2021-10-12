@@ -7,26 +7,26 @@ fields:
   config:
     required: false
   label: Organization Name
-- name: mr_name
+- name: abbr
   type: text
   config:
     required: true
-  label: Mr. ARW Name
-- name: mr_pic
-  type: file
-  config:
-    maxSize: 10
-  label: Mr. ARW Picture
-- name: ms_name
+  label: Org Name Abbreviation
+- name: full_name
   type: text
   config:
-    required: false
-  label: Ms. ARW Name
-- name: ms_pic
+    required: true
+  label: Person's Full Name
+- name: formal_shot
   type: file
   config:
     maxSize: 10
-  label: Ms. ARW Picture
+  label: Formal Shot
+- name: creative_shot
+  type: file
+  config:
+    maxSize: 10
+  label: Creative Shot
 - name: vid_link
   type: text
   config:
