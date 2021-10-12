@@ -153,10 +153,11 @@
                         <button
                             class="button is-large block is-fullwidth is-custom"
                             style="max-width: 300px"
-                            onclick="saveFavorite"
+                            onclick="saveFavorite()"
                         >
                             <span class="icon is-medium">
                                 <i class="far fa-heart fa-lg"></i>
+                                <i class="fa fa-heart fa-lg"></i>
                             </span>
                             <span>Favorites</span>
                         </button>
@@ -174,14 +175,17 @@
             const favs = getFavorites();
 
             function saveFavorite() {
-                const likeBtn = document.querySelector('.fa.fa-heart');
-                if (likeBtn.classList.contains('like')) {
-                    likeBtn.classList.add('unlike');
-                    likeBtn.classList.remove('like');
-                } else {
-                    likeBtn.classList.add('like');
-                    likeBtn.classList.remove('unlike');
-                }
+                const likeBtn = document.querySelectorAll('.fa.fa-heart');
+                console.log(likeBtn);
+                likeBtn.forEach((btn) => {
+                    if (btn.classList.contains('like')) {
+                        btn.classList.add('unlike');
+                        btn.classList.remove('like');
+                    } else {
+                        btn.classList.add('like');
+                        btn.classList.remove('unlike');
+                    }
+                });
 
                 if (!favs.delete('{{ page.abbr }}')) {
                     favs.set('{{ page.abbr }}', '{{ page.logo }}');
