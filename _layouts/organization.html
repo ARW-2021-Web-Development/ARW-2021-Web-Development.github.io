@@ -173,10 +173,20 @@
         <script src="{{ site.baseurl }}/assets/js/favorites.js"></script>
         <script defer>
             const favs = getFavorites();
+            const likeBtn = document.querySelectorAll('.fa.fa-heart');
+            (() => {
+                likeBtn.forEach((btn) => {
+                    if (!favs.get('{{ page.abbr }}')) {
+                        btn.classList.add('unlike');
+                        btn.classList.remove('like');
+                    } else {
+                        btn.classList.add('like');
+                        btn.classList.remove('unlike');
+                    }
+                });
+            })();
 
             function saveFavorite() {
-                const likeBtn = document.querySelectorAll('.fa.fa-heart');
-                console.log(likeBtn);
                 likeBtn.forEach((btn) => {
                     if (btn.classList.contains('like')) {
                         btn.classList.add('unlike');
