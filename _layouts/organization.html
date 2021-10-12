@@ -4,110 +4,115 @@
 
 <body>
   {% include header.html %}
-  <main class="container is-max-widescreen">
-    <section class="section is-small">
-      <figure class="image is-256x256 block" style="margin: 20px auto">
-        <img class="is-rounded" src="{{ site.baseurl }}{{ page.logo }}" alt="{{ page.complete_name }} logo" />
-      </figure>
-      <h1 class="title has-text-centered inner-text-shadow pink has-letter-spacing">{{ page.abbr }}</h1>
-      <div class="columns is-centered">
-        <div class="column is-four-fifths-mobile is-one-third">
-          <a rel="noreferrer" target="_blank"
-            class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
-            href="{{ page.fb_link }}">Facebook Page</a>
+  <div class="hero is-fullheight-with-navbar"
+    style="background: url('{{ site.baseurl }}{{ page.hero_bg }}') no-repeat; background-size: cover;">
+    <div class="hero-body">
+      <div class="container is-max-widescreen">
+        <div>
+          <figure class="image is-256x256 block" style="margin: 20px auto">
+            <img class="is-rounded" src="{{ site.baseurl }}{{ page.logo }}" alt="{{ page.complete_name }} logo" />
+          </figure>
+          <h1 class="title has-text-centered inner-text-shadow pink has-letter-spacing">{{ page.abbr }}</h1>
+          <div class="columns is-centered">
+            <div class="column is-four-fifths-mobile is-one-quarter">
+              <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
+                href="{{ page.fb_link }}">Facebook Page</a>
+            </div>
+            <div class="column is-four-fifths-mobile is-one-quarter">
+              <button rel="noreferrer" target="_blank" class="button is-medium is-fullwidth gradient flat-glass grape"
+                id="fav-btn">
+                Add to Favorites
+              </button>
+            </div>
+            <div class="column is-four-fifths-mobile is-one-quarter">
+              <a rel="noreferrer" target="_blank" class="button is-medium is-fullwidth gradient flat-glass grape"
+                href="https://www.instagram.com/dlsu_arw/">Register Here</a>
+            </div>
+          </div>
         </div>
-        <div class="column is-four-fifths-mobile is-one-third">
-          <button rel="noreferrer" target="_blank"
-            class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold" id="fav-btn">
+        <div class="mt-6">
+          <div class="columns is-desktop">
+            <div class="column">
+              <figure class="image is-16by9">
+                <iframe src="{{ page.vid_link }}" frameborder="0" title="Video Player" class="has-ratio"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </figure>
+            </div>
+            <div class="column">
+              <div class="container pressed-glass">
+                <p class="title is-5 has-text-weight-bold">{{ page.abbr }}</p>
+                <div class="content has-text-justified">{{ page.about_us }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="section is-small container is-max-widescreen">
+    <div class="columns">
+      <div class="column">
+        <div class="is-flex is-flex-direction-column is-justify-content-space-around is-full-height">
+          <div class="block">
+            <h1 class="title inner-text-shadow light-pink has-letter-spacing">MISSION</h1>
+            <div class="content has-text-justified">{{ page.mission }}</div>
+          </div>
+          <div class="block">
+            <h1 class="title inner-text-shadow light-pink has-letter-spacing">VISION</h1>
+            <div class="content has-text-justified">{{ page.vision }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="{{ site.baseurl }}{{ page.main_pub }}" alt="Main Publication" />
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section class="section is-small container is-max-widescreen" style="width: 100%;">
+    <p class="title is-2">Flagship Events</p>
+    <div class="carousel-button-wrapper" style="position: relative">
+      <div class="carousel-container">
+        {% for event in page.events reversed %}
+        <figure class="image is-16by9 carousel-item">
+          <img src="{{ site.baseurl }}{{ event }}" alt="Flagship event poster" />
+        </figure>
+        {% endfor %}
+        <button class="button btn-prev npsm">&lt;</button>
+        <button class="button btn-next npsm">></button>
+      </div>
+    </div>
+  </section>
+  <section class="section is-small container is-max-widescreen" style="width: 100%;">
+    <div class="columns is-desktop">
+      <div class="column">
+        <figure class="image is-square">
+          <img src="{{ site.baseurl }}{{ page.membership_banner }}" alt="Membership Banner" />
+        </figure>
+      </div>
+      <div class="column">
+        <div class=" is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-full-height ">
+          <a href="{{ page.reg_link }}"
+            class=" has-text-weight-bold button btn-glass is-large block is-fullwidth inner-text-shadow blue"
+            style="max-width: 300px">Register Here</a>
+          <button class=" has-text-weight-bold button btn-glass is-large block is-fullwidth inner-text-shadow blue"
+            style="max-width: 300px">
             Add to Favorites
           </button>
-        </div>
-        <div class="column is-four-fifths-mobile is-one-third">
-          <a rel="noreferrer" target="_blank"
-            class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
-            href="https://www.instagram.com/dlsu_arw/">Registration Form</a>
+          <div class="content has-text-weight-bold has-text-centered is-size-4">{{ page.tagline }}</div>
         </div>
       </div>
-    </section>
-    <section class="section">
-      <div class="columns is-desktop">
-        <div class="column">
-          <figure class="image is-16by9">
-            <iframe src="{{ page.vid_link }}" frameborder="0" title="Video Player" class="has-ratio"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </figure>
-        </div>
-        <div class="column">
-          <div class="container">
-            <p class="title is-5 has-text-weight-bold">{{ page.abbr }}</p>
-            <div class="content has-text-justified">{{ page.about_us }}</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section is-small">
-      <div class="columns">
-        <div class="column">
-          <div class="is-flex is-flex-direction-column is-justify-content-space-around is-full-height">
-            <div class="block">
-              <h1 class="title inner-text-shadow light-pink has-letter-spacing">MISSION</h1>
-              <div class="content has-text-justified">{{ page.mission }}</div>
-            </div>
-            <div class="block">
-              <h1 class="title inner-text-shadow light-pink has-letter-spacing">VISION</h1>
-              <div class="content has-text-justified">{{ page.vision }}</div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img src="{{ site.baseurl }}{{ page.main_pub }}" alt="Main Publication" />
-          </figure>
-        </div>
-      </div>
-    </section>
-    <section class="section is-small">
-      <p class="title is-2">Flagship Events</p>
-      <div class="carousel-button-wrapper" style="position: relative">
-        <div class="carousel-container">
-          {% for event in page.events reversed %}
-          <figure class="image is-16by9 carousel-item">
-            <img src="{{ site.baseurl }}{{ event }}" alt="Flagship event poster" />
-          </figure>
-          {% endfor %}
-          <button class="button btn-prev npsm">&lt;</button>
-          <button class="button btn-next npsm">></button>
-        </div>
-      </div>
-    </section>
-    <section class="section is-small">
-      <div class="columns is-desktop">
-        <div class="column">
-          <figure class="image is-square">
-            <img src="{{ site.baseurl }}{{ page.membership_banner }}" alt="Membership Banner" />
-          </figure>
-        </div>
-        <div class="column">
-          <div class=" is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-full-height ">
-            <a href="{{ page.reg_link }}" class=" has-text-weight-bold button btn-glass is-large block is-fullwidth inner-text-shadow blue"
-              style="max-width: 300px">Register Here</a>
-            <button class=" has-text-weight-bold button btn-glass is-large block is-fullwidth inner-text-shadow blue" style="max-width: 300px">
-              Add to Favorites
-            </button>
-            <div class="content has-text-weight-bold has-text-centered is-size-4">{{ page.tagline }}</div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <script src="{{ site.baseurl }}/assets/js/carousel.js" defer></script>
   <script src="{{ site.baseurl }}/assets/js/favorites.js"></script>
   <script>
     const favs = getFavorites()
     console.log(favs)
-    
+
     document.getElementById('fav-btn').onclick = () => {
       if (!favs.delete('{{ page.abbr }}')) {
         favs.set('{{ page.abbr }}', '{{ page.logo }}')
