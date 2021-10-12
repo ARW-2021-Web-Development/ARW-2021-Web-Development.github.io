@@ -18,18 +18,16 @@ permalink: '/favorites/'
         {% endraw %}
       </div>
     </div>
-
     <div v-if="!favs.size" class="hero is-fullheight-with-navbar">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title has-text-centered">MY FAVORITE ORGANIZATIONS</h1>
-          <div class="is-flex is-flex-direction-column is-align-items-center">
-            <p class="subtitle is-3 grape has-text-weight-semibold">Seems like you don't have any favorite organizations
-              yet!</p>
-            <a href="{{ site.baseurl }}/organizations/"
-              class="button gradient flat-glass is-large has-text-weight-medium grape" style="max-width: 300px;">VIEW
-              ORGANIZATIONS</a>
-          </div>
+        <div class="container has-text-centered">
+          <p class="title pink-title-gradient has-text-weight-black" style="font-size: 4em;">MY
+            FAVORITE ORGANIZATIONS</p>
+          <p class="subtitle is-3 grape has-text-weight-semibold">Seems like you don't have any favorite organizations
+            yet!</p>
+          <a href="{{ site.baseurl }}/organizations/"
+            class="button gradient flat-glass is-large has-text-weight-medium grape mt-4" style="max-width: 300px; margin: auto;">VIEW
+            ORGANIZATIONS</a>
         </div>
       </div>
     </div>

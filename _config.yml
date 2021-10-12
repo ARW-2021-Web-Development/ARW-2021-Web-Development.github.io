@@ -36,6 +36,8 @@ collections:
     organizations:
         output: true
         permalink: /:name
+    elites:
+        output: false
 # Build settings
 # theme: minima
 # plugins:
