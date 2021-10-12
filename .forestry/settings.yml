@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: _elites
+  label: Elites
+  create: documents
+  match: "**/*"
+  templates:
+  - contestant
+- type: directory
   path: _organizations
   label: Organizations
   create: all
