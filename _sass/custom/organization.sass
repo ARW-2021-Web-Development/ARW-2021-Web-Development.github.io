@@ -1,0 +1,22 @@
+.fa.fa-heart
+    position: absolute
+    transform-origin: center
+    transform: scale(0)
+
+.fa.fa-heart.like
+    animation: like 500ms cubic-bezier(.17,.67,.3,1.71) 1 forwards
+
+.fa.fa-heart.unlike
+    animation: unlike 500ms cubic-bezier(.03,-0.93,.81,.36) 1 forwards
+
+@keyframes like
+    from 
+        transform: scale(0)
+    to
+        transform: scale(1)
+
+@keyframes unlike
+    from 
+        transform: scale(1)
+    to
+        transform: scale(0)
