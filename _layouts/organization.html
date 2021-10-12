@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-{% assign btn_color = page.button_color | replace: "b", "ba" | replace: ")", ", 0.9)" %} {% include head.html
-title=page.complete_name color=page.title_color button_color=btn_color %}
+{% assign btn_color = page.button_color | replace: "b", "ba" | replace: ")", ", 0.9)" %}
+{% include head.html title=page.complete_name color=page.title_color button_color=btn_color desc_color=page.description_color %}
 
 <body>
 	{% include header.html %}
@@ -18,7 +18,7 @@ title=page.complete_name color=page.title_color button_color=btn_color %}
 						<div class="column is-four-fifths-mobile is-one-quarter">
 							<a rel="noreferrer" target="_blank" class="button is-medium is-fullwidth is-custom"
 								href="{{ page.fb_link }}">
-								<span class="icon is-smal">
+								<span class="icon is-small">
 									<i class="fab fa-facebook-f"></i>
 								</span>
 								<span>Facebook</span>
@@ -37,7 +37,7 @@ title=page.complete_name color=page.title_color button_color=btn_color %}
 						<div class="column is-four-fifths-mobile is-one-quarter">
 							<a rel="noreferrer" target="_blank" class="button is-medium is-fullwidth is-custom"
 								href="https://www.instagram.com/dlsu_arw/">
-								<span class="icon is-smal">
+								<span class="icon is-small">
 									<i class="fas fa-edit"></i>
 								</span>
 								<span>Register</span>
@@ -56,7 +56,7 @@ title=page.complete_name color=page.title_color button_color=btn_color %}
 						</div>
 						<div class="column">
 							<div class="container pressed-glass is-custom">
-								<p class="title is-5 has-text-weight-bold">{{ page.abbr }}</p>
+								<p class="title is-5 has-text-weight-bold" style="color: inherit">{{ page.abbr }}</p>
 								<div class="content has-text-justified">{{ page.about_us }}</div>
 							</div>
 						</div>
@@ -129,7 +129,7 @@ title=page.complete_name color=page.title_color button_color=btn_color %}
 						</span>
 						<span>Favorites</span>
 					</button>
-					<div class="content has-text-weight-bold has-text-centered is-size-4 is-italic">
+					<div class="content has-text-weight-bold has-text-centered is-size-4 is-italic is-custom">
 						{{ page.tagline }}
 					</div>
 				</div>

@@ -16,7 +16,7 @@ permalink: '/favorites/'
             {% raw %}
             <figure class="image is-square is-fullwidth is-relative">
               <span class="icon is-medium is-clickable delete-btn">
-                <i class="far fa-times-circle fa-2x" @click="removeItem(key)"></i>
+                <i class="fas fa-times fa-lg" @click="removeItem(key)"></i>
               </span>
               <img class="is-rounded" :src="baseurl + value" :alt="key + 'Logo'">
             </figure>
