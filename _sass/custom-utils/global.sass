@@ -21,7 +21,6 @@ html
   height: 100%
   background-color: $background
   scroll-behavior: smooth
-  padding-top: 4.25rem
  
 body
   display: flex
@@ -40,8 +39,9 @@ html
 .has-letter-spacing
   letter-spacing: 5px
 
-.columns.is-centered .column
-  margin: auto
+@media (max-width: 768px)
+  .columns.is-centered .column
+    margin: auto
 
 #arw-footer-logo
   height: 3.25rem

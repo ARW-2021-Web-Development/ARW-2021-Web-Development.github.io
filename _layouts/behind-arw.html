@@ -63,7 +63,7 @@
                 <div class="decoration-wrapper">
                     <div class="container has-text-centered glass-container gradient glass decoration-container">
                         <h1 class="title inner-text-shadow blue">WHO WE ARE</h1>
-                        <p class="block has-text-weight-bold" style="color: #553c78">{{page.who_we_are}}</p>
+                        <p class="block" style="color: #553c78">{{page.who_we_are}}</p>
                         <img
                             src="{{site.baseurl}}/assets/img/decorations/triangle-blue-outline.png"
                             alt=""
@@ -86,7 +86,7 @@
         <div class="section full-height">
             <div class="container">
                 <h1 class="title inner-text-shadow blue">PROJECT HEADS</h1>
-                <p class="block has-text-weight-bold" style="color: #553c78">{{page.project_heads}}</p>
+                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">{{page.project_heads}}</p>
                 <div class="pheads-grid">
                     {% for img in page.project_heads_images%}
                     <img class="phead-img" src="{{site.baseurl}}{{img}}" alt="Project Head of ARW" />
@@ -97,7 +97,7 @@
         <div class="section is-small full-height">
             <div class="container">
                 <h1 class="title inner-text-shadow blue">EXECUTIVE COMMITTEE</h1>
-                <p class="block has-text-weight-bold has-text-justified" style="color: #553c78">
+                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">
                     {{page.executive_committee}}
                 </p>
                 <div class="execom-grid">
@@ -127,7 +127,7 @@
         <div class="section is-small full-height">
             <div class="container">
                 <h1 class="title inner-text-shadow blue">EXECUTIVES</h1>
-                <p class="block has-text-weight-bold has-text-justified" style="color: #553c78">{{page.executives}}</p>
+                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">{{page.executives}}</p>
                 <div class="exec-grid">
                     {% for committee in site.data.committees %}
                     <div class="exec-card gradient glass {% if forloop.index == 4 %} span-2 {% endif %}">
