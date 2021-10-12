@@ -15,7 +15,7 @@ about_us: "<p>Founded in 1964, ENGLICOM, also known as ELC, continues to be one 
   through organizing self-development, social, cultural, and sustainable socio-civic
   events. It also serves as an avenue for developing young individuals to become the
   future leaders of this nation.</p>"
-tagline: "<p>Let's stay VERY VERY <strong>Strong!</strong></p>"
+tagline: <p>"ENGLICOM is where it's at!"</p>
 vision: "<p>Appreciation of both cultures<br>Unity and integration<br>Dedicated service
   and nation-building<br>Personal growth and self-development<br>Training, social
   interaction and exchange, and socio-civic involvement<br>Christian achievers for
