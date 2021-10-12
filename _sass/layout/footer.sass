@@ -32,10 +32,17 @@ $clr-footer: linear-gradient(45deg, #D1E0FE, #D1E0FE 40%, #DECDF4 60%, #DECDF4)
   text-transform: uppercase
   color: transparent
 
-  background: linear-gradient(to bottom, #EA77AF 40%, #CA87CF 60%, #BE8DDC 80%, #B493E6)
+  background: linear-gradient(30deg, #EA77AF, #CA87CF, #BE8DDC, #B493E6,#B493E6, #EA77AF, #CA87CF, #EA77AF, #EA77AF, #CA87CF, #BE8DDC, #B493E6,#B493E6, #CA87CF, #BE8DDC, #EA77AF,#EA77AF, #CA87CF, #BE8DDC, #B493E6)
+  background-size: 200% auto
+  // background: linear-gradient(to bottom, #EA77AF 40%, #CA87CF 60%, #BE8DDC 80%, #B493E6)
   -webkit-text-stroke: 1px #B2B2D5
   -webkit-background-clip: text
   background-clip: text
+  animation: alex 11s linear infinite
+
+@keyframes alex
+  to
+    background-position: -200% center
 
 @media (max-width: $desktop)
   $footer-padding: 1rem 1.5rem 0.5rem
@@ -52,3 +59,4 @@ $clr-footer: linear-gradient(45deg, #D1E0FE, #D1E0FE 40%, #DECDF4 60%, #DECDF4)
   
   .slogan
     font-size: $size-4
+
