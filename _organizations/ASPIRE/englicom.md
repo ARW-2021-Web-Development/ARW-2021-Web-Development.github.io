@@ -29,5 +29,8 @@ events:
 - "/uploads/3594040.jpg"
 - "/uploads/2918041.jpg"
 - "/uploads/1078199.jpg"
+title_color: rgb(243, 101, 88)
+button_color: rgb(255, 213, 175)
+description_color: rgb(74, 74, 74)
 
 ---
