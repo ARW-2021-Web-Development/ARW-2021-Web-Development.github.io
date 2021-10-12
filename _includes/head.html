@@ -3,17 +3,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- start meta tags for social media-->
     <meta property="og:image" content="https://dlsuarw2021.live/assets/img/logos/ARW.png" />
     <meta property="og:title" content="ARW 2021" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:url" content="https://dlsuarw2021.live/" />
     <meta name="twitter:card" content="summary"></meta>
-    <!-- end meta tags for social media-->
     
     <title>{% if include.title %}{{ include.title }}{% else %}ARW 2021{% endif %}</title>
     <meta name="description" content="{{ site.description }}" />
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    {% if include.color %}
+    <style>
+      h1.is-custom {
+        text-shadow: none;
+        color: {{ include.color }}
+      }
+
+      .button.is-custom {
+        border: 0;
+        border-radius: 30px;
+        box-shadow: 0px 3px 6px gray;
+        color: {{ include.color }};
+        background-color: {{ include.button_color }};
+      }
+
+      .pressed-glass.is-custom {
+        background-color: {{ include.button_color }};
+      }
+    </style>
+    {% endif %}
 </head>
