@@ -7,7 +7,7 @@ permalink: '/favorites/'
 
 <body>
   {% include header.html %}
-  <div id="app" class="container">
+  <div id="app">
     <div class="columns is-multiline">
       <div v-for="[key, value] in favs" class="column is-4" :key="key">
         {% raw %}
@@ -19,12 +19,18 @@ permalink: '/favorites/'
       </div>
     </div>
 
-    <div v-if="!favs.size" class="column is-full">
-      <h1 class="title has-text-centered">MY FAVORITE ORGANIZATIONS</h1>
-      <div class="is-flex is-flex-direction-column is-align-items-center">
-        <p class="subtitle is-3 grape has-text-weight-semibold">Seems link you don't have any favorite organizations
-          yet!</p>
-        <a href="{{ site.baseurl }}/organizations/" class="button gradient flat-glass is-large grape" style="max-width: 300px;">VIEW ORGANIZATIONS</a>
+    <div v-if="!favs.size" class="hero is-fullheight-with-navbar">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-centered">MY FAVORITE ORGANIZATIONS</h1>
+          <div class="is-flex is-flex-direction-column is-align-items-center">
+            <p class="subtitle is-3 grape has-text-weight-semibold">Seems like you don't have any favorite organizations
+              yet!</p>
+            <a href="{{ site.baseurl }}/organizations/"
+              class="button gradient flat-glass is-large has-text-weight-medium grape" style="max-width: 300px;">VIEW
+              ORGANIZATIONS</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

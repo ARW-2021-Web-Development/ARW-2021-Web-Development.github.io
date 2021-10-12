@@ -127,14 +127,13 @@
   <script src="{{ site.baseurl }}/assets/js/carousel.js" defer></script>
   <script src="{{ site.baseurl }}/assets/js/favorites.js"></script>
   <script defer>
-    const favs = getFavorites()
-
     function saveFavorite() {
+      const favs = getFavorites()
       if (!favs.delete('{{ page.abbr }}')) {
         favs.set('{{ page.abbr }}', '{{ page.logo }}')
+        setFavorites(favs)
       }
-    };
-    window.onbeforeunload = () => setFavorites(favs)
+    }
   </script>
   {% include footer.html %}
 </body>
