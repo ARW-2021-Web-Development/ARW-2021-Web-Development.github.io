@@ -1,8 +1,18 @@
 #home-circle-solid-big-light
   width: 30px
-
+  
 #home-tri-blue
   width: 200px
+  animation: rotate-reverse 8000ms linear infinite
 
 #home-tri-pink
   width: 200px
+  animation: rotate 5000ms linear infinite
+
+@keyframes rotate
+  to 
+    transform: rotate3d(0, 1, 0, 360deg)
+
+@keyframes rotate-reverse
+  to 
+    transform: rotate3d(0, 1, 0, -360deg)

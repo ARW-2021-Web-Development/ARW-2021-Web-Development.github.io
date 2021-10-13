@@ -3,59 +3,93 @@
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+    {% include head.html %}
 
-<body>
-  {% include header.html %}
-  <div class="section has-text-centered">
-    <figure class="image">
-      <img src="" alt="" />
-    </figure>
-    <figure class="image mb-6 is-relative" style="z-index: 0;">
-      <picture>
-        <source srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png" media="(max-width: 800px)">
-        <img class="banner-img" src="{{ site.baseurl }}/assets/img/arw-banner.png" alt="ARW 2021 Home Banner" style="width: 100%; max-width: 1200px; margin: auto">
-      </picture>
-    <img id="home-tri-blue" class="decorative" src="{{ site.baseurl }}/assets/img/decorations/triangle-solid-blue.png" alt="">
-    <img id="home-tri-pink" class="decorative" src="{{ site.baseurl }}/assets/img/decorations/triangle-pink-outline.png" alt="">
-    </figure>
-    <div class="columns is-centered container is-max-widescreen is-relative" style="margin: auto">
-      <div class="column is-four-fifths-mobile is-one-third">
-        <a rel="noreferrer" target="_blank"
-          class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
-          href="">FACEBOOK</a>
-      </div>
-      <div class="column is-four-fifths-mobile is-one-third">
-        <a rel="noreferrer" target="_blank"
-          class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
-          href="https://dlsucso.com">CSO WEBSITE</a>
-      </div>
-      <div class="column is-four-fifths-mobile is-one-third">
-        <a rel="noreferrer" target="_blank"
-          class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
-          href="https://www.instagram.com/dlsu_arw/">INSTAGRAM</a>
-      </div>
-    </div>
-    <img id="home-circle-solid-big-light" class="decorative" src="{{ site.baseurl }}/assets/img/decorations/circle-solid-big-light.png" alt="">
-  </div>
+    <body>
+        {% include header.html %}
+        <div class="section has-text-centered">
+            <figure class="image">
+                <img src="" alt="" />
+            </figure>
+            <figure class="image mb-6 is-relative" style="z-index: 0">
+                <picture>
+                    <source
+                        srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png"
+                        media="(max-width: 800px)"
+                    />
+                    <img
+                        class="banner-img"
+                        src="{{ site.baseurl }}/assets/img/arw-banner.png"
+                        alt="ARW 2021 Home Banner"
+                        style="width: 100%; max-width: 1200px; margin: auto"
+                    />
+                </picture>
+                <img
+                    id="home-tri-blue"
+                    class="decorative"
+                    src="{{ site.baseurl }}/assets/img/decorations/triangles/triangle-solid-gradient-blue.png"
+                    alt=""
+                />
+                <img
+                    id="home-tri-pink"
+                    class="decorative"
+                    src="{{ site.baseurl }}/assets/img/decorations/triangles/triangle-outline-solid-pink.png"
+                    alt=""
+                />
+            </figure>
+            <div class="columns is-centered container is-max-widescreen is-relative" style="margin: auto">
+                <div class="column is-four-fifths-mobile is-one-third">
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
+                        href=""
+                        >FACEBOOK</a
+                    >
+                </div>
+                <div class="column is-four-fifths-mobile is-one-third">
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
+                        href="https://dlsucso.com"
+                        >CSO WEBSITE</a
+                    >
+                </div>
+                <div class="column is-four-fifths-mobile is-one-third">
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="button is-medium btn-glass is-fullwidth inner-text-shadow blue has-text-weight-bold"
+                        href="https://www.instagram.com/dlsu_arw/"
+                        >INSTAGRAM</a
+                    >
+                </div>
+            </div>
+            <img
+                id="home-circle-solid-big-light"
+                class="decorative"
+                src="{{ site.baseurl }}/assets/img/decorations/circles/circle-solid-big-light.png"
+                alt=""
+            />
+        </div>
 
-  <div class="section is-medium">
-    <div class="container has-text-centered glass-container light-pink">
-      <h1 class="title inner-text-shadow light-pink">ABOUT ARW</h1>
-      <p class="block" style="color: #ae6284">
-        Annual Recruitment Week (ARW) is one of the most awaited annual activities in De La Salle
-        University. Students are given the opportunity to choose among the 51 organizations under the
-        Council of Student Organizations in pursuit of being able to meet people of similar interests and
-        hone their skills outside of academic responsibilities.
-      </p>
-      <p class="block" style="color: #ae6284">
-        For this year’s highlight, a university-wide pageant entitled “Mr. and Mr. ARW 2021” wherein there
-        will be representatives whose goal is not only to showcase their wits and elegance, but most
-        especially the beauty of their respective organizations in pursuit of enticing more applicants.
-      </p>
-    </div>
-  </div>
-  {% include footer.html %}
-</body>
-
+        <div class="section is-medium">
+            <div class="container has-text-centered glass-container light-pink">
+                <h1 class="title inner-text-shadow light-pink">ABOUT ARW</h1>
+                <p class="block" style="color: #ae6284">
+                    Annual Recruitment Week (ARW) is one of the most awaited annual activities in De La Salle
+                    University. Students are given the opportunity to choose among the 51 organizations under the
+                    Council of Student Organizations in pursuit of being able to meet people of similar interests and
+                    hone their skills outside of academic responsibilities.
+                </p>
+                <p class="block" style="color: #ae6284">
+                    For this year’s highlight, a university-wide pageant entitled “Mr. and Mr. ARW 2021” wherein there
+                    will be representatives whose goal is not only to showcase their wits and elegance, but most
+                    especially the beauty of their respective organizations in pursuit of enticing more applicants.
+                </p>
+            </div>
+        </div>
+        {% include footer.html %}
+    </body>
 </html>
