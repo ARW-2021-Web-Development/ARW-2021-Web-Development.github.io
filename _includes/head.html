@@ -31,7 +31,12 @@
       }
 
       .pressed-glass.is-custom {
+        color: {{ include.desc_color }};
         background-color: {{ include.button_color }};
+      }
+
+      .content.is-custom {
+        color: {{ include.color }};
       }
     </style>
     {% endif %}
