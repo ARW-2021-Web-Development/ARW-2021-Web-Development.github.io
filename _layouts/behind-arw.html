@@ -26,29 +26,38 @@
                 </picture>
 
                 <img
-                    src="{{site.baseurl}}/assets/img/decorations/circle-solid.png"
+                    src="{{site.baseurl}}/assets/img/decorations/circles/circle-solid-gradient-blue.png"
                     alt=""
-                    class="decorative circle-solid"
+                    class="decorative"
+                    id="behind-circle-solid-gradient-blue"
                 />
                 <img
-                    src="{{site.baseurl}}/assets/img/decorations/circle-outline.png"
+                    src="{{site.baseurl}}/assets/img/decorations/circles/circle-outline-blue.png"
                     alt=""
-                    class="decorative circle-outline"
+                    class="decorative"
+                    id="behind-circle-outline-blue"
                 />
                 <img
-                    src="{{site.baseurl}}/assets/img/decorations/triangle-solid.png"
+                    src="{{site.baseurl}}/assets/img/decorations/triangles/triangle-outline-solid-cyan.png"
                     alt=""
-                    class="decorative triangle-solid"
+                    class="decorative"
+                    id="triangle-outline-solid-cyan"
                 />
                 <img
-                    src="{{site.baseurl}}/assets/img/decorations/triangle-outline.png"
+                    src="{{site.baseurl}}/assets/img/decorations/triangles/triangle-solid-gradient-red.png"
                     alt=""
-                    class="decorative triangle-outline"
+                    class="decorative"
+                    id="behind-triangle-solid-gradient-red"
                 />
             </figure>
         </div>
         <div class="buffer quarter-height decoration-container">
-            <img src="{{site.baseurl}}/assets/img/decorations/cloth.png" alt="" class="decorative cloth" />
+            <img
+                src="{{site.baseurl}}/assets/img/decorations/ribbons/cloth.png"
+                alt=""
+                class="decorative"
+                id="behind-cloth"
+            />
         </div>
         <div
             class="
@@ -86,7 +95,9 @@
         <div class="section full-height">
             <div class="container">
                 <h1 class="title inner-text-shadow blue">PROJECT HEADS</h1>
-                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">{{page.project_heads}}</p>
+                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">
+                    {{page.project_heads}}
+                </p>
                 <div class="pheads-grid">
                     {% for img in page.project_heads_images%}
                     <img class="phead-img" src="{{site.baseurl}}{{img}}" alt="Project Head of ARW" />
@@ -127,7 +138,9 @@
         <div class="section is-small full-height">
             <div class="container">
                 <h1 class="title inner-text-shadow blue">EXECUTIVES</h1>
-                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">{{page.executives}}</p>
+                <p class="block has-text-justified has-text-weight-medium" style="color: #553c78">
+                    {{page.executives}}
+                </p>
                 <div class="exec-grid">
                     {% for committee in site.data.committees %}
                     <div class="exec-card gradient glass {% if forloop.index == 4 %} span-2 {% endif %}">
