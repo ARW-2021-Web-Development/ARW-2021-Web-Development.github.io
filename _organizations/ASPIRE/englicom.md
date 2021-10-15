@@ -3,7 +3,7 @@ layout: organization
 logo: "/uploads/englicom_logo.png"
 cluster: ASPIRE
 fb_link: https://facebook.com/
-membership_banner: "/uploads/500x500.png"
+membership_banner: "/uploads/elc_memfee.png"
 hero_bg: "/uploads/englicom_bg.png"
 main_pub: "/uploads/hohuqy7mss901.png"
 complete_name: DLSU ENGLICOM
