@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /*.html$
-Allow: /assets/img/logos/ARW2021.png
+Allow: /assets/img/logos/ARW.png
 Disallow: /assets/
 Disallow: /uploads/
