@@ -5,14 +5,31 @@
         {% include header.html %}
         <main class="container is-max-widescreen">
             <header class="has-text-centered is-size-3 mt-4">
-                <p>Frequently Asked Questions</p>
-                <p class="is-size-4">(FAQs)</p>
+                <p class="inner-text-shadow drk-pink" style="font-size: 4rem; font-weight: 900">
+                    Frequently Asked Questions
+                </p>
+                <p class="inner-text-shadow drk-purple is-size-1" style="font-weight: 900">(FAQs)</p>
             </header>
 
             {% for qna in page.faq %}
-            <div class="accordion npsm mt-5">
-                <div class="accordion-header">Q: {{qna.question}}</div>
-                <div class="accordion-content closed">A: {{qna.answer}}</div>
+            <div class="accordion glass-container light-pink mt-5 is-size-4" style="width: 100%; color: #8a7f98">
+                <div class="accordion-header" style="display: flex">
+                    <span
+                        class="inner-text-shadow pink is-size-3 has-text-weight-bold"
+                        style="transform: translateY(-7px)"
+                        >Q:</span
+                    >
+                    <span class="ml-4">{{qna.question}}</span>
+                    <i class="fas fa-plus-circle" style="transform: translateY(7px)"></i>
+                </div>
+                <div class="accordion-content closed" style="display: flex; text-align: justify">
+                    <span
+                        class="inner-text-shadow pink is-size-3 has-text-weight-bold"
+                        style="transform: translateY(-7px)"
+                        >A:</span
+                    >
+                    <span class="ml-4 mr-6">{{qna.answer}}</span>
+                </div>
             </div>
             {% endfor %}
         </main>
