@@ -10,19 +10,55 @@ permalink: '/organizations/'
   {% include header.html %}
   <div class="hero is-fullheight-with-navbar">
     <div class="hero-body">
-      <div class="container">
+      <div class="container decoration-container">
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/1.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-circle-1"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/2.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-circle-2"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/1.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-triangle-1"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/2.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-triangle-2"
+        />
         <figure class="image">
           <img src="{{ site.baseurl }}/assets/img/organizations-banner.png" alt="Organizations Banner">
         </figure>
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/3.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-triangle-3"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/1.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-ribbon-1"
+        />
       </div>
     </div>
   </div>
   <main class="container is-max-widescreen">
-    <section class="section mb-6">
+    <section class="section is-medium mb-6">
       {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
       <h1 class="title is-1 inner-text-shadow purple has-text-centered">{{ cso.complete_name }}</h1>
       <p class="subtitle has-text-centered purple has-text-weight-medium">Description for CSO</p>
-      <div class="columns is-centered">
+      <div class="columns is-centered decoration-container">
         <div class="column is-one-third">
           <div class="container">
             <figure class="image is-square">
@@ -31,6 +67,30 @@ permalink: '/organizations/'
             <a href="{{ site.baseurl }}/{{ cso.abbr | downcase }}" class="button is-fullwidth btn-glass white-btn">{{ cso.abbr }}</a>
           </div>
         </div>
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/4.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-triangle-4"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/3.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-circle-3"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/5.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-triangle-5"
+        />
+        <img 
+          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/2.png" 
+          alt=""
+          class="decorative"
+          id="list-of-orgs-ribbon-2"
+        />
       </div>
     </section>
 
