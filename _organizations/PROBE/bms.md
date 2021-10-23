@@ -1,13 +1,13 @@
 ---
 layout: organization
-logo: "/uploads/bms-organization-logo.png"
+logo: "/uploads/bms-organization-logo-white.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/dlsubms
 membership_banner: "/uploads/bms-membership-fee-banner.png"
 hero_bg: "/uploads/bms-website-background.png"
 main_pub: "/uploads/hohuqy7mss901.png"
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+title_color: rgb(178, 15, 16)
+button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 complete_name: Business Management Society
 abbr: BMS
@@ -33,5 +33,6 @@ events:
 - "/uploads/bms-flagship-event-1-sympo.png"
 - "/uploads/bms-flagship-event-4-bmsc.png"
 - "/uploads/bms-flagship-event-3-revibe.png"
+hero_title_color: rgb(255, 255, 255)
 
 ---
