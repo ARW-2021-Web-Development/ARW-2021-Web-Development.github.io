@@ -36,10 +36,10 @@ fields:
     options:
     - ASO
     - ASPIRE
-    - CAP12
     - ENGAGE
     - PROBE
     - CSO
+    - CAP13
     source:
       type: simple
       section: 
