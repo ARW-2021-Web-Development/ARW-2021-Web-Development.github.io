@@ -34,5 +34,6 @@ events:
 - "/uploads/bms-flagship-event-4-bmsc.png"
 - "/uploads/bms-flagship-event-3-revibe.png"
 hero_title_color: rgb(255, 255, 255)
+fav_logo: "/uploads/bms-organization-logo.png"
 
 ---
