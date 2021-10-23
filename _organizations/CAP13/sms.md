@@ -14,8 +14,8 @@ fav_logo: ''
 complete_name: Samahan ng mga Mag-aaral sa Sikolohiya
 abbr: SMS
 about_us: "<p>SMS is the premier psychology organization in DLSU that expands the
-  presence and significance of psychology and its allied fields - not only within
-  the Lasallian community but also in the country. </p>"
+  presence and significance of psychology and its allied fields-not only within the
+  Lasallian community but also in the country.</p>"
 tagline: "<p>Kapwa Para sa Kapwa</p>"
 vision: "<p>To lobby for an organization that provides inclusivity among the psychology
   community, catering to all that take interest in the field. </p>"
