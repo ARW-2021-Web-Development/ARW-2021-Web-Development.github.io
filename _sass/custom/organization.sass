@@ -13,7 +13,7 @@ $pressed-glass-pd: 1.5rem
 
 .pressed-glass
     border-radius: 20px
-    padding: $pressed-glass-pd 0 $pressed-glass-pd $pressed-glass-pd
+    padding: $pressed-glass-pd 0 0 $pressed-glass-pd
     box-shadow: inset 0px 3px 6px #888
 
     .title
@@ -21,11 +21,15 @@ $pressed-glass-pd: 1.5rem
     
     .content
         padding-right: $pressed-glass-pd
-        overflow: auto
-        height: calc(100% - 3.2em)
 
     @media (min-width: 1023px)
         aspect-ratio: calc(16 / 9)
+
+        .content
+            overflow: auto
+            height: calc(100% - 3.2em)
+            mask-image: linear-gradient(transparent, transparent 5%, black 15%, black 80%, transparent 100%)
+            -webkit-mask-image: linear-gradient(transparent, transparent 5%, black 15%, black 80%, transparent 100%)
 
 @keyframes like
     from
