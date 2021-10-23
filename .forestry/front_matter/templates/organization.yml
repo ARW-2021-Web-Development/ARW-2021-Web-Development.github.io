@@ -143,5 +143,4 @@ fields:
   default: rgb(0, 0, 0)
 pages:
 - _organizations/ASPIRE/eco.md
-- _organizations/ASPIRE/poliscy.md
 - _organizations/cso.md
