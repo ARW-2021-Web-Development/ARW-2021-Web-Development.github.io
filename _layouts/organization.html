@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% assign btn_color = page.button_color | replace: "b", "ba" | replace: ")", ", 0.9)" %}
-{% include head.html title=page.complete_name color=page.title_color button_color=btn_color desc_color=page.description_color %}
+{% include head.html title=page.complete_name color=page.title_color button_color=btn_color desc_color=page.description_color hero=page.hero_title_color %}
 
 <body>
 	{% include header.html %}
@@ -55,8 +55,8 @@
 							</figure>
 						</div>
 						<div class="column">
-							<div class="container pressed-glass is-custom">
-								<p class="title is-5 has-text-weight-bold" style="color: inherit">{{ page.abbr }}</p>
+							<div class="container pressed-glass is-custom" id="org-about-us">
+								<p class="title is-5 has-text-weight-bold" style="color: inherit">{{ page.complete_name }}</p>
 								<div class="content has-text-justified">{{ page.about_us }}</div>
 							</div>
 						</div>
@@ -129,9 +129,11 @@
 						</span>
 						<span>Favorites</span>
 					</button>
+          {% if page.tagline != "<p>N/A</p>" %}
 					<div class="content has-text-weight-bold has-text-centered is-size-4 is-italic is-custom">
 						{{ page.tagline }}
 					</div>
+          {% endif %}
 				</div>
 			</div>
 		</div>
@@ -158,7 +160,7 @@
 
 		function saveFavorite(isClicked) {
 			if (!favs.delete('{{ page.abbr }}')) {
-				favs.set('{{ page.abbr }}', '{{ page.logo }}');
+				favs.set('{{ page.abbr }}', '{{ page.fav_logo }}' || '{{ page.logo }}');
 			}
 			configButtons();
 			setFavorites(favs)

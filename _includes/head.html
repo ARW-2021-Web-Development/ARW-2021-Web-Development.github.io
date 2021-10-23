@@ -17,26 +17,28 @@
 
     {% if include.color %}
     <style>
+      .is-custom, .button.is-custom {
+        color: {{ include.color }};
+      }
+
       h1.is-custom {
         text-shadow: none;
-        color: {{ include.color }}
+      }
+
+      .hero h1.is-custom {
+        color: {{ include.hero }};
       }
 
       .button.is-custom {
         border: 0;
         border-radius: 30px;
         box-shadow: 0px 3px 6px gray;
-        color: {{ include.color }};
         background-color: {{ include.button_color }};
       }
 
       .pressed-glass.is-custom {
         color: {{ include.desc_color }};
         background-color: {{ include.button_color }};
-      }
-
-      .content.is-custom {
-        color: {{ include.color }};
       }
     </style>
     {% endif %}
