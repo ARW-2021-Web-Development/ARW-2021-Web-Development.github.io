@@ -22,11 +22,11 @@ tagline: "<p>Towards A Progressive Education</p>"
 vision: "<p>UNITED strives for excellence, prioritizing the needs of Education students.
   This organization aims to ignite passion for Education and to mold students to become
   advocates of Education who will contribute to the Philippine Education System.</p>"
-mission: "<p>UNITED aspired to holistically develop education students into becoming
+mission: "<p>UNITED aspires to holistically develop education students into becoming
   future teachers leaders striving for excellence. Thus, this organization shall provide
   venues for character development activities enhancing professional and personal
   skills maximizing students' potential as well as for socio-civic activities promoting
-  social awareness and the spirit of volunteerism. </p>"
+  social awareness and the spirit of volunteerism.</p>"
 reg_link: google.com
 vid_link: https://drive.google.com/file/d/18MJWZxRyKCY4OIdkoqQwPdVM3D-3okY0/view?usp=sharing/preview
 events:
