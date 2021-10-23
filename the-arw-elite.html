@@ -63,13 +63,13 @@ permalink: '/the-arw-elite/'
                 {% for j in (1..5) %}
                 <a href="#{{ i | times: j }}">
                     <div class="column is-one-third-tablet is-one-fifth-desktop">
-                    <img src="{{site.baseurl}}/assets/img/project heads/jason.png" alt="" />
-                    <div class="glass-container purple py-1 px-1" style="width: min(80%, 275px)">
-                        <p>Name</p>
-                        <p class="is-size-4 gray-purple has-text-weight-bold">Org Name</p>
+                        <img src="{{site.baseurl}}/assets/img/project heads/jason.png" alt="" />
+                        <div class="glass-container purple py-1 px-1" style="width: min(80%, 275px)">
+                            <p>Name</p>
+                            <p class="is-size-4 gray-purple has-text-weight-bold">Org Name</p>
+                        </div>
                     </div>
                 </a>
-                </div>
                 {% endfor %}
                 <div>
                     <img
@@ -138,12 +138,21 @@ permalink: '/the-arw-elite/'
                             allowfullscreen
                         ></iframe>
                     </figure>
-                    <div
-                        class="btn-glass mt-2 p-2 has-text-centered has-text-weight-bold inner-text-shadow gray-purple"
-                        style="cursor: pointer; justify-self: end; width: 150px; border-radius: 0"
-                    >
-                        View Org
-                    </div>
+                    <a href="{{site.baseurl}}"/>
+                        <div
+                            class="
+                                btn-glass
+                                mt-2
+                                p-2
+                                has-text-centered has-text-weight-bold
+                                inner-text-shadow
+                                gray-purple
+                            "
+                            style="justify-self: end; width: 150px; border-radius: 0"
+                        >
+                            View Org
+                        </div>
+                    </a>
                 </div>
             </div>
             {% endfor %}
