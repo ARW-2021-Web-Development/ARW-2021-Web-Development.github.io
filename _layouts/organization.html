@@ -160,7 +160,7 @@
 
 		function saveFavorite(isClicked) {
 			if (!favs.delete('{{ page.abbr }}')) {
-				favs.set('{{ page.abbr }}', '{{ page.logo }}');
+				favs.set('{{ page.abbr }}', '{{ page.fav_logo }}' || '{{ page.logo }}');
 			}
 			configButtons();
 			setFavorites(favs)
