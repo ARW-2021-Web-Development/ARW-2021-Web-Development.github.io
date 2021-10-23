@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(0, 0, 0)
+hero_title_color: rgb(0, 46, 86)
 title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+button_color: rgb(104, 130, 165)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/lscs-logo.png"
