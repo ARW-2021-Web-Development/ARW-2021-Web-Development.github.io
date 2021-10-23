@@ -1,11 +1,11 @@
 ---
 layout: organization
-logo: "/uploads/arw-yes-logo.png"
+logo: "/uploads/yes-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/DLSUYES
-membership_banner: "/uploads/membership-fee-website-banner.png"
-hero_bg: "/uploads/arw-yes-web-bg.png"
-main_pub: "/uploads/arw-d093-yes-mp.png"
+membership_banner: "/uploads/yes-mem-banner.png"
+hero_bg: "/uploads/yes-web-bg.png"
+main_pub: "/uploads/yes-main-pub.png"
 title_color: rgb(255, 144, 144)
 button_color: rgb(202, 136, 178)
 description_color: rgb(0, 0, 0)
@@ -32,10 +32,10 @@ mission: "<p>The Young Entrepreneurs' Society (YES) aspires to promote the entre
 reg_link: google.com
 vid_link: https://drive.google.com/file/d/1RrJHhNB47kfdBqToblve2l2SsyxwwZja/preview
 events:
-- "/uploads/arw-yes-org-flagship-1.png"
-- "/uploads/arw-yes-org-flagship-2.png"
-- "/uploads/arw-yes-org-flagship-3.png"
-- "/uploads/arw-yes-org-flagship-4.png"
-- "/uploads/arw-yes-org-flagship-5.png"
+- "/uploads/yes-flagship-1.png"
+- "/uploads/yes-flagship-2.png"
+- "/uploads/yes-flagship-3.png"
+- "/uploads/yes-flagship-4.png"
+- "/uploads/yes-flagship-5.png"
 
 ---

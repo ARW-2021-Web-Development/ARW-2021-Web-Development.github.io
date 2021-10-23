@@ -1,11 +1,11 @@
 ---
 layout: organization
-logo: "/uploads/eco_official.png"
+logo: "/uploads/eco-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/STC.ECO
-membership_banner: "/uploads/eco-membership-fee.png"
-hero_bg: "/uploads/eco-website-background-of-the-org.png"
-main_pub: "/uploads/arw-d091-eco-mp.png"
+membership_banner: "/uploads/eco-mem-banner.png"
+hero_bg: "/uploads/eco-web-bg.png"
+main_pub: "/uploads/eco-main-pub.png"
 title_color: rgb(255, 144, 144)
 button_color: rgb(65, 117, 5)
 description_color: rgb(0, 0, 0)
@@ -28,7 +28,7 @@ mission: "<p>Be the forerunner of spreading data-driven environmental awareness 
 reg_link: google.com
 vid_link: https://drive.google.com/file/d/1voKk74qQZvAt-k3W8l5F0Y83hM5N9GvG/preview
 events:
-- "/uploads/eco-flagship-event-2.png"
-- "/uploads/eco-flagship-event-1.png"
+- "/uploads/eco-flagship-2.png"
+- "/uploads/eco-flagship-1.png"
 
 ---

@@ -1,11 +1,11 @@
 ---
 layout: organization
-logo: "/uploads/englicom_logo.png"
+logo: "/uploads/englicom-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/dlsu.englicom
-membership_banner: "/uploads/elc_memfee.png"
-hero_bg: "/uploads/englicom_bg.png"
-main_pub: "/uploads/arw-d067-englicom-mp.png"
+membership_banner: "/uploads/englicom-mem-banner.png"
+hero_bg: "/uploads/englicom-web-bg.png"
+main_pub: "/uploads/englicom-main-pub.png"
 complete_name: ENGLICOM
 abbr: ENGLICOM
 about_us: "<p>ENGLICOM, founded in 1964, is one of the oldest and largest student
@@ -30,12 +30,12 @@ mission: "<p>Appreciation of both cultures</p><p>Unity and integration</p><p>Ded
 reg_link: https://google.com/
 vid_link: https://drive.google.com/file/d/1DcUPDVSZmEGpcET4-niEfRXI6-EHbbtM/preview
 events:
-- "/uploads/arw2021_englicom_etp.png"
-- "/uploads/arw2021_englicom_esp.png"
-- "/uploads/arw2021_englicom_cny.png"
-- "/uploads/arw2021_englicom_transcend.png"
-- "/uploads/arw2021_englicom_tap.png"
-- "/uploads/arw2021_englicom_ga.png"
+- "/uploads/englicom-flagship-1.png"
+- "/uploads/englicom-flagship-2.png"
+- "/uploads/englicom-flagship-3.png"
+- "/uploads/englicom-flagship-4.png"
+- "/uploads/englicom-flagship-5.png"
+- "/uploads/englicom-flagship-6.png"
 title_color: rgb(243, 101, 88)
 button_color: rgb(255, 213, 175)
 description_color: rgb(0, 0, 0)

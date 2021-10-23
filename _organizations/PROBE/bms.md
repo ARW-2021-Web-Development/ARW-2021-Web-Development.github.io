@@ -1,11 +1,11 @@
 ---
 layout: organization
-logo: "/uploads/bms-organization-logo-white.png"
+logo: "/uploads/bms-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/dlsubms
-membership_banner: "/uploads/bms-membership-fee-banner.png"
-hero_bg: "/uploads/bms-website-background.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+membership_banner: "/uploads/bms-mem-banner.png"
+hero_bg: "/uploads/bms-web-bg.png"
+main_pub: "/uploads/bms-main-pub.png"
 title_color: rgb(178, 15, 16)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
@@ -29,11 +29,11 @@ mission: "<p>Through its organizational pillars of Academic Excellence, Organiza
 reg_link: google.com
 vid_link: https://drive.google.com/file/d/177iqWRB2c10c-Esm12-WqFJYgt9Y6UH2/preview
 events:
-- "/uploads/bms-flagship-event-2-bistro.png"
-- "/uploads/bms-flagship-event-1-sympo.png"
-- "/uploads/bms-flagship-event-4-bmsc.png"
-- "/uploads/bms-flagship-event-3-revibe.png"
+- "/uploads/bms-flagship-1.png"
+- "/uploads/bms-flagship-2.png"
+- "/uploads/bms-flagship-3.png"
+- "/uploads/bms-flagship-4.png"
 hero_title_color: rgb(255, 255, 255)
-fav_logo: "/uploads/bms-organization-logo.png"
+fav_logo: "/uploads/bms-fav-logo.png"
 
 ---

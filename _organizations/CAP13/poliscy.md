@@ -3,9 +3,9 @@ layout: organization
 logo: "/uploads/500x500.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/DLSUPOLISCY
-membership_banner: "/uploads/poliscy-membership-fee-banner.png"
-hero_bg: "/uploads/poliscy-website-background.png"
-main_pub: "/uploads/arw-d045-poliscy-mp.png"
+membership_banner: "/uploads/poliscy-mem-banner.png"
+hero_bg: "/uploads/poliscy-web-bg.png"
+main_pub: "/uploads/poliscy-main-pub.png"
 title_color: rgb(255, 144, 144)
 button_color: rgb(202, 136, 178)
 description_color: rgb(0, 0, 0)
@@ -34,11 +34,11 @@ mission: "<p>We, the Political Science Society, commit ourselves to the active f
 reg_link: google.com
 vid_link: https://drive.google.com/file/d/13YBzkp5c28nJBByGcjY-6ctF8uCW2nLF/preview
 events:
-- "/uploads/7.png"
-- "/uploads/6.png"
-- "/uploads/5.png"
-- "/uploads/4.png"
-- "/uploads/3.png"
-- "/uploads/2.png"
+- "/uploads/poliscy-flagship-1.png"
+- "/uploads/poliscy-flagship-2.png"
+- "/uploads/poliscy-flagship-3.png"
+- "/uploads/poliscy-flagship-4.png"
+- "/uploads/poliscy-flagship-5.png"
+- "/uploads/poliscy-flagship-6.png"
 
 ---
