@@ -6,7 +6,7 @@ description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/lscs-logo.png"
 cluster: ENGAGE
-fb_link: facebook.com
+fb_link: https://www.facebook.com/LaSalleComputerSociety
 membership_banner: "/uploads/lscs-mem-banner.png"
 hero_bg: "/uploads/lscs-web-bg.png"
 main_pub: "/uploads/hohuqy7mss901.png"
