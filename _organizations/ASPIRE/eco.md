@@ -7,7 +7,7 @@ membership_banner: "/uploads/eco-membership-fee.png"
 hero_bg: "/uploads/eco-website-background-of-the-org.png"
 main_pub: "/uploads/arw-d091-eco-mp.png"
 title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+button_color: rgb(65, 117, 5)
 description_color: rgb(0, 0, 0)
 complete_name: De La Salle University - Environmental Conservation Organization
 abbr: ECO
