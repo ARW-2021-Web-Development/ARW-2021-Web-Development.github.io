@@ -156,6 +156,7 @@ fields:
   default: "/uploads/hohuqy7mss901.png"
 pages:
 - _organizations/ASO/chemsoc.md
+- _organizations/ASPIRE/au.md
 - _organizations/ASPIRE/eco.md
 - _organizations/CAP13/poliscy.md
 - _organizations/PROBE/bms.md
