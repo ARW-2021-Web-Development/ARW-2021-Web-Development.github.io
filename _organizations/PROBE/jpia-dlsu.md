@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+hero_title_color: rgb(239, 233, 213)
+title_color: rgb(245, 166, 35)
+button_color: rgb(191, 136, 202)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/jpia-logo.png"
