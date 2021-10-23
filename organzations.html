@@ -9,8 +9,14 @@ permalink: '/organizations/'
 <body>
   {% include header.html %}
   <div class="hero is-fullheight-with-navbar">
-    <div class="hero-body">
-      <div class="container decoration-container">
+    <div class="hero-body decoration-container">
+        <img 
+              src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/1.png" 
+              alt=""
+              class="decorative"
+              id="list-of-orgs-ribbon-1"
+            />
+      <div class="container">
         <img 
           src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/1.png" 
           alt=""
@@ -44,17 +50,11 @@ permalink: '/organizations/'
           class="decorative"
           id="list-of-orgs-triangle-3"
         />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/1.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-ribbon-1"
-        />
       </div>
     </div>
   </div>
   <main class="container is-max-widescreen">
-    <section class="section is-medium mb-6">
+    <section class="section is-medium mb-6 decoration-container">
       {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
       <h1 class="title is-1 inner-text-shadow purple has-text-centered">{{ cso.complete_name }}</h1>
       <p class="subtitle has-text-centered purple has-text-weight-medium">Description for CSO</p>
@@ -85,15 +85,15 @@ permalink: '/organizations/'
           class="decorative"
           id="list-of-orgs-triangle-5"
         />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/2.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-ribbon-2"
-        />
       </div>
+      <img 
+        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/2.png" 
+        alt=""
+        class="decorative"
+        id="list-of-orgs-ribbon-2"
+      />
     </section>
-
+    
     {% for cluster in site.data.clusters %}
     <section class="section">
       <h1 class="title inner-text-shadow {{ cluster.color }}">{{ cluster.abbr }}</h1>
