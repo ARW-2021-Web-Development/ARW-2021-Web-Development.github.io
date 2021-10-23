@@ -45,6 +45,11 @@ fields:
     maxSize: 10
   label: Logo
   default: "/uploads/500x500.png"
+- name: fav_logo
+  type: file
+  config:
+    maxSize: 20
+  label: Favorite Logo
 - name: complete_name
   type: text
   config:
