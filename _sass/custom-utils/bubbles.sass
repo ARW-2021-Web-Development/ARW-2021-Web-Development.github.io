@@ -1,11 +1,11 @@
 .bubble
     position: absolute
+    aspect-ratio: 1
 
     width: 120px
-    height: 120px
 
     opacity: 0.5
-    bottom: 0
+    bottom: -100vh
 
     border-radius: 50%
     background: $clr-header
@@ -14,16 +14,23 @@
 
 .bubble.small
     width: 50px
-    height: 50px
 
 .bubble.large
     width: 250px
-    height: 250px
+
+@media (max-width: 600px)
+    .bubble
+        width: 50px
+    .bubble.small
+        width: 20px
+    .bubble.large
+        width: 100px
+
 
 @keyframes bubble
-    from 
-        bottom: 0
-    to 
+    0%
+        bottom: -300px
+    100%
         bottom: 100%
 
 @keyframes sideways
