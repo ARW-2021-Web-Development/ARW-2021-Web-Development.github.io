@@ -6,7 +6,7 @@
 <body>
 	{% include header.html %}
 	<div class="hero is-fullheight-with-navbar" id="org-hero"
-		style="background: url('{{ site.baseurl }}{{ page.hero_bg }}') no-repeat; background-size: cover;">
+		style="background: url('{{ site.baseurl }}{{ page.hero_bg }}') no-repeat center; background-size: cover;">
 		<div class="hero-body">
 			<div class="container is-max-widescreen">
 				<div>
@@ -55,7 +55,7 @@
 							</figure>
 						</div>
 						<div class="column">
-							<div class="container pressed-glass is-custom" id="org-about-us">
+							<div class="container pressed-glass is-custom">
 								<p class="title is-5 has-text-weight-bold" style="color: inherit">{{ page.complete_name }}</p>
 								<div class="content has-text-justified">{{ page.about_us }}</div>
 							</div>

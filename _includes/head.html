@@ -15,8 +15,28 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    {% if include.color %}
+    
     <style>
+      ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+        padding-top: 15px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+
+      {% if include.color %}
       .is-custom, .button.is-custom {
         color: {{ include.color }};
       }
@@ -36,10 +56,18 @@
         background-color: {{ include.button_color }};
       }
 
+      .pressed-glass {
+        box-shadow: inset 0px 3px 6px darkgrey;
+      }
+
+      .pressed-glass .content::-webkit-scrollbar {
+        width: 5px;
+      }
+
       .pressed-glass.is-custom {
         color: {{ include.desc_color }};
         background-color: {{ include.button_color }};
       }
+      {% endif %}
     </style>
-    {% endif %}
 </head>

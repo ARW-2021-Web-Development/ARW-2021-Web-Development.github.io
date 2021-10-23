@@ -9,9 +9,23 @@
 .fa.fa-heart.unlike
     animation: unlike 500ms cubic-bezier(.03,-0.93,.81,.36) 1 forwards
 
-#org-about-us
+$pressed-glass-pd: 1.5rem
+
+.pressed-glass
+    border-radius: 20px
+    padding: $pressed-glass-pd 0 $pressed-glass-pd $pressed-glass-pd
+    box-shadow: inset 0px 3px 6px #888
+
+    .title
+        padding-right: $pressed-glass-pd
+    
+    .content
+        padding-right: $pressed-glass-pd
+        overflow: auto
+        height: calc(100% - 3.2em)
+
     @media (min-width: 1023px)
-        height: 100%
+        aspect-ratio: calc(16 / 9)
 
 @keyframes like
     from
