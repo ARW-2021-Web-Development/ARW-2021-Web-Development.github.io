@@ -1,6 +1,6 @@
 ---
 hero_title_color: rgb(248, 231, 244)
-title_color: rgb(255, 144, 144)
+title_color: rgb(246, 184, 184)
 button_color: rgb(143, 136, 202)
 description_color: rgb(0, 0, 0)
 layout: organization
