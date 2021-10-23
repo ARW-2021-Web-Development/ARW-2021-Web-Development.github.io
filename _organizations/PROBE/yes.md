@@ -4,7 +4,7 @@ logo: "/uploads/arw-yes-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/DLSUYES
 membership_banner: "/uploads/membership-fee-website-banner.png"
-hero_bg: "/uploads/_arw-yes-web-bg.png"
+hero_bg: "/uploads/arw-yes-web-bg.png"
 main_pub: "/uploads/arw-d093-yes-mp.png"
 title_color: rgb(255, 144, 144)
 button_color: rgb(202, 136, 178)
