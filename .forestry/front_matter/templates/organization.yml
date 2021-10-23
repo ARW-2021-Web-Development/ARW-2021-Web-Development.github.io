@@ -3,6 +3,35 @@ label: Organization
 hide_body: true
 display_field: abbr
 fields:
+- name: hero_title_color
+  type: color
+  label: Hero Title Color
+  config:
+    required: true
+    color_format: RGB
+  description: Color for the main title of the org
+  default: rgb(0, 0, 0)
+- name: title_color
+  type: color
+  label: Title Color
+  config:
+    required: false
+    color_format: RGB
+  default: rgb(255, 144, 144)
+- name: button_color
+  type: color
+  label: Button Color
+  config:
+    required: true
+    color_format: RGB
+  default: rgb(202, 136, 178)
+- name: description_color
+  type: color
+  label: Description Color
+  config:
+    required: true
+    color_format: RGB
+  default: rgb(0, 0, 0)
 - name: layout
   type: text
   config:
@@ -120,27 +149,6 @@ fields:
     maxSize: 10
   label: Main Pub
   default: "/uploads/hohuqy7mss901.png"
-- name: title_color
-  type: color
-  label: Title Color
-  config:
-    required: false
-    color_format: RGB
-  default: rgb(255, 144, 144)
-- name: button_color
-  type: color
-  label: Button Color
-  config:
-    required: true
-    color_format: RGB
-  default: rgb(202, 136, 178)
-- name: description_color
-  type: color
-  label: Description Color
-  config:
-    required: true
-    color_format: RGB
-  default: rgb(0, 0, 0)
 pages:
 - _organizations/ASPIRE/eco.md
 - _organizations/CAP13/poliscy.md
