@@ -103,7 +103,7 @@ permalink: '/organizations/'
         {% if org.cluster == cluster.abbr %}
         <div class="column is-one-quarter">
           <figure class="image is-square mb-3 is-clickable" onclick="window.location.assign('{{ site.baseurl }}/{{ org.abbr | downcase }}')">
-            {% if org.fav_logo %}
+            {% if org.fav_logo and org.fav_logo != '' %}
             <img src="{{ site.baseurl }}/{{ org.fav_logo }}" alt="{{ org.complete_name }} Logo" class="is-rounded">
             {% else %}
             <img src="{{ site.baseurl }}/{{ org.logo }}" alt="{{ org.complete_name }} Logo" class="is-rounded">
