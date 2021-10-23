@@ -1,7 +1,7 @@
 ---
 layout: organization
 logo: "/uploads/500x500.png"
-cluster: ASO
+cluster: CAP12
 fb_link: https://www.facebook.com/DLSUPOLISCY
 membership_banner: "/uploads/poliscy-membership-fee-banner.png"
 hero_bg: "/uploads/poliscy-website-background.png"
