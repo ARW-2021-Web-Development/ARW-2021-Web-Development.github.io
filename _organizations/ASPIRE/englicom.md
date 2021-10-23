@@ -6,7 +6,7 @@ fb_link: https://www.facebook.com/dlsu.englicom
 membership_banner: "/uploads/elc_memfee.png"
 hero_bg: "/uploads/englicom_bg.png"
 main_pub: "/uploads/arw-d067-englicom-mp.png"
-complete_name: DLSU ENGLICOM
+complete_name: ENGLICOM
 abbr: ENGLICOM
 about_us: "<p>ENGLICOM, founded in 1964, is one of the oldest and largest student
   organizations in De La Salle University-Manila. With over 50 years of excellence,
