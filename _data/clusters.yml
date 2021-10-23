@@ -8,9 +8,9 @@
   description: This is the description for ASPIRE
   color: light-pink
 
-- abbr: CAP12
+- abbr: CAP13
   name: College of Liberal Arts Organizations
-  description: This is the description for CAP12
+  description: This is the description for CAP13
   color: purple
 
 - abbr: PROBE
