@@ -129,9 +129,11 @@
 						</span>
 						<span>Favorites</span>
 					</button>
+          {% if page.tagline != "<p>N/A</p>" %}
 					<div class="content has-text-weight-bold has-text-centered is-size-4 is-italic is-custom">
 						{{ page.tagline }}
 					</div>
+          {% endif %}
 				</div>
 			</div>
 		</div>
