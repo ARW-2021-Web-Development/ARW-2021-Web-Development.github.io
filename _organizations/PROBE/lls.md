@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+hero_title_color: rgb(255, 77, 64)
+title_color: rgb(254, 65, 52)
+button_color: rgb(255, 229, 198)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/lls-logo.PNG"
