@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(134, 176, 194)
+title_color: rgb(159, 2, 79)
+button_color: rgb(230, 231, 233)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/chemsoc-logo.png"
