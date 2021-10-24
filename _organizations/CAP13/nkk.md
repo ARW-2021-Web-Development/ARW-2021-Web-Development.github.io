@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+hero_title_color: rgb(190, 32, 0)
+title_color: rgb(180, 78, 39)
+button_color: rgb(244, 222, 222)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/nkk-logo.png"
