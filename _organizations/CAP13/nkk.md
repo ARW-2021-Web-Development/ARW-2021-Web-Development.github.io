@@ -46,6 +46,5 @@ events:
 - "/uploads/nkk-flagship-1.png"
 - "/uploads/nkk-flagship-2.png"
 - "/uploads/nkk-flagship-3.png"
-published: false
 
 ---

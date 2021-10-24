@@ -36,6 +36,5 @@ vid_link: https://drive.google.com/file/d/1EiQSGlcPAKSBPe40ylDiUfz3IQK-tXgt/prev
 events:
 - "/uploads/wg-flagship-1.png"
 - "/uploads/wg-flagship-2.png"
-published: false
 
 ---
