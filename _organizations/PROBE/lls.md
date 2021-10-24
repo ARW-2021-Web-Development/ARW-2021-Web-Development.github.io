@@ -1,8 +1,8 @@
 ---
 hero_title_color: rgb(255, 77, 64)
-title_color: rgb(255, 210, 85)
+title_color: rgb(255, 77, 64)
 button_color: rgb(255, 229, 198)
-description_color: rgb(255, 210, 85)
+description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/lls-logo.PNG"
 cluster: PROBE
