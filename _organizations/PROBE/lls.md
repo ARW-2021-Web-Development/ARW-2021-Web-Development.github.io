@@ -32,6 +32,5 @@ events:
 - "/uploads/lls-flagship-1.png"
 - "/uploads/lls-flagship-2.png"
 - "/uploads/lls-flagship-3.png"
-published: false
 
 ---
