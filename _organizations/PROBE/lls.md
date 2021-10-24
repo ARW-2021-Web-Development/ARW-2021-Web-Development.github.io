@@ -1,0 +1,37 @@
+---
+hero_title_color: rgb(0, 0, 0)
+title_color: rgb(255, 144, 144)
+button_color: rgb(202, 136, 178)
+description_color: rgb(0, 0, 0)
+layout: organization
+logo: "/uploads/lls-logo.PNG"
+cluster: PROBE
+fb_link: https://facebook.com/LEYDLSU/
+membership_banner: "/uploads/lls-mem-banner.png"
+hero_bg: "/uploads/lls-web-bg.png"
+main_pub: "/uploads/lls-main-pub.png"
+fav_logo: ''
+complete_name: Ley La Salle
+abbr: LLS
+about_us: "<p>Ley La Salle is the premier organization for Legal Management students,
+  aspiring lawyers, and advocates of the law of De La Salle University. Established
+  in 1998, it is the official professional organization under the Department of Commercial
+  Law of Ramon V. Del Rosario - College of Business. The non-partisan organization
+  aims to provide its members with services that would cater to their academic needs,
+  activities that would promote the legal profession, activities that would promote
+  a sense of camaraderie, and the promotion of social awareness on current and relevant
+  issues.</p>"
+tagline: "<p>Driven by Passion. United by Law.</p>"
+vision: "<p>Ley La Salle envisions a community wherein the law is used to promote,
+  uphold, and maintain justice in society.</p>"
+mission: "<p>Ley La Salle vests itself with the mission to spread the rhyme and reason
+  of the law to its constituents, the Lasallian community, and beyond.</p>"
+reg_link: www.google.com
+vid_link: https://drive.google.com/file/d/1XiTwz2u4EjU8X_Cib-F_v8wfYmTieTMY/preview
+events:
+- "/uploads/lls-flagship-1.png"
+- "/uploads/lls-flagship-2.png"
+- "/uploads/lls-flagship-3.png"
+published: false
+
+---
