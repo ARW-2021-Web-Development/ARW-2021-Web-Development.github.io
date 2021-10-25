@@ -5,7 +5,7 @@
     width: 120px
 
     opacity: 0.5
-    bottom: -100vh
+    
 
     border-radius: 50%
     background: $clr-header
@@ -29,9 +29,11 @@
 
 @keyframes bubble
     0%
-        bottom: -300px
+        bottom: 0
+        tranform: translateY(-50%)
     100%
         bottom: 100%
+        tranform: translateY(0)
 
 @keyframes sideways
     from

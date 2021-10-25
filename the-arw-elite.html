@@ -61,15 +61,17 @@ permalink: '/the-arw-elite/'
             {% for i in (1..2) %}
             <div class="columns has-text-centered">
                 {% for j in (1..5) %}
-                <a href="#{{ i | times: j }}">
-                    <div class="column is-one-third-tablet is-one-fifth-desktop">
+
+                <div class="column is-one-third-tablet is-one-fifth-desktop">
+                    <a href="#{{ i | times: j }}">
                         <img src="{{site.baseurl}}/assets/img/project heads/jason.png" alt="" />
                         <div class="glass-container purple py-1 px-1" style="width: min(80%, 275px)">
                             <p>Name</p>
                             <p class="is-size-4 gray-purple has-text-weight-bold">Org Name</p>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
+
                 {% endfor %}
                 <div>
                     <img
@@ -138,7 +140,7 @@ permalink: '/the-arw-elite/'
                             allowfullscreen
                         ></iframe>
                     </figure>
-                    <a href="{{site.baseurl}}"/>
+                    <a href="{{site.baseurl}}" style="justify-self: end">
                         <div
                             class="
                                 btn-glass
