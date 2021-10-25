@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+title_color: rgb(229, 128, 92)
+button_color: rgb(71, 157, 182)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/united-logo.png"

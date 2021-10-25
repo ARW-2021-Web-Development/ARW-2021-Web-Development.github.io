@@ -6,12 +6,12 @@
 <body>
 	{% include header.html %}
 	<div class="hero is-fullheight-with-navbar" id="org-hero"
-		style="background: url('{{ site.baseurl }}{{ page.hero_bg }}') no-repeat; background-size: cover;">
+		style="background: url('{{ site.baseurl }}{{ page.hero_bg }}') no-repeat center; background-size: cover;">
 		<div class="hero-body">
 			<div class="container is-max-widescreen">
 				<div>
 					<figure class="image is-256x256 block" style="margin: 20px auto">
-						<img class="is-rounded" src="{{ site.baseurl }}{{ page.logo }}" alt="{{ page.complete_name }} logo" />
+						<img src="{{ site.baseurl }}{{ page.logo }}" alt="{{ page.complete_name }} logo" />
 					</figure>
 					<h1 class="title has-text-centered has-letter-spacing is-custom">{{ page.abbr }}</h1>
 					<div class="columns is-centered" id="org-hero-buttons">
@@ -55,9 +55,9 @@
 							</figure>
 						</div>
 						<div class="column">
-							<div class="container pressed-glass is-custom" id="org-about-us">
-								<p class="title is-5 has-text-weight-bold" style="color: inherit">{{ page.complete_name }}</p>
-								<div class="content has-text-justified">{{ page.about_us }}</div>
+							<div class="container pressed-glass is-custom">
+								<p class="title is-5 has-text-weight-bold" style="color: inherit; margin-bottom: 0;">{{ page.complete_name }}</p>
+								<div class="content has-text-justified"><br>{{ page.about_us }}<br></div>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	<section class="section is-medium container is-max-widescreen">
+	<section class="section is-small container is-max-widescreen">
 		<div class="columns">
 			<div class="column">
 				<div class="is-flex is-flex-direction-column is-justify-content-space-around is-full-height">
@@ -86,7 +86,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section is-medium container is-max-widescreen" style="width: 100%">
+	<section class="section is-small container is-max-widescreen" style="width: 100%">
 		<h1 class="title inner-text-shadow is-custom">FLAGSHIP EVENTS</h1>
 		<div class="carousel-button-wrapper" style="position: relative">
 			<div class="carousel-container">
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section is-medium container is-max-widescreen" style="width: 100%">
+	<section class="section is-small container is-max-widescreen" style="width: 100%">
 		<div class="columns is-desktop">
 			<div class="column">
 				<figure class="image is-square">

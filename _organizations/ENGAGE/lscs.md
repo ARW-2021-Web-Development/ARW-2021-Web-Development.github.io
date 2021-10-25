@@ -1,12 +1,12 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+hero_title_color: rgb(0, 46, 86)
+title_color: rgb(104, 130, 165)
+button_color: rgb(221, 171, 13)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/lscs-logo.png"
 cluster: ENGAGE
-fb_link: facebook.com
+fb_link: https://www.facebook.com/LaSalleComputerSociety
 membership_banner: "/uploads/lscs-mem-banner.png"
 hero_bg: "/uploads/lscs-web-bg.png"
 main_pub: "/uploads/hohuqy7mss901.png"
