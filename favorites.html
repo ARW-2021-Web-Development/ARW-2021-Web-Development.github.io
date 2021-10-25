@@ -13,7 +13,7 @@ permalink: '/favorites/'
   <div id="app">
     <section v-if="favs.size" class="section is-medium has-text-centered" style="min-height: calc(100vh - 10em)">
       <div class="container">
-        <p class="title pink-title-gradient has-text-weight-black" style="font-size: 4em">
+        <p class="title is-1 pink-title-gradient has-text-weight-black responsive" style="font-size: 4em">
           MY FAVORITE ORGANIZATIONS
         </p>
         <div class="columns is-multiline">
@@ -43,10 +43,10 @@ permalink: '/favorites/'
     <div v-else class="hero is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title pink-title-gradient has-text-weight-black" style="font-size: 4em">
+          <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
             MY FAVORITE ORGANIZATIONS
           </p>
-          <p class="subtitle is-3 grape has-text-weight-semibold">
+          <p class="subtitle is-3 grape has-text-weight-semibold responsive">
             Seems like you don't have any favorite organizations yet!
           </p>
           <a href="{{ site.baseurl }}/organizations/"
