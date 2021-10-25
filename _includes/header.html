@@ -2,49 +2,36 @@
 <script src="{{site.baseurl}}/assets/js/burger.js" defer></script>
 
 <header class="nav-container">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item home" href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" class="logos" alt="ARW 2021 Logo" />
-            </a>
-            <form class="navbar-item form">
-                <div class="control has-icons-left">
-                    <input
-                        type="search"
-                        name="search"
-                        id="search"
-                        class="input search-bar"
-                        size="30"
-                        placeholder="Search Organization..."
-                    />
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-search"></i>
-                    </span>
-                </div>
-            </form>
-            <a
-                role="button"
-                id="navbar-burger"
-                class="navbar-burger"
-                aria-label="menu"
-                aria-expanded="false"
-                data-target="navMenu"
-            >
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item home" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" class="logos" alt="ARW 2021 Logo" />
+      </a>
+      <form class="navbar-item form" method="GET" action="{{ site.baseurl }}/search">
+        <div class="control has-icons-left">
+          <input type="search" name="q" id="search" class="input search-bar" size="30" placeholder="Search Organization..."/>
+          <span class="icon is-small is-left">
+            <i class="fas fa-search"></i>
+          </span>
         </div>
-        <div id="navbar-menu" class="navbar-menu mr-4">
-            <div class="navbar-end is-align-items-center">
-                <a href="{{site.baseurl}}/organizations/" class="navbar-item">Organizations</a>
-                <a href="{{site.baseurl}}/favorites/" class="navbar-item">Favorites</a>
-                <a href="{{site.baseurl}}/faq/" class="navbar-item">FAQs</a>
-                <a href="{{site.baseurl}}/the-arw-elite/" class="navbar-item">The ARW Elite</a>
-                <a href="{{site.baseurl}}/museum-day/" class="navbar-item">Museum Day</a>
-                <a href="{{site.baseurl}}/questions_and_feedback/" class="navbar-item">Question & Feedback</a>
-                <a href="{{site.baseurl}}/behind-arw/" class="navbar-item mr-1">Behind ARW</a>
-            </div>
-        </div>
-    </nav>
+      </form>
+      <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
+        data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbar-menu" class="navbar-menu mr-4">
+      <div class="navbar-end is-align-items-center">
+        <a href="{{site.baseurl}}/organizations/" class="navbar-item">Organizations</a>
+        <a href="{{site.baseurl}}/favorites/" class="navbar-item">Favorites</a>
+        <a href="{{site.baseurl}}/faq/" class="navbar-item">FAQs</a>
+        <a href="{{site.baseurl}}/the-arw-elite/" class="navbar-item">The ARW Elite</a>
+        <a href="{{site.baseurl}}/museum-day/" class="navbar-item">Museum Day</a>
+        <a href="{{site.baseurl}}/questions_and_feedback/" class="navbar-item">Question & Feedback</a>
+        <a href="{{site.baseurl}}/behind-arw/" class="navbar-item mr-1">Behind ARW</a>
+      </div>
+    </div>
+  </nav>
 </header>

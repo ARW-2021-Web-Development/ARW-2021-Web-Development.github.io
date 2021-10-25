@@ -1,0 +1,57 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
+
+  <div id="app">
+    <div v-for="org in orgList" :key="org.abbr">
+      {% raw %}
+      <a :href="`/${baseurl}/${org.abbr}`">{{ org.abbr }}</a>
+      {% endraw %}
+    </div>
+  </div>
+
+  <script>
+    const emitter = mitt()
+    let orgs = localStorage.getItem('orgs') || []
+    let query = new URLSearchParams(window.location.search).get('q')
+    const search = document.getElementById('search')
+
+    search.onkeyup = e => { emitter.emit('queryChange', search.value) }
+
+    if (!orgs) {
+      fetch('https://jaredblase.github.io/arw-2021/assets/js/orgs.json')
+        .then(response => response.json())
+        .then(data => {
+          orgs = data
+          localStorage.setItem('orgs', data)
+        })
+    }
+
+    Vue.createApp({
+      data: () => {
+        return { query, baseurl: '{{ site.baseurl }}' }
+      },
+      computed: {
+        orgList() {
+          return orgs.filter(org => org.abbr.includes(this.query) || org.name.includes(this.query))
+        }
+      },
+      methods: {
+        redirect(link) {
+          window.location.assign(link)
+        }
+      },
+      created() {
+        emitter.on('queryChange', query => this.query = query)
+      }
+    }).mount('#app')
+  </script>
+  {% include footer.html %}
+</body>
+</html>
