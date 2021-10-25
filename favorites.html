@@ -19,7 +19,7 @@ permalink: '/favorites/'
         <div class="columns is-multiline">
           <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
             {% raw %}
-            <figure class="image is-square is-fullwidth is-relative">
+            <figure class="image is-square is-fullwidth is-relative is-clickable" @click="redirect(baseurl + '/' + key.toLowerCase())">
               <span class="icon is-medium is-clickable delete-btn">
                 <i class="fas fa-times fa-lg" @click="removeItem(key)"></i>
               </span>
@@ -77,25 +77,29 @@ permalink: '/favorites/'
 
   <script src="{{ site.baseurl }}/assets/js/favorites.js"></script>
   <script>
-    const emitter = mitt();
-    const favs = getFavorites();
+    const emitter = mitt()
+    const favs = getFavorites()
 
     Vue.createApp({
       data: () => {
-        return { favs, baseurl: '{{ site.baseurl }}' };
+        return { favs, baseurl: '{{ site.baseurl }}' }
       },
       methods: {
         removeItem(key) {
-          this.favs.delete(key);
-          setFavorites(this.favs);
+          this.favs.delete(key, event)
+          setFavorites(this.favs)
+          event.stopPropagation()
         },
+        redirect(link) {
+          window.location.assign(link)
+        }
       },
       created() {
-        emitter.on('update-favs', (e) => (this.favs = getFavorites()));
+        emitter.on('update-favs', (e) => (this.favs = getFavorites()))
       },
-    }).mount('#app');
+    }).mount('#app')
 
-    window.onstorage = () => emitter.emit('update-favs');
+    window.onstorage = () => emitter.emit('update-favs')  
   </script>
 
   {% include footer.html %}
