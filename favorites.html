@@ -13,13 +13,13 @@ permalink: '/favorites/'
   <div id="app">
     <section v-if="favs.size" class="section is-medium has-text-centered" style="min-height: calc(100vh - 10em)">
       <div class="container">
-        <p class="title pink-title-gradient has-text-weight-black" style="font-size: 4em">
+        <p class="title is-1 pink-title-gradient has-text-weight-black responsive" style="font-size: 4em">
           MY FAVORITE ORGANIZATIONS
         </p>
         <div class="columns is-multiline">
           <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
             {% raw %}
-            <figure class="image is-square is-fullwidth is-relative">
+            <figure class="image is-square is-fullwidth is-relative is-clickable" @click="redirect(baseurl + '/' + key.toLowerCase())">
               <span class="icon is-medium is-clickable delete-btn">
                 <i class="fas fa-times fa-lg" @click="removeItem(key)"></i>
               </span>
@@ -43,10 +43,10 @@ permalink: '/favorites/'
     <div v-else class="hero is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title pink-title-gradient has-text-weight-black" style="font-size: 4em">
+          <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
             MY FAVORITE ORGANIZATIONS
           </p>
-          <p class="subtitle is-3 grape has-text-weight-semibold">
+          <p class="subtitle is-3 grape has-text-weight-semibold responsive">
             Seems like you don't have any favorite organizations yet!
           </p>
           <a href="{{ site.baseurl }}/organizations/"
@@ -77,25 +77,29 @@ permalink: '/favorites/'
 
   <script src="{{ site.baseurl }}/assets/js/favorites.js"></script>
   <script>
-    const emitter = mitt();
-    const favs = getFavorites();
+    const emitter = mitt()
+    const favs = getFavorites()
 
     Vue.createApp({
       data: () => {
-        return { favs, baseurl: '{{ site.baseurl }}' };
+        return { favs, baseurl: '{{ site.baseurl }}' }
       },
       methods: {
         removeItem(key) {
-          this.favs.delete(key);
-          setFavorites(this.favs);
+          this.favs.delete(key, event)
+          setFavorites(this.favs)
+          event.stopPropagation()
         },
+        redirect(link) {
+          window.location.assign(link)
+        }
       },
       created() {
-        emitter.on('update-favs', (e) => (this.favs = getFavorites()));
+        emitter.on('update-favs', (e) => (this.favs = getFavorites()))
       },
-    }).mount('#app');
+    }).mount('#app')
 
-    window.onstorage = () => emitter.emit('update-favs');
+    window.onstorage = () => emitter.emit('update-favs')  
   </script>
 
   {% include footer.html %}

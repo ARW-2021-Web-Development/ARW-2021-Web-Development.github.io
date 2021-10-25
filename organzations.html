@@ -56,7 +56,7 @@ permalink: '/organizations/'
   <main class="container is-max-widescreen">
     <section class="section is-medium mb-6 decoration-container">
       {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
-      <h1 class="title is-1 inner-text-shadow purple has-text-centered">{{ cso.complete_name }}</h1>
+      <h1 class="title is-1 inner-text-shadow purple has-text-centered responsive">{{ cso.complete_name }}</h1>
       <p class="subtitle has-text-centered purple has-text-weight-medium">Description for CSO</p>
       <div class="columns is-centered decoration-container">
         <div class="column is-one-third">
