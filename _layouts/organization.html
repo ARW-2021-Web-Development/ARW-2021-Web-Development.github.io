@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 {% assign btn_color = page.button_color | replace: "b", "ba" | replace: ")", ", 0.9)" %}
-{% include head.html title=page.complete_name color=page.title_color button_color=btn_color desc_color=page.description_color hero=page.hero_title_color %}
+{% assign desc = page.about_us | strip_html %}
+{% include head.html title=page.complete_name description=desc color=page.title_color button_color=btn_color desc_color=page.description_color hero=page.hero_title_color %}
 
 <body>
 	{% include header.html %}

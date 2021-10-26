@@ -2,14 +2,14 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+{% include head.html title="Search" %}
 <body>
   {% include header.html %}
   <script src="https://unpkg.com/vue@next"></script>
   <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
 
   <div id="app">
-    <div v-for="org in orgList" :key="org.abbr">
+    <div v-for="org in orgList()" :key="org.abbr">
       {% raw %}
       <a :href="`/${baseurl}/${org.abbr}`">{{ org.abbr }}</a>
       {% endraw %}
@@ -18,28 +18,29 @@
 
   <script>
     const emitter = mitt()
-    let orgs = localStorage.getItem('orgs') || []
+    let orgs = JSON.parse(localStorage.getItem('orgs')) || []
     let query = new URLSearchParams(window.location.search).get('q')
     const search = document.getElementById('search')
 
     search.onkeyup = e => { emitter.emit('queryChange', search.value) }
 
-    if (!orgs) {
-      fetch('https://jaredblase.github.io/arw-2021/assets/js/orgs.json')
+    if (!orgs.length) {
+      fetch('https://jaredblase.github.io/arw-2021/assets/js/org.json')
         .then(response => response.json())
         .then(data => {
           orgs = data
-          localStorage.setItem('orgs', data)
+          localStorage.setItem('orgs', JSON.stringify(data))
         })
     }
 
     Vue.createApp({
       data: () => {
-        return { query, baseurl: '{{ site.baseurl }}' }
+        return { orgs, query, baseurl: '{{ site.baseurl }}' }
       },
       computed: {
         orgList() {
-          return orgs.filter(org => org.abbr.includes(this.query) || org.name.includes(this.query))
+            return this.query ? 
+            this.orgs.filter(org => org.abbr.includes(this.query) || org.name.includes(this.query)) : this.orgs
         }
       },
       methods: {

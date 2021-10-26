@@ -1,16 +1,23 @@
 <head>
+  {% assign title = include.title | append: ' | ARW 2021' %}
+  {% if include.description == nil %}
+    {% assign description = site.description %}
+  {% else %}
+    {% assign description = include.description %}
+  {% endif %}
+  
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta property="og:image" content="https://dlsuarw2021.live/assets/img/logos/ARW.png" />
-    <meta property="og:title" content="ARW 2021" />
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
     <meta property="og:url" content="https://dlsuarw2021.live/" />
     <meta name="twitter:card" content="summary"></meta>
     
-    <title>{% if include.title %}{{ include.title }}{% else %}ARW 2021{% endif %}</title>
-    <meta name="description" content="{{ site.description }}" />
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}" />
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
