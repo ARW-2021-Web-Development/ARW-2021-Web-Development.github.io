@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(20, 85, 144)
+hero_title_color: rgb(15, 60, 100)
 title_color: rgb(253, 60, 60)
-button_color: rgb(232, 240, 255)
+button_color: rgb(253, 227, 242)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/sme-logo.png"
