@@ -3,16 +3,27 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html title="Search" %}
+
 <body>
   {% include header.html %}
   <script src="https://unpkg.com/vue@next"></script>
   <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
 
-  <div id="app">
-    <div v-for="org in orgList()" :key="org.abbr">
-      {% raw %}
-      <a :href="`/${baseurl}/${org.abbr}`">{{ org.abbr }}</a>
-      {% endraw %}
+  <div id="app" class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="columns is-centered is-multiline" style="width: 100%;">
+        <div v-for="org in orgList" :key="org.abbr" class="column is-one-fifth">
+          <div class="container">
+            {% raw %}
+            <figure class="image is-square is-fullwidth is-relative is-clickable"
+              @click="redirect(`${baseurl}/${org.abbr}`)">
+              <img :src="baseurl + org.logo" :alt="`${org.abbr} Logo`">
+            </figure>
+            <a :href="`${baseurl}/${org.abbr}`" class="button is-fullwidth btn-glass white-btn">{{ org.abbr.toUpperCase() }}</a>
+            {% endraw %}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -39,7 +50,7 @@
       },
       computed: {
         orgList() {
-            return this.query ? 
+          return this.query ?
             this.orgs.filter(org => org.abbr.includes(this.query) || org.name.includes(this.query)) : this.orgs
         }
       },
@@ -49,10 +60,14 @@
         }
       },
       created() {
-        emitter.on('queryChange', query => this.query = query)
+        emitter.on('queryChange', query => {
+          this.query = query
+          window.history.replaceState(null, '', `?q=${query}`)
+        })
       }
     }).mount('#app')
   </script>
   {% include footer.html %}
 </body>
+
 </html>

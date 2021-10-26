@@ -19,13 +19,13 @@ permalink: '/favorites/'
         <div class="columns is-multiline">
           <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
             {% raw %}
-            <figure class="image is-square is-fullwidth is-relative is-clickable" @click="redirect(baseurl + '/' + key.toLowerCase())">
-              <span class="icon is-medium is-clickable delete-btn">
-                <i class="fas fa-times fa-lg" @click="removeItem(key)"></i>
+            <figure class="image is-square is-fullwidth is-relative is-clickable" @click="redirect(`${baseurl}/${key.toLowerCase()}`)">
+              <span class="icon is-medium is-clickable delete-btn" style="z-index: 100">
+                <i class="fas fa-times fa-lg" @click.stop="removeItem(key)"></i>
               </span>
-              <img class="is-rounded" :src="baseurl + value" :alt="key + 'Logo'" />
+              <img :src="baseurl + value" :alt="`${key} Logo`" />
             </figure>
-            <a :href="baseurl + '/' + key.toLowerCase()" class="button is-fullwidth btn-glass white-btn">{{ key }}</a>
+            <a :href="`${baseurl}/${key.toLowerCase()}" class="button is-fullwidth btn-glass white-btn">{{ key }}</a>
             {% endraw %}
             <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/ribbons/1.png" alt="" class="decorative"
               id="favorites-v2-ribbons-1">
@@ -86,9 +86,8 @@ permalink: '/favorites/'
       },
       methods: {
         removeItem(key) {
-          this.favs.delete(key, event)
+          this.favs.delete(key)
           setFavorites(this.favs)
-          event.stopPropagation()
         },
         redirect(link) {
           window.location.assign(link)

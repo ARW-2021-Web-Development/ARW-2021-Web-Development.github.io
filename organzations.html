@@ -62,7 +62,7 @@ permalink: '/organizations/'
         <div class="column is-one-third">
           <div class="container">
             <figure class="image is-square is-clickable" onclick="window.location.assign('{{ site.baseurl }}/{{ cso.abbr | downcase }}')">
-              <img src="{{ site.baseurl }}/{{ cso.logo }}" alt="CSO Logo"></img>
+              <img src="{{ site.baseurl }}{{ cso.logo }}" alt="CSO Logo"></img>
             </figure>
             <a href="{{ site.baseurl }}/{{ cso.abbr | downcase }}" class="button is-fullwidth btn-glass white-btn">{{ cso.abbr }}</a>
           </div>
@@ -104,9 +104,9 @@ permalink: '/organizations/'
         <div class="column is-one-quarter">
           <figure class="image is-square mb-3 is-clickable" onclick="window.location.assign('{{ site.baseurl }}/{{ org.abbr | downcase }}')">
             {% if org.fav_logo and org.fav_logo != '' %}
-            <img src="{{ site.baseurl }}/{{ org.fav_logo }}" alt="{{ org.complete_name }} Logo">
+            <img src="{{ site.baseurl }}{{ org.fav_logo }}" alt="{{ org.complete_name }} Logo">
             {% else %}
-            <img src="{{ site.baseurl }}/{{ org.logo }}" alt="{{ org.complete_name }} Logo">
+            <img src="{{ site.baseurl }}{{ org.logo }}" alt="{{ org.complete_name }} Logo">
             {% endif %}
           </figure>
           <a href="{{ site.baseurl }}/{{ org.abbr | downcase }}" class="button is-fullwidth btn-glass white-btn">{{ org.abbr }}</a>
