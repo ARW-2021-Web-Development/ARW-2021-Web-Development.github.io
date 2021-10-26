@@ -14,11 +14,16 @@
             {% for qna in page.faq %}
             <div class="accordion glass-container light-pink mt-5 px-6 is-size-4" style="width: 100%; color: #8a7f98">
                 <div class="accordion-header" style="display: flex">
-                    <span class="inner-text-shadow pink is-size-3" style="transform: translateY(-7px); font-weight: 900"
+                    <span
+                        class="inner-text-shadow pink is-size-3"
+                        style="position: relative; transform: translateY(-7px); font-weight: 900"
                         >Q:</span
                     >
                     <span class="ml-4">{{qna.question}}</span>
-                    <i class="fas fa-plus-circle" style="transform: translateY(7px)"></i>
+                    <i
+                        class="fas fa-plus-circle"
+                        style="position: absolute; right: 20px; transform: translateY(7px)"
+                    ></i>
                 </div>
                 <div class="accordion-content closed" style="display: flex; text-align: justify">
                     <span class="inner-text-shadow pink is-size-3" style="transform: translateY(-7px); font-weight: 900"
