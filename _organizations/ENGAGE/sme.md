@@ -1,5 +1,5 @@
 ---
-hero_title_color: rgb(15, 60, 100)
+hero_title_color: rgb(232, 240, 255)
 title_color: rgb(253, 60, 60)
 button_color: rgb(253, 227, 242)
 description_color: rgb(0, 0, 0)
