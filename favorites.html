@@ -25,7 +25,7 @@ permalink: '/favorites/'
               </span>
               <img :src="baseurl + value" :alt="`${key} Logo`" />
             </figure>
-            <a :href="`${baseurl}/${key.toLowerCase()}" class="button is-fullwidth btn-glass white-btn">{{ key }}</a>
+            <a :href="`${baseurl}/${key.toLowerCase()}`" class="button is-fullwidth btn-glass white-btn">{{ key }}</a>
             {% endraw %}
             <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/ribbons/1.png" alt="" class="decorative"
               id="favorites-v2-ribbons-1">
