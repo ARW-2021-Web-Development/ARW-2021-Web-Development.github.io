@@ -24,18 +24,17 @@ tagline: "<p>Making the future. Together.</p>"
 vision: "<p>The Society of Manufacturing Engineers, SME, is a community united in
   helping to mold well-rounded engineers who are the forerunners in the advancement
   and development of the Philippine Manufacturing Industry.</p>"
-mission: "<p><strong>Professional Development: </strong></p><blockquote><p>To provide
-  the means for the technical and professional development of members by organizing
-  plant visits, seminars, career talks, and company talks. </p></blockquote><p><strong>Academic
-  Excellence: </strong></p><p>To motivate students in achieving academic excellence
-  through the provision of tutorials and reviewers and taking part in curriculum development.</p><p><strong>Image
-  Enhancement: </strong></p><p>To provide a means to increase the prestige and public
-  awareness of the manufacturing, mechatronics, and biomedical industries by organizing
-  exhibits, competitions, and other promotional activities through partnerships with
-  various academic and industrial institutions. </p><p><strong>Special Activities
-  Development: </strong></p><p>To provide a means for the pursuit of special areas
-  of interest such as sports and recreation, socio-civic relations, and religious
-  activities.</p>"
+mission: "<p><strong>Professional Development:</strong></p><p>To provide the means
+  for the technical and professional development of members by organizing plant visits,
+  seminars, career talks, and company talks.</p><p><strong>Academic Excellence:</strong></p><p>To
+  motivate students in achieving academic excellence through the provision of tutorials
+  and reviewers and taking part in curriculum development.</p><p><strong>Image Enhancement:</strong></p><p>To
+  provide a means to increase the prestige and public awareness of the manufacturing,
+  mechatronics, and biomedical industries by organizing exhibits, competitions, and
+  other promotional activities through partnerships with various academic and industrial
+  institutions.</p><p><strong>Special Activities Development:</strong></p><p>To provide
+  a means for the pursuit of special areas of interest such as sports and recreation,
+  socio-civic relations, and religious activities.</p>"
 reg_link: www.google.com
 vid_link: https://drive.google.com/file/d/1Atj5abfMRylCjuCOi5PBSZTT8AmScJiS/preview
 events:
