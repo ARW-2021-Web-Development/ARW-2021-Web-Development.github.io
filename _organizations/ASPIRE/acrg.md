@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
 title_color: rgb(65, 117, 5)
-button_color: rgb(65, 117, 5)
+button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/arcg-logo.png"
@@ -31,7 +31,7 @@ mission: "<p>Creating learning opportunities for aspiring student consultants th
   will enable them to fulfill the responsibilities of a Lasallian business leader,
   through uncovering their known and unknown capabilities.</p>"
 reg_link: google.com
-vid_link: https://drive.google.com/file/d/1Olabo4QI-TcekrYBmj6fjLtUALYaniVf/view?usp=sharing/preview
+vid_link: https://drive.google.com/file/d/1Olabo4QI-TcekrYBmj6fjLtUALYaniVf/preview
 events:
 - "/uploads/flagship-6.png"
 - "/uploads/flagship-5.png"
