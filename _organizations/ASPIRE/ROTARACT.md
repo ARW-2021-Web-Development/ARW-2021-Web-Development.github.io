@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(193, 31, 93)
+button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/rotaract-logo.png"
