@@ -31,6 +31,5 @@ reg_link: google.com
 vid_link: https://drive.google.com/file/d/13lxt-3WiHLLCWvwXleC6kz2xQMWFEUaH/preview
 events:
 - "/uploads/va-flagship.png"
-published: false
 
 ---
