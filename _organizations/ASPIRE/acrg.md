@@ -39,6 +39,5 @@ events:
 - "/uploads/flagship-3.png"
 - "/uploads/flagship-2.png"
 - "/uploads/flagship-1.png"
-published: false
 
 ---
