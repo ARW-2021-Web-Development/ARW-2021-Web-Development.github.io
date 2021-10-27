@@ -1,14 +1,21 @@
-#home-circle-solid-big-light
-  width: 30px
-  
-#home-tri-blue
-  width: 200px
+#home-triangles-1
+  width: Max(7%, 80px)
   // animation: rotate-reverse 8000ms linear infinite
+  bottom: 0
+  left: 0
+  transform: translate(30%, 50%)
+  @media (max-width: 800px)
+    transform: translate(-30%, -120%)
 
-#home-tri-pink
-  width: 200px
-  animation: rotate-reverse 8000ms linear infinite
+#home-triangles-2
+  width: Max(10%, 80px)
+  // animation: rotate-reverse 8000ms linear infinite
   // animation: rotate 5000ms linear infinite
+  bottom: 0
+  left: 0
+  transform: translate(30%, 30%)
+  @media (max-width: 800px)
+    transform: translate(-10%, -130%)
 
 @keyframes rotate
   to 
@@ -84,14 +91,20 @@
   transform: translate(10%, 40%)
   z-index: 1
   @media (max-width: 800px)
-    transform: translate(0, 0)
+    transform: translate(15%, 75%)
 
 #home-triangles-3
+  width: Max(10%, 60px)
   bottom: 0
   left: 0
   transform: translate(10%, 50%)
+  @media (max-width: 800px)
+    transform: translate(-30%, 75%)
 
 #home-triangles-4
+  width: Max(8%, 50px)
   bottom: 0
   left: 0
-  transform: translate(100%, 100%)
+  transform: translate(100%, 80%)
+  @media (max-width: 800px)
+    transform: translate(50%, 110%)

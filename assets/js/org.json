@@ -9,16 +9,8 @@
     { "name": "archers consulting group", "abbr": "arcg", "logo": "/uploads/arcg-logo.png" },
     { "name": "archers for unicef", "abbr": "au", "logo": "/uploads/au-logo.png" },
     { "name": "effective altruism de la salle university - manila", "abbr": "ea", "logo": "/uploads/ea-logo.png" },
-    {
-        "name": "de la salle university - environmental conservation organization",
-        "abbr": "eco",
-        "logo": "/uploads/eco-logo.png"
-    },
-    {
-        "name": "englicom - dlsu filipino & chinese organization",
-        "abbr": "englicom",
-        "logo": "/uploads/englicom-logo.png"
-    },
+    { "name": "de la salle university - environmental conservation organization", "abbr": "eco", "logo": "/uploads/eco-logo.png" },
+    { "name": "englicom - dlsu filipino & chinese organization", "abbr": "englicom", "logo": "/uploads/englicom-logo.png" },
     { "name": "gakuen anime soshiki", "abbr": "gas", "logo": "/uploads/gas-logo.png" },
     { "name": "green music collective", "abbr": "gmc", "logo": "/uploads/gmc-logo.png" },
     { "name": "habitat for humanity", "abbr": "hfh", "logo": "/uploads/hfh-logo.png" },
@@ -32,11 +24,7 @@
     { "name": "the organization for american studies", "abbr": "amstud", "logo": "/uploads/amstud-logo.png" },
     { "name": "behavioral sciences society", "abbr": "bss", "logo": "/uploads/bss-logo.png" },
     { "name": "dlsu cultura", "abbr": "cultura", "logo": "/uploads/cultura-logo.png" },
-    {
-        "name": "dalubhasaan ng mga umuusbong na mag-aaral ng araling filipino",
-        "abbr": "danum",
-        "logo": "/uploads/danum-logo.png"
-    },
+    { "name": "dalubhasaan ng mga umuusbong na mag-aaral ng araling filipino", "abbr": "danum", "logo": "/uploads/danum-logo.png" },
     { "name": "development initiative", "abbr": "devint", "logo": "/uploads/devint-logo.png" },
     { "name": "european studies association", "abbr": "esa", "logo": "/uploads/esa-logo.png" },
     { "name": "nihon kenkyuu kai", "abbr": "nkk", "logo": "/uploads/nkk-logo.png" },

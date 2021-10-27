@@ -6,45 +6,43 @@
 {% include head.html title="Home" %}
 <body>
   {% include header.html %}
-  <div class="section has-text-centered">
-    <figure class="image">
-      <img src="" alt="" />
-    </figure>
-    <figure class="image mb-6 is-relative" style="z-index: 0">
-      <picture>
-        <source srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png" media="(max-width: 800px)" />
-        <img class="banner-img" src="{{ site.baseurl }}/assets/img/arw-banner.png" alt="ARW 2021 Home Banner"
-          style="width: 100%; max-width: 1200px; margin: auto" />
-      </picture>
-      <img id="home-tri-blue" class="decorative"
-        src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/2.png" alt="" />
-      <img id="home-tri-pink" class="decorative"
-        src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/1.png" alt="" />
-    </figure>
-    <div class="columns is-centered container is-max-widescreen is-relative" style="margin: auto; z-index: 1">
-      <div class="column is-four-fifths-mobile is-one-third">
-        <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
-          href="https://facebook.com/DLSUARW">
-          <span class="icon is-small"><i class="fab fa-facebook-f fa-lg"></i></span>
-          <span>Facebook</span>
-        </a>
+  <div class="section has-text-centered decoration-container" style="z-index: 5;">
+    <div class="decoration-wrapper">
+      <figure class="image">
+        <img src="" alt="" />
+      </figure>
+      <figure class="image mb-6" style="z-index: 0">
+        <picture>
+          <source srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png" media="(max-width: 800px)" />
+          <img class="banner-img" src="{{ site.baseurl }}/assets/img/arw-banner.png" alt="ARW 2021 Home Banner"
+            style="width: 100%; max-width: 1200px; margin: auto" />
+        </picture>
+      </figure>
+      <div class="columns is-centered container is-max-widescreen" style="margin: auto">
+        <div class="column is-four-fifths-mobile is-one-third">
+          <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
+            href="https://facebook.com/DLSUARW">
+            <span class="icon is-small"><i class="fab fa-facebook-f fa-lg"></i></span>
+            <span>Facebook</span>
+          </a>
+        </div>
+        <div class="column is-four-fifths-mobile is-one-third">
+          <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
+            href="https://dlsucso.com">
+            <span class="icon is-small"><i class="far fa-window-maximize fa-lg"></i></span>
+            <span>CSO Website</span>
+          </a>
+        </div>
+        <div class="column is-four-fifths-mobile is-one-third">
+          <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
+            href="https://www.instagram.com/dlsu_arw/">
+            <span class="icon is-small"><i class="fab fa-instagram fa-lg"></i></span>
+            <span>Instagram</span></a>
+        </div>
       </div>
-      <div class="column is-four-fifths-mobile is-one-third">
-        <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
-          href="https://dlsucso.com">
-          <span class="icon is-small"><i class="far fa-window-maximize fa-lg"></i></span>
-          <span>CSO Website</span>
-        </a>
-      </div>
-      <div class="column is-four-fifths-mobile is-one-third">
-        <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
-          href="https://www.instagram.com/dlsu_arw/">
-          <span class="icon is-small"><i class="fab fa-instagram fa-lg"></i></span>
-          <span>Instagram</span></a>
-      </div>
+      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/2.png" alt="" id="home-triangles-1">
+      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/1.png" alt="" id="home-triangles-2">
     </div>
-    <img id="home-circle-solid-big-light" class="decorative"
-      src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/1.png" alt="" />
   </div>
 
   <div class="section is-medium decoration-container">
