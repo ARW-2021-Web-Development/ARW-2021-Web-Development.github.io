@@ -5,6 +5,7 @@ permalink: '/favorites/'
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html title="Favorites" %}
+
 <body>
   {% include header.html %}
   <script src="https://unpkg.com/vue@next"></script>
@@ -19,7 +20,8 @@ permalink: '/favorites/'
         <div class="columns is-multiline">
           <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
             {% raw %}
-            <figure class="image is-square is-fullwidth is-relative is-clickable" @click="redirect(`${baseurl}/${key.toLowerCase()}`)">
+            <figure class="image is-square is-fullwidth is-relative is-clickable"
+              @click="redirect(`${baseurl}/${key.toLowerCase()}`)">
               <span class="icon is-medium is-clickable delete-btn" style="z-index: 100">
                 <i class="fas fa-times fa-lg" @click.stop="removeItem(key)"></i>
               </span>
@@ -43,33 +45,35 @@ permalink: '/favorites/'
     <div v-else class="hero is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
-            MY FAVORITE ORGANIZATIONS
-          </p>
-          <p class="subtitle is-3 grape has-text-weight-semibold responsive">
-            Seems like you don't have any favorite organizations yet!
-          </p>
-          <a href="{{ site.baseurl }}/organizations/"
-            class="button gradient flat-glass is-large has-text-weight-medium grape mt-4"
-            style="max-width: 300px; margin: auto">VIEW ORGANIZATIONS</a>
+          <div class="decoration-wrapper">
+            <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
+              MY FAVORITE ORGANIZATIONS
+            </p>
+            <p class="subtitle is-3 grape has-text-weight-semibold responsive">
+              Seems like you don't have any favorite organizations yet!
+            </p>
+            <a href="{{ site.baseurl }}/organizations/"
+              class="button gradient flat-glass is-large has-text-weight-medium grape mt-4"
+              style="max-width: 300px; margin: auto">VIEW ORGANIZATIONS</a>
 
-          <img src="{{site.baseurl}}/assets/img/decorations/favorites/circles/1.png" alt="" class="decorative"
-            id="favorites-circles-1">
+            <img src="{{site.baseurl}}/assets/img/decorations/favorites/circles/1.png" alt="" class="decorative"
+              id="favorites-circles-1">
 
-          <img src="{{site.baseurl}}/assets/img/decorations/favorites/circles/2.png" alt="" class="decorative"
-            id="favorites-circles-2">
+            <img src="{{site.baseurl}}/assets/img/decorations/favorites/circles/2.png" alt="" class="decorative"
+              id="favorites-circles-2">
 
-          <img src="{{site.baseurl}}/assets/img/decorations/favorites/circles/3.png" alt="" class="decorative"
-            id="favorites-circles-3">
+            <img src="{{site.baseurl}}/assets/img/decorations/favorites/circles/3.png" alt="" class="decorative"
+              id="favorites-circles-3">
 
-          <img src="{{site.baseurl}}/assets/img/decorations/favorites/ribbons/1.png" alt="" class="decorative"
-            id="favorites-ribbons-1">
+            <img src="{{site.baseurl}}/assets/img/decorations/favorites/ribbons/1.png" alt="" class="decorative"
+              id="favorites-ribbons-1">
 
-          <img src="{{site.baseurl}}/assets/img/decorations/favorites/triangles/1.png" alt="" class="decorative"
-            id="favorites-triangles-1">
+            <img src="{{site.baseurl}}/assets/img/decorations/favorites/triangles/1.png" alt="" class="decorative"
+              id="favorites-triangles-1">
 
-          <img src="{{site.baseurl}}/assets/img/decorations/favorites/triangles/2.png" alt="" class="decorative"
-            id="favorites-triangles-2">
+            <img src="{{site.baseurl}}/assets/img/decorations/favorites/triangles/2.png" alt="" class="decorative"
+              id="favorites-triangles-2">
+          </div>
         </div>
       </div>
     </div>
@@ -98,9 +102,10 @@ permalink: '/favorites/'
       },
     }).mount('#app')
 
-    window.onstorage = () => emitter.emit('update-favs')  
+    window.onstorage = () => emitter.emit('update-favs')
   </script>
 
   {% include footer.html %}
 </body>
+
 </html>
