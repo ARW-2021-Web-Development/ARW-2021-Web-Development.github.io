@@ -1,15 +1,15 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(0, 0, 0)
-button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(102, 90, 75)
+title_color: rgb(159, 98, 91)
+button_color: rgb(251, 231, 169)
+description_color: rgb(72, 66, 66)
 layout: organization
 logo: "/uploads/jema-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/DLSUJEMA
-membership_banner: "/uploads/500x500.png"
-hero_bg: "/uploads/3594040.jpg"
-main_pub: "/uploads/hohuqy7mss901.png"
+membership_banner: "/uploads/jema-mem-banner.png"
+hero_bg: "/uploads/jema-web-bg.png"
+main_pub: "/uploads/jema-main-pub.png"
 fav_logo: ''
 complete_name: Junior Entrepreneurs' Marketing Association
 abbr: JEMA
@@ -27,6 +27,10 @@ mission: "<p>To become a nationally competitive marketing student organization t
   collaboration, and involvement to prepare leaders to breed a progressive society.</p>"
 reg_link: google.com
 vid_link: https://drive.google.com/file/d/13LzdBn6wm__YlVI-8fKtznu1ouS5SEdg/preview
-events: []
+events:
+- "/uploads/jema-flagship-4.png"
+- "/uploads/jema-flagship-3.png"
+- "/uploads/jema-flagship-2.png"
+- "/uploads/jema-flagship-1.png"
 
 ---
