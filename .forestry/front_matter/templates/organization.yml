@@ -17,14 +17,14 @@ fields:
   config:
     required: false
     color_format: RGB
-  default: rgb(255, 144, 144)
+  default: rgb(0, 0, 0)
 - name: button_color
   type: color
   label: Button Color
   config:
     required: true
     color_format: RGB
-  default: rgb(202, 136, 178)
+  default: rgb(255, 255, 255)
 - name: description_color
   type: color
   label: Description Color
