@@ -46,6 +46,5 @@ events:
 - "/uploads/danum-flagship-3.png"
 - "/uploads/danum-flagship-4.png"
 - "/uploads/danum-flagship-5.png"
-published: false
 
 ---
