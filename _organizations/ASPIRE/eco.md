@@ -6,8 +6,8 @@ fb_link: https://www.facebook.com/STC.ECO
 membership_banner: "/uploads/eco-mem-banner.png"
 hero_bg: "/uploads/eco-web-bg.png"
 main_pub: "/uploads/eco-main-pub.png"
-title_color: rgb(255, 144, 144)
-button_color: rgb(65, 117, 5)
+title_color: rgb(19, 99, 40)
+button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 complete_name: De La Salle University - Environmental Conservation Organization
 abbr: ECO
@@ -30,5 +30,7 @@ vid_link: https://drive.google.com/file/d/1voKk74qQZvAt-k3W8l5F0Y83hM5N9GvG/prev
 events:
 - "/uploads/eco-flagship-2.png"
 - "/uploads/eco-flagship-1.png"
+hero_title_color: rgb(255, 255, 255)
+fav_logo: ''
 
 ---
