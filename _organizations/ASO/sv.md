@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 86, 130)
-title_color: rgb(0, 25, 125)
-button_color: rgb(88, 120, 211)
+title_color: rgb(149, 213, 255)
+button_color: rgb(143, 167, 223)
 description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/sv_logo.png"
