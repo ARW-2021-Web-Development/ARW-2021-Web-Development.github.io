@@ -72,6 +72,13 @@
   &:focus-visible
     outline: none
 
+.arw-logo:hover
+  animation: rotate 2500ms linear infinite
+
+@keyframes rotate
+  to 
+    transform: rotateY(180deg)
+
 @media (max-width: 1300px)
   .navbar-item.form
     display: none
