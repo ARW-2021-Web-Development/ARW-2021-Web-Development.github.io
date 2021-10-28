@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(71, 57, 44)
 title_color: rgb(71, 57, 44)
-button_color: rgb(203, 199, 183)
+button_color: rgb(236, 235, 229)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/season-logo.png"
