@@ -10,7 +10,7 @@ fb_link: https://facebook.com/esa.dlsu
 membership_banner: "/uploads/esa-mem-fee.png"
 hero_bg: "/uploads/esa-web-bg.png"
 main_pub: "/uploads/esa-main-pub.png"
-fav_logo: "/uploads/esa-fav_logo.png"
+fav_logo: "/uploads/esa-logo.png"
 complete_name: European Studies Association
 abbr: ESA
 about_us: "<p>The European Studies Association (ESA) is one of the professional organizations
