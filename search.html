@@ -29,10 +29,11 @@
 
   <script>
     const emitter = mitt();
-    let orgs = JSON.parse(localStorage.getItem('orgs')) || [];
-    let query = new URLSearchParams(window.location.search).get('q');
+    let orgs = JSON.parse(localStorage.getItem('orgs')) || Vue.reactive([]);
+    let query = new URLSearchParams(window.location.search).get('q').trim().toLowerCase();
     const search = document.getElementById('search');
 
+    search.value = query
     search.onkeyup = (e) => {
       emitter.emit('queryChange', search.value.trim().toLowerCase());
     };
@@ -41,7 +42,7 @@
       fetch('https://jaredblase.github.io/arw-2021/assets/js/org.json')
         .then((response) => response.json())
         .then((data) => {
-          orgs = data;
+          orgs.push(...data)
           localStorage.setItem('orgs', JSON.stringify(data));
         });
     }
