@@ -12,7 +12,7 @@ hero_bg: "/uploads/arcg-web-bg.png"
 main_pub: "/uploads/arcg-main-pub.png"
 fav_logo: "/uploads/arcg-fav_logo.png"
 complete_name: Archers Consulting Group
-abbr: AcRG
+abbr: ArCG
 about_us: "<p>Archers Consulting Group is a non-profit student consulting organization
   providing management consulting services to micro, small, and medium enterprises
   (MSMEs) by creating learning opportunities and client engagements for aspiring student
