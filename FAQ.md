@@ -36,15 +36,16 @@ faq:
     who are taking up the same course as you. '
 - template: qna
   question: How do I sign up for an Organization?
-  answer: "Step 1: Visit the ARW 2021 Website: arw.dlsucso.com\nStep 2: Look for your
-    desired organization’s page\nStep 3: Access their registration form\nStep 4: Take
-    note of their payment information \nStep 5: Pay for the membership fee of your
-    chosen organization. It is highly encouraged that you pay one organization fee
-    per transaction\nStep 6: Once you are done paying. Click the registration form,
-    sign-up, and don’t forget to attach your proof of payment!"
+  answer: "Step 1: Visit the ARW 2021 Website: arw.dlsucso.com\n<br />\nStep 2: Look
+    for your desired organization’s page\n<br />\nStep 3: Access their registration
+    form\n<br />\nStep 4: Take note of their payment information \n<br />\nStep 5:
+    Pay for the membership fee of your chosen organization. It is highly encouraged
+    that you pay one organization fee per transaction\n<br />\nStep 6: Once you are
+    done paying. Click the registration form, sign-up, and don’t forget to attach
+    your proof of payment!"
 - template: qna
   question: What are the requirements in joining an organization?
-  answer: 'it may vary depending on the organization''s decisions. '
+  answer: 'It may vary depending on the organization''s decisions. '
 - template: qna
   question: 'Are we allowed to reserve a slot for an organization? '
   answer: 'No! There are no slot reservations when joining an organization. '
