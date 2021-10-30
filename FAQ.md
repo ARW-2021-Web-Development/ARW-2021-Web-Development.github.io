@@ -19,5 +19,10 @@ faq:
   question: Until when can I join Organizations?
   answer: 'The Annual Recruitment Week 2021 will happen on November 22-27, 2021.  The
     last day of recruitment will be on November 27, 2021 at 9:00 PM. '
+- template: qna
+  question: How many Organizations  can I join?
+  answer: 'You have the freedom to join as many organizations as you can. However,
+    you should take into consideration if you are able to handle all those organizations
+    you have joined. '
 
 ---
