@@ -1,14 +1,21 @@
 const logo = document.querySelector('#arw-logo');
+let stopFlag = false;
 
 logo.addEventListener('mouseover', addRotateClass);
 
-logo.addEventListener('mouseout', () => {
-    logo.addEventListener('animationiteration', function stopAnimation() {
+logo.addEventListener('mouseout', stopAnimation);
+
+logo.addEventListener('animationiteration', () => {
+    if (stopFlag) {
         logo.classList.remove('rotate-logo');
-        logo.removeEventListener('animationiteration', stopAnimation);
-    });
+    }
 });
 
 function addRotateClass() {
+    stopFlag = false;
     logo.classList.add('rotate-logo');
+}
+
+function stopAnimation() {
+    stopFlag = true;
 }
