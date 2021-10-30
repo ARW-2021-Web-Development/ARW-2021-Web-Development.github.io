@@ -4,6 +4,9 @@ layout: 'behind-arw'
 who_we_are: >-
     The Annual Recruitment Week Central Committee is the group of student-leaders that spearheads the preparations for the Annual Recruitment Week and ensures that the event will be both enjoyable and beneficial not only to the 49 accredited organizations of Council of the Student Organizations but also to the student body of the De La Salle University - Manila.
 
+    <br />
+    <br />
+
     We are led by 4 Project Heads; and divided into 9 Committees: Corporate Relations, Documentations and Finance, Events, Integrated Marketing Communications, Organizational Relations, Productions, Technical Operations, and Website Development.
 
 project_heads: >-
