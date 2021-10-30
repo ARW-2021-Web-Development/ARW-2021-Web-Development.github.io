@@ -1,11 +1,17 @@
 <script src="{{site.baseurl}}/assets/js/navigation.js" defer></script>
 <script src="{{site.baseurl}}/assets/js/burger.js" defer></script>
+<script src="{{site.baseurl}}/assets/js/rotate-logo.js" defer></script>
 
 <header class="nav-container" style="z-index: 9999">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item home" href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/assets/img/logos/ARW2021.png" class="arw-logo logos" alt="ARW 2021 Logo" />
+                <img
+                    src="{{ site.baseurl }}/assets/img/logos/ARW2021.png"
+                    class="logos"
+                    id="arw-logo"
+                    alt="ARW 2021 Logo"
+                />
             </a>
             <form class="navbar-item form" method="GET" action="{{ site.baseurl }}/search">
                 <div class="control has-icons-left">
