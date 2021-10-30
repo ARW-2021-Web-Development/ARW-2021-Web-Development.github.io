@@ -6,11 +6,11 @@
 
     opacity: 0.5
     
-
     border-radius: 50%
     background: $clr-header
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
-    animation: bubble var(--speed) linear var(--delay) infinite, sideways 5s linear infinite alternate 
+    animation: bubble var(--speed) linear var(--delay) infinite, sideways 5s linear infinite alternate
+    transition: transform 450ms linear;
 
 .bubble.small
     width: 50px
@@ -18,18 +18,21 @@
 .bubble.large
     width: 250px
 
+.bubble.shrink
+    display: none
+    // transform: scale(0)
+
 @media (max-width: 600px)
     .bubble
         width: 50px
     .bubble.small
         width: 20px
     .bubble.large
-        width: 100px
-
+        width: 100px        
 
 @keyframes bubble
     0%
-        bottom: 0
+        bottom: calc(0% - 120px)
         tranform: translateY(-50%)
     100%
         bottom: 100%
