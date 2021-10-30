@@ -24,5 +24,36 @@ faq:
   answer: 'You have the freedom to join as many organizations as you can. However,
     you should take into consideration if you are able to handle all those organizations
     you have joined. '
+- template: qna
+  question: Can I join Organizations  that are not related to my course?
+  answer: 'Yes! You are not restricted in joining various organizations. You are free
+    to choose the organizations you want to join. '
+- template: qna
+  question: 'Am I required to join my Home Organization? / Is joining my home Organization
+    beneficial? '
+  answer: 'No, you are not required to join your home organization. However, joining
+    your home organization will be beneficial since it allows you to meet students
+    who are taking up the same course as you. '
+- template: qna
+  question: How do I sign up for an Organization?
+  answer: "Step 1: Visit the ARW 2021 Website: arw.dlsucso.com\nStep 2: Look for your
+    desired organization’s page\nStep 3: Access their registration form\nStep 4: Take
+    note of their payment information \nStep 5: Pay for the membership fee of your
+    chosen organization. It is highly encouraged that you pay one organization fee
+    per transaction\nStep 6: Once you are done paying. Click the registration form,
+    sign-up, and don’t forget to attach your proof of payment!"
+- template: qna
+  question: What are the requirements in joining an organization?
+  answer: 'it may vary depending on the organization''s decisions. '
+- template: qna
+  question: 'Are we allowed to reserve a slot for an organization? '
+  answer: 'No! There are no slot reservations when joining an organization. '
+- template: qna
+  question: What are the perks of joining an organization?
+  answer: 'Joining an organization allows you to broaden your horizon. It  allows
+    you to go out of your comfort zone, meet new people, learn new skills, and gain
+    new experiences. It presents you with great opportunities that can allow you to
+    learn more about who you are, your goals, and your strengths which can be beneficial
+    for your future career.  '
 
 ---
