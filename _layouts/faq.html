@@ -3,23 +3,23 @@
     {% include head.html title="Frequently Asked Questions" %}
     <body>
         {% include header.html %}
-        <main class="container is-max-widescreen">
-            <header class="has-text-centered is-size-3 mt-4">
-                <p class="inner-text-shadow drk-pink" style="font-size: 4rem; font-weight: 900">
+        <main class="container is-max-widescreen mx-5" style="align-self: center; display: grid; place-items: center">
+            <header class="has-text-centered mt-4">
+                <p class="inner-text-shadow drk-pink is-size-2-mobile" style="font-size: 4rem; font-weight: 900">
                     Frequently Asked Questions
                 </p>
-                <p class="inner-text-shadow drk-purple is-size-1" style="font-weight: 900">(FAQs)</p>
+                <p class="inner-text-shadow drk-purple is-size-1 is-size-3-mobile" style="font-weight: 900">(FAQs)</p>
             </header>
 
             {% for qna in page.faq %}
-            <div class="accordion glass-container light-pink mt-5 px-6 is-size-4" style="width: 100%; color: #8a7f98">
+            <div class="accordion glass-container light-pink m-3 px-6 is-size-4" style="width: 100%; color: #8a7f98">
                 <div class="accordion-header" style="display: flex">
                     <span
                         class="inner-text-shadow pink is-size-3"
                         style="position: relative; transform: translateY(-7px); font-weight: 900"
                         >Q:</span
                     >
-                    <span class="ml-4">{{qna.question}}</span>
+                    <span class="ml-4 is-size-5-mobile">{{qna.question}}</span>
                     <i
                         class="fas fa-plus-circle"
                         style="position: absolute; right: 20px; transform: translateY(7px)"
@@ -29,11 +29,11 @@
                     <span class="inner-text-shadow pink is-size-3" style="transform: translateY(-7px); font-weight: 900"
                         >A:</span
                     >
-                    <span class="ml-4 mr-6">{{qna.answer}}</span>
+                    <span class="ml-4 mr-6 is-size-5-mobile">{{qna.answer}}</span>
                 </div>
             </div>
             {% endfor %}
-            <a href="{{site.baseurl}}/questions_and_feedback/"
+            <a href="{{site.baseurl}}/questions_and_feedback/" style="justify-self: end"
                 ><button
                     class="button is-large gradient flat-glass m-5 has-text-weight-semibold"
                     style="float: right; color: #8a7f98"
