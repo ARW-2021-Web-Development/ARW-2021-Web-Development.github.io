@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(227, 62, 0)
 title_color: rgb(255, 40, 40)
-button_color: rgb(202, 84, 117)
+button_color: rgb(233, 222, 127)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/prism-logo.png"
