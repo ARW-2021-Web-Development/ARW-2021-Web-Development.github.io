@@ -32,7 +32,11 @@ mission: "<p> Our mission is to establish an organization that is student-friend
   as well to appreciate the significance of Philosophy in our daily lives.</p>"
 reg_link: "   https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing"
 vid_link: "  https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing "
-events: []
+events:
+- "/uploads/1-1.png"
+- "/uploads/2.png"
+- "/uploads/3-1.png"
+- "/uploads/4.png"
 published: false
 
 ---
