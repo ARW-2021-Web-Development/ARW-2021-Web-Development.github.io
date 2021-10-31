@@ -4,10 +4,10 @@ title_color: rgb(45, 114, 39)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/screen-shot-2021-10-30-at-8-32-48-pm.png"
+logo: "/uploads/logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsupilosopo
-membership_banner: ''
+membership_banner: "/uploads/pilosopo_membership-fee-website-banner.png"
 hero_bg: ''
 main_pub: ''
 fav_logo: ''
@@ -30,8 +30,8 @@ mission: "<p> Our mission is to establish an organization that is student-friend
   driven to achieve the ideals set forth by the objectives of St. John Baptist De
   La Salle, and provides opportunities not just to the members but to the whole community
   as well to appreciate the significance of Philosophy in our daily lives.</p>"
-reg_link: "   "
-vid_link: " "
+reg_link: "   https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing"
+vid_link: "  https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing "
 events: []
 published: false
 
