@@ -32,7 +32,7 @@ mission: "<p>The mission of Rotaract is to provide an opportunity for men and wo
   to enhance the knowledge and skills that will assist them in personal development,
   address the physical and social needs of their communities, and promote better relations
   between all people worldwide through a framework of friendship and service.</p><p><br></p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScxgXIFOTME-dOcXtm1QUrj47KSy_noWN1TNGHtMy_m0F3hdg/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1GkAmLSSr81hlH1j6KVqv8ek2sz_UTBeD/preview
 events:
 - "/uploads/rotaract-flaship-6.png"

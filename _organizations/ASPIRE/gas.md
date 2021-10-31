@@ -30,7 +30,7 @@ mission: "<p>Gakuen Anime Soshiki’s mission is to become a well-known organiza
   that creates an interactive and socially relevant community. We also aim to inspire,
   encourage, and enhance the talents and skills of Lasallians. These goals will be
   accomplished through the community’s immersion in Japanese Media Culture.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfI_EPHYpjxdhqP5r7n17rsqHrSa9FjQMakxoZcOFBrWRiOrQ/viewform?pli=1
 vid_link: https://drive.google.com/file/d/1_9Syac0w_2ovU-nmqqu6ZJJcIr9e6oTZ/preview
 events:
 - "/uploads/gas-flagship-5.png"

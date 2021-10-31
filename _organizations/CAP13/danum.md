@@ -38,7 +38,7 @@ mission: "<p>Sa pamamagitan ng pagsasagawa at pangunguna sa mga proyekto at gawa
   na nagpagpapahalaga sa wika, kultura, at sining ng bansa, mayroong malalim na kamalayan
   sa mga mahahalagang usaping panlipunan, at inaasahang mangunguna sa mga pagbabagong
   kahaharapin ng Pamantasan at ng bansa.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeIxK42Q0qqp8kYs25TgNtpDmACj9Sn4-9Y_CjcaRnxV2a5dw/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1yUm5fPFEEsB2EIyPo7Y4LzMwSBrqV2H-/preview
 events:
 - "/uploads/danum-flagship-1.png"
