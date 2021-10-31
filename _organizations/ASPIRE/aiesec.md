@@ -4,7 +4,7 @@ title_color: rgb(73, 185, 235)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/aiesec-logo.png"
+logo: "/uploads/aiesec-fav-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/aiesecphl.dlsu/
 membership_banner: "/uploads/aiesec-mem-banner.png"
