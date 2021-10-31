@@ -4,12 +4,12 @@ title_color: rgb(0, 0, 0)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/screen-shot-2021-10-30-at-9-23-14-pm.png"
+logo: "/uploads/adcreate-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/AdCreateSociety
-membership_banner: "/uploads/screen-shot-2021-10-30-at-9-33-11-pm.png"
+membership_banner: "/uploads/adcreate-membership-fee-banner.png"
 hero_bg: "/uploads/screen-shot-2021-10-30-at-9-30-31-pm.png"
-main_pub: "/uploads/screen-shot-2021-10-30-at-9-08-24-pm.png"
+main_pub: "/uploads/arw-d084-adcreate-mp.png"
 fav_logo: ''
 complete_name: Adcreate
 abbr: The Adcreate Society
@@ -30,7 +30,7 @@ mission: "<p>Equip: To equip individuals with value-added knowledge and experien
   of the advertising industry.</p><p>Empower: To empower others by pursuing meaningful
   action and engagement within and outside the Lasallian community.</p><p><br><br></p>"
 reg_link: " "
-vid_link: " "
+vid_link: https://drive.google.com/file/d/1I-HC1ELojsbTNYSM181uF9U01M-jSMrB/view?usp=sharing
 events: []
 published: false
 
