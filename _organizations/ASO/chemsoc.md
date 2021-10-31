@@ -9,7 +9,7 @@ cluster: ASO
 fb_link: https://www.facebook.com/dlsuchemsoc
 membership_banner: "/uploads/chemsoc-membership-fee-banner.png"
 hero_bg: "/uploads/chemsoc-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/chemsoc-main-pub.png"
 complete_name: Chemistry Society
 abbr: CHEMSOC
 about_us: "<p>Committed to creating bonds and forming solutions, DLSU Chemistry Society
