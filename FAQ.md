@@ -50,6 +50,14 @@ faq:
   question: 'Are we allowed to reserve a slot for an organization? '
   answer: 'No! There are no slot reservations when joining an organization. '
 - template: qna
+  question: What are the payment methods for the registration fee?
+  answer: "Check your desired organization’s Gform as the bank details differ from
+    each organization.\n<br />\n<br />\nNote: It is REQUIRED to submit proof of payment
+    or a screenshot of the receipt to the Registration Form of the Organization you
+    are joining. No proof, invalid registration.\n<br />\n<br />\nFor registration
+    and payment concerns, you may contact the organization representative stated in
+    the gform.\n<br />\n<br />\nFor Remarks: Kindly put CSO - ARW2021 "
+- template: qna
   question: What are the perks of joining an organization?
   answer: 'Joining an organization allows you to broaden your horizon. It  allows
     you to go out of your comfort zone, meet new people, learn new skills, and gain
