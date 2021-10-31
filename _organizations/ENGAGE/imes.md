@@ -40,7 +40,7 @@ mission: "<p>As one of the leading professional organizations, we are committed 
   Leadership Training.</strong></p><p>IMES continuously creates opportunities for
   the development of the IE Community through active involvement of all its members
   and officers.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdMJKkw5p9eheKg5WFTH9Vsa3McoK1BIfw1YgaD-v_uXtFkVg/viewform
 vid_link: https://drive.google.com/file/d/1v2v22JC9qITRq4LC0IkqrmOIyeMa_vWG/preview
 events:
 - "/uploads/imes-flagship-10.png"
