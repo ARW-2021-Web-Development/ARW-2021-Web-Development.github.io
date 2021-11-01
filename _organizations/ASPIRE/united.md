@@ -27,7 +27,7 @@ mission: "<p>UNITED aspires to holistically develop education students into beco
   venues for character development activities enhancing professional and personal
   skills maximizing students' potential as well as for socio-civic activities promoting
   social awareness and the spirit of volunteerism.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScAbesfumAGOY5Lm36xihDSmGXf4BVhM8x88fu_qAEpCudA2A/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/18MJWZxRyKCY4OIdkoqQwPdVM3D-3okY0/preview
 events:
 - "/uploads/united-flagship-3.png"
