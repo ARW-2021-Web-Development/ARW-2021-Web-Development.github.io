@@ -2,7 +2,7 @@
 hero_title_color: rgb(254, 253, 205)
 title_color: rgb(254, 253, 205)
 button_color: rgb(139, 87, 42)
-description_color: rgb(0, 0, 0)
+description_color: rgb(254, 253, 205)
 layout: organization
 logo: "/uploads/oc-logo.png"
 cluster: ASPIRE
