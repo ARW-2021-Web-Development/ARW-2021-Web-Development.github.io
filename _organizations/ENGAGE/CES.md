@@ -42,6 +42,5 @@ events:
 - "/uploads/ces-ce-month.png"
 - "/uploads/ces-e-civ-cup-1.png"
 - "/uploads/ces-jo-training.png"
-published: false
 
 ---
