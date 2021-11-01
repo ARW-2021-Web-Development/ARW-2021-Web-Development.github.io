@@ -4,13 +4,13 @@ title_color: rgb(117, 63, 63)
 button_color: rgb(167, 159, 233)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/sms-logo.png"
+logo: "/uploads/sms-white-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsu.sms/
 membership_banner: "/uploads/sms-mem-banner.png"
 hero_bg: "/uploads/sms-web-bg.png"
 main_pub: "/uploads/sms-main-pub.png"
-fav_logo: ''
+fav_logo: "/uploads/sms-logo.png"
 complete_name: Samahan ng mga Mag-aaral sa Sikolohiya
 abbr: SMS
 about_us: "<p>SMS is the premier psychology organization in DLSU that expands the
