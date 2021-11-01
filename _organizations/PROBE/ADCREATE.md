@@ -6,10 +6,10 @@ description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/adcreate-logo.png"
 cluster: PROBE
-fb_link: https://facebook.com/
+fb_link: https://www.facebook.com/AdCreateSociety
 membership_banner: "/uploads/adcreate-membership-fee-banner.png"
-hero_bg: "/uploads/3594040.jpg"
-main_pub: "/uploads/hohuqy7mss901.png"
+hero_bg: "/uploads/adcreate-website-background.png"
+main_pub: ''
 fav_logo: ''
 complete_name: The Adcreate Society
 abbr: ADCREATE
@@ -27,7 +27,7 @@ mission: "<p> While making it seem working hard is all we do, we play hard, too!
   our unity as the power to break the ice and form solid friendships through numerous
   team-building and bonding activities like our Neophyte program and Leadership training
   programs.</p>"
-reg_link: " https://www.facebook.com/AdCreateSociety"
+reg_link: " "
 vid_link: https://drive.google.com/file/d/1I-HC1ELojsbTNYSM181uF9U01M-jSMrB/view?usp=sharing
 events:
 - "/uploads/adcreate-flagship-event-1.png"
