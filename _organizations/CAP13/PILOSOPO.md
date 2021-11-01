@@ -8,7 +8,7 @@ logo: "/uploads/logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsupilosopo
 membership_banner: "/uploads/pilosopo_membership-fee-website-banner.png"
-hero_bg: ''
+hero_bg: "/uploads/arw2021-website-background-1.png"
 main_pub: ''
 fav_logo: ''
 complete_name: Samahan ng mga Lasalyanong Pilosopo
@@ -30,13 +30,12 @@ mission: "<p> Our mission is to establish an organization that is student-friend
   driven to achieve the ideals set forth by the objectives of St. John Baptist De
   La Salle, and provides opportunities not just to the members but to the whole community
   as well to appreciate the significance of Philosophy in our daily lives.</p>"
-reg_link: "   https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing"
+reg_link: " "
 vid_link: "  https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing "
 events:
 - "/uploads/1-1.png"
 - "/uploads/2.png"
 - "/uploads/3-1.png"
 - "/uploads/4.png"
-published: false
 
 ---
