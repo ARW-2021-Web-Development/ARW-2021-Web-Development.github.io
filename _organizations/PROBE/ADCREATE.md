@@ -1,15 +1,15 @@
 ---
-hero_title_color: rgb(26, 22, 30)
-title_color: rgb(0, 0, 0)
+hero_title_color: rgb(111, 35, 186)
+title_color: rgb(234, 24, 24)
 button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+description_color: rgb(237, 69, 69)
 layout: organization
 logo: "/uploads/adcreate-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/AdCreateSociety
 membership_banner: "/uploads/adcreate-membership-fee-banner.png"
 hero_bg: "/uploads/adcreate-website-background.png"
-main_pub: ''
+main_pub: "/uploads/arw-d084-adcreate-mp-1.png"
 fav_logo: ''
 complete_name: The Adcreate Society
 abbr: ADCREATE
@@ -35,6 +35,5 @@ events:
 - "/uploads/adcreate-flagship-event-3.png"
 - "/uploads/adcreate-flagship-event-4.png"
 - "/uploads/adcreate-flagship-event-5.png"
-published: false
 
 ---
