@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(39, 160, 92)
+hero_title_color: rgb(57, 140, 92)
 title_color: rgb(219, 127, 126)
-button_color: rgb(103, 112, 153)
+button_color: rgb(200, 209, 253)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/gmc-logo.png"
