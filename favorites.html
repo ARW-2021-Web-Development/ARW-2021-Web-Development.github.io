@@ -12,36 +12,34 @@ permalink: '/favorites/'
   <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
 
   <div id="app">
-    <section v-if="favs.size" class="section is-medium has-text-centered" style="min-height: calc(100vh - 10em)">
-      <div class="container">
-        <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
-          MY FAVORITE ORGANIZATIONS
-        </p>
-        <div class="columns is-multiline">
-          <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
-            {% raw %}
-            <figure class="image is-square is-fullwidth is-relative is-clickable"
-              @click="redirect(`${baseurl}/${key.toLowerCase()}`)">
-              <span class="icon is-medium is-clickable delete-btn" style="z-index: 100">
-                <i class="fas fa-times fa-lg" @click.stop="removeItem(key)"></i>
-              </span>
-              <img :src="baseurl + value" :alt="`${key} Logo`" />
-            </figure>
-            <a :href="`${baseurl}/${key.toLowerCase()}`" class="button is-fullwidth btn-glass white-btn">{{ key }}</a>
-            {% endraw %}
-            <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/ribbons/1.png" alt="" class="decorative"
-              id="favorites-v2-ribbons-1">
-
-            <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/circles/1.png" alt="" class="decorative"
-              id="favorites-v2-circles-1">
-
-            <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/triangles/1.png" alt="" class="decorative"
-              id="favorites-v2-triangles-1">
+    <div v-if="favs.size" class="decoration-container">
+      <section class="section is-medium has-text-centered decoration-wrapper" style="min-height: calc(100vh - 3.5em)">
+        <div class="container">
+          <p class="title is-1 pink-title-gradient has-text-weight-black responsive">MY FAVORITE ORGANIZATIONS</p>
+          <div class="columns is-multiline">
+            <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
+              {% raw %}
+              <figure class="image is-square is-fullwidth is-relative is-clickable"
+                @click="redirect(`${baseurl}/${key.toLowerCase()}`)">
+                <span class="icon is-medium is-clickable delete-btn" style="z-index: 100">
+                  <i class="fas fa-times fa-lg" @click.stop="removeItem(key)"></i>
+                </span>
+                <img :src="baseurl + value" :alt="`${key} Logo`" />
+              </figure>
+              <a :href="`${baseurl}/${key.toLowerCase()}`" class="button is-fullwidth btn-glass white-btn">{{ key }}</a>
+              {% endraw %}
+            </div>
           </div>
         </div>
-      </div>
+        <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/ribbons/1.png" alt="" class="decorative"
+          id="favorites-v2-ribbons-1">
+        <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/circles/1.png" alt="" class="decorative"
+          id="favorites-v2-circles-1">
+        <img src="{{site.baseurl}}/assets/img/decorations/favorites-v2/triangles/1.png" alt="" class="decorative"
+          id="favorites-v2-triangles-1">
+      </section>
+    </div>
 
-    </section>
     <div v-else class="hero is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container has-text-centered">

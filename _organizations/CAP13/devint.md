@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(145, 125, 184)
+title_color: rgb(166, 67, 67)
+button_color: rgb(174, 155, 223)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/devint-logo.png"
@@ -37,7 +37,7 @@ mission: "<p>To advocate and labor for relevant and integrative application of v
   help build and sustain various forms of university and community partnerships with
   the realization that we live only once and the need to let all our lives be a fruitful
   one. </p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdgQY_a2JuH-u6DIicTMpJJq-0f0lpFKTBMP6t3EOQiRW-3hA/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1jZu5uza3l1GqfFidEtsUVCmBTMXJeEXG/preview
 events:
 - "/uploads/devint-flagship-3.png"

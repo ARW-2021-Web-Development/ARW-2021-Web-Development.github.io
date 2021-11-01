@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
 title_color: rgb(229, 128, 92)
-button_color: rgb(71, 157, 182)
+button_color: rgb(119, 202, 228)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/united-logo.png"
@@ -27,7 +27,7 @@ mission: "<p>UNITED aspires to holistically develop education students into beco
   venues for character development activities enhancing professional and personal
   skills maximizing students' potential as well as for socio-civic activities promoting
   social awareness and the spirit of volunteerism.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScAbesfumAGOY5Lm36xihDSmGXf4BVhM8x88fu_qAEpCudA2A/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/18MJWZxRyKCY4OIdkoqQwPdVM3D-3okY0/preview
 events:
 - "/uploads/united-flagship-3.png"

@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(44, 41, 28)
-title_color: rgb(245, 166, 35)
-button_color: rgb(191, 136, 202)
+title_color: rgb(255, 200, 105)
+button_color: rgb(161, 104, 172)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/jpia-logo.png"
@@ -39,7 +39,7 @@ mission: "<p>Driven by our core values and our commitment to development, we are
   and services. We strive to empower our members and to recognize and tap their latent
   abilities to holistically develop and benefit not only themselves but also the community
   as a whole.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfeXio-3j2hVESsmLnyR3sPkNL1nSZLn4K0--DjAFUNh5XiJw/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/18q-Sff9AJenrRmI4zsJHxtMzrjc_ZaFw/preview
 events:
 - "/uploads/jpia-flagship-7.png"

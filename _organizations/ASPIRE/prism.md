@@ -9,7 +9,7 @@ cluster: ASO
 fb_link: https://facebook.com/DLSUPRISM
 membership_banner: "/uploads/prism-mem-banner.png"
 hero_bg: "/uploads/prism-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/prism-main-pub.png"
 fav_logo: "/uploads/prism-fav-logo.png"
 complete_name: 'DLSU PRISM '
 abbr: 'PRISM '
@@ -30,7 +30,7 @@ mission: "<p>DLSU PRISM is the premier LGBTQ+ organization of De La Salle Univer
   collective efforts go beyond the vicinity of the university and to a wider range
   of influence. We fully commit ourselves to the aid of the marginalized, united by
   the Lasallian core values of Faith, Service, and Community.</p>"
-reg_link: https://google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfAIaUTHV91xn0-QWm9YfxfH0S6ucDf6TstOpGIw2P0zhYpMA/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1_rHscXVoAg5FrCTKwb9ULaR0pxYExfis/preview
 events:
 - "/uploads/prism-flagship-1.png"

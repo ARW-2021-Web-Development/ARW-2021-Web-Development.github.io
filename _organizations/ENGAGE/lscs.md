@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 46, 86)
-title_color: rgb(104, 130, 165)
-button_color: rgb(221, 171, 13)
+title_color: rgb(64, 105, 163)
+button_color: rgb(235, 187, 38)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/lscs-logo.png"
@@ -35,7 +35,7 @@ mission: "<p>The La Salle Computer Society shall serve as a venue for the growth
   each goes through very necessary step towards the purpose.</p></li><li><p>Excellence,
   to accomplish our goals in the best way possible and in accordance with the ideals
   of the organization and of De La Salle University Manila.</p></li></ul>"
-reg_link: google.com
+reg_link: https://forms.gle/oziGtFSxmRcvqQ2M9
 vid_link: https://drive.google.com/file/d/1z-Ue4OTqbmxambt-ifVI4F2PQ3EXBpnu/preview
 events:
 - "/uploads/lscs-flagship-5.png"

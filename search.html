@@ -28,6 +28,8 @@
   </div>
 
   <script>
+    localStorage.removeItem('orgs') // dev things
+
     const emitter = mitt();
     let orgs = JSON.parse(localStorage.getItem('orgs')) || Vue.reactive([]);
     let query = new URLSearchParams(window.location.search).get('q').trim().toLowerCase();
@@ -39,7 +41,7 @@
     };
 
     if (!orgs.length) {
-      fetch('https://jaredblase.github.io/arw-2021/assets/js/org.json')
+      fetch('{{ site.baseurl }}/assets/js/org.json')
         .then((response) => response.json())
         .then((data) => {
           orgs.push(...data)

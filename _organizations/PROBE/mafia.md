@@ -35,7 +35,7 @@ mission: "<p>The Management of Financial Institutions Association is a duly reco
   not only gratify the needs of the MFI majors, but we also respond to the demands
   of the Lasallian Community in providing our members the value and excellence they
   deserve.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeqITLG0Ijz4MvDw3pH2vlbDNN6IISxnwU-2LrgNfnYG3vsOg/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/19lZKlphhpuibk7ZEF9BSOEUh0PEVF8xe/preview
 events:
 - "/uploads/mafia-flagship-4.png"

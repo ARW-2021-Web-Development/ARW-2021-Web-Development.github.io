@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(219, 127, 126)
+button_color: rgb(200, 209, 253)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/gmc-logo.png"
@@ -9,7 +9,7 @@ cluster: ASPIRE
 fb_link: https://www.facebook.com/GreenMusicCollective
 membership_banner: "/uploads/gmc-mem-banner.png"
 hero_bg: "/uploads/gmc-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/gmc-main-pub.png"
 fav_logo: ''
 complete_name: Green Music Collective
 abbr: GMC
@@ -30,7 +30,7 @@ mission: "<p>The organization shall advocate its members’ musical and artistic
   and activities. Moreover, it will work to increase its role in the wider student
   body by establishing partnerships with other creative groups and promoting active
   citizenship within its members through regular socio-civic activities.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScksylauDWTvX5Nls_ck2WyeAGVER_YH8j28LhrbHSrYSiqow/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1CNOouwfB9qIGLs0hA4DaTKIGD9yPoiCS/preview
 events:
 - "/uploads/gmc-flagship-3.png"

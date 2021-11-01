@@ -4,7 +4,7 @@ title_color: rgb(73, 185, 235)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/aiesec-logo.png"
+logo: "/uploads/aiesec-fav-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/aiesecphl.dlsu/
 membership_banner: "/uploads/aiesec-mem-banner.png"
@@ -30,7 +30,7 @@ mission: "<p>We believe leadership is the fundamental solution and it can be dev
   in anyone, anywhere. We provide different types of experiences, which engage people
   both locally and globally, to directly empower young people. With AIESEC, young
   people become value-driven leaders who positively impact the world around them.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdvC_R9zJbK2sz4S_wsDQldOzanoRGSrwV-YVG6mpdeKWVcgw/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1Jn2ESiYgqiq1IedVEznR-y7fI3lKLriP/preview
 events:
 - "/uploads/aiesec-flagship-5.png"
