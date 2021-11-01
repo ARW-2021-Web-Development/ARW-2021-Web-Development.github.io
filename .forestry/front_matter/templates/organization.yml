@@ -155,6 +155,7 @@ fields:
   label: Main Pub
   default: "/uploads/hohuqy7mss901.png"
 pages:
+- _organizations/ASO/MC.md
 - _organizations/ASO/chemsoc.md
 - _organizations/ASO/physoc.md
 - _organizations/ASO/sv.md
