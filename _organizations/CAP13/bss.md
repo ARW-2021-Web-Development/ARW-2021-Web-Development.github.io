@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
-title_color: rgb(0, 0, 0)
-button_color: rgb(255, 255, 255)
+title_color: rgb(242, 163, 38)
+button_color: rgb(74, 176, 226)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/bss-bl-logo.png"
