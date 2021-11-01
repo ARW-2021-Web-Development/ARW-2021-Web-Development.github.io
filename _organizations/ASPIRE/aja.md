@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(0, 0, 0)
-title_color: rgb(94, 175, 160)
-button_color: rgb(255, 255, 255)
+title_color: rgb(140, 230, 213)
+button_color: rgb(93, 80, 168)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/aja-logo.png"
