@@ -9,7 +9,7 @@ cluster: PROBE
 fb_link: https://facebook.com/dlsujpia/
 membership_banner: "/uploads/jpia-mem-banner.png"
 hero_bg: "/uploads/jpia-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/jpia-main-pub.png"
 fav_logo: ''
 complete_name: Junior Philippine Institute of Accountants - De La Salle University
   Chapter
