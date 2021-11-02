@@ -40,6 +40,12 @@ mission: "<p>Mathematical Research - The Mathematics Circle puts its effort to p
   its members to be excellent scientists and leaders for the future of this nation.</p>"
 reg_link: " "
 vid_link: https://drive.google.com/file/d/1EluR_P0B2EBbtYGWGy-ITwUTv5ALDIGc/view?usp=sharing
-events: []
+events:
+- "/uploads/1-2.png"
+- "/uploads/2-2.png"
+- "/uploads/3-3.png"
+- "/uploads/4-2.png"
+- "/uploads/5-1.png"
+- "/uploads/6-1.png"
 
 ---
