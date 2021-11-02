@@ -41,6 +41,5 @@ mission: "<p>Mathematical Research - The Mathematics Circle puts its effort to p
 reg_link: " "
 vid_link: https://drive.google.com/file/d/1EluR_P0B2EBbtYGWGy-ITwUTv5ALDIGc/view?usp=sharing
 events: []
-published: false
 
 ---
