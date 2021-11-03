@@ -9,7 +9,7 @@ cluster: ENGAGE
 fb_link: https://www.facebook.com/LaSalleComputerSociety
 membership_banner: "/uploads/lscs-mem-banner.png"
 hero_bg: "/uploads/lscs-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/lscs-main-pub.png"
 fav_logo: ''
 complete_name: La Salle Computer Society
 abbr: LSCS

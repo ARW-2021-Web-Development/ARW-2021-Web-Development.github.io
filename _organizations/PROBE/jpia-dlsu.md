@@ -1,5 +1,5 @@
 ---
-hero_title_color: rgb(44, 41, 28)
+hero_title_color: rgb(239, 238, 234)
 title_color: rgb(255, 200, 105)
 button_color: rgb(161, 104, 172)
 description_color: rgb(0, 0, 0)
@@ -9,7 +9,7 @@ cluster: PROBE
 fb_link: https://facebook.com/dlsujpia/
 membership_banner: "/uploads/jpia-mem-banner.png"
 hero_bg: "/uploads/jpia-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/jpia-main-pub.png"
 fav_logo: ''
 complete_name: Junior Philippine Institute of Accountants - De La Salle University
   Chapter
