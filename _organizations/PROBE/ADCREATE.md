@@ -27,7 +27,7 @@ mission: "<p> While making it seem working hard is all we do, we play hard, too!
   our unity as the power to break the ice and form solid friendships through numerous
   team-building and bonding activities like our Neophyte program and Leadership training
   programs.</p>"
-reg_link: " "
+reg_link: " https://forms.gle/C3gNaGRkMefnjxm4A"
 vid_link: https://drive.google.com/file/d/1I-HC1ELojsbTNYSM181uF9U01M-jSMrB/view?usp=sharing
 events:
 - "/uploads/adcreate-flagship-event-1.png"
