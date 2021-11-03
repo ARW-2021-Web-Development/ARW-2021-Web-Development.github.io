@@ -38,7 +38,7 @@ mission: "<p>Mathematical Research - The Mathematics Circle puts its effort to p
   this effort, the organization will be able to pursue excellence not only in the
   field of mathematics but also to partake in constructing a developed nation with
   its members to be excellent scientists and leaders for the future of this nation.</p>"
-reg_link: " "
+reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSdrUnfFXqr4vSYbLnWWv137W7yAWu0IR5yxtjp5b5RQU_9pJA/viewform"
 vid_link: https://drive.google.com/file/d/1EluR_P0B2EBbtYGWGy-ITwUTv5ALDIGc/view?usp=sharing
 events:
 - "/uploads/1-2.png"
