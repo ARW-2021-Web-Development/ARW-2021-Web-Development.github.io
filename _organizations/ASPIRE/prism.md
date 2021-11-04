@@ -5,7 +5,7 @@ button_color: rgb(233, 222, 127)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/prism-logo.png"
-cluster: ASO
+cluster: ASPIRE
 fb_link: https://facebook.com/DLSUPRISM
 membership_banner: "/uploads/prism-mem-banner.png"
 hero_bg: "/uploads/prism-web-bg.png"
