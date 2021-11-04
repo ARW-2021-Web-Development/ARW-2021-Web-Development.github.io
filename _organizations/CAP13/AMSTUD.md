@@ -43,7 +43,7 @@ mission: "<table><tbody><tr><td>The Organization for American Studies is committ
   involves the United States of America and the significant trends in American society
   and culture that can contribute to the members' self-development and to the nation
   in the long-run.</p>"
-reg_link: "  "
+reg_link: "  https://docs.google.com/forms/d/e/1FAIpQLSeeJCXuqr0Hb-HdrM8zYnPG2t_ZIVpXlKjO4WyZYnfjMnLCiw/viewform?usp=sf_link"
 vid_link: "  https://drive.google.com/file/d/1IpE-98UX2z9WwsoFQlq4kKeGtKsstO4z/view?usp=sharing"
 events:
 - "/uploads/amstud-arw2021_-org-flagship-events-1.png"

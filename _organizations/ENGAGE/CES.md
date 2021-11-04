@@ -9,7 +9,7 @@ cluster: ENGAGE
 fb_link: https://www.facebook.com/CESDLSU
 membership_banner: "/uploads/ces-membership-fee.png"
 hero_bg: "/uploads/ces-background.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/arw-d154-ces-mp.png"
 fav_logo: ''
 complete_name: Civil Engineering Society
 abbr: CES
@@ -34,7 +34,7 @@ mission: "<p>The Civil Engineering Society, also known as CES, is an accredited 
   Civil Engineers driven by social responsibility and guided by the Lasallian faith.</p><p>The
   Society emphasizes the importance of its members in the further development of the
   organization.</p><p><br></p>"
-reg_link: " "
+reg_link: " https://docs.google.com/forms/d/e/1FAIpQLScr78aPRrgsj4KTEjcaExFT8zZJ8I1pPHXf2PJx23KRAWkW1w/viewform"
 vid_link: " https://drive.google.com/file/d/1hxylsCJXTwfmgQgNo9sosjAJVB1S6WQY/view?usp=sharing"
 events:
 - "/uploads/ces-ce-career-week.png"

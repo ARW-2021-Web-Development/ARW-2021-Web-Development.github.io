@@ -9,7 +9,7 @@ cluster: ENGAGE
 fb_link: https://www.facebook.com/ECES.dlsu
 membership_banner: "/uploads/eces-mem-banner.png"
 hero_bg: "/uploads/eces-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/eces-main-pub.png"
 fav_logo: "/uploads/eces-logo.png"
 complete_name: Electronic and Communications Engineering Society
 abbr: ECES

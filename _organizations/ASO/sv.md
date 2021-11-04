@@ -26,7 +26,7 @@ mission: "<p>By bridging and contextualizing the worlds of biology and medicine,
   Vitae cultivates an environment of collaborative and diverse individuals, learning
   and appreciating the life sciences, who will become the country's future scientists
   and medical professionals.</p>"
-reg_link: https://google.com
+reg_link: https://forms.gle/HA2ixpQD6P2n49wx6
 vid_link: https://drive.google.com/file/d/12Gv4fFxcy9I4zWfuZKPrFhLoeulwE8uY/preview
 events:
 - "/uploads/sv-flagship-1.png"
