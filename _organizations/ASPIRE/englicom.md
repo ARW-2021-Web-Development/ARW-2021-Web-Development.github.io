@@ -27,7 +27,7 @@ mission: "<p>Appreciation of both cultures</p><p>Unity and integration</p><p>Ded
   service and nation-building</p><p>Personal growth and self-development</p><p>Training,
   social interaction and exchange, and socio-civic involvement</p><p>Christian Achievers
   for God and country</p><p>Religio Mores et Cultura</p>"
-reg_link: https://google.com/
+reg_link: https://forms.gle/6VAuMqsKgy2vBhuW7
 vid_link: https://drive.google.com/file/d/1DcUPDVSZmEGpcET4-niEfRXI6-EHbbtM/preview
 events:
 - "/uploads/englicom-flagship-1.png"
