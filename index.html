@@ -4,12 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html title="Home" %}
+
 <body>
   {% include header.html %}
   <div class="section has-text-centered decoration-container" style="z-index: 5;">
-    <div class="decoration-wrapper">
-      <figure class="image">
-        <img src="" alt="" />
+    <div class="decoration-wrapper container is-max-fullhd">
+      <figure class="image mb-6">
+        <img src="{{ site.baseurl }}/assets/img/home-webpage-banner.png" alt="">
       </figure>
       <figure class="image mb-6" style="z-index: 0">
         <picture>
@@ -19,37 +20,43 @@
         </picture>
       </figure>
       <div class="columns is-centered container is-max-widescreen" style="margin: auto">
-        <div class="column is-four-fifths-mobile is-one-third">
-          <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
-            href="https://facebook.com/DLSUARW">
-            <span class="icon is-small"><i class="fab fa-facebook-f fa-lg"></i></span>
-            <span>Facebook</span>
+        <div class="column is-1">
+          <a rel="noreferrer" target="_blank" href="https://facebook.com/DLSUARW">
+            <figure class="image is-64x64" style="margin: auto">
+              <img src="{{ site.baseurl }}/assets/img/icon-fb.png" alt="Facebook Icon" class="home-icon">
+            </figure>
           </a>
         </div>
-        <div class="column is-four-fifths-mobile is-one-third">
-          <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
-            href="https://dlsucso.com">
-            <span class="icon is-small"><i class="far fa-window-maximize fa-lg"></i></span>
-            <span>CSO Website</span>
+        <div class="column is-1">
+          <a rel="noreferrer" target="_blank" href="https://dlsucso.com">
+            <figure class="image is-64x64" style="margin: auto">
+              <img src="{{ site.baseurl }}/assets/img/icon-web.png" alt="Website Icon" class="home-icon">
+            </figure>
           </a>
         </div>
-        <div class="column is-four-fifths-mobile is-one-third">
-          <a rel="noreferrer" target="_blank" class="button is-medium gradient flat-glass grape is-fullwidth"
-            href="https://www.instagram.com/dlsu_arw/">
-            <span class="icon is-small"><i class="fab fa-instagram fa-lg"></i></span>
-            <span>Instagram</span></a>
+        <div class="column is-1">
+          <a rel="noreferrer" target="_blank" href="https://www.instagram.com/dlsu_arw/">
+            <figure class="image is-64x64" style="margin: auto">
+              <img src="{{ site.baseurl }}/assets/img/icon-ig.png" alt="Instagram Icon" class="home-icon">
+            </figure>
+          </a>
         </div>
       </div>
-      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/2.png" alt="" id="home-triangles-1">
-      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/1.png" alt="" id="home-triangles-2">
+      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/2.png" alt=""
+        id="home-triangles-1">
+      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/1.png" alt=""
+        id="home-triangles-2">
     </div>
   </div>
 
   <div class="section is-medium decoration-container">
     <div class="decoration-wrapper">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/1.png" id="home-circles-1" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/2.png" id="home-circles-2" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/1.png" id="home-ribbons-1" class="decorative" alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/1.png" id="home-circles-1" class="decorative"
+        alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/2.png" id="home-circles-2" class="decorative"
+        alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/1.png" id="home-ribbons-1" class="decorative"
+        alt="">
       <div class="container has-text-centered glass-container light-pink is-max-widescreen">
         <h1 class="title inner-text-shadow light-pink">ABOUT ARW</h1>
         <p class="block dark-pink">
@@ -64,10 +71,14 @@
           especially the beauty of their respective organizations in pursuit of enticing more applicants.
         </p>
       </div>
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/3.png" id="home-circles-3" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/4.png" id="home-circles-4" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/5.png" id="home-circles-5" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/6.png" id="home-circles-6" class="decorative" alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/3.png" id="home-circles-3" class="decorative"
+        alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/4.png" id="home-circles-4" class="decorative"
+        alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/5.png" id="home-circles-5" class="decorative"
+        alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/6.png" id="home-circles-6" class="decorative"
+        alt="">
     </div>
   </div>
   <div class="section is-medium decoration-container">
@@ -84,9 +95,12 @@
           <img src="" alt="">
         </figure>
       </div>
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/3.png" id="home-triangles-3" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/4.png" id="home-triangles-4" class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/2.png" id="home-ribbons-2" class="decorative" alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/3.png" id="home-triangles-3"
+        class="decorative" alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/4.png" id="home-triangles-4"
+        class="decorative" alt="">
+      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/2.png" id="home-ribbons-2" class="decorative"
+        alt="">
     </div>
   </div>
   {% include footer.html %}
