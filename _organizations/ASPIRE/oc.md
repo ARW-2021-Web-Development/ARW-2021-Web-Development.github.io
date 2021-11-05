@@ -20,7 +20,7 @@ about_us: "<p>Founded in 1978, the DLSU Outdoor Club is an ancient special inter
   outdoors, the organization’s activities encompass all outdoor related activities
   despite having mountaineering as the staple. Adventurous, fun, and green, The DLSU
   Outdoor Club truly is the only org you’ll ever want to pack with!</p>"
-tagline: "<p>The org that you can backpack with!</p>"
+tagline: "<p>The only org that you'll ever want to backpack with!</p>"
 vision: "<p>The DLSU Outdoor Club has primarily been organized to give outdoor enthusiasts
   an opportunity to discover themselves and their environment through communication
   with nature. The club believes that nature exists for the benefit of all living
