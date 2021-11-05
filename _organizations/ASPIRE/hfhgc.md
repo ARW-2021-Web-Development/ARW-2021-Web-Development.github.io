@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(184, 233, 134)
-title_color: rgb(255, 144, 144)
-button_color: rgb(248, 231, 28)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(0, 84, 40)
+title_color: rgb(0, 84, 40)
+button_color: rgb(0, 84, 40)
+description_color: rgb(254, 243, 215)
 layout: organization
 logo: "/uploads/hfh-logo.png"
 cluster: ASPIRE
@@ -26,7 +26,7 @@ mission: "<p>The mission of the Habitat Youth Programs is to capture the imagina
   them in the work of Habitat for Humanity. Habitat for Humanity is a nonprofit, ecumenical
   Christian housing ministry that seeks to eliminate poverty housing from the world
   and to make decent shelter a matter of conscience and action.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeGrrHx20NjAW0JKGVPpOLavYwWNYbO5jxx88FdYUQrmzI9rw/viewform
 vid_link: https://drive.google.com/file/d/1Q3bK7LBFSKGsjy11q7UkRbwDe5f9DE7-/preview
 events:
 - "/uploads/hfh-flagship.png"

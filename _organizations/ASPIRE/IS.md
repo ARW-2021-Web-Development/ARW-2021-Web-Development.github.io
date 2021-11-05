@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(105, 120, 90)
-title_color: rgb(238, 221, 35)
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(55, 48, 39)
 button_color: rgb(255, 255, 255)
-description_color: rgb(74, 74, 74)
+description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/is-logo.png"
 cluster: ASPIRE

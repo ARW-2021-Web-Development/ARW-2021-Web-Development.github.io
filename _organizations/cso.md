@@ -3,8 +3,8 @@ layout: organization
 logo: "/uploads/cso.png"
 cluster: CSO
 fb_link: https://www.facebook.com/CSO.DLSU
-membership_banner: "/uploads/500x500.png"
-hero_bg: "/uploads/3594040.jpg"
+membership_banner: "/uploads/cso-mem-banner.png"
+hero_bg: "/uploads/cso-web-bg.PNG"
 main_pub: "/uploads/hohuqy7mss901.png"
 complete_name: Council of Student Organizations
 abbr: CSO
@@ -34,5 +34,10 @@ events:
 - "/uploads/hohuqy7mss901.png"
 - "/uploads/1078199.jpg"
 - "/uploads/2918041.jpg"
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(255, 145, 143)
+button_color: rgb(255, 255, 255)
+description_color: rgb(0, 0, 0)
+fav_logo: ''
 
 ---

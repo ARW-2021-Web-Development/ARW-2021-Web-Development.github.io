@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(65, 117, 5)
+hero_title_color: rgb(255, 255, 255)
 title_color: rgb(0, 0, 0)
-button_color: rgb(184, 233, 134)
+button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/va-logo.png"
@@ -27,7 +27,7 @@ mission: "<p>To build a community of Lasallian student gamers where they can fre
   them form a healthy coexistence between gaming and academics. In the process, inspire
   those who are uninvolved with the gaming community to find their own meaning in
   the various fields of esports.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfwB3fzPdjQqtwrfQUU_sWa70gXF7NQoVEv1IcTnNCLexMTVw/viewform
 vid_link: https://drive.google.com/file/d/13lxt-3WiHLLCWvwXleC6kz2xQMWFEUaH/preview
 events:
 - "/uploads/va-flagship.png"

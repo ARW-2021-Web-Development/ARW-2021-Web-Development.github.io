@@ -31,12 +31,11 @@ mission: "<p>MES’ mission is to promote and enhance the total development – 
   quality programs and activities. MES will be the breeding ground of Lasallian women
   and men aspiring to be world-class, technically competent, and socially responsible
   mechanical engineers.</p>"
-reg_link: google.com
+reg_link: https://forms.gle/GrWt9LfrsEWcMaU99
 vid_link: https://drive.google.com/file/d/1QacNtbmcWc2a5bKSQJcM_clHzWCey5rY/preview
 events:
 - "/uploads/mes-flagship-3.png"
 - "/uploads/mes-flagship-2.png"
 - "/uploads/mes-flagship-1.png"
-published: false
 
 ---

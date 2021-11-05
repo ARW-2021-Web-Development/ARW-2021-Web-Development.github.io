@@ -30,7 +30,7 @@ vision: "<p>A premier non-profit student consulting organization providing excep
 mission: "<p>Creating learning opportunities for aspiring student consultants that
   will enable them to fulfill the responsibilities of a Lasallian business leader,
   through uncovering their known and unknown capabilities.</p>"
-reg_link: google.com
+reg_link: https://forms.gle/tAjeYLvr3gRNH2Zv9
 vid_link: https://drive.google.com/file/d/1Olabo4QI-TcekrYBmj6fjLtUALYaniVf/preview
 events:
 - "/uploads/flagship-6.png"
