@@ -1,6 +1,6 @@
 ---
 layout: organization
-logo: "/uploads/cso.png"
+logo: "/uploads/cso-logo.png"
 cluster: CSO
 fb_link: https://www.facebook.com/CSO.DLSU
 membership_banner: "/uploads/cso-mem-banner.png"
