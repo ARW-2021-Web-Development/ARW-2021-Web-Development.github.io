@@ -1,6 +1,6 @@
 ---
 layout: organization
-logo: "/uploads/500x500.png"
+logo: "/uploads/poliscy-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/DLSUPOLISCY
 membership_banner: "/uploads/poliscy-mem-banner.png"
