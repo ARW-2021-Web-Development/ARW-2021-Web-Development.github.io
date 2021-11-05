@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(232, 26, 26)
-title_color: rgb(39, 116, 195)
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(125, 73, 148)
 button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+description_color: rgb(125, 73, 148)
 layout: organization
 logo: "/uploads/amstud-logo.png"
 cluster: CAP13
