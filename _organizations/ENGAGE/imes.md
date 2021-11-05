@@ -9,7 +9,7 @@ cluster: ENGAGE
 fb_link: https://facebook.com/dlsuimes/
 membership_banner: "/uploads/imes-mem-banner.png"
 hero_bg: "/uploads/imes-web-bg.png"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/imes-main-pub.png"
 fav_logo: ''
 complete_name: Industrial Management Engineering Society
 abbr: IMES
