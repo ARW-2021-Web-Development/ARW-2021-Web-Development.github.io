@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(65, 117, 5)
-button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(75, 109, 85)
+title_color: rgb(75, 109, 85)
+button_color: rgb(75, 109, 85)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/arcg-logo.png"
 cluster: ASPIRE
