@@ -26,7 +26,7 @@ mission: "<p>The mission of the Habitat Youth Programs is to capture the imagina
   them in the work of Habitat for Humanity. Habitat for Humanity is a nonprofit, ecumenical
   Christian housing ministry that seeks to eliminate poverty housing from the world
   and to make decent shelter a matter of conscience and action.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeGrrHx20NjAW0JKGVPpOLavYwWNYbO5jxx88FdYUQrmzI9rw/viewform
 vid_link: https://drive.google.com/file/d/1Q3bK7LBFSKGsjy11q7UkRbwDe5f9DE7-/preview
 events:
 - "/uploads/hfh-flagship.png"
