@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(184, 233, 134)
-title_color: rgb(255, 144, 144)
-button_color: rgb(248, 231, 28)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(0, 84, 40)
+title_color: rgb(0, 84, 40)
+button_color: rgb(0, 84, 40)
+description_color: rgb(254, 243, 215)
 layout: organization
 logo: "/uploads/hfh-logo.png"
 cluster: ASPIRE
