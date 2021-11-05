@@ -1,24 +1,24 @@
 - abbr: ASO
   name: Alliance of Science Organizations
-  description: This is the description for ASO
+  description: Alliance of Science Organizations
   color: sky-blue
 
 - abbr: ASPIRE
   name: College of Education and Special Interest and Socio-Civic Organizations
-  description: This is the description for ASPIRE
+  description: College of Education and Special Interest and Socio-Civic Organizations
   color: light-pink
 
 - abbr: CAP13
   name: College of Liberal Arts Organizations
-  description: This is the description for CAP13
+  description: College of Liberal Arts Organizations
   color: purple
 
 - abbr: PROBE
   name: Professional Organizations of Business and Economics
-  description: This is the description for PROBE
+  description: Engineering Alliance Geared Towards Excellence
   color: sky-blue
 
 - abbr: ENGAGE
   name: Engineering Alliance Geared Towards Excellence
-  description: This is the description for ENGAGE
+  description: Professional Organizations of Business and Economics
   color: light-pink
