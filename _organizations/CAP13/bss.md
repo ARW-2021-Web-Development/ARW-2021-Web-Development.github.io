@@ -1,15 +1,15 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(192, 120, 5)
-button_color: rgb(74, 176, 226)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(147, 103, 60)
+title_color: rgb(147, 103, 60)
+button_color: rgb(147, 103, 60)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/bss-bl-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsu.bss
 membership_banner: "/uploads/bss-mem-banner.png"
 hero_bg: "/uploads/bss-web-bg.png"
-main_pub: "/uploads/500x500.png"
+main_pub: "/uploads/bss-main-pub.png"
 fav_logo: "/uploads/bss-logo.png"
 complete_name: Behavioral Sciences Society
 abbr: BSS
