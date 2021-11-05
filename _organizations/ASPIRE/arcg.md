@@ -10,7 +10,7 @@ fb_link: https://facebook.com/DLSUArCG/
 membership_banner: "/uploads/arcg-mem-ban.png"
 hero_bg: "/uploads/arcg-web-bg.png"
 main_pub: "/uploads/arcg-main-pub.png"
-fav_logo: "/uploads/arcg-fav_logo.png"
+fav_logo:
 complete_name: Archers Consulting Group
 abbr: ArCG
 about_us: "<p>Archers Consulting Group is a non-profit student consulting organization
