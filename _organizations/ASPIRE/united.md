@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(229, 128, 92)
-button_color: rgb(119, 202, 228)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(189, 61, 37)
+title_color: rgb(189, 61, 37)
+button_color: rgb(189, 61, 37)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/united-logo.png"
 cluster: ASPIRE
