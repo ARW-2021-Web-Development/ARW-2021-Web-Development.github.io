@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(236, 224, 204)
-title_color: rgb(245, 166, 35)
-button_color: rgb(156, 96, 28)
+hero_title_color: rgb(197, 141, 23)
+title_color: rgb(197, 141, 23)
+button_color: rgb(197, 141, 23)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/mafia-logo.png"
