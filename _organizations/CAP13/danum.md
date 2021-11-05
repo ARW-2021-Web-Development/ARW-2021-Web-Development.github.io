@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(30, 99, 130)
-title_color: rgb(19, 151, 189)
-button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(47, 54, 56)
+title_color: rgb(47, 54, 56)
+button_color: rgb(47, 54, 56)
+description_color: rgb(219, 242, 255)
 layout: organization
 logo: "/uploads/danum-logo.png"
 cluster: CAP13
