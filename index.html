@@ -3,107 +3,194 @@
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html title="Home" %}
+    {% include head.html title="Home" %}
 
-<body>
-  {% include header.html %}
-  <div class="section has-text-centered decoration-container" style="z-index: 5;">
-    <div class="decoration-wrapper container is-max-fullhd">
-      <figure class="image mb-6">
-        <img src="{{ site.baseurl }}/assets/img/home-webpage-banner.png" alt="">
-      </figure>
-      <figure class="image mb-6" style="z-index: 0">
-        <picture>
-          <source srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png" media="(max-width: 800px)" />
-          <img class="banner-img" src="{{ site.baseurl }}/assets/img/arw-banner.png" alt="ARW 2021 Home Banner"
-            style="width: 100%; max-width: 1200px; margin: auto" />
-        </picture>
-      </figure>
-      <div class="columns is-centered container is-max-widescreen" style="margin: auto">
-        <div class="column is-1">
-          <a rel="noreferrer" target="_blank" href="https://facebook.com/DLSUARW">
-            <figure class="image is-64x64" style="margin: auto">
-              <img src="{{ site.baseurl }}/assets/img/icon-fb.png" alt="Facebook Icon" class="home-icon">
-            </figure>
-          </a>
-        </div>
-        <div class="column is-1">
-          <a rel="noreferrer" target="_blank" href="https://dlsucso.com">
-            <figure class="image is-64x64" style="margin: auto">
-              <img src="{{ site.baseurl }}/assets/img/icon-web.png" alt="Website Icon" class="home-icon">
-            </figure>
-          </a>
-        </div>
-        <div class="column is-1">
-          <a rel="noreferrer" target="_blank" href="https://www.instagram.com/dlsu_arw/">
-            <figure class="image is-64x64" style="margin: auto">
-              <img src="{{ site.baseurl }}/assets/img/icon-ig.png" alt="Instagram Icon" class="home-icon">
-            </figure>
-          </a>
-        </div>
-      </div>
-      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/2.png" alt=""
-        id="home-triangles-1">
-      <img class="decorative" src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/1.png" alt=""
-        id="home-triangles-2">
-    </div>
-  </div>
+    <body>
+        {% include header.html %}
 
-  <div class="section is-medium decoration-container">
-    <div class="decoration-wrapper">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/1.png" id="home-circles-1" class="decorative"
-        alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/2.png" id="home-circles-2" class="decorative"
-        alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/1.png" id="home-ribbons-1" class="decorative"
-        alt="">
-      <div class="container has-text-centered glass-container light-pink is-max-widescreen">
-        <h1 class="title inner-text-shadow light-pink">ABOUT ARW</h1>
-        <p class="block dark-pink">
-          Annual Recruitment Week (ARW) is one of the most awaited annual activities in De La Salle
-          University. Students are given the opportunity to choose among the 51 organizations under the
-          Council of Student Organizations in pursuit of being able to meet people of similar interests and
-          hone their skills outside of academic responsibilities.
-        </p>
-        <p class="block dark-pink">
-          For this year’s highlight, a university-wide pageant entitled “Mr. and Mr. ARW 2021” wherein there
-          will be representatives whose goal is not only to showcase their wits and elegance, but most
-          especially the beauty of their respective organizations in pursuit of enticing more applicants.
-        </p>
-      </div>
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/3.png" id="home-circles-3" class="decorative"
-        alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/4.png" id="home-circles-4" class="decorative"
-        alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/5.png" id="home-circles-5" class="decorative"
-        alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/6.png" id="home-circles-6" class="decorative"
-        alt="">
-    </div>
-  </div>
-  <div class="section is-medium decoration-container">
-    <div class="decoration-wrapper">
-      <div class="container">
-        <h1 class="title is-1 has-text-centered dark-pink responsive">SAMPLE LOGOS ONLY</h1>
-        <figure class="image">
-          <img src="" alt="">
-        </figure>
-      </div>
-      <div class="container">
-        <h1 class="title is-1 has-text-centered dark-pink responsive">SAMPLE LOGOS ONLY</h1>
-        <figure class="image">
-          <img src="" alt="">
-        </figure>
-      </div>
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/3.png" id="home-triangles-3"
-        class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/4.png" id="home-triangles-4"
-        class="decorative" alt="">
-      <img src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/2.png" id="home-ribbons-2" class="decorative"
-        alt="">
-    </div>
-  </div>
-  {% include footer.html %}
-</body>
+        <div class="section has-text-centered decoration-container" style="z-index: 5">
+            <div class="decoration-wrapper container is-max-fullhd">
+                <!-- #region bubbles-->
+                <div class="bubble" style="--speed: 15s; --delay: 0s; left: 0%"></div>
+                <div class="bubble small" style="--speed: 22s; --delay: 0s; left: 10%"></div>
+                <div class="bubble" style="--speed: 13s; --delay: 0s; left: 20%"></div>
+                <div class="bubble small" style="--speed: 13s; --delay: 0s; left: 25%"></div>
+                <div class="bubble small" style="--speed: 17s; --delay: 0s; left: 30%"></div>
+                <div class="bubble" style="--speed: 17s; --delay: 0s; left: 40%"></div>
+                <div class="bubble small" style="--speed: 15s; --delay: 0s; left: 60%"></div>
+                <div class="bubble" style="--speed: 11s; --delay: 0s; left: 90%"></div>
+                <div class="bubble large" style="--speed: 15s; --delay: 0s; left: 80%"></div>
+                <!-- endregion -->
 
+                <figure class="image mb-6">
+                    <img src="{{ site.baseurl }}/assets/img/home-webpage-banner.png" alt="" />
+                </figure>
+                <figure class="image mb-6" style="z-index: 0; pointer-events: none">
+                    <picture style="pointer-events: none">
+                        <source
+                            srcset="{{site.baseurl}}/assets/img/behind-arw-banner-mobile.png"
+                            media="(max-width: 800px)"
+                        />
+                        <img
+                            class="banner-img"
+                            src="{{ site.baseurl }}/assets/img/arw-banner.png"
+                            alt="ARW 2021 Home Banner"
+                            style="width: 100%; max-width: 1200px; margin: auto; pointer-events: none"
+                        />
+                    </picture>
+                </figure>
+                <div class="columns is-centered container is-max-widescreen" style="margin: auto; pointer-events: none">
+                    <div class="column is-1">
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://facebook.com/DLSUARW"
+                            style="pointer-events: auto"
+                        >
+                            <!-- <figure class="image is-64x64" style="margin: auto">
+                                <img
+                                    src="{{ site.baseurl }}/assets/img/icon-fb.png"
+                                    alt="Facebook Icon"
+                                    class="home-icon"
+                                />
+                            </figure> -->
+                            <button class="button gradient-anim"><i class="fab fa-facebook-f"></i></button>
+                        </a>
+                    </div>
+                    <div class="column is-1">
+                        <a rel="noreferrer" target="_blank" href="https://dlsucso.com">
+                            <!-- <figure class="image is-64x64" style="margin: auto">
+                                <img
+                                    src="{{ site.baseurl }}/assets/img/icon-web.png"
+                                    alt="Website Icon"
+                                    class="home-icon"
+                                />
+                            </figure> -->
+                        </a>
+                    </div>
+                    <div class="column is-1">
+                        <a rel="noreferrer" target="_blank" href="https://www.instagram.com/dlsu_arw/">
+                            <!-- <figure class="image is-64x64" style="margin: auto">
+                                <img
+                                    src="{{ site.baseurl }}/assets/img/icon-ig.png"
+                                    alt="Instagram Icon"
+                                    class="home-icon"
+                                />
+                            </figure> -->
+                        </a>
+                    </div>
+                </div>
+                <img
+                    class="decorative"
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/2.png"
+                    alt=""
+                    id="home-triangles-1"
+                />
+                <img
+                    class="decorative"
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/1.png"
+                    alt=""
+                    id="home-triangles-2"
+                />
+            </div>
+        </div>
+
+        <div class="section is-medium decoration-container">
+            <div class="decoration-wrapper">
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/1.png"
+                    id="home-circles-1"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/2.png"
+                    id="home-circles-2"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/1.png"
+                    id="home-ribbons-1"
+                    class="decorative"
+                    alt=""
+                />
+                <div class="container has-text-centered glass-container light-pink is-max-widescreen">
+                    <h1 class="title inner-text-shadow light-pink">ABOUT ARW</h1>
+                    <p class="block dark-pink">
+                        Annual Recruitment Week (ARW) is one of the most awaited annual activities in De La Salle
+                        University. Students are given the opportunity to choose among the 51 organizations under the
+                        Council of Student Organizations in pursuit of being able to meet people of similar interests
+                        and hone their skills outside of academic responsibilities.
+                    </p>
+                    <p class="block dark-pink">
+                        For this year’s highlight, a university-wide pageant entitled “Mr. and Mr. ARW 2021” wherein
+                        there will be representatives whose goal is not only to showcase their wits and elegance, but
+                        most especially the beauty of their respective organizations in pursuit of enticing more
+                        applicants.
+                    </p>
+                </div>
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/3.png"
+                    id="home-circles-3"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/4.png"
+                    id="home-circles-4"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/5.png"
+                    id="home-circles-5"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/circles/6.png"
+                    id="home-circles-6"
+                    class="decorative"
+                    alt=""
+                />
+            </div>
+        </div>
+        <div class="section is-medium decoration-container">
+            <div class="decoration-wrapper">
+                <div class="container">
+                    <h1 class="title is-1 has-text-centered dark-pink responsive">SAMPLE LOGOS ONLY</h1>
+                    <figure class="image">
+                        <img src="" alt="" />
+                    </figure>
+                </div>
+                <div class="container">
+                    <h1 class="title is-1 has-text-centered dark-pink responsive">SAMPLE LOGOS ONLY</h1>
+                    <figure class="image">
+                        <img src="" alt="" />
+                    </figure>
+                </div>
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/3.png"
+                    id="home-triangles-3"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/triangles/4.png"
+                    id="home-triangles-4"
+                    class="decorative"
+                    alt=""
+                />
+                <img
+                    src="{{ site.baseurl }}/assets/img/decorations/homepage/ribbons/2.png"
+                    id="home-ribbons-2"
+                    class="decorative"
+                    alt=""
+                />
+            </div>
+        </div>
+        {% include footer.html %}
+        <script src="{{site.baseurl}}/assets/js/bubble.js" defer></script>
+    </body>
 </html>
