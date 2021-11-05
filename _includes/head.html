@@ -44,7 +44,7 @@
       }
 
       {% if include.color %}
-      .is-custom, .button.is-custom {
+      .is-custom {
         color: {{ include.color }};
       }
 
@@ -71,7 +71,7 @@
         width: 5px;
       }
 
-      .pressed-glass.is-custom {
+      .pressed-glass.is-custom, .button.is-custom {
         color: {{ include.desc_color }};
         background-color: {{ include.button_color }};
       }
