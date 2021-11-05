@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(16, 118, 16)
-title_color: rgb(45, 114, 39)
-button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(79, 103, 77)
+title_color: rgb(79, 103, 77)
+button_color: rgb(79, 103, 77)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/logo.png"
 cluster: CAP13
@@ -30,7 +30,7 @@ mission: "<p> Our mission is to establish an organization that is student-friend
   driven to achieve the ideals set forth by the objectives of St. John Baptist De
   La Salle, and provides opportunities not just to the members but to the whole community
   as well to appreciate the significance of Philosophy in our daily lives.</p>"
-reg_link: " "
+reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSeOohmGQMeiq1qvIiKnJZokX7YPlwh2-JteAlD1fnPlh6aw3A/viewform?usp=sf_link"
 vid_link: "  https://drive.google.com/file/d/1Fw6R1IuJojJUTEYvKojhBLinxem2t7om/view?usp=sharing "
 events:
 - "/uploads/1-1.png"

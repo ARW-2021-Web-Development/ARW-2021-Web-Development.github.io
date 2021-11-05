@@ -7,8 +7,8 @@ membership_banner: "/uploads/yes-mem-banner.png"
 hero_bg: "/uploads/yes-web-bg.png"
 main_pub: "/uploads/yes-main-pub.png"
 title_color: rgb(255, 144, 144)
-button_color: rgb(202, 136, 178)
-description_color: rgb(0, 0, 0)
+button_color: rgb(37, 49, 60)
+description_color: rgb(255, 255, 255)
 complete_name: Young Entrepreneurs’ Society (YES) DLSU - Manila
 abbr: 'YES'
 about_us: "<p>The Young Entrepreneurs' Society (YES) of De La Salle University - Manila
@@ -37,5 +37,7 @@ events:
 - "/uploads/yes-flagship-3.png"
 - "/uploads/yes-flagship-4.png"
 - "/uploads/yes-flagship-5.png"
+hero_title_color: rgb(255, 255, 255)
+fav_logo: ''
 
 ---
