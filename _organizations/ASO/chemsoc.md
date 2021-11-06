@@ -29,7 +29,7 @@ mission: "<p>Our mission is to provide programs and services that will holistica
   develop our members to become service-driven, research-oriented, and responsible
   Lasallian chemists and citizens of the nation.</p>"
 reg_link: https://google.com
-vid_link: https://drive.google.com/file/d/1GTyLtUOIBXKsqkVMqij1JnbggO67k7Dr/preview
+vid_link: https://www.youtube.com/embed/BHwcugwvcNw
 events:
 - "/uploads/chemsoc-flagship-event-1.png"
 - "/uploads/chemsoc-flagship-event-2.png"

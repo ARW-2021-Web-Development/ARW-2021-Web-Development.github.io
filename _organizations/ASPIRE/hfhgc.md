@@ -27,7 +27,7 @@ mission: "<p>The mission of the Habitat Youth Programs is to capture the imagina
   Christian housing ministry that seeks to eliminate poverty housing from the world
   and to make decent shelter a matter of conscience and action.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeGrrHx20NjAW0JKGVPpOLavYwWNYbO5jxx88FdYUQrmzI9rw/viewform
-vid_link: https://drive.google.com/file/d/1Q3bK7LBFSKGsjy11q7UkRbwDe5f9DE7-/preview
+vid_link: https://www.youtube.com/embed/pb0sMn3SbjU
 events:
 - "/uploads/hfh-flagship.png"
 

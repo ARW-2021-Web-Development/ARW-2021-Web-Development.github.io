@@ -31,7 +31,7 @@ mission: "<p>We believe leadership is the fundamental solution and it can be dev
   both locally and globally, to directly empower young people. With AIESEC, young
   people become value-driven leaders who positively impact the world around them.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdvC_R9zJbK2sz4S_wsDQldOzanoRGSrwV-YVG6mpdeKWVcgw/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/1Jn2ESiYgqiq1IedVEznR-y7fI3lKLriP/preview
+vid_link: https://www.youtube.com/embed/6WGCrmZsPEk
 events:
 - "/uploads/aiesec-flagship-5.png"
 - "/uploads/aiesec-flagship-4.png"

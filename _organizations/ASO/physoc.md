@@ -32,7 +32,7 @@ mission: "<p>The Physics Society is a haven for Physics enthusiasts. Here, the m
   also conduct activities like campus tours to different science institutions in the
   Philippines.</p>"
 reg_link: google.com
-vid_link: https://drive.google.com/file/d/1gi2Vcb1uvw2JkHIro5UzgHeb34GXdsHz/preview
+vid_link: https://www.youtube.com/embed/TBX0oFpO_Xs
 events:
 - "/uploads/physoc-flagship-10.png"
 - "/uploads/physoc-flagship-9.png"

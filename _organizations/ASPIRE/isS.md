@@ -22,7 +22,7 @@ vision: "<p>To be the catalyst for Lasallians and Filipinos to take control of t
 mission: "<p>To provide platforms and opportunities that promote financial literacy
   and investment awareness in the Lasallian community and beyond. </p>"
 reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSdrUnfFXqr4vSYbLnWWv137W7yAWu0IR5yxtjp5b5RQU_9pJA/viewform"
-vid_link: https://drive.google.com/file/d/1OPmUPllJyGvrkuRY1_sx8h6EgQEvvt4G/view?usp=sharing
+vid_link: https://www.youtube.com/embed/TSW9_41SUcw
 events:
 - "/uploads/flip-series.png"
 - "/uploads/istc-2.png"

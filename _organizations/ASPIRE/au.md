@@ -27,7 +27,7 @@ mission: "<p>To protect and advocate children’s and women’s rights in line w
   parent organization’s statement to ensure that these opportunities will be maximized
   for their full growth and development.</p>"
 reg_link: www.google.com
-vid_link: https://drive.google.com/file/d/1dbnRgR1yWHTHj1pp1rzKzPDAVpJ_-NKa/preview
+vid_link: https://www.youtube.com/embed/jio9Kgs2484
 events:
 - "/uploads/au-flagship-event-1.png"
 - "/uploads/au-flagship-event-2.png"

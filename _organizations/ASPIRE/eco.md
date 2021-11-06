@@ -26,7 +26,7 @@ mission: "<p>Be the forerunner of spreading data-driven environmental awareness 
   awaken the passion for environment conservation among the members of the Lasallian
   Community especially the undergraduate students</p>"
 reg_link: google.com
-vid_link: https://drive.google.com/file/d/1voKk74qQZvAt-k3W8l5F0Y83hM5N9GvG/preview
+vid_link: https://www.youtube.com/embed/bgdUCZ75f0o
 events:
 - "/uploads/eco-flagship-2.png"
 - "/uploads/eco-flagship-1.png"

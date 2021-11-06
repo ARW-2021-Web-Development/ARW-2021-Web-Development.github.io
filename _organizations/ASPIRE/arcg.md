@@ -31,7 +31,7 @@ mission: "<p>Creating learning opportunities for aspiring student consultants th
   will enable them to fulfill the responsibilities of a Lasallian business leader,
   through uncovering their known and unknown capabilities.</p>"
 reg_link: https://forms.gle/tAjeYLvr3gRNH2Zv9
-vid_link: https://drive.google.com/file/d/1Olabo4QI-TcekrYBmj6fjLtUALYaniVf/preview
+vid_link: https://www.youtube.com/embed/KvhGmDyX6VU
 events:
 - "/uploads/flagship-6.png"
 - "/uploads/flagship-5.png"
