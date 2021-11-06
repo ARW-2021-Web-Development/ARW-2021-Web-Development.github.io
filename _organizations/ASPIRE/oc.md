@@ -35,7 +35,7 @@ mission: "<p>The organization’s mission is for the conservation of the environ
   knowledge for outdoors and unity and camaraderie with each other. Being exposed
   to adventurous life will help the organization as a whole to hone its image on environmentalism
   and become proactive to the issues regarding it.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSf_moEPf5O26htzMHkzwtOpg_c3-h2CP24KZs9gQwGgVu8CYw/viewform
 vid_link: https://drive.google.com/file/d/1wQrIqX1slXsJ814deIAc4CG-QXLmlvAO/preview
 events:
 - "/uploads/oc-flagship-3.png"

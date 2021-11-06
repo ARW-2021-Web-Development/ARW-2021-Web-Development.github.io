@@ -25,7 +25,7 @@ vision: "<p>The Organization strives to center on contributing to a sustainable 
 mission: "<p>Be the forerunner of spreading data-driven environmental awareness and
   awaken the passion for environment conservation among the members of the Lasallian
   Community especially the undergraduate students</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeyEp-ShFJ1RMmF-2ZYCeqqeZSWaG_aznoXPgsAt0K6OSGcuA/viewform
 vid_link: https://drive.google.com/file/d/1voKk74qQZvAt-k3W8l5F0Y83hM5N9GvG/preview
 events:
 - "/uploads/eco-flagship-2.png"
