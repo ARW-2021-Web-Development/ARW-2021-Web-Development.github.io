@@ -29,7 +29,7 @@ mission: "<p>The Young Entrepreneurs' Society (YES) aspires to promote the entre
   encompassing the whole organization and its corresponding members. Lastly is to
   become a platform that will connect different entities such as government agencies,
   academic institutions, businesses, and religious and nonprofit organizations.</p>"
-reg_link: google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScX0EcRwiJjqkAdWZivd4BUvPl9IOrDrFYS1Yiz4hLQYsoQmA/viewform?usp=sf_link
 vid_link: https://drive.google.com/file/d/1RrJHhNB47kfdBqToblve2l2SsyxwwZja/preview
 events:
 - "/uploads/yes-flagship-1.png"
