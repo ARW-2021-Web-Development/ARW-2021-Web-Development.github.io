@@ -26,7 +26,7 @@ vision: "<p>AU envisions a brighter future for the Filipino youth and women thro
 mission: "<p>To protect and advocate children’s and women’s rights in line with the
   parent organization’s statement to ensure that these opportunities will be maximized
   for their full growth and development.</p>"
-reg_link: www.google.com
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSebuO6wFWMEk5B1oyxZiuWE6YG27lZSHGNQrNUOCrqahos9Bw/viewform
 vid_link: https://www.youtube.com/embed/jio9Kgs2484
 events:
 - "/uploads/au-flagship-event-1.png"
