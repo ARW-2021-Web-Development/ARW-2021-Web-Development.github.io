@@ -1,8 +1,8 @@
 ---
 hero_title_color: rgb(239, 238, 234)
 title_color: rgb(255, 200, 105)
-button_color: rgb(161, 104, 172)
-description_color: rgb(0, 0, 0)
+button_color: rgb(134, 79, 30)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/jpia-logo.png"
 cluster: PROBE
