@@ -2,7 +2,7 @@
 hero_title_color: rgb(255, 215, 137)
 title_color: rgb(255, 196, 92)
 button_color: rgb(32, 90, 147)
-description_color: rgb(255, 196, 92)
+description_color: rgb(246, 197, 226)
 layout: organization
 logo: "/uploads/sme-logo.png"
 cluster: ENGAGE
