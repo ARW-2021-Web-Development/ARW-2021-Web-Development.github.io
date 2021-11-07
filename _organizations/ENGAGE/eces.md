@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(255, 255, 255)
-title_color: rgb(88, 0, 0)
-button_color: rgb(175, 18, 18)
+title_color: rgb(135, 108, 92)
+button_color: rgb(209, 215, 221)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/eces-logo.png"
