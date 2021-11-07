@@ -7,9 +7,9 @@ layout: organization
 logo: "/uploads/adcreate-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/AdCreateSociety
-membership_banner: "/uploads/adcreate-membership-fee-banner.png"
-hero_bg: "/uploads/adcreate-website-background.png"
-main_pub: "/uploads/arw-d084-adcreate-mp-1.png"
+membership_banner: "/uploads/adcreate-mem-banner.png"
+hero_bg: "/uploads/adcreate-web-bg.png"
+main_pub: "/uploads/adcreate-main-pub.png"
 fav_logo: ''
 complete_name: The Adcreate Society
 abbr: ADCREATE
@@ -30,10 +30,10 @@ mission: "<p> While making it seem working hard is all we do, we play hard, too!
 reg_link: " https://forms.gle/C3gNaGRkMefnjxm4A"
 vid_link: https://www.youtube.com/embed/rhr_NLViHFI
 events:
-- "/uploads/adcreate-flagship-event-1.png"
-- "/uploads/adcreate-flagship-event-2.png"
-- "/uploads/adcreate-flagship-event-3.png"
-- "/uploads/adcreate-flagship-event-4.png"
-- "/uploads/adcreate-flagship-event-5.png"
+- "/uploads/adcreate-flagship-1.png"
+- "/uploads/adcreate-flagship-2.png"
+- "/uploads/adcreate-flagship-3.png"
+- "/uploads/adcreate-flagship-4.png"
+- "/uploads/adcreate-flagship-5.png"
 
 ---
