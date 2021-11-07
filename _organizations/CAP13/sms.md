@@ -1,8 +1,8 @@
 ---
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(117, 63, 63)
-button_color: rgb(167, 159, 233)
-description_color: rgb(0, 0, 0)
+button_color: rgb(28, 140, 132)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/sms-white-logo.png"
 cluster: CAP13
