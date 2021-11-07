@@ -31,8 +31,8 @@ mission: "<p>We exist to promote academic excellence in the fields of the Behavi
   Sciences students in the society through the fostering of camaraderie among and
   between our members and the faculty complementing the efficient functioning of the
   Behavioral Science Department</p>"
-reg_link: google.com
-vid_link: https://drive.google.com/file/d/1FdDpPqrg8S58QNDTRjTe6AcKG2pPl6gt/preview
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSd6nqMNTKp4JSeruESPwhM7gkg5TlV-JJvfq3ySs2_e46AIJA/viewform?usp=pp_url
+vid_link: https://www.youtube.com/embed/WrgflrsFwUY
 events:
 - "/uploads/bss-flagship-1.png"
 - "/uploads/bss-flagship-2.png"

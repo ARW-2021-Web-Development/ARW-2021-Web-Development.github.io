@@ -31,7 +31,7 @@ mission: "<p>The organization shall advocate its members’ musical and artistic
   body by establishing partnerships with other creative groups and promoting active
   citizenship within its members through regular socio-civic activities.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLScksylauDWTvX5Nls_ck2WyeAGVER_YH8j28LhrbHSrYSiqow/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/1CNOouwfB9qIGLs0hA4DaTKIGD9yPoiCS/preview
+vid_link: https://www.youtube.com/embed/qcnHLA4ULmk
 events:
 - "/uploads/gmc-flagship-3.png"
 - "/uploads/gmc-flagship-2.png"

@@ -25,7 +25,7 @@ mission: "<p>AJA Animo strives to contribute to the community’s intellectual, 
   University in the spirit of camaraderie and upholding Filipino identity to hold
   avenues for the celebration of Korean culture healthily.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfUC9Fk2wK5BBQLZqyfKjqYMl3H5DAxggKeRbLJMEPI6jmGoA/viewform
-vid_link: https://drive.google.com/file/d/1tgvohmz6yd0oNUKMSaZvVCfTEF77o-jR/preview
+vid_link: https://www.youtube.com/embed/BoucnTCpwDM
 events:
 - "/uploads/aja-flagship-5.png"
 - "/uploads/aja-flagship-4.png"

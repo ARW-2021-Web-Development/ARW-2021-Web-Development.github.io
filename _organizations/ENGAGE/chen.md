@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(64, 100, 196)
-title_color: rgb(242, 248, 28)
-button_color: rgb(64, 100, 196)
+hero_title_color: rgb(24, 61, 108)
+title_color: rgb(245, 186, 142)
+button_color: rgb(24, 61, 108)
 description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/chen-logo.png"
@@ -24,8 +24,8 @@ mission: "<p>Complement the department’s efforts in facilitating the developme
   profession in society. Elevate the standards of the organization towards excellence.
   Nurture the existing relationship among faculty, members, officers, other organizations,
   and other technical staff.</p>"
-reg_link: google.com
-vid_link: https://drive.google.com/file/d/1WGcgCfz844ZlqNmhgz8__3pnKy4di2d6/preview
+reg_link: https://forms.gle/JfA2YnR4BpUMki376
+vid_link: https://www.youtube.com/embed/o8ePeesuoNA
 events:
 - "/uploads/chen-flagship-2.png"
 - "/uploads/chen-flagship-1.png"

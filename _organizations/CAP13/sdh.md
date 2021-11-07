@@ -35,7 +35,7 @@ mission: "<p>We, the members of Sociedad de Historia, reaffirming our belief in 
   implement the goals of the organization in the manner which will generate maximum
   student participation.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdPJJ_9Zkoh6FkJ4rmtqL0JvjOGC6Rxdxpr7iMr2DxNwsQlyw/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/1VXWAAn3w1RtJSbWgHpHECj5eX7DiJXCh/preview
+vid_link: https://www.youtube.com/embed/iYWG3mPEsVs
 events:
 - "/uploads/sdh-flagship-1.png"
 - "/uploads/sdh-flagship-2.png"

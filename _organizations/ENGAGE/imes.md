@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(34, 111, 90)
-button_color: rgb(240, 185, 58)
+button_color: rgb(81, 184, 156)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/imes-fav-logo.png"
@@ -41,7 +41,7 @@ mission: "<p>As one of the leading professional organizations, we are committed 
   the development of the IE Community through active involvement of all its members
   and officers.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdMJKkw5p9eheKg5WFTH9Vsa3McoK1BIfw1YgaD-v_uXtFkVg/viewform
-vid_link: https://drive.google.com/file/d/1v2v22JC9qITRq4LC0IkqrmOIyeMa_vWG/preview
+vid_link: https://www.youtube.com/embed/1NW9fLDV0jk
 events:
 - "/uploads/imes-flagship-10.png"
 - "/uploads/imes-flagship-9.png"

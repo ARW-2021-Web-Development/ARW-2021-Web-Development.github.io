@@ -30,8 +30,8 @@ mission: "<ul><li><p>Impart and enhance knowledge in the domain of computer engi
   and hone engineering abilities.</p></li><li><p>Instill and nurture social awareness,
   abilities, and understanding.</p></li><li><p>Unify computer engineering students
   and preserve a good relationship with other courses.</p></li></ul>"
-reg_link: www.google.com
-vid_link: https://drive.google.com/file/d/1lK4ySrfSb97WtcYSGbj8r4KBG9dPVVoO/preview
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScs14dFwDlPV7V1fkOP0qq_jApKcbzygnVZYQtXFrqxsvSZow/viewform?usp=sf_link
+vid_link: https://www.youtube.com/embed/O5M6nee7lak
 events:
 - "/uploads/access-flagship-1.png"
 - "/uploads/access-flagship-2.png"

@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(236, 224, 204)
-title_color: rgb(245, 166, 35)
-button_color: rgb(156, 96, 28)
+hero_title_color: rgb(197, 141, 23)
+title_color: rgb(197, 141, 23)
+button_color: rgb(197, 141, 23)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/mafia-logo.png"
@@ -36,7 +36,7 @@ mission: "<p>The Management of Financial Institutions Association is a duly reco
   of the Lasallian Community in providing our members the value and excellence they
   deserve.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeqITLG0Ijz4MvDw3pH2vlbDNN6IISxnwU-2LrgNfnYG3vsOg/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/19lZKlphhpuibk7ZEF9BSOEUh0PEVF8xe/preview
+vid_link: https://www.youtube.com/embed/4uJgJqlBsGk
 events:
 - "/uploads/mafia-flagship-4.png"
 - "/uploads/mafia-flagship-3.png"

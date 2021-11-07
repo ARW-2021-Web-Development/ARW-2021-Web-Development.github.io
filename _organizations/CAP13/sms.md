@@ -1,8 +1,8 @@
 ---
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(117, 63, 63)
-button_color: rgb(167, 159, 233)
-description_color: rgb(0, 0, 0)
+button_color: rgb(28, 140, 132)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/sms-white-logo.png"
 cluster: CAP13
@@ -25,7 +25,7 @@ mission: "<p>In pursuit of inclusivity and recognition of both psychological and
   all while providing and maintaining a safe, nurturing environment that promotes
   constant learning and active engagement. </p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfzT7Vi9G0xZtTN3P0IL0epLoQbsnobx_CpUxOPD0ompUKYwQ/viewform
-vid_link: https://drive.google.com/file/d/1NkyPT8_SqopkxQi2Dc_NhEi9BJAMwYgw/preview
+vid_link: https://www.youtube.com/embed/3ZrP4VSkq6s
 events:
 - "/uploads/sms-flagship-6.png"
 - "/uploads/sms-flagship-5.png"

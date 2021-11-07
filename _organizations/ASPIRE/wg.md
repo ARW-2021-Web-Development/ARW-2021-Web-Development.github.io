@@ -31,8 +31,8 @@ mission: "<p>Writers’ Guild shall expose its members to different areas of lea
   to other communities by participating in external activities, creating connections
   with other writing organizations, and being a responsible member of society through
   its socio-development programs, leading to the members’ growth.</p>"
-reg_link: www.google.com
-vid_link: https://drive.google.com/file/d/1EiQSGlcPAKSBPe40ylDiUfz3IQK-tXgt/preview
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSedobDH53DBaxJmsg5TXpSboeVhiRfN2lgdJR41TZkpSjWEHw/viewform
+vid_link: https://www.youtube.com/embed/mSlQdYrKAZE
 events:
 - "/uploads/wg-flagship-1.png"
 - "/uploads/wg-flagship-2.png"

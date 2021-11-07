@@ -26,8 +26,8 @@ mission: "<p>Through its organizational pillars of Academic Excellence, Organiza
   fostering holistic engagement, dynamic enhancement, and strategic innovation among
   their members today in order to shape them into competent business leaders who will
   soon be the catalysts of nation-building, social dependability, and economic development.</p>"
-reg_link: google.com
-vid_link: https://drive.google.com/file/d/177iqWRB2c10c-Esm12-WqFJYgt9Y6UH2/preview
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdm-6G_-1CXvPJGA52S6uzdrxkuoCvfu2raayY4RcUFP4Taow/viewform
+vid_link: https://www.youtube.com/embed/orU6RQBOCNE
 events:
 - "/uploads/bms-flagship-1.png"
 - "/uploads/bms-flagship-2.png"

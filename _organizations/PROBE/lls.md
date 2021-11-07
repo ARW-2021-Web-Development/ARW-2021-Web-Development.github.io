@@ -26,8 +26,8 @@ vision: "<p>Ley La Salle envisions a community wherein the law is used to promot
   uphold, and maintain justice in society.</p>"
 mission: "<p>Ley La Salle vests itself with the mission to spread the rhyme and reason
   of the law to its constituents, the Lasallian community, and beyond.</p>"
-reg_link: www.google.com
-vid_link: https://drive.google.com/file/d/1XiTwz2u4EjU8X_Cib-F_v8wfYmTieTMY/preview
+reg_link: https://forms.gle/EykZJuCRJZqmh8Pk7
+vid_link: https://www.youtube.com/embed/LqM36rNqbh0
 events:
 - "/uploads/lls-flagship-1.png"
 - "/uploads/lls-flagship-2.png"

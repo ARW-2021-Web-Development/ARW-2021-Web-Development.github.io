@@ -7,9 +7,9 @@ layout: organization
 logo: "/uploads/amstud-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/amstud.dlsu
-membership_banner: "/uploads/amstud-arw2021_-membership-fee-website-banner.png"
-hero_bg: "/uploads/amstud-arw2021_-website-background-of-org.png"
-main_pub: "/uploads/arw-d042-amstud-mp.png"
+membership_banner: "/uploads/amstud-mem-banner.png"
+hero_bg: "/uploads/amstud-web-bg.png"
+main_pub: "/uploads/amstud-main-pub.png"
 fav_logo: ''
 complete_name: The Organization for American Studies
 abbr: AMSTUD
@@ -43,11 +43,11 @@ mission: "<table><tbody><tr><td>The Organization for American Studies is committ
   involves the United States of America and the significant trends in American society
   and culture that can contribute to the members' self-development and to the nation
   in the long-run.</p>"
-reg_link: "  https://docs.google.com/forms/d/e/1FAIpQLSeeJCXuqr0Hb-HdrM8zYnPG2t_ZIVpXlKjO4WyZYnfjMnLCiw/viewform?usp=sf_link"
-vid_link: "  https://drive.google.com/file/d/1IpE-98UX2z9WwsoFQlq4kKeGtKsstO4z/view?usp=sharing"
+reg_link: "https://docs.google.com/forms/d/e/1FAIpQLSeeJCXuqr0Hb-HdrM8zYnPG2t_ZIVpXlKjO4WyZYnfjMnLCiw/viewform?usp=sf_link"
+vid_link: https://www.youtube.com/embed/042g67lQv_4
 events:
-- "/uploads/amstud-arw2021_-org-flagship-events-1.png"
-- "/uploads/amstud-arw2021_-org-flagship-events-2.png"
-- "/uploads/amstud-arw2021_-org-flagship-events-3.png"
+- "/uploads/amstud-flagship-1.png"
+- "/uploads/amstud-flagship-2.png"
+- "/uploads/amstud-flagship-3.png"
 
 ---

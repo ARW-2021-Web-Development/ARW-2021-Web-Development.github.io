@@ -31,7 +31,7 @@ mission: "<p>DLSU PRISM is the premier LGBTQ+ organization of De La Salle Univer
   of influence. We fully commit ourselves to the aid of the marginalized, united by
   the Lasallian core values of Faith, Service, and Community.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfAIaUTHV91xn0-QWm9YfxfH0S6ucDf6TstOpGIw2P0zhYpMA/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/1_rHscXVoAg5FrCTKwb9ULaR0pxYExfis/preview
+vid_link: https://www.youtube.com/embed/a1jDitsI_GQ
 events:
 - "/uploads/prism-flagship-1.png"
 - "/uploads/prism-flagship-2.png"

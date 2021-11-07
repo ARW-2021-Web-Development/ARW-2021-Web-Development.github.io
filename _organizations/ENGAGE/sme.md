@@ -2,7 +2,7 @@
 hero_title_color: rgb(255, 215, 137)
 title_color: rgb(255, 196, 92)
 button_color: rgb(32, 90, 147)
-description_color: rgb(255, 196, 92)
+description_color: rgb(246, 197, 226)
 layout: organization
 logo: "/uploads/sme-logo.png"
 cluster: ENGAGE
@@ -35,8 +35,8 @@ mission: "<p><strong>Professional Development:</strong></p><p>To provide the mea
   institutions.</p><p><strong>Special Activities Development:</strong></p><p>To provide
   a means for the pursuit of special areas of interest such as sports and recreation,
   socio-civic relations, and religious activities.</p><p></p>"
-reg_link: www.google.com
-vid_link: https://drive.google.com/file/d/1Atj5abfMRylCjuCOi5PBSZTT8AmScJiS/preview
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSenygf9u_opUxlNqfeHBMBxkO3rW5VBBcNYVebWk1J6SMjpww/viewform
+vid_link: https://www.youtube.com/embed/3O5TiWvlhIY
 events:
 - "/uploads/sme-flagship-1.png"
 - "/uploads/sme-flagship-2.png"

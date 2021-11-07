@@ -28,8 +28,8 @@ vision: "<p>With our vision to strive for academic excellence, research intensiv
 mission: "<p>Our mission is to provide programs and services that will holistically
   develop our members to become service-driven, research-oriented, and responsible
   Lasallian chemists and citizens of the nation.</p>"
-reg_link: https://google.com
-vid_link: https://drive.google.com/file/d/1GTyLtUOIBXKsqkVMqij1JnbggO67k7Dr/preview
+reg_link: https://forms.gle/89Bi4uDwxK2jxqtc7
+vid_link: https://www.youtube.com/embed/BHwcugwvcNw
 events:
 - "/uploads/chemsoc-flagship-event-1.png"
 - "/uploads/chemsoc-flagship-event-2.png"

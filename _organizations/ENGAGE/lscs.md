@@ -36,7 +36,7 @@ mission: "<p>The La Salle Computer Society shall serve as a venue for the growth
   to accomplish our goals in the best way possible and in accordance with the ideals
   of the organization and of De La Salle University Manila.</p></li></ul>"
 reg_link: https://forms.gle/oziGtFSxmRcvqQ2M9
-vid_link: https://drive.google.com/file/d/1z-Ue4OTqbmxambt-ifVI4F2PQ3EXBpnu/preview
+vid_link: https://www.youtube.com/embed/dxd4hgFpUFQ
 events:
 - "/uploads/lscs-flagship-5.png"
 - "/uploads/lscs-flagship-4.png"
