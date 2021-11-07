@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(98, 28, 159)
+hero_title_color: rgb(255, 255, 255)
 title_color: rgb(244, 166, 181)
 button_color: rgb(255, 255, 255)
-description_color: rgb(231, 23, 23)
+description_color: rgb(14, 22, 64)
 layout: organization
 logo: "/uploads/ces.png"
 cluster: ENGAGE
@@ -34,7 +34,7 @@ mission: "<p>The Civil Engineering Society, also known as CES, is an accredited 
   Civil Engineers driven by social responsibility and guided by the Lasallian faith.</p><p>The
   Society emphasizes the importance of its members in the further development of the
   organization.</p><p><br></p>"
-reg_link: "https://docs.google.com/forms/d/e/1FAIpQLScr78aPRrgsj4KTEjcaExFT8zZJ8I1pPHXf2PJx23KRAWkW1w/viewform"
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScr78aPRrgsj4KTEjcaExFT8zZJ8I1pPHXf2PJx23KRAWkW1w/viewform
 vid_link: https://www.youtube.com/embed/oe6guwFAIhE
 events:
 - "/uploads/ces-ce-career-week.png"
