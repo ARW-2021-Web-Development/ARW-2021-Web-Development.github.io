@@ -5,7 +5,7 @@ cluster: CSO
 fb_link: https://www.facebook.com/CSO.DLSU
 membership_banner: "/uploads/cso-mem-banner.png"
 hero_bg: "/uploads/cso-web-bg.PNG"
-main_pub: "/uploads/hohuqy7mss901.png"
+main_pub: "/uploads/cso-main-pub.png"
 complete_name: Council of Student Organizations
 abbr: CSO
 about_us: "<p>The Council of Student Organizations is the union of accredited professional,
