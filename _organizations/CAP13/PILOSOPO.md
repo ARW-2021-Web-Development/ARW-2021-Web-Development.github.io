@@ -9,8 +9,8 @@ cluster: CAP13
 fb_link: https://www.facebook.com/dlsupilosopo
 membership_banner: "/uploads/pilosopo_membership-fee-website-banner.png"
 hero_bg: "/uploads/arw2021-website-background-1.png"
-main_pub: ''
-fav_logo: ''
+main_pub: "/uploads/pilosopo-main-pub.png"
+fav_logo: "/uploads/logo.png"
 complete_name: Samahan ng mga Lasalyanong Pilosopo
 abbr: PILOSOPO
 about_us: "<p>Samahan ng mga Lasalyanong PILOSOPO is the official professional student
