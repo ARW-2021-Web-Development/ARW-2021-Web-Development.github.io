@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(6, 61, 0)
-title_color: rgb(239, 200, 5)
-button_color: rgb(132, 192, 65)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(128, 110, 70)
+button_color: rgb(58, 79, 89)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/econorg-logo.png"
 cluster: PROBE
