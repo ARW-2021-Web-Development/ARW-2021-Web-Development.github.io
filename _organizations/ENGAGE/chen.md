@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(64, 100, 196)
-title_color: rgb(242, 248, 28)
-button_color: rgb(64, 100, 196)
+hero_title_color: rgb(24, 61, 108)
+title_color: rgb(245, 186, 142)
+button_color: rgb(24, 61, 108)
 description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/chen-logo.png"
