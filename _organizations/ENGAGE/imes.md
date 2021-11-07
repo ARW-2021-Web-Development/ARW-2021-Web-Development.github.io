@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(34, 111, 90)
-button_color: rgb(240, 185, 58)
+button_color: rgb(81, 184, 156)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/imes-fav-logo.png"
