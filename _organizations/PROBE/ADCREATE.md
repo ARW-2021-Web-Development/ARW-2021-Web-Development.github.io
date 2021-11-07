@@ -1,8 +1,8 @@
 ---
 hero_title_color: rgb(15, 89, 136)
-title_color: rgb(234, 24, 24)
+title_color: rgb(26, 66, 112)
 button_color: rgb(255, 255, 255)
-description_color: rgb(26, 66, 112)
+description_color: rgb(21, 84, 114)
 layout: organization
 logo: "/uploads/adcreate-logo.png"
 cluster: PROBE
