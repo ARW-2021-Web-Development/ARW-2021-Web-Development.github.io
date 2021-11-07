@@ -25,7 +25,7 @@ mission: "<p>Complement the department’s efforts in facilitating the developme
   Nurture the existing relationship among faculty, members, officers, other organizations,
   and other technical staff.</p>"
 reg_link: https://forms.gle/JfA2YnR4BpUMki376
-vid_link: https://drive.google.com/file/d/1WGcgCfz844ZlqNmhgz8__3pnKy4di2d6/preview
+vid_link: https://www.youtube.com/embed/o8ePeesuoNA
 events:
 - "/uploads/chen-flagship-2.png"
 - "/uploads/chen-flagship-1.png"

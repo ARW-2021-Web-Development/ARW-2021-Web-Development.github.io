@@ -40,7 +40,7 @@ mission: "<p>Driven by our core values and our commitment to development, we are
   abilities to holistically develop and benefit not only themselves but also the community
   as a whole.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfeXio-3j2hVESsmLnyR3sPkNL1nSZLn4K0--DjAFUNh5XiJw/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/18q-Sff9AJenrRmI4zsJHxtMzrjc_ZaFw/preview
+vid_link: https://www.youtube.com/embed/uqqfB2VEh1U
 events:
 - "/uploads/jpia-flagship-7.png"
 - "/uploads/jpia-flagship-6.png"

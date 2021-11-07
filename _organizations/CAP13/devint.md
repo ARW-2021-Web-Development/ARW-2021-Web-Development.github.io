@@ -38,7 +38,7 @@ mission: "<p>To advocate and labor for relevant and integrative application of v
   the realization that we live only once and the need to let all our lives be a fruitful
   one. </p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdgQY_a2JuH-u6DIicTMpJJq-0f0lpFKTBMP6t3EOQiRW-3hA/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/1jZu5uza3l1GqfFidEtsUVCmBTMXJeEXG/preview
+vid_link: https://www.youtube.com/embed/dqJwzE9exNA
 events:
 - "/uploads/devint-flagship-3.png"
 - "/uploads/devint-flagship-2.png"

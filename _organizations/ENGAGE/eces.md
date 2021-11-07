@@ -30,7 +30,7 @@ mission: "<p>The Electronics and Communications Engineering Society is the profe
   and services through outstanding and innovative activities and partnerships with
   external organizations that promote academic excellence and social transformation.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSe3EuxuxnP23kI2u_dr7VuHT6wzkGWS6o12x3UzXR27d-tGig/viewform
-vid_link: https://drive.google.com/file/d/14xGlwHOuHww6L6pPa7N37StJ_KeiFBaB/preview
+vid_link: https://www.youtube.com/embed/xzKaiiC3le4
 events:
 - "/uploads/eces-flagship-1.png"
 - "/uploads/eces-flagship-2.png"

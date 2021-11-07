@@ -26,7 +26,7 @@ mission: "<p>To become a nationally competitive marketing student organization t
   develops well-rounded individuals who instill the values of excellence, inclusively,
   collaboration, and involvement to prepare leaders to breed a progressive society.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdXXmLeGfEWo0sFOWE4IqZEag1YTyuC25eQPulh1vDXDXFitA/viewform
-vid_link: https://drive.google.com/file/d/13LzdBn6wm__YlVI-8fKtznu1ouS5SEdg/preview
+vid_link: https://www.youtube.com/embed/MHw_wamG_XQ
 events:
 - "/uploads/jema-flagship-4.png"
 - "/uploads/jema-flagship-3.png"

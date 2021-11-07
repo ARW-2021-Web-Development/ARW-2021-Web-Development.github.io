@@ -32,7 +32,7 @@ mission: "<p>We, the Political Science Society, commit ourselves to the active f
   programs of action, the organization advances academic competencies and the personal
   development of students as tools for critical thinking and social change.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSd04mVyxNPq2yC1y5zD_n89oYpeBkDV-SeY1jjEdkIW7M2Ijw/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/13YBzkp5c28nJBByGcjY-6ctF8uCW2nLF/preview
+vid_link: https://www.youtube.com/embed/dsbE94-oxoY
 events:
 - "/uploads/poliscy-flagship-1.png"
 - "/uploads/poliscy-flagship-2.png"

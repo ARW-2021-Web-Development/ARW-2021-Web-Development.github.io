@@ -28,7 +28,7 @@ mission: "<p> While making it seem working hard is all we do, we play hard, too!
   team-building and bonding activities like our Neophyte program and Leadership training
   programs.</p>"
 reg_link: " https://forms.gle/C3gNaGRkMefnjxm4A"
-vid_link: https://drive.google.com/file/d/1I-HC1ELojsbTNYSM181uF9U01M-jSMrB/view?usp=sharing
+vid_link: https://www.youtube.com/embed/rhr_NLViHFI
 events:
 - "/uploads/adcreate-flagship-event-1.png"
 - "/uploads/adcreate-flagship-event-2.png"

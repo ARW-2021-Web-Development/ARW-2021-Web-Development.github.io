@@ -28,7 +28,7 @@ mission: "<p>To build a community of Lasallian student gamers where they can fre
   those who are uninvolved with the gaming community to find their own meaning in
   the various fields of esports.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfwB3fzPdjQqtwrfQUU_sWa70gXF7NQoVEv1IcTnNCLexMTVw/viewform
-vid_link: https://drive.google.com/file/d/13lxt-3WiHLLCWvwXleC6kz2xQMWFEUaH/preview
+vid_link: https://www.youtube.com/embed/fOOdJS2SxSw
 events:
 - "/uploads/va-flagship.png"
 

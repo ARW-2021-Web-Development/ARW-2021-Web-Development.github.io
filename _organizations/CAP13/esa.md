@@ -33,7 +33,7 @@ mission: "<p>Adhering to the Lasallian standard of excellence and values of Fait
   education. It is also committed to shaping its members into becoming global citizens
   who are competent, critical and culturally sensitive, and socially responsible.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdGQU4n11jBRTYp2znwAJszDJtLAGOtvvRjgGbdTrqytYYQjg/viewform
-vid_link: https://drive.google.com/file/d/1FtjaKOn7LE8pMR3tXddrvlVzMR3uF3I5preview
+vid_link: https://www.youtube.com/embed/ZXpNb0IW28Y
 events:
 - "/uploads/esa-flagship-1.png"
 - "/uploads/esa-flagship-2.png"

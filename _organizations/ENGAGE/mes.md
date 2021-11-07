@@ -32,7 +32,7 @@ mission: "<p>MES’ mission is to promote and enhance the total development – 
   and men aspiring to be world-class, technically competent, and socially responsible
   mechanical engineers.</p>"
 reg_link: https://forms.gle/GrWt9LfrsEWcMaU99
-vid_link: https://drive.google.com/file/d/1QacNtbmcWc2a5bKSQJcM_clHzWCey5rY/preview
+vid_link: https://www.youtube.com/embed/GNARqmvqhjc
 events:
 - "/uploads/mes-flagship-3.png"
 - "/uploads/mes-flagship-2.png"

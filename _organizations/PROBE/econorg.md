@@ -25,7 +25,7 @@ mission: "<p>Since 1976, the Economics Organization of De La Salle University ha
   development in the five pillars, namely: academic excellence, leadership, holistic
   development, social engagement, and national involvement.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdT_WBhBS8m7LUDNDw2lM1dfd3mcnVkE3Sm862plQ2e8_yFaQ/viewform
-vid_link: https://drive.google.com/file/d/1NX4QijWtBbLilrmHNIOeXoFj3VTWAqX1/preview
+vid_link: https://www.youtube.com/embed/R7aZ0hK03qY
 events:
 - "/uploads/econorg-flagship-1.png"
 - "/uploads/econorg-flagship-2.png"

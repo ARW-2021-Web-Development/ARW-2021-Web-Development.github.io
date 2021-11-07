@@ -24,7 +24,7 @@ mission: "<p>DLSU-SEASON aims to promote its core values of S.E.A.R.C.H. (Servic
   relations for proper awareness, knowledge transfer, and heightened student involvement
   to mold future leaders and stakeholders of the Southeast Asian Region.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeG53u6JA1feTuWgZuZBFOzCADwr0LEt-mQHMy-muMH2j_qKw/viewform
-vid_link: https://drive.google.com/file/d/1eub4_62dzMgN6zCX2SU7cKZ-Bpr68o3F/preview
+vid_link: https://www.youtube.com/embed/bGURTXT7z8w
 events:
 - "/uploads/season-flagship-2.png"
 - "/uploads/season-flagship-1.png"

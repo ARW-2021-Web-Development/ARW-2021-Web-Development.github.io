@@ -41,7 +41,7 @@ mission: "<p>Nihon Kenkyuu Kai (NKK) aims to be a professional organization capa
   to create an inclusive environment where its members can thrive and learn from one
   another under their shared passion and interest in Japan.</p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdgLMCOpMCy89FZMZZNwx7q0dkpfnIVlA6NPaUlMaaTncsX0w/viewform?usp=sf_link
-vid_link: https://drive.google.com/file/d/1l2wkQni05xqqE8s5eA34sx5rZYtvZXuP/preview
+vid_link: https://www.youtube.com/embed/o1PXbwzljcg
 events:
 - "/uploads/nkk-flagship-1.png"
 - "/uploads/nkk-flagship-2.png"

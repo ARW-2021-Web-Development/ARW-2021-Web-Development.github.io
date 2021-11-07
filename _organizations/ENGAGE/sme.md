@@ -36,7 +36,7 @@ mission: "<p><strong>Professional Development:</strong></p><p>To provide the mea
   a means for the pursuit of special areas of interest such as sports and recreation,
   socio-civic relations, and religious activities.</p><p></p>"
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSenygf9u_opUxlNqfeHBMBxkO3rW5VBBcNYVebWk1J6SMjpww/viewform
-vid_link: https://drive.google.com/file/d/1Atj5abfMRylCjuCOi5PBSZTT8AmScJiS/preview
+vid_link: https://www.youtube.com/embed/3O5TiWvlhIY
 events:
 - "/uploads/sme-flagship-1.png"
 - "/uploads/sme-flagship-2.png"
