@@ -6,7 +6,7 @@ fb_link: https://www.facebook.com/DLSUPOLISCY
 membership_banner: "/uploads/poliscy-mem-banner.png"
 hero_bg: "/uploads/poliscy-web-bg.png"
 main_pub: "/uploads/poliscy-main-pub.png"
-title_color: rgb(208, 2, 27)
+title_color: rgb(161, 115, 64)
 button_color: rgb(253, 247, 200)
 description_color: rgb(0, 0, 0)
 complete_name: Political Science Society
