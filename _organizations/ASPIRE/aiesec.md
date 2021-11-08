@@ -2,7 +2,7 @@
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(73, 185, 235)
 button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+description_color: rgb(53, 142, 183)
 layout: organization
 logo: "/uploads/aiesec-fav-logo.png"
 cluster: ASPIRE
