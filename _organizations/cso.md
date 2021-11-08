@@ -30,10 +30,6 @@ mission: "<p>The Council of Student Organizations provides relevant and quality 
 reg_link: https://google.com
 vid_link: https://www.youtube.com/embed/iNXtXLXj_a4
 events:
-- "/uploads/3594040.jpg"
-- "/uploads/hohuqy7mss901.png"
-- "/uploads/1078199.jpg"
-- "/uploads/2918041.jpg"
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(255, 145, 143)
 button_color: rgb(255, 255, 255)

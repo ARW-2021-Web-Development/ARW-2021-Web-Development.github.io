@@ -4,12 +4,12 @@ title_color: rgb(244, 166, 181)
 button_color: rgb(255, 255, 255)
 description_color: rgb(14, 22, 64)
 layout: organization
-logo: "/uploads/ces.png"
+logo: "/uploads/ces-logo.png"
 cluster: ENGAGE
 fb_link: https://www.facebook.com/CESDLSU
-membership_banner: "/uploads/ces-membership-fee.png"
-hero_bg: "/uploads/ces-background.png"
-main_pub: "/uploads/arw-d154-ces-mp.png"
+membership_banner: "/uploads/ces-mem-banner.png"
+hero_bg: "/uploads/ces-web-bg.png"
+main_pub: "/uploads/ces-main-pub.png"
 fav_logo: ''
 complete_name: Civil Engineering Society
 abbr: CES

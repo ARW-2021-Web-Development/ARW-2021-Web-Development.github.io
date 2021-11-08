@@ -8,7 +8,7 @@ logo: "/uploads/pilosopo-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsupilosopo
 membership_banner: "/uploads/pilosopo_membership-fee-website-banner.png"
-hero_bg: "/uploads/arw2021-website-background-1.png"
+hero_bg: "/uploads/pilosopo-web-bg.png"
 main_pub: "/uploads/pilosopo-main-pub.png"
 fav_logo: ''
 complete_name: Samahan ng mga Lasalyanong Pilosopo
@@ -33,9 +33,9 @@ mission: "<p> Our mission is to establish an organization that is student-friend
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeOohmGQMeiq1qvIiKnJZokX7YPlwh2-JteAlD1fnPlh6aw3A/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/tImzU8BanU8
 events:
-- "/uploads/1-1.png"
-- "/uploads/2.png"
-- "/uploads/3-1.png"
-- "/uploads/4.png"
+- "/uploads/pilosopo-flagship-1"
+- "/uploads/pilosopo-flagship-2"
+- "/uploads/pilosopo-flagship-3"
+- "/uploads/pilosopo-flagship-4"
 
 ---
