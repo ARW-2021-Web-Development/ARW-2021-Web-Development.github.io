@@ -4,13 +4,13 @@ title_color: rgb(79, 103, 77)
 button_color: rgb(79, 103, 77)
 description_color: rgb(255, 255, 255)
 layout: organization
-logo: "/uploads/logo.png"
+logo: "/uploads/pilosopo-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsupilosopo
 membership_banner: "/uploads/pilosopo_membership-fee-website-banner.png"
 hero_bg: "/uploads/arw2021-website-background-1.png"
 main_pub: "/uploads/pilosopo-main-pub.png"
-fav_logo: "/uploads/logo.png"
+fav_logo: ''
 complete_name: Samahan ng mga Lasalyanong Pilosopo
 abbr: PILOSOPO
 about_us: "<p>Samahan ng mga Lasalyanong PILOSOPO is the official professional student
