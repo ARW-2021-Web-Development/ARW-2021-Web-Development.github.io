@@ -1,8 +1,8 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(166, 67, 67)
-button_color: rgb(174, 155, 223)
-description_color: rgb(0, 0, 0)
+hero_title_color: rgb(169, 56, 0)
+title_color: rgb(80, 34, 116)
+button_color: rgb(237, 121, 25)
+description_color: rgb(255, 255, 255)
 layout: organization
 logo: "/uploads/devint-logo.png"
 cluster: CAP13
