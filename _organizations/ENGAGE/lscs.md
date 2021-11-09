@@ -43,5 +43,6 @@ events:
 - "/uploads/lscs-flagship-3.png"
 - "/uploads/lscs-flagship-2.png"
 - "/uploads/lscs-flagship-1.png"
+use_full_name: true
 
 ---
