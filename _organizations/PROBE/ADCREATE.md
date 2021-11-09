@@ -13,7 +13,7 @@ main_pub: "/uploads/adcreate-main-pub.png"
 fav_logo: ''
 complete_name: The Adcreate Society
 abbr: ADCREATE
-about_us: "<p>Adcreate Society has always been a place of warmth and growth for all,
+about_us: "<p>AdCreate Society has always been a place of warmth and growth for all,
   including you. Explore our mesmerizing caverns of creativity and discover bone chilling
   events related to marketing and advertising through our various conferences, webinars,
   agency tours, and many more. And that's just the tip of the iceberg!</p>"
