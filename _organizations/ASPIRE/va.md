@@ -31,5 +31,6 @@ reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfwB3fzPdjQqtwrfQUU_sWa70gXF7
 vid_link: https://www.youtube.com/embed/fOOdJS2SxSw
 events:
 - "/uploads/va-flagship.png"
+use_full_name: true
 
 ---
