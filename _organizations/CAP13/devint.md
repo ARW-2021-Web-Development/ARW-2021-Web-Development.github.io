@@ -43,5 +43,6 @@ events:
 - "/uploads/devint-flagship-3.png"
 - "/uploads/devint-flagship-2.png"
 - "/uploads/devint-flagship-1.png"
+use_full_name: true
 
 ---
