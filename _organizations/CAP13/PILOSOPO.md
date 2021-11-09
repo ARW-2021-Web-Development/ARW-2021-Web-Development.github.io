@@ -33,9 +33,9 @@ mission: "<p> Our mission is to establish an organization that is student-friend
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeOohmGQMeiq1qvIiKnJZokX7YPlwh2-JteAlD1fnPlh6aw3A/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/tImzU8BanU8
 events:
-- "/uploads/pilosopo-flagship-1"
-- "/uploads/pilosopo-flagship-2"
-- "/uploads/pilosopo-flagship-3"
-- "/uploads/pilosopo-flagship-4"
+- "/uploads/pilosopo-flagship-1.png"
+- "/uploads/pilosopo-flagship-2.png"
+- "/uploads/pilosopo-flagship-3.png"
+- "/uploads/pilosopo-flagship-4.png"
 
 ---

@@ -8,7 +8,7 @@ logo: "/uploads/is-logo.png"
 cluster: ASPIRE
 fb_link: https://facebook.com/InvestorsSocietyDLSU
 membership_banner: "/uploads/is-mem-banner.png"
-hero_bg: "/uploads/website-background.png"
+hero_bg: "/uploads/is-web-bg.png"
 main_pub: "/uploads/is-main-pub.png"
 fav_logo: ''
 complete_name: Investors' Society DLSU
@@ -24,9 +24,9 @@ mission: "<p>To provide platforms and opportunities that promote financial liter
 reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSdrUnfFXqr4vSYbLnWWv137W7yAWu0IR5yxtjp5b5RQU_9pJA/viewform"
 vid_link: https://www.youtube.com/embed/TSW9_41SUcw
 events:
-- "/uploads/is-flagship-1"
-- "/uploads/is-flagship-2"
-- "/uploads/is-flagship-3"
-- "/uploads/is-flagship-4"
+- "/uploads/is-flagship-1.png"
+- "/uploads/is-flagship-2.png"
+- "/uploads/is-flagship-3.png"
+- "/uploads/is-flagship-4.png"
 
 ---
