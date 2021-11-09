@@ -36,5 +36,6 @@ vid_link: https://www.youtube.com/embed/mSlQdYrKAZE
 events:
 - "/uploads/wg-flagship-1.png"
 - "/uploads/wg-flagship-2.png"
+use_full_name: true
 
 ---
