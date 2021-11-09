@@ -1,15 +1,15 @@
 ---
 hero_title_color: rgb(255, 255, 255)
-title_color: rgb(0, 0, 0)
+title_color: rgb(23, 87, 70)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/1-org_logo.png"
+logo: "/uploads/mc-logo.png"
 cluster: ASO
 fb_link: https://www.facebook.com/DLSUMathCircle
-membership_banner: "/uploads/4-org_fee.png"
-hero_bg: "/uploads/6-org_background.png"
-main_pub: "/uploads/arw-d130-mc-mp.png"
+membership_banner: "/uploads/mc-mem-banner.png"
+hero_bg: "/uploads/mc-web-bg.png"
+main_pub: "/uploads/mc-main-pub.png"
 fav_logo: ''
 complete_name: Mathematics Circle
 abbr: MC
@@ -41,11 +41,11 @@ mission: "<p>Mathematical Research - The Mathematics Circle puts its effort to p
 reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSdrUnfFXqr4vSYbLnWWv137W7yAWu0IR5yxtjp5b5RQU_9pJA/viewform"
 vid_link: https://www.youtube.com/embed/F63FdqrfRC8
 events:
-- "/uploads/1-2.png"
-- "/uploads/2-2.png"
-- "/uploads/3-3.png"
-- "/uploads/4-2.png"
-- "/uploads/5-1.png"
-- "/uploads/6-1.png"
+- "/uploads/mc-flagship-1.png"
+- "/uploads/mc-flagship-2.png"
+- "/uploads/mc-flagship-3.png"
+- "/uploads/mc-flagship-4.png"
+- "/uploads/mc-flagship-5.png"
+- "/uploads/mc-flagship-6.png"
 
 ---

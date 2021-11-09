@@ -5,7 +5,7 @@
     { "name": "physics society", "abbr": "physoc", "logo": "/uploads/physoc-logo.png" },
     { "name": "societas vitae", "abbr": "sv", "logo": "/uploads/sv-logo.png" },
     { "name": "aiesec in dlsu", "abbr": "aiesec", "logo": "/uploads/aiesec-fav-logo.png" },
-    { "name": "aja animo", "abbr": "aja animo", "logo": "/uploads/aja-logo.png" },
+    { "name": "aja animo", "abbr": "aja", "logo": "/uploads/aja-logo.png" },
     { "name": "archers consulting group", "abbr": "arcg", "logo": "/uploads/arcg-logo.png" },
     { "name": "archers for unicef", "abbr": "au", "logo": "/uploads/au-logo.png" },
     {
@@ -19,7 +19,7 @@
         "logo": "/uploads/englicom-logo.png"
     },
     { "name": "gakuen anime soshiki", "abbr": "gas", "logo": "/uploads/gas-logo.png" },
-    { "name": "green music collective", "abbr": "gmc", "logo": "/uploads/gmc-logo.png" },
+    { "name": "green music collective", "abbr": "gmc", "logo": "/uploads/gmc-fav-logo.png" },
     { "name": "habitat for humanity", "abbr": "hfh", "logo": "/uploads/hfh-logo.png" },
     { "name": "investors' society", "abbr": "is", "logo": "/uploads/is-logo.png" },
     { "name": "outdoor club", "abbr": "oc", "logo": "/uploads/oc-logo.png" },

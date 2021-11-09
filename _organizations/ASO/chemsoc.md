@@ -1,8 +1,8 @@
 ---
 hero_title_color: rgb(255, 255, 255)
-title_color: rgb(255, 0, 126)
-button_color: rgb(230, 231, 233)
-description_color: rgb(0, 0, 0)
+title_color: rgb(59, 69, 104)
+button_color: rgb(210, 225, 231)
+description_color: rgb(51, 51, 51)
 layout: organization
 logo: "/uploads/chemsoc-logo.png"
 cluster: ASO

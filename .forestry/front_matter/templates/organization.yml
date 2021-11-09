@@ -62,6 +62,9 @@ fields:
     required: false
   label: Abbreviated Name
   description: The organization's abbreviated name.
+- name: use_full_name
+  type: boolean
+  label: Use Complete Name for Hero
 - name: cluster
   type: select
   default: ASO

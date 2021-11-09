@@ -2,7 +2,7 @@
 hero_title_color: rgb(42, 86, 125)
 title_color: rgb(9, 122, 188)
 button_color: rgb(253, 240, 213)
-description_color: rgb(0, 0, 0)
+description_color: rgb(44, 87, 125)
 layout: organization
 logo: "/uploads/wg-logo.png"
 cluster: ASPIRE

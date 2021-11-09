@@ -14,7 +14,11 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
           <figure class="image is-256x256 block" style="margin: 20px auto">
             <img src="{{ site.baseurl }}{{ page.logo }}" alt="{{ page.complete_name }} logo" />
           </figure>
+          {% if page.use_full_name %}
+          <h1 class="title is-1 responsive has-text-centered has-letter-spacing is-custom">{{ page.complete_name }}</h1>
+          {% else %}
           <h1 class="title has-text-centered has-letter-spacing is-custom">{{ page.abbr }}</h1>
+          {% endif %}
           <div class="columns is-centered" id="org-hero-buttons">
             <div class="column is-four-fifths-mobile is-one-quarter">
               <a rel="noreferrer" target="_blank" class="button is-medium is-fullwidth is-custom"

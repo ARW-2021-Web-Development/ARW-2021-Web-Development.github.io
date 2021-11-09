@@ -4,13 +4,13 @@ title_color: rgb(0, 61, 124)
 button_color: rgb(68, 111, 221)
 description_color: rgb(255, 255, 255)
 layout: organization
-logo: "/uploads/sv_logo.png"
+logo: "/uploads/sv-logo.png"
 cluster: ASO
 fb_link: https://facebook.com/DLSUSV
 membership_banner: "/uploads/sv-membership-banner.png"
 hero_bg: "/uploads/sv-web-bg.png"
 main_pub: "/uploads/sv-main-pub.png"
-fav_logo: "/uploads/sv_logo.png"
+fav_logo: "/uploads/sv-logo.png"
 complete_name: Societas Vitae
 abbr: SV
 about_us: "<p>Societas Vitae is the official home organization of the Biology Department
