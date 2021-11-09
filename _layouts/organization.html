@@ -94,8 +94,8 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
     <div class="carousel-button-wrapper" style="position: relative">
       <div class="carousel-container">
         {% for event in page.events reversed %}
-        <figure class="image is-16by9 carousel-item">
-          <img src="{{ site.baseurl }}{{ event }}" alt="Flagship event poster" />
+        <figure class="image is-16by9 carousel-item {% if forloop.index != 1 %} from-left {% endif %}">
+          <img src="{{ site.baseurl }}{{ event }}"  "alt="Flagship event poster" />
         </figure>
         {% endfor %}
         <button class="button btn-prev npsm" {% if page.events.size==1 %}style=" display: none;" {% endif %}>

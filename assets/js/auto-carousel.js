@@ -1,6 +1,4 @@
 const carouselItems = document.querySelectorAll('.carousel-item');
-const prevBtn = document.querySelector('.btn-prev');
-const nextBtn = document.querySelector('.btn-next');
 
 //images are in reversed order so the first image is the last in the
 let currIndex = 0;
@@ -8,56 +6,28 @@ let prevIndex = 0;
 
 let isAnimating = false;
 
-carouselItems.forEach((item) => (item.ontransitionend = () => (isAnimating = false)));
-
-document.addEventListener('mouseup', () => {
-    prevBtn.classList.remove('pressed');
-    nextBtn.classList.remove('pressed');
-});
-
-'mousedown pointerdown'.split(' ').forEach((event) => {
-    nextBtn.addEventListener(event, () => {
-        nextBtn.classList.add('pressed');
-    });
-
-    prevBtn.addEventListener(event, () => {
-        prevBtn.classList.add('pressed');
-    });
-});
-
-'mouseup pointerup'.split(' ').forEach((event) => {
-    nextBtn.addEventListener(event, () => {
-        nextBtn.classList.remove('pressed');
-    });
-
-    prevBtn.addEventListener(event, () => {
-        prevBtn.classList.remove('pressed');
-    });
-});
-
-nextBtn.addEventListener('click', () => {
-    //don't animate if an image is already being animated
-    //to prevent multiple animation renders
+let timer = setInterval(() => {
     if (isAnimating) return;
 
     prevIndex = currIndex;
-    currIndex = currIndex - 1 < 0 ? carouselItems.length - 1 : currIndex - 1;
-    isAnimating = true;
+    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
 
     showPrevImage();
-});
+}, 5000);
 
-prevBtn.addEventListener('click', () => {
-    //don't animate if an image is already being animated
-    //to prevent multiple animation renders
-    if (isAnimating) return;
+carouselItems.forEach((item) => (item.ontransitionend = () => (isAnimating = false)));
+carouselItems.forEach((item) => {
+    item.onmouseenter = () => clearInterval(timer);
+    item.onmouseleave = () => {
+        timer = setInterval(() => {
+            if (isAnimating) return;
 
-    prevIndex = currIndex;
-    console.log(currIndex + 1 > carouselItems.length - 1);
-    currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
-    isAnimating = true;
+            prevIndex = currIndex;
+            currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
 
-    showNextImage();
+            showPrevImage();
+        }, 5000);
+    };
 });
 
 function showPrevImage() {
@@ -79,7 +49,6 @@ function showPrevImage() {
 function showNextImage() {
     //set initial image position by adding x-offset
     carouselItems[currIndex].classList.add('from-left');
-    console.log(carouselItems[currIndex], currIndex);
     //this should not be animated
     carouselItems[currIndex].classList.add('notransition');
     //offset from previous animation should be removed
@@ -88,7 +57,6 @@ function showNextImage() {
     //animate to the proper position by removing x-offset
     setTimeout(() => {
         carouselItems[currIndex].classList.remove('notransition');
-
         carouselItems[prevIndex].classList.add('from-right');
         carouselItems[currIndex].classList.remove('from-left');
     }, 0);

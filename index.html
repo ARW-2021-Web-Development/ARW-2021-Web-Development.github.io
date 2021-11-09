@@ -22,9 +22,21 @@
                 <div class="bubble large" style="--speed: 15s; --delay: 0s; left: 80%"></div>
                 <!-- endregion -->
 
-                <figure class="image mb-6">
-                    <img src="{{ site.baseurl }}/assets/img/home-webpage-banner.png" alt="" />
-                </figure>
+                <div class="carousel-container">
+                    <figure class="image carousel-item">
+                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 1.png" alt="" />
+                    </figure>
+                    <figure class="image carousel-item from-left">
+                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 2.png" alt="" />
+                    </figure>
+                    <figure class="image carousel-item from-left">
+                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 3.png" alt="" />
+                    </figure>
+                    <figure class="image carousel-item from-left">
+                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 4.png" alt="" />
+                    </figure>
+                </div>
+
                 <figure class="image mb-6" style="z-index: 0; pointer-events: none">
                     <picture style="pointer-events: none">
                         <source
@@ -192,5 +204,6 @@
         </div>
         {% include footer.html %}
         <script src="{{site.baseurl}}/assets/js/bubble.js" defer></script>
+        <script src="{{site.baseurl}}/assets/js/auto-carousel.js" defer></script>
     </body>
 </html>
