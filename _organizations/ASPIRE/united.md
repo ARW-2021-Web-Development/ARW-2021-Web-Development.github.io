@@ -33,5 +33,6 @@ events:
 - "/uploads/united-flagship-3.png"
 - "/uploads/united-flagship-2.png"
 - "/uploads/united-flagship-1.png"
+use_full_name: true
 
 ---
