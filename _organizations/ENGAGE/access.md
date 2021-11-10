@@ -9,7 +9,7 @@ cluster: ENGAGE
 fb_link: https://facebook.com/AccessDLSU
 membership_banner: "/uploads/access-mem-banner.PNG"
 hero_bg: "/uploads/access-web-bg.png"
-main_pub: "/uploads/access-main-pub.png"
+main_pub: "/uploads/access-main-pub.PNG"
 fav_logo: "/uploads/access-logo.png"
 complete_name: Association of Computer Engineering Students
 abbr: ACCESS
@@ -39,5 +39,6 @@ events:
 - "/uploads/access-flagship-4.png"
 - "/uploads/access-flagship-5.png"
 - "/uploads/access-flagship-6.png"
+use_full_name: false
 
 ---
