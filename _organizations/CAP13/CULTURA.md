@@ -31,7 +31,7 @@ mission: "<p>To appraise its vision in expanding to acceptance and welcoming of 
   the University and reach out to different cultures in different communities, establishing
   LaSallian excellence in literature, cultural studies, and the arts.</p>"
 reg_link: https://forms.gle/ybzNFkFSEEyxVZTz6
-vid_link: https://www.youtube.com/watch?v=Y98avcjcEyQ
+vid_link: https://www.youtube.com/embed/Y98avcjcEyQ
 events:
 - "/uploads/cultura-flagshipevents1.png"
 - "/uploads/cultura-flagshipevents2.png"
