@@ -4,13 +4,13 @@ title_color: rgb(17, 121, 122)
 button_color: rgb(232, 242, 242)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/access-fav-logo.png"
+logo: "/uploads/access-logo.png"
 cluster: ENGAGE
 fb_link: https://facebook.com/AccessDLSU
 membership_banner: "/uploads/access-mem-banner.PNG"
 hero_bg: "/uploads/access-web-bg.png"
 main_pub: "/uploads/access-main-pub.PNG"
-fav_logo: "/uploads/access-logo.png"
+fav_logo: "/uploads/access-fav-logo.png"
 complete_name: Association of Computer Engineering Students
 abbr: ACCESS
 about_us: "<p>ACCESS is a professional organization of Computer Engineering students
