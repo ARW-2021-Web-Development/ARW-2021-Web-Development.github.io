@@ -8,7 +8,7 @@ logo: "/uploads/cultura-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsucultura/
 membership_banner: "/uploads/membership-fees-1.png"
-hero_bg: "/uploads/website-background.png"
+hero_bg: "/uploads/3594040.jpg"
 main_pub: "/uploads/cultura-main-pub.png"
 fav_logo: ''
 complete_name: Cultura
@@ -33,8 +33,8 @@ mission: "<p>To appraise its vision in expanding to acceptance and welcoming of 
 reg_link: https://forms.gle/ybzNFkFSEEyxVZTz6
 vid_link: https://www.youtube.com/watch?v=Y98avcjcEyQ
 events:
-- "/uploads/cultura-flagshipevents2.png"
 - "/uploads/cultura-flagshipevents1.png"
+- "/uploads/cultura-flagshipevents2.png"
 - "/uploads/cultura-flagshipevents.png"
 
 ---
