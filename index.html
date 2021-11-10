@@ -8,49 +8,79 @@
     <body>
         {% include header.html %}
 
+        <div
+            class="carousel-container mb-5"
+            style="
+                position: relative;
+                width: 100%;
+                box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+                vertical-align: bottom;
+                z-index: 10;
+            "
+        >
+            <figure class="image carousel-item">
+                <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 1.png" alt="" />
+            </figure>
+            <figure class="image carousel-item from-left">
+                <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 2.png" alt="" />
+            </figure>
+            <figure class="image carousel-item from-left">
+                <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 3.png" alt="" />
+            </figure>
+            <figure class="image carousel-item from-left">
+                <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 4.png" alt="" />
+            </figure>
+            <div class="is-flex" style="position: absolute; left: 50%; bottom: 1%; transform: translateX(-50%)">
+                <div
+                    class="carousel-circles mb-1 mr-3"
+                    style="
+                        cursor: pointer;
+                        aspect-ratio: 1;
+                        width: 13px;
+                        border-radius: 50%;
+                        background-color: rgb(133, 128, 128);
+                    "
+                ></div>
+                <div
+                    class="carousel-circles mb-1 mr-3"
+                    style="
+                        cursor: pointer;
+                        aspect-ratio: 1;
+                        width: 13px;
+                        border-radius: 50%;
+                        background-color: rgba(133, 128, 128, 0.5);
+                    "
+                ></div>
+                <div
+                    class="carousel-circles mb-1 mr-3"
+                    style="
+                        cursor: pointer;
+                        aspect-ratio: 1;
+                        width: 13px;
+                        border-radius: 50%;
+                        background-color: rgba(133, 128, 128, 0.5);
+                    "
+                ></div>
+                <div
+                    class="carousel-circles mb-1 mr-3"
+                    style="
+                        cursor: pointer;
+                        aspect-ratio: 1;
+                        width: 13px;
+                        border-radius: 50%;
+                        background-color: rgba(133, 128, 128, 0.5);
+                    "
+                ></div>
+            </div>
+        </div>
+
         <div class="section has-text-centered decoration-container" style="z-index: 5">
             <div class="decoration-wrapper container is-max-fullhd">
-                <!-- #region bubbles-->
-                <div class="bubble" style="--speed: 15s; --delay: 0s; left: 0%"></div>
-                <div class="bubble small" style="--speed: 22s; --delay: 0s; left: 10%"></div>
-                <div class="bubble" style="--speed: 13s; --delay: 0s; left: 20%"></div>
-                <div class="bubble small" style="--speed: 13s; --delay: 0s; left: 25%"></div>
-                <div class="bubble small" style="--speed: 17s; --delay: 0s; left: 30%"></div>
-                <div class="bubble" style="--speed: 17s; --delay: 0s; left: 40%"></div>
-                <div class="bubble small" style="--speed: 15s; --delay: 0s; left: 60%"></div>
-                <div class="bubble" style="--speed: 11s; --delay: 0s; left: 90%"></div>
-                <div class="bubble large" style="--speed: 15s; --delay: 0s; left: 80%"></div>
-                <!-- endregion -->
+                <h1 class="title is-2 is-size-2-mobile has-text-centered grape responsive has-text-weight-medium">
+                    A place to make history together.
+                </h1>
+                <p class="subtitle is-italic is-4 is-size-4-mobile grape has-text-weight-light">Seek and Discover</p>
 
-                <div class="carousel-container mb-5 is-hidden-mobile" style="box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3)">
-                    <figure class="image carousel-item">
-                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 1.png" alt="" />
-                    </figure>
-                    <figure class="image carousel-item from-left">
-                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 2.png" alt="" />
-                    </figure>
-                    <figure class="image carousel-item from-left">
-                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 3.png" alt="" />
-                    </figure>
-                    <figure class="image carousel-item from-left">
-                        <img src="{{ site.baseurl }}/assets/img/Website Elite Banner 4.png" alt="" />
-                    </figure>
-                </div>
-
-                <figure class="image mb-4" style="z-index: 0; pointer-events: none">
-                    <picture style="pointer-events: none">
-                        <source
-                            srcset="{{site.baseurl}}/assets/img/arw-banner-mobile.png"
-                            media="(max-width: 800px)"
-                        />
-                        <img
-                            class="banner-img"
-                            src="{{ site.baseurl }}/assets/img/arw-banner.png"
-                            alt="ARW 2021 Home Banner"
-                            style="width: 100%; max-width: 1200px; margin: auto; pointer-events: none"
-                        />
-                    </picture>
-                </figure>
                 <div class="columns is-centered container is-max-widescreen" style="margin: auto; pointer-events: none">
                     <div class="column is-1">
                         <a
@@ -163,13 +193,34 @@
         <div class="section is-medium decoration-container">
             <div class="decoration-wrapper">
                 <div class="container">
-                    <h1 class="title is-1 has-text-centered dark-pink responsive">SAMPLE LOGOS ONLY</h1>
-                    <figure class="image">
-                        <img src="" alt="" />
-                    </figure>
+                    <h1
+                        class="
+                            title
+                            is-1 is-size-2-mobile
+                            has-text-centered
+                            dark-pink
+                            responsive
+                            has-text-weight-semibold
+                        "
+                    >
+                        We would like to thank the following
+                    </h1>
+                    <picture>
+                        <source srcset="{{site.baseurl}}/assets/img/sponsors-mobile.png" media="(max-width: 800px)" />
+                        <img
+                            class="banner-img"
+                            src="{{site.baseurl}}/assets/img/sponsors.png"
+                            alt="ARW 2021 Home Banner"
+                            style="width: 100%; margin: auto; pointer-events: none"
+                        />
+                    </picture>
+
+                    <!-- <figure class="image">
+                        <img src="{{site.baseurl}}/assets/img/sponsors.png" alt="" />
+                    </figure> -->
                 </div>
                 <div class="container">
-                    <h1 class="title is-1 has-text-centered dark-pink responsive">SAMPLE LOGOS ONLY</h1>
+                    <h1 class="title is-1 has-text-centered dark-pink responsive"></h1>
                     <figure class="image">
                         <img src="" alt="" />
                     </figure>

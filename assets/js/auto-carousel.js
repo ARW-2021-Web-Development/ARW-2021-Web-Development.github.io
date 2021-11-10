@@ -1,4 +1,5 @@
 const carouselItems = document.querySelectorAll('.carousel-item');
+const carouselCircles = document.querySelectorAll('.carousel-circles');
 
 //images are in reversed order so the first image is the last in the
 let currIndex = 0;
@@ -6,44 +7,76 @@ let prevIndex = 0;
 let timer = createTimer();
 let isAnimating = false;
 
+let circleCtr = currIndex;
+let manualNext = false;
+
 carouselItems.forEach((item) => {
     item.ontransitionend = () => {
         isAnimating = false;
     };
-    item.onmouseenter = () => clearInterval(timer);
 
+    item.onmouseenter = () => clearInterval(timer);
     item.onmouseleave = () => {
         timer = createTimer();
     };
 });
 
-function showPrevImage() {
-    //set initial image position by adding x-offset
+carouselCircles.forEach((circle, index) => {
+    circle.addEventListener('click', () => {
+        //don't do anything if same as current index
+        if (index == currIndex) return;
+
+        clearTimeout(timer);
+
+        prevIndex = currIndex;
+        currIndex = index;
+
+        prevIndex > currIndex ? showNextImage() : showPrevImage();
+        timer = createTimer();
+    });
+});
+
+function showNextImage() {
     carouselItems[currIndex].classList.add('from-right');
-    //this should not be animated
     carouselItems[currIndex].classList.add('notransition');
-    //offset from previous animation should be removed
     carouselItems[currIndex].classList.remove('from-left');
 
     isAnimating = true;
-    //animate to the proper position by removing x-offset
     setTimeout(() => {
         carouselItems[currIndex].classList.remove('notransition');
         carouselItems[prevIndex].classList.add('from-left');
         carouselItems[currIndex].classList.remove('from-right');
+
+        carouselCircles[prevIndex].style.backgroundColor = 'rgba(133, 128, 128, 0.5)';
+        carouselCircles[currIndex].style.backgroundColor = 'rgba(133, 128, 128)';
+    }, 100);
+}
+
+function showPrevImage() {
+    carouselItems[currIndex].classList.add('from-left');
+    carouselItems[currIndex].classList.add('notransition');
+    carouselItems[currIndex].classList.remove('from-right');
+
+    setTimeout(() => {
+        carouselItems[currIndex].classList.remove('notransition');
+        carouselItems[prevIndex].classList.add('from-right');
+        carouselItems[currIndex].classList.remove('from-left');
+
+        carouselCircles[prevIndex].style.backgroundColor = 'rgba(133, 128, 128, 0.5)';
+        carouselCircles[currIndex].style.backgroundColor = 'rgba(133, 128, 128)';
     }, 100);
 }
 
 function createTimer() {
-    return setInterval(() => {
+    return setTimeout(() => {
         if (isAnimating) {
-            clearTimeout(timer);
+            clearInterval(timer);
             timer = createTimer();
             return;
         }
         prevIndex = currIndex;
         currIndex = currIndex + 1 > carouselItems.length - 1 ? 0 : currIndex + 1;
-
-        showPrevImage();
+        showNextImage();
+        timer = createTimer();
     }, 5000);
 }
