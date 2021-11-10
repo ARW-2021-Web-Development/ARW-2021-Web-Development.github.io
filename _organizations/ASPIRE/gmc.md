@@ -10,7 +10,7 @@ fb_link: https://www.facebook.com/GreenMusicCollective
 membership_banner: "/uploads/gmc-mem-banner.png"
 hero_bg: "/uploads/gmc-web-bg.png"
 main_pub: "/uploads/gmc-main-pub.png"
-fav_logo: '/uploads/gmc-fav-logo.png'
+fav_logo: "/uploads/gmc-fav-logo.png"
 complete_name: Green Music Collective
 abbr: GMC
 about_us: "<p>Green Music Collective is a student-led organization comprised of musicians
@@ -36,5 +36,6 @@ events:
 - "/uploads/gmc-flagship-3.png"
 - "/uploads/gmc-flagship-2.png"
 - "/uploads/gmc-flagship-1.png"
+use_full_name: true
 
 ---

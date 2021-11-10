@@ -7,9 +7,9 @@ layout: organization
 logo: "/uploads/mafia-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/dlsumafia
-membership_banner: "/uploads/mafia-mem-banner.png"
+membership_banner: "/uploads/mafia-mem-banner-1.png"
 hero_bg: "/uploads/mafia-web-bg.png"
-main_pub: "/uploads/mafia-main-pub.png"
+main_pub: "/uploads/mafia-main-pub-1.png"
 fav_logo: ''
 complete_name: Management of Financial Institutions Association
 abbr: MaFIA
@@ -42,5 +42,6 @@ events:
 - "/uploads/mafia-flagship-3.png"
 - "/uploads/mafia-flagship-2.png"
 - "/uploads/mafia-flagship-1.png"
+use_full_name: false
 
 ---
