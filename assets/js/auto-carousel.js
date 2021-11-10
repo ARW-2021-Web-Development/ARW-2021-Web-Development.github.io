@@ -31,7 +31,7 @@ carouselCircles.forEach((circle, index) => {
         prevIndex = currIndex;
         currIndex = index;
 
-        prevIndex > currIndex ? showNextImage() : showPrevImage();
+        prevIndex > currIndex ? showPrevImage() : showNextImage();
         timer = createTimer();
     });
 });
