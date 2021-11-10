@@ -8,7 +8,7 @@ logo: "/uploads/cultura-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsucultura/
 membership_banner: "/uploads/membership-fees-1.png"
-hero_bg: "/uploads/3594040.jpg"
+hero_bg: "/uploads/website-background.png"
 main_pub: "/uploads/cultura-main-pub.png"
 fav_logo: ''
 complete_name: Cultura
