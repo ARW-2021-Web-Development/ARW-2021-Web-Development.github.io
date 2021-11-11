@@ -40,6 +40,5 @@ events:
 - "/uploads/yes-flagship-4.png"
 - "/uploads/yes-flagship-5.png"
 hero_title_color: rgb(255, 255, 255)
-fav_logo: ''
 
 ---

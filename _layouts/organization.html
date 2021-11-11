@@ -100,7 +100,7 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
       <div class="carousel-container">
         {% for event in page.events reversed %}
         <figure class="image is-16by9 carousel-item {% if forloop.index != 1 %} from-left {% endif %}">
-          <img src="{{ site.baseurl }}{{ event }}"  "alt="Flagship event poster" />
+          <img src="{{ site.baseurl }}{{ event }}"  alt="Flagship event poster {{ forloop.index }}" />
         </figure>
         {% endfor %}
         <button class="button btn-prev npsm" {% if page.events.size==1 %}style=" display: none;" {% endif %}>
@@ -121,7 +121,7 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
       </div>
       <div class="column">
         <div class="is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-full-height ">
-          <a href="{{ page.reg_link }}" class="button is-large block is-fullwidth is-custom" style="max-width: 300px">
+          <a href="{{ page.reg_link }}" rel="noreferrer" target="_blank" class="button is-large block is-fullwidth is-custom" style="max-width: 300px">
             <span class="icon is-medium">
               <i class="fas fa-edit fa-lg"></i>
             </span>

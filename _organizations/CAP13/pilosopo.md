@@ -12,7 +12,8 @@ hero_bg: "/uploads/pilosopo-web-bg.png"
 main_pub: "/uploads/pilosopo-main-pub.png"
 fav_logo: ''
 complete_name: Samahan ng mga Lasalyanong Pilosopo
-abbr: Samahan ng mga Lasalyanong Pilosopo
+abbr: PILOSOPO
+use_full_name: true
 about_us: "<p>Samahan ng mga Lasalyanong PILOSOPO is the official professional student
   organization of the Philosophy Department of De La Salle University-Manila.</p><p>Samahan
   ng mga Lasalyanong PILOSOPO envisions a community of individuals who are enthused
