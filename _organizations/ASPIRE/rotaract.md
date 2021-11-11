@@ -2,7 +2,7 @@
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(193, 31, 93)
 button_color: rgb(255, 255, 255)
-description_color: rgb(0, 0, 0)
+description_color: rgb(241, 100, 111)
 layout: organization
 logo: "/uploads/rotaract-logo.PNG"
 cluster: ASPIRE
