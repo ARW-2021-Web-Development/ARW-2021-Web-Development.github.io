@@ -39,5 +39,6 @@ events:
 - "/uploads/esa-flagship-2.png"
 - "/uploads/esa-flagship-3.png"
 - "/uploads/esa-flagship-4.png"
+use_full_name: true
 
 ---
