@@ -30,5 +30,6 @@ events:
 - "/uploads/econorg-flagship-1.png"
 - "/uploads/econorg-flagship-2.png"
 - "/uploads/econorg-flagship-3.png"
+use_full_name: true
 
 ---
