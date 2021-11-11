@@ -13,7 +13,7 @@ main_pub: "/uploads/ces-main-pub.png"
 fav_logo: ''
 use_full_name: true
 complete_name: Civil Engineering Society
-abbr: CES
+abbr: Civil Engineering Society
 about_us: "<p>Founded in 1986, the Civil Engineering Society is the home organization
   for Civil Engineering students in De La Salle University. The primary objective
   of the organization is to provide services designed to aid the holistic development
