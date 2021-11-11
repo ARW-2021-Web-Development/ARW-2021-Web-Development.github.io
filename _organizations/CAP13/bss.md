@@ -12,6 +12,7 @@ hero_bg: "/uploads/bss-web-bg.png"
 main_pub: "/uploads/bss-main-pub.png"
 fav_logo: "/uploads/bss-logo.png"
 complete_name: Behavioral Sciences Society
+use_full_name: true
 abbr: BSS
 about_us: "<p>The Behavioral Sciences Society (BSS) serves as the official organization
   of the Behavioral Sciences degree programs (AB-OSDM, AB-SOC, &amp; AB-SPM). It is
