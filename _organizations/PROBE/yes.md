@@ -1,6 +1,7 @@
 ---
 layout: organization
 logo: "/uploads/yes-logo.png"
+fav_logo: "/uploads/yes-fav-logo.png"
 cluster: PROBE
 fb_link: https://www.facebook.com/DLSUYES
 membership_banner: "/uploads/yes-mem-banner.png"

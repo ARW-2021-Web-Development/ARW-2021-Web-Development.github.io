@@ -10,7 +10,6 @@ fb_link: https://facebook.com/DLSUPRISM
 membership_banner: "/uploads/prism-mem-banner.png"
 hero_bg: "/uploads/prism-web-bg.png"
 main_pub: "/uploads/prism-main-pub.png"
-fav_logo: "/uploads/prism-fav-logo.png"
 complete_name: 'DLSU PRISM '
 abbr: 'PRISM '
 about_us: "<p>DLSU PRISM is the premier LGBTQ+ organization of De La Salle University.
@@ -33,8 +32,8 @@ mission: "<p>DLSU PRISM is the premier LGBTQ+ organization of De La Salle Univer
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSfAIaUTHV91xn0-QWm9YfxfH0S6ucDf6TstOpGIw2P0zhYpMA/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/a1jDitsI_GQ
 events:
-- "/uploads/prism-flagship-1.png"
-- "/uploads/prism-flagship-2.png"
 - "/uploads/prism-flagship-3.png"
+- "/uploads/prism-flagship-2.png"
+- "/uploads/prism-flagship-1.png"
 
 ---
