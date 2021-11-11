@@ -1,6 +1,9 @@
+---
+---
+
 const activePage = window.location.pathname;
 const navButtons = document.querySelectorAll('.navbar-menu .navbar-item');
-const baseurl = '/arw-2021/';
+const baseurl = '{{ site.baseurl }}' + '/';
 
 navButtons.forEach((navButton) => {
     if (navButton.href.includes(activePage) && activePage !== baseurl) {

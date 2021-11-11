@@ -11,7 +11,7 @@
 
   <div id="app" class="hero is-fullheight-with-navbar">
     <div class="hero-body">
-      <div class="columns is-centered is-multiline" style="width: 100%">
+      <div v-if="orgList.length" class="columns is-centered is-multiline" style="width: 100%">
         <div v-for="org in orgList" :key="org.abbr" class="column is-one-fifth">
           <div class="container">
             {% raw %}
@@ -23,6 +23,9 @@
             {% endraw %}
           </div>
         </div>
+      </div>
+      <div v-else class="container">
+        <h1 class="title is-1 grape has-text-centered">NO MATCHES!</h1>
       </div>
     </div>
   </div>

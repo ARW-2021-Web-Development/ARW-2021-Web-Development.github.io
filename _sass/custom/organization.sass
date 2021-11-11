@@ -1,44 +1,48 @@
 .fa.fa-heart
-    position: absolute
-    transform-origin: center
-    transform: scale(0)
+  position: absolute
+  transform-origin: center
+  transform: scale(0)
 
 .fa.fa-heart.like
-    animation: like 500ms cubic-bezier(.17,.67,.3,1.71) 1 forwards
+  animation: like 500ms cubic-bezier(.17,.67,.3,1.71) 1 forwards
 
 .fa.fa-heart.unlike
-    animation: unlike 500ms cubic-bezier(.03,-0.93,.81,.36) 1 forwards
+  animation: unlike 500ms cubic-bezier(.03,-0.93,.81,.36) 1 forwards
 
 $pressed-glass-pd: 1.5rem
 
 .pressed-glass
-    border-radius: 20px
-    padding: $pressed-glass-pd 0 0 $pressed-glass-pd
-    box-shadow: inset 0px 3px 6px #888
+  border-radius: 20px
+  padding: $pressed-glass-pd 0 0 $pressed-glass-pd
+  box-shadow: inset 0px 3px 6px #888
 
-    .title
-        padding-right: $pressed-glass-pd
-    
+  .title
+    padding-right: $pressed-glass-pd
+
+  .content
+    padding-right: $pressed-glass-pd
+
+  @media (min-width: 1023px)
+    aspect-ratio: calc(16 / 9)
+
     .content
-        padding-right: $pressed-glass-pd
-
-    @media (min-width: 1023px)
-        aspect-ratio: calc(16 / 9)
-
-        .content
-            overflow: auto
-            height: calc(100% - 3.2em)
-            mask-image: linear-gradient(transparent, transparent 5%, black 15%, black 80%, transparent 100%)
-            -webkit-mask-image: linear-gradient(transparent, transparent 5%, black 15%, black 80%, transparent 100%)
+      overflow: auto
+      height: calc(100% - 3em)
+      mask-image: linear-gradient(transparent, transparent 5%, black 15%, black 80%, transparent 100%)
+      -webkit-mask-image: linear-gradient(transparent, transparent 5%, black 15%, black 80%, transparent 100%)
 
 @keyframes like
-    from
-        transform: scale(0)
-    to
-        transform: scale(1)
+  from
+    transform: scale(0)
+  to
+    transform: scale(1)
 
 @keyframes unlike
-    from
-        transform: scale(1)
-    to
-        transform: scale(0)
+  from
+    transform: scale(1)
+  to
+    transform: scale(0)
+
+.md-mr-2
+  @media (min-width: 768px)
+    margin-right: 0.5rem
