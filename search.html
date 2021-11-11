@@ -31,6 +31,8 @@
   </div>
 
   <script>
+    localStorage.removeItem('orgs')
+
     const emitter = mitt();
     let orgs = JSON.parse(localStorage.getItem('orgs')) || Vue.reactive([]);
     let query = new URLSearchParams(window.location.search).get('q').trim().toLowerCase();

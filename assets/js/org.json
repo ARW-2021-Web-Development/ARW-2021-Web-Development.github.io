@@ -8,34 +8,22 @@
     { "name": "aja animo", "abbr": "aja", "logo": "/uploads/aja-logo.png" },
     { "name": "archers consulting group", "abbr": "arcg", "logo": "/uploads/arcg-logo.png" },
     { "name": "archers for unicef", "abbr": "au", "logo": "/uploads/au-logo.png" },
-    {
-        "name": "de la salle university - environmental conservation organization",
-        "abbr": "eco",
-        "logo": "/uploads/eco-logo.png"
-    },
-    {
-        "name": "englicom - dlsu filipino & chinese organization",
-        "abbr": "englicom",
-        "logo": "/uploads/englicom-logo.png"
-    },
+    { "name": "de la salle university - environmental conservation organization", "abbr": "eco", "logo": "/uploads/eco-logo.png" },
+    { "name": "englicom - dlsu filipino & chinese organization", "abbr": "englicom", "logo": "/uploads/englicom-logo.png" },
     { "name": "gakuen anime soshiki", "abbr": "gas", "logo": "/uploads/gas-logo.png" },
     { "name": "green music collective", "abbr": "gmc", "logo": "/uploads/gmc-fav-logo.png" },
     { "name": "habitat for humanity", "abbr": "hfh", "logo": "/uploads/hfh-logo.png" },
     { "name": "investors' society", "abbr": "is", "logo": "/uploads/is-logo.png" },
     { "name": "outdoor club", "abbr": "oc", "logo": "/uploads/oc-logo.png" },
     { "name": "dlsu prism", "abbr": "prism", "logo": "/uploads/prism-fav-logo.png" },
-    { "name": "rotaract club of dlsu", "abbr": "rotaract", "logo": "/uploads/rotaract-logo.png" },
+    { "name": "rotaract club of dlsu", "abbr": "rotaract", "logo": "/uploads/rotaract-fav-logo.png" },
     { "name": "union of students inspired towards education", "abbr": "united", "logo": "/uploads/united-logo.png" },
     { "name": "viridis arcus esports", "abbr": "va", "logo": "/uploads/va-logo.png" },
     { "name": "writers' guild", "abbr": "wg", "logo": "/uploads/wg-logo.png" },
     { "name": "the organization for american studies", "abbr": "amstud", "logo": "/uploads/amstud-logo.png" },
     { "name": "behavioral sciences society", "abbr": "bss", "logo": "/uploads/bss-logo.png" },
     { "name": "dlsu cultura", "abbr": "cultura", "logo": "/uploads/cultura-logo.png" },
-    {
-        "name": "dalubhasaan ng mga umuusbong na mag-aaral ng araling filipino",
-        "abbr": "danum",
-        "logo": "/uploads/danum-logo.png"
-    },
+    { "name": "dalubhasaan ng mga umuusbong na mag-aaral ng araling filipino", "abbr": "danum", "logo": "/uploads/danum-logo.png" },
     { "name": "development initiative", "abbr": "devint", "logo": "/uploads/devint-logo.png" },
     { "name": "european studies association", "abbr": "esa", "logo": "/uploads/esa-logo.png" },
     { "name": "nihon kenkyuu kai", "abbr": "nkk", "logo": "/uploads/nkk-logo.png" },
@@ -45,11 +33,7 @@
     { "name": "southeast asian studies organization", "abbr": "dlsu-season", "logo": "/uploads/season-logo.png" },
     { "name": "samahan ng mga mag-aaral sa sikolohiya", "abbr": "sms", "logo": "/uploads/sms-logo.png" },
     { "name": "team communication", "abbr": "teamcomm", "logo": "/uploads/teamcomm-logo.png" },
-    {
-        "name": "association of computer engineering students",
-        "abbr": "access",
-        "logo": "/uploads/access-fav-logo.png"
-    },
+    { "name": "association of computer engineering students", "abbr": "access", "logo": "/uploads/access-fav-logo.png" },
     { "name": "civil engineering society", "abbr": "ces", "logo": "/uploads/ces-logo.png" },
     { "name": "chemical engineering society", "abbr": "chen", "logo": "/uploads/chen-logo.png" },
     { "name": "electronic and communications engineering society", "abbr": "eces", "logo": "/uploads/eces-logo.png" },
