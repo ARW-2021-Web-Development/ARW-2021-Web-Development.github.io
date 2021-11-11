@@ -4,7 +4,7 @@ title_color: rgb(0, 61, 124)
 button_color: rgb(68, 111, 221)
 description_color: rgb(255, 255, 255)
 layout: organization
-logo: "/uploads/sv-logo.png"
+logo: "/uploads/sv-logo-1.png"
 cluster: ASO
 fb_link: https://facebook.com/DLSUSV
 membership_banner: "/uploads/sv-membership-banner.png"
@@ -34,5 +34,6 @@ events:
 - "/uploads/sv-flagship-3.png"
 - "/uploads/sv-flagship-4.png"
 - "/uploads/sv-flagship-5.png"
+use_full_name: true
 
 ---
