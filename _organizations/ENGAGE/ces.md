@@ -11,6 +11,7 @@ membership_banner: "/uploads/ces-mem-banner.png"
 hero_bg: "/uploads/ces-web-bg.png"
 main_pub: "/uploads/ces-main-pub.png"
 fav_logo: ''
+use_full_name: true
 complete_name: Civil Engineering Society
 abbr: CES
 about_us: "<p>Founded in 1986, the Civil Engineering Society is the home organization
