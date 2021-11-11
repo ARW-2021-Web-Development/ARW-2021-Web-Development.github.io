@@ -4,13 +4,13 @@ title_color: rgb(193, 31, 93)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/rotaract-logo.png"
+logo: "/uploads/rotaract-logo.PNG"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/RACDLSU
 membership_banner: "/uploads/rotaract-mem-banner.png"
 hero_bg: "/uploads/rotaract-web-bg-1.png"
 main_pub: "/uploads/rotaract-main-pub.png"
-fav_logo: ''
+fav_logo: "/uploads/rotaract-logo.png"
 complete_name: Rotaract Club of De La Salle University
 abbr: ROTARACT
 about_us: "<p>Rotaract DLSU is under Rotary International, a global movement for leaders
