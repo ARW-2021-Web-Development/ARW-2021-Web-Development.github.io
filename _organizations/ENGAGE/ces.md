@@ -4,7 +4,7 @@ title_color: rgb(244, 166, 181)
 button_color: rgb(255, 255, 255)
 description_color: rgb(14, 22, 64)
 layout: organization
-logo: "/uploads/ces-logo.png"
+logo: "/uploads/ces.png"
 cluster: ENGAGE
 fb_link: https://www.facebook.com/CESDLSU
 membership_banner: "/uploads/ces-mem-banner.png"
@@ -38,10 +38,10 @@ mission: "<p>The Civil Engineering Society, also known as CES, is an accredited 
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLScr78aPRrgsj4KTEjcaExFT8zZJ8I1pPHXf2PJx23KRAWkW1w/viewform
 vid_link: https://www.youtube.com/embed/oe6guwFAIhE
 events:
-- "/uploads/ces-ce-career-week.png"
+- "/uploads/ces-jo-training.png"
 - "/uploads/ces-ce-focus.png"
 - "/uploads/ces-ce-month.png"
+- "/uploads/ces-ce-career-week.png"
 - "/uploads/ces-e-civ-cup-1.png"
-- "/uploads/ces-jo-training.png"
 
 ---
