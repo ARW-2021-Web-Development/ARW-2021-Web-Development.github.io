@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(254, 245, 202)
+hero_title_color: rgb(253,253,252)
 title_color: rgb(212, 196, 233)
-button_color: rgb(212, 196, 233)
+button_color: rgb(253,253,252)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/oc-logo.png"

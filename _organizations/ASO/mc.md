@@ -10,7 +10,7 @@ fb_link: https://www.facebook.com/DLSUMathCircle
 membership_banner: "/uploads/mc-mem-banner.png"
 hero_bg: "/uploads/mc-web-bg.png"
 main_pub: "/uploads/mc-main-pub.png"
-fav_logo: ''
+fav_logo: "/uploads/mc-fav-logo.png"
 complete_name: Mathematics Circle
 abbr: MC
 about_us: "<p>Mathematics Circle is the only professional mathematics organization
