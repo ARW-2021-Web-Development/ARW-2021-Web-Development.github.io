@@ -35,5 +35,6 @@ events:
 - "/uploads/bms-flagship-4.png"
 hero_title_color: rgb(255, 255, 255)
 fav_logo: "/uploads/bms-fav-logo.png"
+use_full_name: true
 
 ---
