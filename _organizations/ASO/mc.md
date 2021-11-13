@@ -1,7 +1,7 @@
 ---
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(23, 87, 70)
-button_color: rgb(255, 255, 255)
+button_color: rgb(123, 191, 176)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/mc-logo.png"
@@ -26,18 +26,21 @@ vision: "<p>The Mathematics Circle envisions a cultivating atmosphere where stud
   will be able to hone and utilize their Mathematical and Statistical skills. The
   Circle recognizes the challenges and the rewards of being a scientist. This enraptures
   in creating positive changes and advocacies for our society and country.</p>"
-mission: "<p>Mathematical Research - The Mathematics Circle puts its effort to push
-  science and technology towards the top of its priorities by believing in promoting
-  mathematical research to the undergraduate level. Mathematical Appreciation - The
-  Circle also recognizes the fact that mathematics spans diverse fields inside the
-  academe; it aims to build an atmosphere where learning math becomes an enriching
-  and stimulating experience. Membership Development - It is guided by the view of
-  humans as holistic individuals, which aspires to promote the well-rounded development
-  of the Lasallian Christian Achiever to foster professionalism in preparation for
-  work not only in the industry but also inside the academe. Nation-Building - Through
-  this effort, the organization will be able to pursue excellence not only in the
-  field of mathematics but also to partake in constructing a developed nation with
-  its members to be excellent scientists and leaders for the future of this nation.</p>"
+mission: "<p>1. Mathematical Research - In its effort to push science and technology
+  towards the top of its priorities, the Circle believes in promoting mathematical
+  research at the undergraduate level and consequently contributing to the enhancement
+  of academic excellence in the area of mathematics.</p><p>2. Mathematical Appreciation
+  - The Circle recognizes the fact that mathematics spans a lot of diverse fields
+  in the academe. With a firm belief in the university of mathematics, the Circle
+  envisions an atmosphere where learning math becomes an enriching and stimulating
+  experience.</p><p>3. Membership Development - Guided by the view of humans as holistic
+  individuals, the Circle aspires to promote the well-rounded development of the Lasallian
+  Christian Achiever, to foster professionalism in preparation for work in the industry
+  and academe, and to cultivate analytical and critical thinking not only in terms
+  of mathematics but also in the real world.</p><p>4. Nation-Building - In its effort
+  to pursue excellence not only in the field of mathematics, the Circle aims to partake
+  in constructing a developed nation. The Mathematics Circle envisions its members
+  to be excellent scientists and leaders that could benefit the country.</p>"
 reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSdrUnfFXqr4vSYbLnWWv137W7yAWu0IR5yxtjp5b5RQU_9pJA/viewform"
 vid_link: https://www.youtube.com/embed/F63FdqrfRC8
 events:
@@ -47,5 +50,6 @@ events:
 - "/uploads/mc-flagship-4.png"
 - "/uploads/mc-flagship-5.png"
 - "/uploads/mc-flagship-6.png"
+use_full_name: true
 
 ---
