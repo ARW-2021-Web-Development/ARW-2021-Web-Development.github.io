@@ -32,3 +32,5 @@ fields:
   config:
     required: true
   label: Video Link
+pages:
+- _elites/adcreate.md
