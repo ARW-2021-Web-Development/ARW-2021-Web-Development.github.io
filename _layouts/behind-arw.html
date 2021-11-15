@@ -126,25 +126,8 @@
                     {{page.executive_committee}}
                 </p>
                 <div class="execom-grid">
-                    {% for img in page.executive_committee_images %}
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
-                    <img class="execom-img" src="{{site.baseurl}}{{img}}" alt="" />
+                    {% for path in site.data.behind.path %}
+                    <img class="execom-img" src="{{site.baseurl}}{{path}}" alt="" />
                     {% endfor %}
                 </div>
             </div>
