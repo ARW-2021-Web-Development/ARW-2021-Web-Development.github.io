@@ -1,6 +1,6 @@
 ---
-hero_title_color: rgb(190, 32, 0)
-title_color: rgb(190, 32, 0)
+hero_title_color: rgb(139, 0, 0)
+title_color: rgb(139, 0, 0)
 button_color: rgb(253, 227, 242)
 description_color: rgb(0, 0, 0)
 layout: organization
@@ -46,5 +46,6 @@ events:
 - "/uploads/nkk-flagship-1.png"
 - "/uploads/nkk-flagship-2.png"
 - "/uploads/nkk-flagship-3.png"
+use_full_name: true
 
 ---
