@@ -8,7 +8,7 @@ logo: "/uploads/rotaract-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/RACDLSU
 membership_banner: "/uploads/rotaract-mem-banner.png"
-hero_bg: "/uploads/rotaract-web-bg-1.png"
+hero_bg: "/uploads/rotaract-web-bg.png"
 main_pub: "/uploads/rotaract-main-pub.png"
 fav_logo: "/uploads/rotaract-fav-logo.png"
 complete_name: Rotaract Club of De La Salle University
@@ -35,11 +35,11 @@ mission: "<p>The mission of Rotaract is to provide an opportunity for men and wo
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLScxgXIFOTME-dOcXtm1QUrj47KSy_noWN1TNGHtMy_m0F3hdg/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/zwpyiBcaU0U
 events:
-- "/uploads/rotaract-flaship-6.png"
-- "/uploads/rotaract-flaship-5.png"
-- "/uploads/rotaract-flaship-4.png"
-- "/uploads/rotaract-flaship-3.png"
-- "/uploads/rotaract-flaship-2.png"
-- "/uploads/rotaract-flaship-1.png"
+- "/uploads/rotaract-flagship-6.png"
+- "/uploads/rotaract-flagship-5.png"
+- "/uploads/rotaract-flagship-4.png"
+- "/uploads/rotaract-flagship-3.png"
+- "/uploads/rotaract-flagship-2.png"
+- "/uploads/rotaract-flagship-1.png"
 
 ---

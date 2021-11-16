@@ -30,14 +30,14 @@ mission: "<p>The Council of Student Organizations provides relevant and quality 
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLSdvUJp62Hb2e5-EvY9DjRY7IMMdLAZH_lHsEFiVC_AKRd0rhw/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/iNXtXLXj_a4
 events:
-- "/uploads/tuklas.png"
-- "/uploads/leap.png"
-- "/uploads/lea.png"
-- "/uploads/gca.png"
-- "/uploads/fw.png"
-- "/uploads/flare.png"
-- "/uploads/agb.png"
-- "/uploads/arw.png"
+- "/uploads/cso-flagship-1.png"
+- "/uploads/cso-flagship-2.png"
+- "/uploads/cso-flagship-3.png"
+- "/uploads/cso-flagship-4.png"
+- "/uploads/cso-flagship-5.png"
+- "/uploads/cso-flagship-6.png"
+- "/uploads/cso-flagship-7.png"
+- "/uploads/cso-flagship-8.png"
 hero_title_color: rgb(255, 255, 255)
 title_color: rgb(255, 145, 143)
 button_color: rgb(255, 255, 255)

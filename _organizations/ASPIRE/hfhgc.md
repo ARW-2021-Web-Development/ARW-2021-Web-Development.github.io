@@ -7,7 +7,7 @@ layout: organization
 logo: "/uploads/hfh-logo.png"
 cluster: ASPIRE
 fb_link: https://facebook.com/habitatdlsu
-membership_banner: "/uploads/hfh-mem-fee.png"
+membership_banner: "/uploads/hfh-mem-banner.png"
 hero_bg: "/uploads/hfh-web-bg.png"
 main_pub: "/uploads/hfh-main-pub.png"
 fav_logo: "/uploads/hfh-logo.png"

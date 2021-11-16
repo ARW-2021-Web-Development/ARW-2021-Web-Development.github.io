@@ -7,7 +7,7 @@ layout: organization
 logo: "/uploads/chemsoc-logo.png"
 cluster: ASO
 fb_link: https://www.facebook.com/dlsuchemsoc
-membership_banner: "/uploads/chemsoc-membership-fee-banner.png"
+membership_banner: "/uploads/chemsoc-mem-banner.png"
 hero_bg: "/uploads/chemsoc-web-bg.png"
 main_pub: "/uploads/chemsoc-main-pub.png"
 complete_name: Chemistry Society
@@ -31,10 +31,10 @@ mission: "<p>Our mission is to provide programs and services that will holistica
 reg_link: https://forms.gle/89Bi4uDwxK2jxqtc7
 vid_link: https://www.youtube.com/embed/BHwcugwvcNw
 events:
-- "/uploads/chemsoc-flagship-event-1.png"
-- "/uploads/chemsoc-flagship-event-2.png"
-- "/uploads/chemsoc-flagship-event-3.png"
-- "/uploads/chemsoc-flagship-event-4.png"
+- "/uploads/chemsoc-flagship-1.png"
+- "/uploads/chemsoc-flagship-2.png"
+- "/uploads/chemsoc-flagship-3.png"
+- "/uploads/chemsoc-flagship-4.png"
 fav_logo: ''
 
 ---

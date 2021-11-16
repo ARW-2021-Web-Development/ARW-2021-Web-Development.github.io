@@ -8,7 +8,7 @@ logo: "/uploads/sme-logo.png"
 cluster: ENGAGE
 fb_link: 'https://facebook.com/SmeDlsuChapter '
 membership_banner: "/uploads/sme-mem-banner.png"
-hero_bg: "/uploads/mem-web-bg.png"
+hero_bg: "/uploads/sme-web-bg.png"
 main_pub: "/uploads/sme-main-pub.png"
 fav_logo: ''
 complete_name: Society of Manufacturing Engineers

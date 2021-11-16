@@ -12,6 +12,7 @@ hero_bg: "/uploads/chen-web-bg.png"
 main_pub: "/uploads/chen-main-pub.png"
 fav_logo: ''
 complete_name: Chemical Engineering Society
+use_full_name: true
 abbr: ChEn
 about_us: "<p>ChEn is the professional organization of students that aims to cater
   to the Chemical Engineering population at De La Salle University.</p>"

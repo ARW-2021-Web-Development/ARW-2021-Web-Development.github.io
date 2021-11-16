@@ -7,7 +7,7 @@ layout: organization
 logo: "/uploads/va-logo.png"
 cluster: ASPIRE
 fb_link: https://facebook.com/viridisarcus
-membership_banner: "/uploads/membership-banner.png"
+membership_banner: "/uploads/va-mem-banner.png"
 hero_bg: "/uploads/va-web-bg.png"
 main_pub: "/uploads/va-main-pub.png"
 fav_logo: "/uploads/va-logo.png"

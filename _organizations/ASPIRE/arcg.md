@@ -33,11 +33,11 @@ mission: "<p>Creating learning opportunities for aspiring student consultants th
 reg_link: https://forms.gle/tAjeYLvr3gRNH2Zv9
 vid_link: https://www.youtube.com/embed/KvhGmDyX6VU
 events:
-- "/uploads/flagship-6.png"
-- "/uploads/flagship-5.png"
-- "/uploads/flagship-4.png"
-- "/uploads/flagship-3.png"
-- "/uploads/flagship-2.png"
-- "/uploads/flagship-1.png"
+- "/uploads/arcg-flagship-6.png"
+- "/uploads/arcg-flagship-5.png"
+- "/uploads/arcg-flagship-4.png"
+- "/uploads/arcg-flagship-3.png"
+- "/uploads/arcg-flagship-2.png"
+- "/uploads/arcg-flagship-1.png"
 
 ---
