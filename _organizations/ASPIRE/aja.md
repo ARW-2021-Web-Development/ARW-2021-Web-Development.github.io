@@ -10,7 +10,7 @@ fb_link: https://www.facebook.com/AJAAnimo/
 membership_banner: "/uploads/aja-mem-banner.png"
 hero_bg: "/uploads/aja-web-bg.png"
 main_pub: "/uploads/aja-main-pub.png"
-fav_logo: "/uploads/aja-logo-1.png"
+fav_logo: ''
 complete_name: AJA Animo
 abbr: AJA
 about_us: "<p>AJA Animo is a special interest organization that aims to promote Korean
