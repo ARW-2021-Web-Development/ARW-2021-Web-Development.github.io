@@ -19,7 +19,7 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
           {% if page.use_full_name %}
           <h1 class="title is-1 responsive has-text-centered has-letter-spacing is-custom">{{ page.complete_name }}</h1>
           {% else %}
-          <h1 class="title has-text-centered has-letter-spacing is-custom">{{ page.abbr }}</h1>
+          <h1 class="title has-text-centered has-letter-spacing is-custom">{% if page.abbr == "CSO" %} DLSU CSO {%else %} {{ page.abbr }} {% endif %}</h1>
           {% endif %}
           <div class="columns is-centered" id="org-hero-buttons">
             <div class="column is-four-fifths-mobile is-one-quarter">
