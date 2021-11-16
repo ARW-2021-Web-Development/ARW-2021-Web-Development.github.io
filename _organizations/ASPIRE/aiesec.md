@@ -8,7 +8,7 @@ logo: "/uploads/aiesec-fav-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/aiesecphl.dlsu/
 membership_banner: "/uploads/aiesec-mem-banner.png"
-hero_bg: "/uploads/websitebg.png"
+hero_bg: "/uploads/aiesec-web-bg.png"
 main_pub: "/uploads/aiesec-main-pub.png"
 fav_logo: "/uploads/aiesec-fav-logo.png"
 complete_name: AIESEC
