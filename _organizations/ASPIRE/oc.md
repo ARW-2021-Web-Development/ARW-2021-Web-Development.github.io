@@ -8,7 +8,7 @@ logo: "/uploads/oc-logo.png"
 cluster: ASPIRE
 fb_link: https://www.facebook.com/dlsuoutdoorclub
 membership_banner: "/uploads/oc-mem-banner.png"
-hero_bg: "/uploads/outc-web-bg.png"
+hero_bg: "/uploads/oc-web-bg.png"
 main_pub: "/uploads/oc-main-pub.png"
 fav_logo: ''
 complete_name: DLSU Outdoor Club

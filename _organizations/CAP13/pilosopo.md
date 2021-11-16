@@ -7,7 +7,7 @@ layout: organization
 logo: "/uploads/pilosopo-logo.png"
 cluster: CAP13
 fb_link: https://www.facebook.com/dlsupilosopo
-membership_banner: "/uploads/pilosopo_membership-fee-website-banner.png"
+membership_banner: "/uploads/pilosopo-mem-banner.png"
 hero_bg: "/uploads/pilosopo-web-bg.png"
 main_pub: "/uploads/pilosopo-main-pub.png"
 fav_logo: ''
