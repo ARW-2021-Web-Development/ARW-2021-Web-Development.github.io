@@ -13,9 +13,10 @@ main_pub: "/uploads/econorg-main-pub.png"
 fav_logo: "/uploads/econorg-logo.png"
 complete_name: Economics Organization
 abbr: ECONORG
-about_us: "<p>The Economics Organization (EconOrg) is a premier training ground for
-  future economists. We offer academic and extracurricular activities to aid in the
-  holistic and academic development of our members.</p>"
+about_us: "<p>The Economics Organization (EconOrg) serves as a premier training ground
+  for future economists. From academic necessities to extracurricular activities,
+  EconOrg provides a wide array of activities to provide our constituents with an
+  avenue to grow holistically in the university.</p>"
 tagline: "<p>Continuing the culture of excellence, this is the #EconOrgLegacy.</p>"
 vision: "<p>EconOrg is a research-based, student-led organization that aims to lay
   foundations on the training of future industry leaders as beacons of service and
