@@ -60,8 +60,8 @@ permalink: '/organizations/'
                     {{ cso.complete_name }}
                 </h1>
                 <p class="subtitle has-text-centered purple has-text-weight-medium">Council of Student Organizations</p>
-                <div class="columns is-centered decoration-container">
-                    <div class="column is-one-third">
+                <div class="columns is-centered decoration-container is-mobile">
+                    <div class="column is-three-quarters-mobile is-one-third-desktop">
                         <div class="container">
                             <figure
                                 class="image is-square is-clickable"
@@ -107,9 +107,9 @@ permalink: '/organizations/'
             <section class="section">
                 <h1 class="title inner-text-shadow {{ cluster.color }} is-relative">{{ cluster.abbr }}</h1>
                 <p class="subtitle {{ cluster.color }} has-text-weight-medium">{{ cluster.description }}</p>
-                <div class="columns is-multiline">
+                <div class="columns is-multiline is-mobile">
                     {% for org in site.organizations %} {% if org.cluster == cluster.abbr %}
-                    <div class="column is-one-quarter">
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <figure
                             class="image is-square mb-3 is-clickable"
                             onclick="window.location.assign('{{ site.baseurl }}/{{ org.abbr | downcase }}')"

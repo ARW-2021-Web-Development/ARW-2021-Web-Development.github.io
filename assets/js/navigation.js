@@ -1,6 +1,3 @@
----
----
-
 const activePage = window.location.pathname;
 const navButtons = document.querySelectorAll('.navbar-menu .navbar-item');
 const baseurl = '{{ site.baseurl }}' + '/';
