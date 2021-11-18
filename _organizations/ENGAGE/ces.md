@@ -38,6 +38,8 @@ mission: "<p>The Civil Engineering Society, also known as CES, is an accredited 
 reg_link: https://docs.google.com/forms/d/e/1FAIpQLScr78aPRrgsj4KTEjcaExFT8zZJ8I1pPHXf2PJx23KRAWkW1w/viewform
 vid_link: https://www.youtube.com/embed/oe6guwFAIhE
 events:
+- "/uploads/ces-online-ces-survival-kit-and-succeed.png"
+- "/uploads/ces-apprentices.png"
 - "/uploads/ces-ce-focus.png"
 - "/uploads/ces-ce-month.png"
 - "/uploads/ces-ce-career-week.png"

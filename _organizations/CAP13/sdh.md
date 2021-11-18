@@ -42,5 +42,6 @@ events:
 - "/uploads/sdh-flagship-3.png"
 - "/uploads/sdh-flagship-4.png"
 - "/uploads/sdh-flagship-5.png"
+use_full_name: true
 
 ---
