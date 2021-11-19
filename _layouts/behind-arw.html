@@ -112,11 +112,27 @@
                 <p class="block has-text-justified has-text-weight-medium is-size-5" style="color: #553c78">
                     {{page.project_heads}}
                 </p>
-                <div class="pheads-grid">
+                <!-- <picture>
+                    <source
+                        srcset="{{site.baseurl}}/assets/img/project heads/pheads-mobile.png"
+                        media="(max-width: 800px)"
+                    />
+                    <img class="banner-img" src="{{site.baseurl}}/assets/img/project heads/pheads.png" />
+                </picture> -->
+
+                <picture style="margin: auto">
+                    <source
+                        srcset="{{site.baseurl}}/assets/img/project-heads/pheads-mobile.png"
+                        media="(max-width: 800px)"
+                    />
+                    <img class="banner-img" src="{{site.baseurl}}/assets/img/project-heads/pheads.png" />
+                </picture>
+                <!-- <img src="{{site.baseurl}}/assets/img/project heads/pheads.png" alt="" srcset="" /> -->
+                <!-- <div class="pheads-grid">
                     {% for img in page.project_heads_images%}
                     <img class="phead-img" src="{{site.baseurl}}{{img}}" alt="Project Head of ARW" />
                     {% endfor %}
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="section is-small full-height">
