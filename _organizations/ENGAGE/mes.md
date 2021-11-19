@@ -1,14 +1,14 @@
 ---
-hero_title_color: rgb(0, 0, 0)
-title_color: rgb(168, 34, 28)
+hero_title_color: rgb(245, 9, 9)
+title_color: rgb(254, 254, 254)
 button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
-logo: "/uploads/mes-logo.png"
+logo: "/uploads/mes-logo-white.png"
 cluster: ENGAGE
 fb_link: https://facebook.com/dlsu.mes
 membership_banner: "/uploads/mes-mem-banner.png"
-hero_bg: "/uploads/mes-web-bg.png"
+hero_bg: "/uploads/mes-web-bg-new.png"
 main_pub: "/uploads/mes-main-pub.png"
 fav_logo: "/uploads/mes-logo.png"
 complete_name: Mechanical Engineering Society
@@ -37,5 +37,6 @@ events:
 - "/uploads/mes-flagship-3.png"
 - "/uploads/mes-flagship-2.png"
 - "/uploads/mes-flagship-1.png"
+use_full_name: false
 
 ---
