@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(245, 9, 9)
-title_color: rgb(254, 254, 254)
-button_color: rgb(255, 255, 255)
+hero_title_color: rgb(255, 255, 255)
+title_color: rgb(208, 2, 27)
+button_color: rgb(208, 2, 27)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/mes-logo-white.png"
@@ -37,6 +37,6 @@ events:
 - "/uploads/mes-flagship-3.png"
 - "/uploads/mes-flagship-2.png"
 - "/uploads/mes-flagship-1.png"
-use_full_name: false
+use_full_name: true
 
 ---
