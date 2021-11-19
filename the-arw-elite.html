@@ -51,16 +51,15 @@ permalink: '/the-arw-elite/'
   </section>
   <section class="section" style="margin: auto; max-width: 1250px">
     <h1 class="title inner-text-shadow purple has-text-centered">THE ARW ELITE FINALISTS</h1>
-    {% for i in (1..2) %}
-    <div class="columns has-text-centered">
-      {% for j in (1..5) %}
+    <div class="columns is-mobile has-text-centered is-multiline">
+      {% for elite in site.elites %}
 
-      <div class="column is-one-third-tablet is-one-fifth-desktop">
-        <a href="#{{ i | times: j }}">
-          <img src="{{site.baseurl}}/assets/img/project heads/jason.png" alt="" />
-          <div class="glass-container purple py-1 px-1" style="width: min(80%, 275px)">
-            <p>Name</p>
-            <p class="is-size-4 gray-purple has-text-weight-bold">Org Name</p>
+      <div class="column is-half-mobile is-one-third-tablet is-one-fifth-desktop" style="margin: inherit auto;">
+        <a class="is-flex is-flex-direction-column" href="#{{ elite.abbr }}" style="height: 100%">
+          <img src="{{ site.baseurl }}{{ elite.formal_shot }}" alt="{{ elite.org_name }} formal shot" />
+          <div class="glass-container purple py-1 px-1 is-flex-grow-1 mt-2 is-flex-grow-1 is-flex is-flex-direction-column is-justify-content-center" style="width: 100%">
+            <p class="is-size-6 responsive" style="line-height: 1.1;">{{ elite.full_name }}</p>
+            <p class="is-size-5 gray-purple has-text-weight-bold responsive" style="line-height: 1.1;">{{ elite.abbr }}</p>
           </div>
         </a>
       </div>
@@ -83,7 +82,6 @@ permalink: '/the-arw-elite/'
           id="arw-elite-triangles-1" />
       </div>
     </div>
-    {% endfor %}
   </section>
 
   <section class="section" style="margin: auto; max-width: 1250px">
@@ -91,12 +89,12 @@ permalink: '/the-arw-elite/'
       GET TO KNOW THE ARW ELITE FINALISTS
     </h1>
     {% for elite in site.elites %}
-    <div class="finalist-container" style="margin-bottom: 6rem">
+    <div class="finalist-container" style="margin-bottom: 6rem" id="{{ elite.abbr }}">
       <div class="format">
-        <img src="{{site.baseurl}}/assets/img/project heads/miss-boss.png" alt="" />
+        <img src="{{ site.baseurl }}{{ elite.formal_shot }}" alt="{{ elite.full_name }} Formal Shot" />
       </div>
       <div class="creative">
-        <img src="{{site.baseurl}}/assets/img/project heads/miss-boss.png" alt="" />
+        <img src="{{ site.baseurl }}{{ elite.creative_shot }}" alt="{{ elite.full_name }} Creative Shot" />
       </div>
 
       <div class="video" style="display: grid; width: 100%;">
