@@ -4,120 +4,133 @@ permalink: '/organizations/'
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html title="Organizations" %}
-{% include social-media.html %}
+    {% include head.html title="Organizations" %} {% include social-media.html %}
 
-<body>
-  {% include header.html %}
-  <div class="hero is-fullheight-with-navbar">
-    <div class="hero-body decoration-container">
-        <img 
-              src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/1.png" 
-              alt=""
-              class="decorative"
-              id="list-of-orgs-ribbon-1"
-            />
-      <div class="container">
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/1.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-circle-1"
-        />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/2.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-circle-2"
-        />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/1.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-triangle-1"
-        />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/2.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-triangle-2"
-        />
-        <figure class="image">
-          <img src="{{ site.baseurl }}/assets/img/organizations-banner.png" alt="Organizations Banner">
-        </figure>
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/3.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-triangle-3"
-        />
-      </div>
-    </div>
-  </div>
-  <main class="container is-max-widescreen">
-    <section class="section is-medium mb-6 decoration-container">
-      {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
-      <h1 class="title is-1 inner-text-shadow purple has-text-centered responsive">{{ cso.complete_name }}</h1>
-      <p class="subtitle has-text-centered purple has-text-weight-medium">Council of Student Organizations</p>
-      <div class="columns is-centered decoration-container">
-        <div class="column is-one-third">
-          <div class="container">
-            <figure class="image is-square is-clickable" onclick="window.location.assign('{{ site.baseurl }}/{{ cso.abbr | downcase }}')">
-              <img src="{{ site.baseurl }}{{ cso.logo }}" alt="CSO Logo"></img>
-            </figure>
-            <a href="{{ site.baseurl }}/{{ cso.abbr | downcase }}" class="button is-fullwidth btn-glass white-btn">{{ cso.abbr }}</a>
-          </div>
+    <body>
+        {% include header.html %}
+        <div id="organizations-page" class="hero is-fullheight-with-navbar">
+            <div class="hero-body decoration-container">
+                <img
+                    src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/1.png"
+                    alt=""
+                    class="decorative"
+                    id="list-of-orgs-ribbon-1"
+                />
+                <div class="container">
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/1.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-circle-1"
+                    />
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/2.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-circle-2"
+                    />
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/1.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-triangle-1"
+                    />
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/2.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-triangle-2"
+                    />
+                    <figure class="image">
+                        <img src="{{ site.baseurl }}/assets/img/organizations-banner.png" alt="Organizations Banner" />
+                    </figure>
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/3.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-triangle-3"
+                    />
+                </div>
+            </div>
         </div>
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/4.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-triangle-4"
-        />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/3.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-circle-3"
-        />
-        <img 
-          src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/5.png" 
-          alt=""
-          class="decorative"
-          id="list-of-orgs-triangle-5"
-        />
-      </div>
-      <img 
-        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/2.png" 
-        alt=""
-        class="decorative"
-        id="list-of-orgs-ribbon-2"
-      />
-    </section>
-    
-    {% for cluster in site.data.clusters %}
-    <section class="section">
-      <h1 class="title inner-text-shadow {{ cluster.color }}">{{ cluster.abbr }}</h1>
-      <p class="subtitle {{ cluster.color }} has-text-weight-medium">{{ cluster.description }}</p>
-      <div class="columns is-multiline">
-        {% for org in site.organizations %}
-        {% if org.cluster == cluster.abbr %}
-        <div class="column is-one-quarter">
-          <figure class="image is-square mb-3 is-clickable" onclick="window.location.assign('{{ site.baseurl }}/{{ org.abbr | downcase }}')">
-            {% if org.fav_logo and org.fav_logo != '' %}
-            <img src="{{ site.baseurl }}{{ org.fav_logo }}" alt="{{ org.complete_name }} Logo">
-            {% else %}
-            <img src="{{ site.baseurl }}{{ org.logo }}" alt="{{ org.complete_name }} Logo">
-            {% endif %}
-          </figure>
-          <a href="{{ site.baseurl }}/{{ org.abbr | downcase }}" class="button is-fullwidth btn-glass white-btn">{{ org.abbr }}</a>
-        </div>
-        {% endif %}
-        {% endfor %}
-    </section>
-    {% endfor %}
-  </main>
-  {% include footer.html %}
-</body>
+        <main class="container is-max-widescreen">
+            <section class="section is-medium mb-6 decoration-container">
+                {% assign cso = site.organizations | where: "abbr", "CSO" | first %}
+                <h1 class="title is-1 inner-text-shadow purple has-text-centered responsive">
+                    {{ cso.complete_name }}
+                </h1>
+                <p class="subtitle has-text-centered purple has-text-weight-medium">Council of Student Organizations</p>
+                <div class="columns is-centered decoration-container is-mobile">
+                    <div class="column is-three-quarters-mobile is-one-third-desktop">
+                        <div class="container">
+                            <figure
+                                class="image is-square is-clickable"
+                                onclick="window.location.assign('{{ site.baseurl }}/{{ cso.abbr | downcase }}')"
+                            >
+                                <img src="{{ site.baseurl }}{{ cso.logo }}" alt="CSO Logo" />
+                            </figure>
+                            <a
+                                href="{{ site.baseurl }}/{{ cso.abbr | downcase }}"
+                                class="button is-fullwidth btn-glass white-btn"
+                                >{{ cso.abbr }}</a
+                            >
+                        </div>
+                    </div>
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/4.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-triangle-4"
+                    />
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/circles/3.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-circle-3"
+                    />
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/ribbons/2.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-ribbon-2"
+                    />
+                    <img
+                        src="{{site.baseurl}}/assets/img/decorations/list-of-orgs/triangles/5.png"
+                        alt=""
+                        class="decorative"
+                        id="list-of-orgs-triangle-5"
+                    />
+                </div>
+            </section>
 
+            {% for cluster in site.data.clusters %}
+            <section class="section">
+                <h1 class="title inner-text-shadow {{ cluster.color }} is-relative">{{ cluster.abbr }}</h1>
+                <p class="subtitle {{ cluster.color }} has-text-weight-medium">{{ cluster.description }}</p>
+                <div class="columns is-multiline is-mobile">
+                    {% for org in site.organizations %} {% if org.cluster == cluster.abbr %}
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <figure
+                            class="image is-square mb-3 is-clickable"
+                            onclick="window.location.assign('{{ site.baseurl }}/{{ org.abbr | downcase }}')"
+                        >
+                            {% if org.fav_logo and org.fav_logo != '' %}
+                            <img src="{{ site.baseurl }}{{ org.fav_logo }}" alt="{{ org.complete_name }} Logo" />
+                            {% else %}
+                            <img src="{{ site.baseurl }}{{ org.logo }}" alt="{{ org.complete_name }} Logo" />
+                            {% endif %}
+                        </figure>
+                        <a
+                            href="{{ site.baseurl }}/{{ org.abbr | downcase }}"
+                            class="button is-fullwidth btn-glass white-btn"
+                            >{{ org.abbr }}</a
+                        >
+                    </div>
+                    {% endif %} {% endfor %}
+                </div>
+            </section>
+            {% endfor %}
+        </main>
+        {% include footer.html %}
+    </body>
 </html>

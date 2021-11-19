@@ -7,10 +7,10 @@ layout: organization
 logo: "/uploads/arcg-logo.png"
 cluster: ASPIRE
 fb_link: https://facebook.com/DLSUArCG/
-membership_banner: "/uploads/arcg-mem-ban.png"
+membership_banner: "/uploads/arcg-mem-ban-2.png"
 hero_bg: "/uploads/arcg-web-bg.png"
 main_pub: "/uploads/arcg-main-pub.png"
-fav_logo:
+fav_logo: 
 complete_name: Archers Consulting Group
 abbr: ArCG
 about_us: "<p>Archers Consulting Group is a non-profit student consulting organization
@@ -39,5 +39,6 @@ events:
 - "/uploads/arcg-flagship-3.png"
 - "/uploads/arcg-flagship-2.png"
 - "/uploads/arcg-flagship-1.png"
+use_full_name: true
 
 ---
