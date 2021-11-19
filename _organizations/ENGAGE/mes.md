@@ -1,7 +1,7 @@
 ---
-hero_title_color: rgb(255, 255, 255)
+hero_title_color: rgb(0, 0, 0)
 title_color: rgb(208, 2, 27)
-button_color: rgb(208, 2, 27)
+button_color: rgb(255, 255, 255)
 description_color: rgb(0, 0, 0)
 layout: organization
 logo: "/uploads/mes-logo-white.png"
