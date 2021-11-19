@@ -21,8 +21,12 @@ permalink: '/favorites/'
                         <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
                             MY FAVORITE ORGANIZATIONS
                         </p>
-                        <div class="columns is-multiline">
-                            <div v-for="[key, value] in favs" class="column is-one-fifth" :key="key">
+                        <div class="columns is-centered is-multiline is-mobile">
+                            <div
+                                v-for="[key, value] in favs"
+                                class="column is-one-fifth-desktop is-two-fifths-mobile is-two-fifths-tablet"
+                                :key="key"
+                            >
                                 {% raw %}
                                 <figure
                                     class="image is-square is-fullwidth is-relative is-clickable"
