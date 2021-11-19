@@ -5,10 +5,10 @@
         {% include header.html %} {% include social-media.html %}
         <main class="container is-max-widescreen mx-5" style="align-self: center; display: grid; place-items: center">
             <header class="has-text-centered mt-4">
-                <p class="inner-text-shadow drk-pink is-size-2-mobile" style="font-size: 4rem; font-weight: 900">
+                <p class="inner-text-shadow drk-pink is-size-3-mobile" style="font-size: 4rem; font-weight: 900">
                     Frequently Asked Questions
                 </p>
-                <p class="inner-text-shadow drk-purple is-size-1 is-size-3-mobile" style="font-weight: 900">(FAQs)</p>
+                <p class="inner-text-shadow drk-purple is-size-1 is-size-4-mobile" style="font-weight: 900">(FAQs)</p>
             </header>
 
             {% for qna in page.faq %}
@@ -25,7 +25,10 @@
                         style="position: absolute; right: 20px; transform: translateY(7px)"
                     ></i>
                 </div>
-                <div class="accordion-content closed" style="display: flex; text-align: justify">
+                <div
+                    class="accordion-content closed has-text-left-mobile has-text-justified-desktop"
+                    style="display: flex"
+                >
                     <span class="inner-text-shadow pink is-size-3" style="transform: translateY(-7px); font-weight: 900"
                         >A:</span
                     >
