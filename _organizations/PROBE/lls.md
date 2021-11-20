@@ -11,6 +11,7 @@ membership_banner: "/uploads/lls-mem-banner.png"
 hero_bg: "/uploads/lls-web-bg.png"
 main_pub: "/uploads/lls-main-pub.png"
 fav_logo: ''
+use_full_name: true
 complete_name: Ley La Salle
 abbr: LLS
 about_us: "<p>Ley La Salle is the premier organization for Legal Management students,
