@@ -1,8 +1,22 @@
 <script src="{{site.baseurl}}/assets/js/navigation.js" defer></script>
 <script src="{{site.baseurl}}/assets/js/burger.js" defer></script>
 <script src="{{site.baseurl}}/assets/js/rotate-logo.js" defer></script>
+<script src="{{site.baseurl}}/assets/js/loading.js" defer></script>
 
-<header class="nav-container" style="z-index: 9999">
+<div class="loading-screen">
+    <div class="bubble" style="--speed: 4s; --delay: 0s; left: 0%"></div>
+    <div class="bubble small" style="--speed: 6s; --delay: 0s; left: 10%"></div>
+    <div class="bubble" style="--speed: 4s; --delay: 0s; left: 20%"></div>
+    <div class="bubble small" style="--speed: 4s; --delay: 0s; left: 25%"></div>
+    <div class="bubble small" style="--speed: 4s; --delay: 0s; left: 30%"></div>
+    <div class="bubble" style="--speed: 3s; --delay: 0s; left: 40%"></div>
+    <div class="bubble small" style="--speed: 6s; --delay: 0s; left: 60%"></div>
+    <div class="bubble" style="--speed: 7s; --delay: 0s; left: 90%"></div>
+    <div class="bubble large" style="--speed: 5s; --delay: 0s; left: 80%"></div>
+    <img src="{{site.baseurl}}/assets/img/loading.png" id="loading-icon" class="loading rotate-logo" alt="" srcset="" />
+</div>
+
+<header class="nav-container" style="z-index: 9000">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item home" href="{{ site.baseurl }}/">
