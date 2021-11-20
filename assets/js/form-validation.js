@@ -81,7 +81,7 @@ questionForm.onsubmit = async (e) => {
         });
 
         questionSubmitBtn.classList.remove('is-loading');
-        alert(data.msg);
+        alert('Data Sent');
     } else {
         resetNotificationPopUp();
         showNotificationPopUp(errors.join('\n'));
@@ -103,7 +103,7 @@ feedbackForm.onsubmit = async (e) => {
         });
 
         feedbackSubmitBtn.classList.remove('is-loading');
-        alert(data.msg);
+        alert('Data Sent');
     } else {
         resetNotificationPopUp();
         showNotificationPopUp('Please rate first before submitting');
