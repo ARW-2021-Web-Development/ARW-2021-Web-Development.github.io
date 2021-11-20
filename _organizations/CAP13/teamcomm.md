@@ -30,11 +30,12 @@ mission: "<p>To develop its members to become competent professionals as well as
   by providing avenues that will hone their technical skills and develop their talents
   in various communication related fields. To help its members be socially responsible
   citizens by proving relevant activities that would develop their social consciousness.</p>"
-reg_link: https://docs.google.com/forms/d/e/1FAIpQLScs14dFwDlPV7V1fkOP0qq_jApKcbzygnVZYQtXFrqxsvSZow/viewform?usp=sf_link
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLScea16nulISfcbiabqgEpIKALGu7zepaadAzz76cUEFrucj6A/viewform
 vid_link: https://www.youtube.com/embed/XzxPJ_Q49j0
 events:
 - "/uploads/teamcomm-flagship3.png"
 - "/uploads/teamcomm-flagship2.png"
 - "/uploads/teamcomm-flagship1.png"
+use_full_name: false
 
 ---
