@@ -127,3 +127,20 @@ span.delete-btn
 
 .gradient-anim:hover
   background-position: right
+
+.loading-screen
+  position: fixed
+  inset: 0
+  background-color: white
+
+  pointer-events: none
+
+  display: grid
+  place-items: center
+  z-index: 9999
+
+  opacity: 1
+  transition: opacity 300ms linear
+
+.loading-screen.hide
+  opacity: 0
