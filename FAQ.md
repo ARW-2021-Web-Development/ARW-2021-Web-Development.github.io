@@ -63,6 +63,8 @@ faq:
     you to go out of your comfort zone, meet new people, learn new skills, and gain
     new experiences. It presents you with great opportunities that can allow you to
     learn more about who you are, your goals, and your strengths which can be beneficial
-    for your future career.  '
-
+    for your future career.'
+- template: qna
+  question: Where can I find the DLSU Laguna organizations?
+  answer: 'For this year, the ARW 2021 only caters to CSO accredited organizations belonging to De La Salle University - Manila. Thus, CSO organizations from DLSU Laguna will have their own separate recruitment period.'
 ---

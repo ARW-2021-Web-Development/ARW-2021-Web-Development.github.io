@@ -17,9 +17,9 @@ project_heads_images:
     - '/uploads/sophia.png'
     - '/uploads/faith.png'
 executive_committee: >-
-    The Executive Committee of ARW are the team of Chairpersons that are considered the “right hands” of the Project Heads. They manage the team of Executives of their committee and make sures that the plans and goals of the Project Heads are being executed by their Committee in order to have a successful ARW.
+    The Executive Committee of ARW are the team of Chairpersons that are considered the “right hands” of the Project Heads. They manage the team of Executives of their committee and makes sure that the plans and goals of the Project Heads are being executed by their Committee in order to have a successful ARW.
 executive_committee_images:
     - '/uploads/ryan.png'
 executives: >-
-    The Executives of the ARW are the student-leaders that carry out the action as mandates and led by their respective Chairpersons. They report to their Chairpersons and guarantee that the set of deliverables needed by the ARW are executed with quality to ensure an enjoyable event for the student body to the smallest details.
+    The Executives of the ARW are the student-leaders that carry out the action as mandated and led by their respective Chairpersons. They report to their Chairpersons and guarantee that the set of deliverables needed by the ARW are executed with quality to ensure an enjoyable event for the student body to the smallest detail.
 ---
