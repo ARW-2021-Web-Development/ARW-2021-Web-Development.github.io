@@ -21,7 +21,7 @@ vision: "<p>To be the catalyst for Lasallians and Filipinos to take control of t
   financial future.</p>"
 mission: "<p>To provide platforms and opportunities that promote financial literacy
   and investment awareness in the Lasallian community and beyond. </p>"
-reg_link: " https://docs.google.com/forms/d/e/1FAIpQLSdrUnfFXqr4vSYbLnWWv137W7yAWu0IR5yxtjp5b5RQU_9pJA/viewform"
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeirt1X0SfZgTXyAezybc9pxT6DUyO5JExcgd86Ic9IQ-S4fQ/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/TSW9_41SUcw
 events:
 - "/uploads/is-flagship-1.png"
