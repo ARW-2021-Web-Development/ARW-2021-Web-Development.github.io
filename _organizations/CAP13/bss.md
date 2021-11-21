@@ -1,5 +1,4 @@
 ---
-permalink: '/bss'
 hero_title_color: rgb(147, 103, 60)
 title_color: rgb(147, 103, 60)
 button_color: rgb(147, 103, 60)
