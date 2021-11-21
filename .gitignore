@@ -8,4 +8,4 @@ node_modules/
 _uploads/
 package-lock.json
 package.json
-compress.js
+compress.mjs
