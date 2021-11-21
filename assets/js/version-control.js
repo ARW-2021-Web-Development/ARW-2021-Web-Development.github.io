@@ -1,4 +1,4 @@
-const _version = 'v2';
+const _version = 'v1';
 const currVersion = localStorage.getItem('version');
 
 if (currVersion !== _version) {
