@@ -4,3 +4,8 @@ _site
 .jekyll-metadata
 vendor
 .vscode
+node_modules/
+_uploads/
+package-lock.json
+package.json
+compress.js

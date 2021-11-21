@@ -3,196 +3,196 @@ label: Organization
 hide_body: true
 display_field: abbr
 fields:
-- name: hero_title_color
-  type: color
-  label: Hero Title Color
-  config:
-    required: true
-    color_format: RGB
-  description: Color for the main title of the org
-  default: rgb(0, 0, 0)
-- name: title_color
-  type: color
-  label: Title Color
-  config:
-    required: false
-    color_format: RGB
-  default: rgb(0, 0, 0)
-- name: button_color
-  type: color
-  label: Button Color
-  config:
-    required: true
-    color_format: RGB
-  default: rgb(255, 255, 255)
-- name: description_color
-  type: color
-  label: Description Color
-  config:
-    required: true
-    color_format: RGB
-  default: rgb(0, 0, 0)
-- name: layout
-  type: text
-  config:
-    required: true
-  label: Layout
-  hidden: true
-  default: organization
-- name: logo
-  type: file
-  config:
-    maxSize: 10
-  label: Logo
-  default: "/uploads/500x500.png"
-- name: fav_logo
-  type: file
-  config:
-    maxSize: 20
-  label: Favorite Logo
-- name: complete_name
-  type: text
-  config:
-    required: true
-  label: Complete Name
-  description: The organization's full, unabbreviated name
-- name: abbr
-  type: text
-  config:
-    required: false
-  label: Abbreviated Name
-  description: The organization's abbreviated name.
-- name: use_full_name
-  type: boolean
-  label: Use Complete Name for Hero
-- name: cluster
-  type: select
-  default: ASO
-  config:
-    required: true
-    options:
-    - ASO
-    - ASPIRE
-    - ENGAGE
-    - PROBE
-    - CSO
-    - CAP13
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Cluster
-- name: about_us
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: About Us
-- name: tagline
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Tagline
-- name: vision
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Vision
-- name: mission
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Mission
-- name: fb_link
-  type: text
-  config:
-    required: true
-  label: Facebook Link
-  default: https://facebook.com/
-- name: reg_link
-  type: text
-  config:
-    required: true
-  label: Registration Link
-- name: membership_banner
-  type: file
-  config:
-    maxSize: 10
-  label: Membership Banner
-  default: "/uploads/500x500.png"
-- name: vid_link
-  type: text
-  config:
-    required: true
-  label: Video Link
-- name: events
-  type: image_gallery
-  config: {}
-  label: Flagship Events
-- name: hero_bg
-  type: file
-  config:
-    maxSize: 10
-  label: Hero Background
-  default: "/uploads/3594040.jpg"
-- name: main_pub
-  type: file
-  config:
-    maxSize: 10
-  label: Main Pub
-  default: "/uploads/hohuqy7mss901.png"
+    - name: hero_title_color
+      type: color
+      label: Hero Title Color
+      config:
+          required: true
+          color_format: RGB
+      description: Color for the main title of the org
+      default: rgb(0, 0, 0)
+    - name: title_color
+      type: color
+      label: Title Color
+      config:
+          required: false
+          color_format: RGB
+      default: rgb(0, 0, 0)
+    - name: button_color
+      type: color
+      label: Button Color
+      config:
+          required: true
+          color_format: RGB
+      default: rgb(255, 255, 255)
+    - name: description_color
+      type: color
+      label: Description Color
+      config:
+          required: true
+          color_format: RGB
+      default: rgb(0, 0, 0)
+    - name: layout
+      type: text
+      config:
+          required: true
+      label: Layout
+      hidden: true
+      default: organization
+    - name: logo
+      type: file
+      config:
+          maxSize: 10
+      label: Logo
+      default: '/uploads/500x500.webp'
+    - name: fav_logo
+      type: file
+      config:
+          maxSize: 20
+      label: Favorite Logo
+    - name: complete_name
+      type: text
+      config:
+          required: true
+      label: Complete Name
+      description: The organization's full, unabbreviated name
+    - name: abbr
+      type: text
+      config:
+          required: false
+      label: Abbreviated Name
+      description: The organization's abbreviated name.
+    - name: use_full_name
+      type: boolean
+      label: Use Complete Name for Hero
+    - name: cluster
+      type: select
+      default: ASO
+      config:
+          required: true
+          options:
+              - ASO
+              - ASPIRE
+              - ENGAGE
+              - PROBE
+              - CSO
+              - CAP13
+          source:
+              type: simple
+              section:
+              file:
+              path:
+      label: Cluster
+    - name: about_us
+      type: textarea
+      default: ''
+      config:
+          required: true
+          wysiwyg: true
+          schema:
+              format: html-blocks
+      label: About Us
+    - name: tagline
+      type: textarea
+      default: ''
+      config:
+          required: true
+          wysiwyg: true
+          schema:
+              format: html-blocks
+      label: Tagline
+    - name: vision
+      type: textarea
+      default: ''
+      config:
+          required: true
+          wysiwyg: true
+          schema:
+              format: html-blocks
+      label: Vision
+    - name: mission
+      type: textarea
+      default: ''
+      config:
+          required: true
+          wysiwyg: true
+          schema:
+              format: html-blocks
+      label: Mission
+    - name: fb_link
+      type: text
+      config:
+          required: true
+      label: Facebook Link
+      default: https://facebook.com/
+    - name: reg_link
+      type: text
+      config:
+          required: true
+      label: Registration Link
+    - name: membership_banner
+      type: file
+      config:
+          maxSize: 10
+      label: Membership Banner
+      default: '/uploads/500x500.webp'
+    - name: vid_link
+      type: text
+      config:
+          required: true
+      label: Video Link
+    - name: events
+      type: image_gallery
+      config: {}
+      label: Flagship Events
+    - name: hero_bg
+      type: file
+      config:
+          maxSize: 10
+      label: Hero Background
+      default: '/uploads/3594040.jpg'
+    - name: main_pub
+      type: file
+      config:
+          maxSize: 10
+      label: Main Pub
+      default: '/uploads/hohuqy7mss901.webp'
 pages:
-- _organizations/ASO/chemsoc.md
-- _organizations/ASO/physoc.md
-- _organizations/ASO/sv.md
-- _organizations/ASPIRE/aiesec.md
-- _organizations/ASPIRE/aja.md
-- _organizations/ASPIRE/au.md
-- _organizations/ASPIRE/eco.md
-- _organizations/ASPIRE/gmc.md
-- _organizations/ASPIRE/hfhgc.md
-- _organizations/ASPIRE/oc.md
-- _organizations/ASPIRE/prism.md
-- _organizations/ASPIRE/united.md
-- _organizations/ASPIRE/va.md
-- _organizations/ASPIRE/wg.md
-- _organizations/CAP13/AMSTUD.md
-- _organizations/CAP13/bss.md
-- _organizations/CAP13/devint.md
-- _organizations/CAP13/esa.md
-- _organizations/CAP13/nkk.md
-- _organizations/CAP13/poliscy.md
-- _organizations/CAP13/sdh.md
-- _organizations/CAP13/sms.md
-- _organizations/CAP13/teamcomm.md
-- _organizations/ENGAGE/access.md
-- _organizations/ENGAGE/chen.md
-- _organizations/ENGAGE/eces.md
-- _organizations/ENGAGE/lscs.md
-- _organizations/ENGAGE/mes.md
-- _organizations/ENGAGE/sme.md
-- _organizations/PROBE/ADCREATE.md
-- _organizations/PROBE/bms.md
-- _organizations/PROBE/econorg.md
-- _organizations/PROBE/jema.md
-- _organizations/PROBE/jpia-dlsu.md
-- _organizations/PROBE/lls.md
-- _organizations/PROBE/mafia.md
-- _organizations/PROBE/yes.md
-- _organizations/cso.md
+    - _organizations/ASO/chemsoc.md
+    - _organizations/ASO/physoc.md
+    - _organizations/ASO/sv.md
+    - _organizations/ASPIRE/aiesec.md
+    - _organizations/ASPIRE/aja.md
+    - _organizations/ASPIRE/au.md
+    - _organizations/ASPIRE/eco.md
+    - _organizations/ASPIRE/gmc.md
+    - _organizations/ASPIRE/hfhgc.md
+    - _organizations/ASPIRE/oc.md
+    - _organizations/ASPIRE/prism.md
+    - _organizations/ASPIRE/united.md
+    - _organizations/ASPIRE/va.md
+    - _organizations/ASPIRE/wg.md
+    - _organizations/CAP13/AMSTUD.md
+    - _organizations/CAP13/bss.md
+    - _organizations/CAP13/devint.md
+    - _organizations/CAP13/esa.md
+    - _organizations/CAP13/nkk.md
+    - _organizations/CAP13/poliscy.md
+    - _organizations/CAP13/sdh.md
+    - _organizations/CAP13/sms.md
+    - _organizations/CAP13/teamcomm.md
+    - _organizations/ENGAGE/access.md
+    - _organizations/ENGAGE/chen.md
+    - _organizations/ENGAGE/eces.md
+    - _organizations/ENGAGE/lscs.md
+    - _organizations/ENGAGE/mes.md
+    - _organizations/ENGAGE/sme.md
+    - _organizations/PROBE/ADCREATE.md
+    - _organizations/PROBE/bms.md
+    - _organizations/PROBE/econorg.md
+    - _organizations/PROBE/jema.md
+    - _organizations/PROBE/jpia-dlsu.md
+    - _organizations/PROBE/lls.md
+    - _organizations/PROBE/mafia.md
+    - _organizations/PROBE/yes.md
+    - _organizations/cso.md
