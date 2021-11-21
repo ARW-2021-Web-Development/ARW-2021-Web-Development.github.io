@@ -12,17 +12,36 @@ permalink: '/search/'
 
         <div id="app" class="hero is-fullheight-with-navbar">
             <div class="hero-body">
-                <div v-if="orgList.length" class="columns is-centered is-multiline" style="width: 100%">
-                    <div v-for="org in orgList" :key="org.abbr" class="column is-one-fifth">
+                <div
+                    v-if="orgList.length"
+                    class="columns is-centered is-multiline"
+                    style="width: 100%"
+                >
+                    <div
+                        v-for="org in orgList"
+                        :key="org.abbr"
+                        class="column is-one-fifth"
+                    >
                         <div class="container">
                             {% raw %}
                             <figure
-                                class="image is-square is-fullwidth is-relative is-clickable"
+                                class="
+                                    image
+                                    is-square
+                                    is-fullwidth
+                                    is-relative
+                                    is-clickable
+                                "
                                 @click="redirect(`${baseurl}/${org.abbr}`)"
                             >
-                                <img :src="baseurl + org.logo" :alt="`${org.abbr} Logo`" />
+                                <img
+                                    :src="baseurl + org.logo"
+                                    :alt="`${org.abbr} Logo`"
+                                />
                             </figure>
-                            <a :href="`${baseurl}/${org.abbr}`" class="button is-fullwidth btn-glass white-btn"
+                            <a
+                                :href="`${baseurl}/${org.abbr}`"
+                                class="button is-fullwidth btn-glass white-btn"
                                 >{{ org.abbr.toUpperCase() }}</a
                             >
                             {% endraw %}
@@ -30,11 +49,30 @@ permalink: '/search/'
                     </div>
                 </div>
 
-                <div v-else class="container has-text-centered decoration-container">
-                    <p class="title is-1 pink-title-gradient has-text-weight-black responsive">
+                <div
+                    v-else
+                    class="container has-text-centered decoration-container"
+                >
+                    <p
+                        class="
+                            title
+                            is-1
+                            pink-title-gradient
+                            has-text-weight-black
+                            responsive
+                        "
+                    >
                         NO MATCHES FOUND FOR YOUR SEARCH
                     </p>
-                    <p class="subtitle is-3 grape has-text-weight-semibold responsive">
+                    <p
+                        class="
+                            subtitle
+                            is-3
+                            grape
+                            has-text-weight-semibold
+                            responsive
+                        "
+                    >
                         Kindly search with no misspelled words or abbreviation
                     </p>
 
@@ -85,8 +123,13 @@ permalink: '/search/'
 
         <script>
             const emitter = mitt();
-            let orgs = JSON.parse(localStorage.getItem('orgs')) || Vue.reactive([]);
-            let query = new URLSearchParams(window.location.search).get('q').trim().toLowerCase() || '';
+            let orgs =
+                JSON.parse(localStorage.getItem('orgs')) || Vue.reactive([]);
+            let query =
+                new URLSearchParams(window.location.search)
+                    .get('q')
+                    ?.trim()
+                    ?.toLowerCase() || '';
             const search = document.getElementById('search');
 
             search.value = query;
@@ -110,7 +153,11 @@ permalink: '/search/'
                 computed: {
                     orgList() {
                         return this.query
-                            ? this.orgs.filter((org) => org.abbr.includes(this.query) || org.name.includes(this.query))
+                            ? this.orgs.filter(
+                                  (org) =>
+                                      org.abbr.includes(this.query) ||
+                                      org.name.includes(this.query)
+                              )
                             : this.orgs;
                     },
                 },
