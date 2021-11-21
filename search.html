@@ -1,4 +1,5 @@
 ---
+permalink: '/search/'
 ---
 
 <!DOCTYPE html>
@@ -6,7 +7,7 @@
     {% include head.html title="Search" %}
     <body>
         {% include header.html %} {% include social-media.html %}
-        <script src="https://unpkg.com/vue@next"></script>
+        <script src="https://unpkg.com/vue@3.2.13/dist/vue.global.prod.js"></script>
         <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
 
         <div id="app" class="hero is-fullheight-with-navbar">
@@ -85,7 +86,7 @@
         <script>
             const emitter = mitt();
             let orgs = JSON.parse(localStorage.getItem('orgs')) || Vue.reactive([]);
-            let query = new URLSearchParams(window.location.search).get('q').trim().toLowerCase();
+            let query = new URLSearchParams(window.location.search).get('q').trim().toLowerCase() || '';
             const search = document.getElementById('search');
 
             search.value = query;
