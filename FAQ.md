@@ -4,14 +4,14 @@ permalink: "/faq/"
 faq:
 - template: qna
   question: What is Annual Recruitment Week?
-  answer: 'Registration of organizations will only be available from November 22 - 26 (8:00 AM to 5:00 PM) and November 27 (8:00 to 9:00PM).'
-- template: qna
-  question: When am I allowed to register for an organization?
   answer: 'The Annual Recruitment Week is a week-long event wherein all 50 CSO accredited
     organizations are given the opportunity to attract and recruit students from the
     Lasallian community. The Annual Recruitment Week serves as the platform for these
     organizations to showcase who they are and what they can provide to their members
     through their scheduled activities for the academic year.'
+- template: qna
+  question: When am I allowed to register for an organization?
+  answer: 'Registration of organizations will only be available from November 22 - 26 (8:00 AM to 5:00 PM) and November 27 (8:00 to 9:00PM).'
 - template: qna
   question: Is joining Organizations Required?
   answer: 'No, it is not required to join organizations. However, joining an organization
@@ -33,7 +33,7 @@ faq:
     to choose the organizations you want to join.'
 - template: qna
   question: 'Am I required to join my Home Organization? / Is joining my home Organization
-    beneficial? '
+    beneficial?'
   answer: 'No, you are not required to join your home organization. However, joining
     your home organization will be beneficial since it allows you to meet students
     who are taking up the same course as you.'
