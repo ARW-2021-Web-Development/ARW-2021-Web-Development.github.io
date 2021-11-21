@@ -35,7 +35,7 @@ sass:
 collections:
     organizations:
         output: true
-        permalink: /:name
+        permalink: /:name/
     elites:
         output: false
 # Build settings
