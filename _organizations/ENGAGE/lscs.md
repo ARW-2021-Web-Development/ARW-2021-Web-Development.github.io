@@ -27,7 +27,7 @@ vision: "<p>We envision the La Salle Computer Society to be an organization that
   and spiritually in order for them to become competent Lasallian students and well-rounded
   individuals. We also see the organization to be pioneering students organization
   of the De La Salle University Manila that strongly symbolizes the expertise of the
-  College of Computer Science (CCS) in the field of computer science.</p>"
+  College of Computer Studies (CCS) in the field of computer science.</p>"
 mission: "<p>The La Salle Computer Society shall serve as a venue for the growth and
   development of its member through a three-step course of:</p><ul><li><p>Purpose,
   to know and understand the reason behind every act, decision, and endeavor pursued.</p></li><li><p>Process,
