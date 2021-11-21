@@ -28,26 +28,20 @@ vision: "<p>The Organization for American Studies envisions itself as an organiz
   world, and serve as a vital conduit to the study and propagation of these ideologies.
   It is with this ambition in mind, that AMSTUD strives to be fully recognized by
   various governmental and non-governmental institutions in the Philippines.</p>"
-mission: "<table><tbody><tr><td>The Organization for American Studies is committed
-  to the Lasallian values of Faith, Service, and Community, and the further propagation
-  of the Lasallian measure of excellence amongst its members. The organization shall
-  serve as an</td></tr></tbody></table><table><tbody><tr><td>The Organization for
-  American Studies is committed to the Lasallian values of Faith, Service, and Community,
-  and the further propagation of the Lasallian measure of excellence amongst its members.
-  The organization shall serve as an</td></tr></tbody></table><p>The Organization
-  for American Studies is committed to the Lasallian values of Faith, Service, and
-  Community, and the further propagation of the Lasallian measure of excellence amongst
-  its members. The organization shall serve as an instrument for De La Salle University
-  to achieve prominent international status and will provide the means and education
-  to keep the members abreast with local and international affairs which habitually
-  involves the United States of America and the significant trends in American society
-  and culture that can contribute to the members' self-development and to the nation
-  in the long-run.</p>"
-reg_link: "https://docs.google.com/forms/d/e/1FAIpQLSeeJCXuqr0Hb-HdrM8zYnPG2t_ZIVpXlKjO4WyZYnfjMnLCiw/viewform?usp=sf_link"
+mission: "<p>The Organization for American Studies is committed to the Lasallian values
+  of Faith, Service, and Community, and the further propagation of the Lasallian measure
+  of excellence amongst its members. The organization shall serve as an instrument
+  for De La Salle University to achieve prominent international status and will provide
+  the means and education to keep the members abreast with local and international
+  affairs which habitually involves the United States of America and the significant
+  trends in American society and culture that can contribute to the members' self-development
+  and to the nation in the long-run.</p>"
+reg_link: https://docs.google.com/forms/d/e/1FAIpQLSeeJCXuqr0Hb-HdrM8zYnPG2t_ZIVpXlKjO4WyZYnfjMnLCiw/viewform?usp=sf_link
 vid_link: https://www.youtube.com/embed/042g67lQv_4
 events:
 - "/uploads/amstud-flagship-1.png"
 - "/uploads/amstud-flagship-2.png"
 - "/uploads/amstud-flagship-3.png"
+use_full_name: false
 
 ---
