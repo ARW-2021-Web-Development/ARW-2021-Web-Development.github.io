@@ -5,6 +5,8 @@ page.about_us | strip_html %}
 {% include head.html title=page.complete_name description=desc color=page.title_color
 button_color=btn_color desc_color=page.description_color hero=page.hero_title_color %}
 
+{% assign true_reg_link = page.reg_link %}
+{% comment %} {% assign true_reg_link = site.baseurl | append: "/registration-closed/" %} {% endcomment %}
 <body>
   {% include header.html %}
   {% include social-media.html %}
@@ -41,11 +43,9 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
                 <span>Favorites</span>
               </button>
             </div>
-            <!-- link for actual registration -->
-            <!-- href="{{ page.reg_link }}"> -->
             <div class="column is-four-fifths-mobile is-one-quarter">
               <a rel="noreferrer" target="_blank" class="button is-medium is-fullwidth is-custom"
-                href="{{site.baseurl}}/registration-closed"
+                href="{{ true_reg_link }}">
                 <span class="icon is-small">
                   <i class="fas fa-edit"></i>
                 </span>
@@ -124,7 +124,7 @@ button_color=btn_color desc_color=page.description_color hero=page.hero_title_co
       </div>
       <div class="column">
         <div class="is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-full-height ">
-          <a href="{{ page.reg_link }}" rel="noreferrer" target="_blank" class="button is-large block is-fullwidth is-custom" style="max-width: 300px">
+          <a href="{{ true_reg_link }}" rel="noreferrer" target="_blank" class="button is-large block is-fullwidth is-custom" style="max-width: 300px">
             <span class="icon is-medium">
               <i class="fas fa-edit fa-lg"></i>
             </span>
