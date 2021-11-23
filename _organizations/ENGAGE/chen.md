@@ -7,7 +7,7 @@ layout: organization
 logo: '/uploads/chen-logo.webp'
 cluster: ENGAGE
 fb_link: https://www.facebook.com/ChEnDLSU/
-membership_banner: '/uploads/chen-mem-banner.jpg'
+membership_banner: '/uploads/chen-mem-banner.webp'
 hero_bg: '/uploads/chen-web-bg.webp'
 main_pub: '/uploads/chen-main-pub.webp'
 fav_logo: ''
