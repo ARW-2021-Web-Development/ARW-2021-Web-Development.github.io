@@ -7,6 +7,7 @@
 
     <body>
         <script src="{{site.baseurl}}/assets/js/loading.js" defer></script>
+        <script src="{{site.baseurl}}/assets/js/countdown.js" defer></script>
         <div class="loading-screen">
             <div
                 class="bubble"
@@ -148,28 +149,77 @@
                 style="z-index: 5"
             >
                 <div class="decoration-wrapper container is-max-fullhd">
-                    <h1
+                    <p class="title mb-0 grape">
+                        Time left before the ARW Elite Coronation Night!
+                    </p>
+                    <div
                         class="
-                            title
-                            is-2 is-size-3-mobile
-                            has-text-centered
+                            countdown
+                            is-flex is-justify-content-center
+                            mb-4
                             grape
-                            responsive
-                            has-text-weight-medium
                         "
                     >
-                        Your first step in exploring a magnificent journey.
-                    </h1>
-                    <p
+                        <div class="has-text-centered">
+                            <p class="days slogan is-size-1 is-size-2-mobile">
+                                00
+                            </p>
+                            <p class="is-size-4 is-uppercase is-size-6-mobile">
+                                days
+                            </p>
+                        </div>
+                        <div class="has-text-centered">
+                            <p class="hours slogan is-size-1 is-size-2-mobile">
+                                00
+                            </p>
+                            <p class="is-size-4 is-uppercase is-size-6-mobile">
+                                hours
+                            </p>
+                        </div>
+                        <div class="has-text-centered">
+                            <p
+                                class="
+                                    minutes
+                                    slogan
+                                    is-size-1 is-size-2-mobile
+                                "
+                            >
+                                00
+                            </p>
+                            <p class="is-size-4 is-uppercase is-size-6-mobile">
+                                minutes
+                            </p>
+                        </div>
+                        <div class="has-text-centered">
+                            <p
+                                class="
+                                    seconds
+                                    slogan
+                                    is-size-1 is-size-2-mobile
+                                "
+                            >
+                                00
+                            </p>
+                            <p class="is-size-4 is-uppercase is-size-6-mobile">
+                                seconds
+                            </p>
+                        </div>
+                    </div>
+                    <a
+                        href="/the-arw-elite/"
+                        id="countdown-cta"
                         class="
+                            button
                             subtitle
                             is-italic is-4 is-size-4-mobile
                             grape
                             has-text-weight-light
+                            glass-container
+                            light-pink
+                            p-5
                         "
+                        >View More</a
                     >
-                        Seek and Discover with ARW
-                    </p>
                 </div>
             </div>
 
