@@ -5,7 +5,7 @@ const _seconds = document.querySelector('.seconds');
 const _cta = document.querySelector('#countdown-cta');
 
 let countDownDate = new Date('Nov 27, 2021 18:00:00').getTime();
-const timer = setInterval(countdown, 1000);
+const countdownTimer = setInterval(countdown, 1000);
 
 function countdown() {
     const distance = countDownDate - new Date().getTime();
@@ -32,6 +32,6 @@ function countdown() {
         _cta.href = 'https://www.facebook.com/DLSUARW';
         _cta.target = '_blank';
 
-        clearInterval(timer);
+        clearInterval(countdownTimer);
     }
 }
