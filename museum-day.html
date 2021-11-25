@@ -4,70 +4,109 @@ permalink: /museum-day/
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html title="Museum Day" %}
+    {% include head.html title="Museum Day" %}
 
-<body>
-  {% include header.html %} {% include social-media.html %}
+    <body>
+        {% include header.html %} {% include social-media.html %}
 
-  <div class="hero is-fullheight-with-navbar">
-    <div class="hero-body">
-      <div class="
+        <div class="hero is-fullheight-with-navbar">
+            <div class="hero-body">
+                <div
+                    class="
                         container
                         is-max-desktop is-flex is-flex-direction-column
-                    ">
-        <div class="
+                    "
+                >
+                    <div
+                        class="
                             decoration-container
                             glass-container
                             has-text-centered
                             block
-                        " style="width: 100%">
-          <h1 class="title inner-text-shadow purple">
-            It's Museum Day, Everyday!
-          </h1>
-          <p class="grape has-text-justified">
-            We regret to inform you that the organizations scheduled for today, November 26, for the Museum Day Everyday
-            is CANCELLED. This is because we have encountered an internal complication that has affected the operations
-            of this event. This was a difficult decision to make, but we were left with no choice.
-          </p>
-          <br>
-          <p class="grape has-text-justified">
-            We extend our sincerest apologies for any inconvenience that this may have caused. Alternatively, please
-            view more information about the organizations scheduled for today by clicking the buttons below.
-          </p>
-          <img src="{{site.baseurl}}/assets/img/decorations/museum-day/circles/1.png" alt="" class="decorative"
-            id="museum-circles-1" />
-          <img src="{{site.baseurl}}/assets/img/decorations/museum-day/ribbons/1.png" alt="" class="decorative"
-            id="museum-ribbons-1" />
-          <img src="{{site.baseurl}}/assets/img/decorations/museum-day/triangles/1.png" alt="" class="decorative"
-            id="museum-triangles-1" />
+                        "
+                        style="width: 100%"
+                    >
+                        <h1 class="title inner-text-shadow purple">
+                            It's Museum Day, Everyday!
+                        </h1>
+                        <p class="grape has-text-justified">
+                            We regret to inform you that the organizations
+                            scheduled for today, November 26, for the Museum Day
+                            Everyday is CANCELLED. This is because we have
+                            encountered an unforeseen circumstances that has
+                            affected the operations of this event. This was a
+                            difficult decision to make, but we were left with no
+                            choice.
+                        </p>
+                        <br />
+                        <p class="grape has-text-justified">
+                            We extend our sincerest apologies for any
+                            inconvenience that this may have caused.
+                            Alternatively, please view more information about
+                            the organizations scheduled for today by clicking
+                            the buttons below.
+                        </p>
+                        <img
+                            src="{{site.baseurl}}/assets/img/decorations/museum-day/circles/1.png"
+                            alt=""
+                            class="decorative"
+                            id="museum-circles-1"
+                        />
+                        <img
+                            src="{{site.baseurl}}/assets/img/decorations/museum-day/ribbons/1.png"
+                            alt=""
+                            class="decorative"
+                            id="museum-ribbons-1"
+                        />
+                        <img
+                            src="{{site.baseurl}}/assets/img/decorations/museum-day/triangles/1.png"
+                            alt=""
+                            class="decorative"
+                            id="museum-triangles-1"
+                        />
+                    </div>
+                    <div class="columns is-multiline mt-5">
+                        <div class="column is-12">
+                            <a
+                                href="{{ site.baseurl }}/cso"
+                                class="button is-fullwidth btn-glass white-btn"
+                                style="max-width: 270px; margin: auto"
+                                >CSO</a
+                            >
+                        </div>
+                        <div class="column">
+                            <a
+                                href="{{ site.baseurl }}/chemsoc"
+                                class="button is-fullwidth btn-glass white-btn"
+                                >CHEMSOC</a
+                            >
+                        </div>
+                        <div class="column">
+                            <a
+                                href="{{ site.baseurl }}/mc"
+                                class="button is-fullwidth btn-glass white-btn"
+                                >MC</a
+                            >
+                        </div>
+                        <div class="column">
+                            <a
+                                href="{{ site.baseurl }}/physoc"
+                                class="button is-fullwidth btn-glass white-btn"
+                                >PHYSOC</a
+                            >
+                        </div>
+                        <div class="column">
+                            <a
+                                href="{{ site.baseurl }}/sv"
+                                class="button is-fullwidth btn-glass white-btn"
+                                >SV</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="columns is-multiline mt-5">
-          <div class="column is-12">
-            <a href="{{ site.baseurl }}/cso"
-              class="button is-fullwidth btn-glass white-btn" style="max-width: 270px; margin: auto;">CSO</a>
-          </div>
-          <div class="column">
-            <a href="{{ site.baseurl }}/chemsoc"
-              class="button is-fullwidth btn-glass white-btn">CHEMSOC</a>
-          </div>
-          <div class="column">
-            <a href="{{ site.baseurl }}/mc"
-              class="button is-fullwidth btn-glass white-btn">MC</a>
-          </div>
-          <div class="column">
-            <a href="{{ site.baseurl }}/physoc"
-              class="button is-fullwidth btn-glass white-btn">PHYSOC</a>
-          </div>
-          <div class="column">
-            <a href="{{ site.baseurl }}/sv"
-              class="button is-fullwidth btn-glass white-btn">SV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% include footer.html %}
-  <script src="{{site.baseurl}}/assets/js/google-sheet.js" defer></script>
-</body>
-
+        {% include footer.html %}
+        <script src="{{site.baseurl}}/assets/js/google-sheet.js" defer></script>
+    </body>
 </html>
